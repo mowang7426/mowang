@@ -1257,6 +1257,38 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.crctdd.cranedd
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Filename: debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64.deb
+Size: 24740
+MD5sum: d89ba41994808e651f59d83a78dcb5f9
+SHA1: 56b45a2da32805a869de8cf3a7b71a8054bdd554
+SHA256: 7e1554a03090e012ebfad1eb64756267d9f61eb82b1811cd0cd903bc99787ee3
+Section: Tweaks
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Crane Drop Down
+
+Package: com.crctdd.cranedd
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 112
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Filename: debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64e.deb
+Size: 17570
+MD5sum: 1d778532a27627292e12c47967713f30
+SHA1: 15cb2b15636b8879bd355ed11ccd089b089ecb14
+SHA256: 30214bc08a60d25ca885d9076019b5602e3d99b7b5cea31fdd712a323f6b4258
+Section: Tweaks
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Crane Drop Down
+
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.5
 Architecture: iphoneos-arm64
