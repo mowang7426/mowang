@@ -14,6 +14,24 @@ Description: A狗微信全局圆角破解组件 安装此组件即可解锁授�
 Author: JJ
 Name: 微信全局圆角（免授权）
 
+Package: byg.iosios.net.autotouch
+Version: 8.0.11k
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/byg.iosios.net.autotouch_8.0.11k_iphoneos-arm64e.deb
+Size: 31980058
+MD5sum: 0d85da6794c443e16fe99468d4e2aecb
+SHA1: df6d16bef66f5903f885347e3ec40160be4bc06a
+SHA256: 7ce921d08e929c42ce8ce3f369e9cf5205bff980b8b93a7c33823e83db4d41b3
+Section: 杂七杂八
+Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
+Author: Kent Krantz
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: AutoTouch连点器（按键精灵）-Rootless
+Sponsor: 搬运工
+
 Package: byg.iosios.net.nopreferencetips
 Version: 1.0.4
 Architecture: iphoneos-arm64
