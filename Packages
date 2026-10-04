@@ -6882,3 +6882,25 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Name: Irisin
 Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
 
+Package: xyz.cypwn.remotecompanion
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 1060
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), netcat
+Conflicts: com.pizzaman.remotecommand
+Replaces: com.pizzaman.remotecommand
+Filename: debs/xyz.cypwn.remotecompanion_2.0.0_iphoneos-arm64e.deb
+Size: 402988
+MD5sum: a43c7706d8e3c1e501418d730d6bd70d
+SHA1: f03b281808df9caf2b54868a5f96e2a0820aa195
+SHA256: df1b79fdfb08064bd1a921cabc0d86056d723ed3b5822a713ae02c7362a82ee8
+Section: Tweaks
+Description: A modern Activator replacement for rootless jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. GitHub: https://github.com/saihgupr/RemoteCompanion
+Author: Saihgupr
+Depiction: https://repo.cypwn.xyz/depiction/3486
+Icon: https://repo.cypwn.xyz/packages/RemoteCompanion-Rootless/icon.png
+Name: RemoteCompanion
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3486
+
