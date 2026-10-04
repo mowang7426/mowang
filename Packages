@@ -3602,6 +3602,36 @@ Description: Stheno分屏正式版（关闭诊断文件日志） 下拉分屏点
 Author: Crassna
 Name: Stheno奥利奥分屏
 
+Package: com.opa334.trollstorelite
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64.deb
+Size: 3684976
+MD5sum: 44b9e0a418757ccf0c2f5bb30abb8442
+SHA1: bd9c0bb270b68af827bf11136dcc3d141153f968
+SHA256: 264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
+Size: 3685026
+MD5sum: 9d99f92ae744d4220e303bb8e6aed41f
+SHA1: 906cd9caaf8c5a88e723d3171077ad179db59233
+SHA256: 13665cdbd99c60597a25ffae6a72aa6f9a0c9f73a727d50818d697a31e4e23b2
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite (RootHide)
+
 Package: com.qianuo.chatassist
 Version: 0.1.39
 Architecture: iphoneos-arm64e
