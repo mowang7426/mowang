@@ -3647,6 +3647,25 @@ Description: 修复渐变表情 bug
 Author: MoWang
 Name: 彩虹键盘光效（安全版）
 
+Package: com.muzi.mutool
+Version: 2.1.22
+Architecture: iphoneos-arm64e
+Maintainer: Muzi
+Installed-Size: 3996
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/com.muzi.mutool_2.1.22_iphoneos-arm64e.deb
+Size: 645156
+MD5sum: 48b5c7d0a1d157b7347ac86bcce7d0e1
+SHA1: 4ba17276228dc7ed2190877e02c88a6fe7c0b9bf
+SHA256: 1a9f31c51d17f7f587b9791d7d308824c2176fe7e5f932e0564441ba1f1bc000
+Section: Tweaks
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool(roothide)
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
 Package: com.nx.stheno
 Version: 0.1.23-1
 Architecture: iphoneos-arm64
