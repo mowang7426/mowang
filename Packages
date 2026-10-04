@@ -3535,6 +3535,22 @@ Description: 自动扫描、分类和分析 iOS .ips 日志
 Author: MoWang
 Name: AI 日志分析
 
+Package: com.mowang.crashanalyzer
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 276
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.3.3_iphoneos-arm64e.deb
+Size: 125152
+MD5sum: e47be8173d587be2804c5b8d76c4b2cf
+SHA1: e1180d1024c8a9625ffdb1dfeae5558023e14028
+SHA256: 7a82600167a22d5e13b2c59595fb78c3bf1b7c6aafe32adc7622ff59e60ebc43
+Section: Utilities
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Author: MoWang
+Name: AI 日志分析
+
 Package: com.mowang.kbglow
 Version: 1.0.3
 Architecture: iphoneos-arm64e
