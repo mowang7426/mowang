@@ -14,24 +14,6 @@ Description: A狗微信全局圆角破解组件 安装此组件即可解锁授�
 Author: JJ
 Name: 微信全局圆角（免授权）
 
-Package: byg.iosios.net.mango
-Version: 1.0-Beta4-2
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 3548
-Depends: mobilesubstrate
-Filename: debs/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb
-Size: 904644
-MD5sum: 76291513efba709c4110734c7cd15f81
-SHA1: e0c5fe5a15f117f0966eab401c447e9f92d3760d
-SHA256: 9b3a9b38b0f4bcd131d704facfe19acfa84a802a1e2baa6ad3679507ff025d01
-Section: 分屏插件
-Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
-Author: go
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 芒果分屏1.0-Beta4-2（免授权）
-Sponsor: 搬运工
-
 Package: byg.iosios.net.nopreferencetips
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -1640,70 +1622,6 @@ Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
 Name: StayAlive Lite
-
-Package: com.go.mango
-Version: 1.0-Beta6-1
-Architecture: iphoneos-arm64e
-Maintainer: go
-Installed-Size: 3236
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64e.deb
-Size: 929026
-MD5sum: ad3bd66511e2b581524245095a0cde68
-SHA1: 0eb801a8896729215077dd908591ddf67cb31478
-SHA256: b6365f04ec9cdbdbd5b81a7e756f709e85135e3a36e9a22a9059b03505c24978
-Section: Tweaks
-Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta6-1
-Architecture: iphoneos-arm64
-Maintainer: go
-Installed-Size: 3236
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64.deb
-Size: 930912
-MD5sum: 57895f0868f0ab2aecda0e386bae9352
-SHA1: 291943304625c1231950536a753dc0c0e4c46034
-SHA256: 85ecf2d0b7263c0be7f3fd38b9c44c5491fa60414ec2347bc63e19f927ef31df
-Section: Tweaks
-Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta7-1
-Architecture: iphoneos-arm64e
-Maintainer: go
-Installed-Size: 3888
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta7-1_iphoneos-arm64e.deb
-Size: 1067480
-MD5sum: ab6fd44c12610ff017b79efb629613ad
-SHA1: 0a9b526bb9e3373ee28ab4fc424599f90a423201
-SHA256: c59459000fea9996cf19fae8b879106b4cf7e03a353079e989d95ed5614ac6b5
-Section: Tweaks
-Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta7-6
-Architecture: iphoneos-arm64
-Maintainer: go
-Installed-Size: 3284
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb
-Size: 845280
-MD5sum: f4026da9ddd748630a7cfd95c25d0a4f
-SHA1: d9bbffcf89e64ae923258a355e1d21831bec2a54
-SHA256: 9b16f51bea1bf0ed6ba0fabf29d24604c5c93b8e4f0f9bb8ca8433cdaee48a19
-Section: 分屏插件
-Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
-Author: go
-Name: 芒果分屏1.0-Beta7-6（免授权）
 
 Package: com.hang.zzzj
 Version: 0.0.1-8
