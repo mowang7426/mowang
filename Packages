@@ -3696,6 +3696,36 @@ Description: A modified TrollStore by iosdump for jailbroken iOS
 Author: opa334&iosdump
 Name: TrollStore Lite (RootHide)
 
+Package: com.opa334.trollstorelite
+Version: 2.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/com.opa334.trollstorelite_2.1.1-2_iphoneos-arm64.deb
+Size: 3685666
+MD5sum: bdbef2c8245bf080aa5d2a4de50df12c
+SHA1: 22c808b70d9ff751f12b83ceb76110873a0fc07c
+SHA256: ec76ed0e882284f7366e3e7cc82a5480634222f0fe669fb1b9e173756c9c6ea8
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/com.opa334.trollstorelite_2.1.1-2_iphoneos-arm64e.deb
+Size: 3683204
+MD5sum: 21d1f0104f9fd8b7ee17ec29411538a8
+SHA1: 54f82d29003f2930093b0d580b9d369aafc576f4
+SHA256: 069804ccf2239098357d4f10ae0468196f616276fe3b45ea85624f5010aa8acf
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite (RootHide)
+
 Package: com.qianuo.chatassist
 Version: 0.1.39
 Architecture: iphoneos-arm64e
