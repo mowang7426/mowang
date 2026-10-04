@@ -1641,6 +1641,38 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.go.mango
+Version: 1.0-Beta8-1
+Architecture: iphoneos-arm64
+Maintainer: go
+Installed-Size: 36192
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta8-1_iphoneos-arm64.deb
+Size: 16711572
+MD5sum: b32e1797b24cbcd65ed59bc686679797
+SHA1: 2d91e394fc07597948bc3a8c9bfe9d55b0003d35
+SHA256: 999ec0c3fdbd00489d64e88823473ed3d1a58e3a19b28f614b5e67a5eb2515eb
+Section: Tweaks
+Description: Mango分屏，小液微信液态美化，系统级真液态玻璃，全局返回小芒，视频壁纸等一些实用功能。
+Author: go
+Name: mango
+
+Package: com.go.mango
+Version: 1.0-Beta8-1
+Architecture: iphoneos-arm64e
+Maintainer: go
+Installed-Size: 34068
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta8-1_iphoneos-arm64e.deb
+Size: 15667662
+MD5sum: 625ed9b1a9498ce2b9b656cf23e77326
+SHA1: f7dbbb9b3e8fd3fd53e2832ad28ca092a0617245
+SHA256: 8dcb0e02c4402a4dfa92f64b9e3894386a03db327f5eb83f72b795c4c8b5378f
+Section: Tweaks
+Description: Mango分屏，小液微信液态美化，系统级真液态玻璃，全局返回小芒，视频壁纸等一些实用功能。
+Author: go
+Name: mango
+
 Package: com.hang.zzzj
 Version: 0.0.1-8
 Architecture: iphoneos-arm64e
