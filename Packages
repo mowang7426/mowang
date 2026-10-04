@@ -4597,6 +4597,22 @@ Description: 新增智能切换，新增夜间分时充电，新增吸附顶部�
 Author: MoWang
 Name: SB CPU Floating
 
+Package: com.sbcpu.floating
+Version: 4.81
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 2996
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_4.81_iphoneos-arm64e.deb
+Size: 973824
+MD5sum: 371ed1f2098e49c9e98c9ba566b66d9e
+SHA1: dd8cabcedcaea3f6186463cae69dd7c43c6494d1
+SHA256: d34e5e6b67aa9c619162ef8bcdef3ee878c877ef6504d2e2e664280f3f743100
+Section: Tweaks
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
+Author: MoWang
+Name: SB CPU Floating
+
 Package: com.shtm.amplify
 Version: 1.1-0beta2
 Architecture: iphoneos-arm64
