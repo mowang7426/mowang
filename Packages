@@ -4599,6 +4599,22 @@ Name: SB CPU Floating
 
 Package: com.sbcpu.floating
 Version: 4.81
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 2996
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_4.81_iphoneos-arm64.deb
+Size: 983088
+MD5sum: 523e4441c7246763800c05730dbe15a0
+SHA1: 67ef2d93c60128fd6040612ecc2f833feca9fdfc
+SHA256: 25a890611f9dc443fd2f68154c7a7608bdc410a8094d1acf2c24544f4486437e
+Section: Tweaks
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
+Author: MoWang
+Name: SB CPU Floating
+
+Package: com.sbcpu.floating
+Version: 4.81
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
 Installed-Size: 2996
