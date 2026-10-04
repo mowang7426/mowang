@@ -3485,6 +3485,38 @@ Description: 自动扫描、分类和分析 iOS .ips 日志
 Author: MoWang
 Name: AI 日志分析
 
+Package: com.mowang.crashanalyzer
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.3.2_iphoneos-arm64e.deb
+Size: 121102
+MD5sum: 847d7cdb74f1c1a1ed3b1c381c0fb7fa
+SHA1: 5b7b25dd44bccab221c33c14609399b0c79d1fde
+SHA256: 626beffc5c2e645eb2e06537a6c9fcc91e90e5b298f92f7ff0a9b7ba2929865e
+Section: Utilities
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Author: MoWang
+Name: AI 日志分析
+
+Package: com.mowang.crashanalyzer
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.3.2_iphoneos-arm64.deb
+Size: 121234
+MD5sum: 44c991e1f0dfabc6a9ca7c095c84da45
+SHA1: f441476a6d992511995aef01aa23a9ad8f49a43e
+SHA256: c878a21cfa5cbe24f2589462da9b671651a29b4fc2babd384608e407eab96966
+Section: Utilities
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Author: MoWang
+Name: AI 日志分析
+
 Package: com.mowang.kbglow
 Version: 1.0.3
 Architecture: iphoneos-arm64e
