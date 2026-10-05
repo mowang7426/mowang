@@ -1289,6 +1289,40 @@ Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持
 Author: crctdd
 Name: Crane Drop Down
 
+Package: com.crctdd.memtrim
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.2_iphoneos-arm64.deb
+Size: 125198
+MD5sum: 37a2f6b78bad2d98266bd577b816aa97
+SHA1: 832c2a0d172b83fe1cc49b2bcfa25950d4080738
+SHA256: 24d6babe21eceacfffd06c4c26bb36e5f9077408f12b22cd8e53c5fd5baf1db5
+Section: Tweaks
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Author: crctdd
+Name: MemTrim
+
+Package: com.crctdd.memtrim
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.2_iphoneos-arm64e.deb
+Size: 71676
+MD5sum: 13868da5467edc7ebef48f4887a8f14b
+SHA1: c4051eeb9b5a21c1533871afb252185b66c806a6
+SHA256: 2bb22166f174bb72bae2d0487d6dffcb475fc3f847c43ae5961a9125478cfc97
+Section: Tweaks
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Author: crctdd
+Name: MemTrim
+
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.5
 Architecture: iphoneos-arm64
