@@ -3882,6 +3882,22 @@ Description: 26Home Chinese RootHide build with per-app cutout controls and cust
 Author: ngkhoi
 Name: 26Home
 
+Package: com.ngkhoi.26home
+Version: 1.3.9-clear-original-color-zh-roothide
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi
+Installed-Size: 29408
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.ngkhoi.26home_1.3.9-clear-original-color-zh-roothide_iphoneos-arm64e.deb
+Size: 20067098
+MD5sum: 449ad0ed7ec4441709b4b97ab896c23c
+SHA1: 7c34c8a1c72be3044dfad15813ac53c13b38e9e7
+SHA256: 440f7a05c82fea05ceb2d62d531f8f8786c370f6bceadac57160557a7c128761
+Section: Tweaks
+Description: 26Home Chinese RootHide build with per-app cutout controls and custom icon sources.
+Author: ngkhoi
+Name: 26Home
+
 Package: com.nx.stheno
 Version: 0.1.23-1
 Architecture: iphoneos-arm64
