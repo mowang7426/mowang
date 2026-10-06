@@ -3572,6 +3572,24 @@ Description: 修复表情渐变 bug
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.mlgm.actra
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3552
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.0_iphoneos-arm64e.deb
+Size: 700172
+MD5sum: 91db8e3f6f9f8b62c1586f0670c1d2f8
+SHA1: 6526e07c9cac2e3c7c152462f182829627ff2f42
+SHA256: 6c87636ca5847e7f011731af5bf0418924db48f6ceee49da07ade6f1693f4499
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
