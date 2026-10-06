@@ -3768,6 +3768,22 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool(roothide)
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
+Package: com.ngkhoi.26home
+Version: 1.3.3-unlock-persist-zh-roothide
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi
+Installed-Size: 29320
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.ngkhoi.26home_1.3.3-unlock-persist-zh-roothide_iphoneos-arm64e.deb
+Size: 20041260
+MD5sum: 3ae5f33eedacbf35cb1bb06b4fa70a63
+SHA1: 8960cfa403cf67473f2cabee965d63a049313f2f
+SHA256: 60d4745031673ede8c4a57d651ec315e5f1307df1077fca60990730b0adb4af6
+Section: Tweaks
+Description: 26Home Chinese RootHide build with icon persistence after unlocking.
+Author: ngkhoi
+Name: 26Home
+
 Package: com.nx.stheno
 Version: 0.1.23-1
 Architecture: iphoneos-arm64
