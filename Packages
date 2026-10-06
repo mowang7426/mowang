@@ -3813,6 +3813,24 @@ Description: 修复渐变表情 bug
 Author: MoWang
 Name: 彩虹键盘光效（安全版）
 
+Package: com.muratkurt.cyswitcher
+Version: 0.5.70
+Architecture: iphoneos-arm64e
+Maintainer: muratkurt
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), rootless-compat (>= 0.9), com.mrgcgamer.libgcuniversal, com.creaturecoding.libcspreferences (>= 1.5.8), ellekit
+Conflicts: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle
+Replaces: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle
+Filename: debs/com.muratkurt.cyswitcher_0.5.70_iphoneos-arm64e.deb
+Size: 820496
+MD5sum: cb49355101bd536494af7116fc5dcb2a
+SHA1: a480d6f7d4f6eb8e1edcfb46689471710ea7e82d
+SHA256: 258c572ca11458fcc1f4defdb4b123d3fdbbbc47ed828dc81b686bae19ebc160
+Section: Tweaks
+Priority: optional
+Description: CYSwitcher unified preferences with native Shuffle settings classification and StoreSwitcher account switching
+Author: muratkurt / SINI
+Name: CYSwitcher
+
 Package: com.muzi.mutool
 Version: 2.1.22
 Architecture: iphoneos-arm64e
