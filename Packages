@@ -2766,10 +2766,10 @@ Maintainer: mathelord
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: debs/com.mathelord.infobar_1.2.0_iphoneos-arm64.deb
-Size: 53544
-MD5sum: 3637fc5cc65f19babe488a63469d96e7
-SHA1: fa488a7689094633aa23b3eb4b3e522db8a07ad7
-SHA256: 9feb10c0591423a364f35a6db6e301aff950706d0431719dda1b310a5c37aff2
+Size: 53700
+MD5sum: eb1845858f3e82ba042815c53b7b560f
+SHA1: a2244f909b6cd126e3956dd7dcd053dd49d106d2
+SHA256: fc2d40e4fafb2d2709d03996e5c738a07a0aed3681487fbac28e3cbebf4f9d54
 Section: Tweaks
 Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
 Author: mathelord
