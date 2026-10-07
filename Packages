@@ -2759,6 +2759,38 @@ Author: 德发
 Name: 德发素材仓（免授权）
 Sileodepiction: https://tlzypjy.github.io/jb-repo/depictions/com.liuf.wxyj.json
 
+Package: com.mathelord.infobar
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: mathelord
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.mathelord.infobar_1.2.0_iphoneos-arm64.deb
+Size: 53544
+MD5sum: 3637fc5cc65f19babe488a63469d96e7
+SHA1: fa488a7689094633aa23b3eb4b3e522db8a07ad7
+SHA256: 9feb10c0591423a364f35a6db6e301aff950706d0431719dda1b310a5c37aff2
+Section: Tweaks
+Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
+Author: mathelord
+Name: InfoBar
+
+Package: com.mathelord.infobar
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: mathelord
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.mathelord.infobar_1.2.0_iphoneos-arm64e.deb
+Size: 53720
+MD5sum: 2ae0831c878e390dcf23afada1cbed5a
+SHA1: b6327b3c34f698a336289500ce7d9e5ebfcb554c
+SHA256: fb95e402c5f355dfe18ca1c1fbab97e263aa927f87fcb8428e0aef8864c518ed
+Section: Tweaks
+Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
+Author: mathelord
+Name: InfoBar
+
 Package: com.minis.lockscreengradientclock
 Version: 1.5.1
 Architecture: iphoneos-arm64e
