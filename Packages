@@ -6628,6 +6628,38 @@ Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段�
 Author: MoWang
 Name: SBLiquidGlass
 
+Package: iya.banana.billie.ambientbadge
+Version: 0.1.15
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.billie.ambientbadge_0.1.15_iphoneos-arm64e.deb
+Size: 106586
+MD5sum: 14367bd78f512f7d1c561fc818fb4be6
+SHA1: 7b17fa4188180b99c30f500140f62950c4c30da2
+SHA256: 187738883535c14350b8c8e8fe4fce3ac0495aaf2501a76890e0d689465e9df1
+Section: Tweaks
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Author: Banana
+Name: AmbientBadge
+
+Package: iya.banana.billie.ambientbadge
+Version: 0.1.15
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.billie.ambientbadge_0.1.15_iphoneos-arm64.deb
+Size: 106686
+MD5sum: 7316bda79770ca3c784c27134676ee25
+SHA1: 4a03e224505f7d9e9f427fa8e63cfd233872516a
+SHA256: 5c59a4786b3ed03b5f76b1f19abcbb4d03922bb9888c99b673e66edf6ef661f7
+Section: Tweaks
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Author: Banana
+Name: AmbientBadge
+
 Package: iya.banana.iphoneduoicon
 Version: 0.1.13
 Architecture: iphoneos-arm64
