@@ -7630,6 +7630,58 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Name: Irisin
 Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
 
+Package: wiki.qaq.irisin
+Version: 4.5.24
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18892
+Depends: firmware (>= 16.0)
+Filename: debs/wiki.qaq.irisin_4.5.24_iphoneos-arm64e.deb
+Size: 5705604
+MD5sum: 028773fce8f6a76df17188af1905bf5e
+SHA1: a60f6279a47fb3bf173f51926aa8e5c4943f25c0
+SHA256: fc91a359544bdad14cf23844e1389df12513194d6020cc0f55e47c4c482c54c6
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.5.24
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18892
+Depends: firmware (>= 16.0)
+Filename: debs/wiki.qaq.irisin_4.5.24_iphoneos-arm64.deb
+Size: 5706548
+MD5sum: 5af7174a3fa32efe1c396f6cd60d453e
+SHA1: d3a99c03433998e6318e79bf68bffa0c1fdde140
+SHA256: eaf779eee835bcf4499798d1de5e801303bf91cd838bc8f4df7d1acd4a836b5c
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
 Package: xyz.cypwn.remotecompanion
 Version: 2.0.0
 Architecture: iphoneos-arm64e
