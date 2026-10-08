@@ -3017,6 +3017,22 @@ Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继
 Author: MoWang
 Name: 独立锁屏时间渐变
 
+Package: com.minis.lockscreengradientclock
+Version: 2.0.8
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 876
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.8_iphoneos-arm64e.deb
+Size: 397554
+MD5sum: 226ba829fb1468b8b12b6a458d73df59
+SHA1: 3ba693d6c99658dac188a9587726f491c9aeace3
+SHA256: a49735ebf4a01de29f48105a1eca304929ab9b8e74b134ffa6ba68dc2237406b
+Section: Tweaks
+Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
+Author: MoWang
+Name: 独立锁屏时间渐变
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
