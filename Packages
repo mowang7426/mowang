@@ -305,6 +305,49 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
+Package: com.axs.ahsfilter
+Version: 5.2.0-3
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter-5.2.0-3-iphoneos-arm64e.deb
+Size: 124660
+MD5sum: aea7b8a2ecb9362199602e4cc7e130e3
+SHA1: 6b400f139a5efd3c4b2a0392774d6d97c632ca2a
+SHA256: f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5
+Section: Tweaks
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Author: Axs <qiaozhani000@163.com>
+Icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Name: AhsFilter
+
+Package: com.axs.ahsfilter
+Version: 5.2.0-3
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter-5.2.0-3-iphoneos-arm64.deb
+Size: 128004
+MD5sum: 601b14b40f50a3d35b46bf1bb4c63f1d
+SHA1: b0096d8b2aa70b60634b86adbd5200df02f3edb9
+SHA256: ae788d6e99b5526543c0651d419e3ae21dba64b450e188cb6198f572f8a7756c
+Section: Tweaks
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Author: Axs <qiaozhani000@163.com>
+Icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Name: AhsFilter
+
 Package: com.axs.duostatus
 Version: 5.2.0-101
 Architecture: iphoneos-arm64
@@ -5864,6 +5907,40 @@ Size: 463292
 MD5sum: f07d6815437859f5a5ad556d27c237aa
 SHA1: 72ae0a974c9b40b1747f0cd2e48dbc37a8ebbfb7
 SHA256: 71a424cf1b8b9c2d5141a9735bf3cf76e84b674bc0a865e826e64b93cf43bdad
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/ScreenCore-2.0.2-iphoneos-arm64e.deb
+Size: 461648
+MD5sum: 38cf7d4f825e8e056a0a0685a6d27563
+SHA1: f51001bc4024a76c05c862d7d23f6ebc4eef8efe
+SHA256: 37f2797c6c92b73f93ca1d9d1f22ebf43add1f31bb05207fa8b99444f3721ef9
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/ScreenCore-2.0.2-iphoneos-arm64.deb
+Size: 466844
+MD5sum: 2dea976f34d6048c4e418dcaaaefae9f
+SHA1: 56a989efda44f95179122ef244c5631d6f3c57e3
+SHA256: 6485510219358b58eb725939530d62c9165de09ff579d2189defa32ff059972e
 Section: Tweaks
 Description: 分屏而已
 Author: SuSu
