@@ -2969,6 +2969,38 @@ Description: 更新说明：修复注销后日期和农历不渐变
 Author: MoWang
 Name: 88 液态锁屏时间渐变
 
+Package: com.minis.lockscreengradientclock
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.6_iphoneos-arm64.deb
+Size: 246334
+MD5sum: 17d77255b52050b707c82aca5f61e05e
+SHA1: 4b5279bdea88dab0b051d45f88602fdc5ab31226
+SHA256: 1b6413f5df0a357edc6982c09590753ad43f848b592134296041a2fdd1964524
+Section: Tweaks
+Description: Configurable Lock Screen clock gradient.
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.6_iphoneos-arm64e.deb
+Size: 246342
+MD5sum: 571ca6ec92917706fa7853820bddb886
+SHA1: c27b35bfeb516415c6f6a687eb0087be71980352
+SHA256: fd379133b812f207d94f2eeaa7bc34e3bd9f0e7788ab1adee45b4c7a84d9bc18
+Section: Tweaks
+Description: Configurable Lock Screen clock gradient.
+Author: MoWang
+Name: 独立锁屏时间渐变
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
