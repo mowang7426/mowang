@@ -5305,6 +5305,38 @@ Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按�
 Author: MoWang
 Name: 灵动监测
 
+Package: com.sbcpu.floating
+Version: 5.2
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 3080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_5.2_iphoneos-arm64e.deb
+Size: 1097618
+MD5sum: 875b972f56c1823f91d4fd9c6ec80ca9
+SHA1: 06362aeb4e6ab5f81df89322f97fa1ac142e1a46
+SHA256: 0713f1f97525738fb168c0464c6abe03a3293d4d3c1f7d3762e5afb146e580cc
+Section: Tweaks
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Author: MoWang
+Name: 灵动监测
+
+Package: com.sbcpu.floating
+Version: 5.2
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 3100
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_5.2_iphoneos-arm64.deb
+Size: 1107350
+MD5sum: dcbadcbc81ad196c619ab4eb98bf63e5
+SHA1: 2f5bc8baeaab5bc9eec7894c6cb702166d4f81a5
+SHA256: aa84aac7e670f232edc2395a6f6695db192e36402fe1d5d1eab26942b851cf0a
+Section: Tweaks
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Author: MoWang
+Name: 灵动监测
+
 Package: com.shtm.amplify
 Version: 1.1-0beta2
 Architecture: iphoneos-arm64
