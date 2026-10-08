@@ -4119,6 +4119,74 @@ Description: 26Home Chinese RootHide build with per-app cutout controls and cust
 Author: ngkhoi
 Name: 26Home
 
+Package: com.noads.tweka
+Version: 1.2.7
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.2.7-iphoneos-arm64.deb
+Size: 290180
+MD5sum: bfd38ad11de48d6668dcdea7a8eee5e3
+SHA1: f62a4d9d40eac6b1b2913f9830c6840aa9a21604
+SHA256: ab1d3ab073d0972f262d5559ff89514234253c6c0e04a9a483652be6ebb5d05e
+Section: Tweaks
+Description: 去除广告。交流反馈QQ群：1106363887
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.2.7
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.2.7-iphoneos-arm64e.deb
+Size: 288612
+MD5sum: e00cf1980f1a0697e40198575625906c
+SHA1: e1ecd4383a8bb665cc444a6bd407af32667bd712
+SHA256: 1e29825cfa0a04f5d23b84a1991aa554cd860a4ea124f6f91087e8b2fa04bf57
+Section: Tweaks
+Description: 去除广告。交流反馈QQ群：1106363887
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.2.8
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 1652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.2.8-iphoneos-arm64.deb
+Size: 303712
+MD5sum: 8f2e4c7173d241f2a0f1aa99e6e52a34
+SHA1: 6aa642b65f4548f520892cc7ef98653750b78138
+SHA256: aada11f7e552377cce8ece92e4d3d645010735692c8770f4a979286c63b1f234
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.2.8
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 1652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.2.8-iphoneos-arm64e.deb
+Size: 304092
+MD5sum: 4e8e127e6ec528eeab343fcac08bd830
+SHA1: 9691e88d755141a6b9a2d53b6aa9b1421ad5a90c
+SHA256: 4b4a588d029ec46fc595d9f4ee9083cc28d7b19761f369e14df2084a7dc57b3b
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
 Package: com.nx.stheno
 Version: 0.1.23-1
 Architecture: iphoneos-arm64
