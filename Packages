@@ -3878,6 +3878,23 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
 
+Package: com.mlgm.prefnest
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
+Size: 168084
+MD5sum: 7b146f35a80d5f105ca4d89e47b181ab
+SHA1: 949bb5a05b549c9347127e8b1c21a3d231f9dc9c
+SHA256: 914882fd2a80534a636377406219b3852be8b8505756b6b12fcf5a4b82b949b1
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
 Package: com.mlgm.pulloverx
 Version: 1.3.1
 Architecture: iphoneos-arm64e
