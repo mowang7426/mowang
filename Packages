@@ -6446,6 +6446,40 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore
 
+Package: com.susudear.screencore
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.3_iphoneos-arm64.deb
+Size: 464436
+MD5sum: ce7615aa014a4b34d984fa9186277a91
+SHA1: 96052ca94781e9129fca18ef1af2f0f7e0428980
+SHA256: 92ae17c4a8edd4c75e92f9807820b1390e58f0f72802546f532618215f832fc5
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_2.0.3_iphoneos-arm64e.deb
+Size: 465980
+MD5sum: 78325457ae89a733d749954b034a13f8
+SHA1: e143327d204f10935f346dd78ad019adc24acc0a
+SHA256: 99b5308fc6e2a8053e5531930893d54e6904cb01e6e921959e12e2957b879592
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
 Package: com.susudear.sharingdalertwatchdog
 Version: 1.0.8
 Architecture: iphoneos-arm64e
