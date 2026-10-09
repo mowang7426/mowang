@@ -1961,6 +1961,24 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.doimty.promotion
+Version: 1.0.14-1
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/com.doimty.promotion_1.0.14-1_iphoneos-arm64e.deb
+Size: 19460
+MD5sum: 4104e1df96fd208defcebf7a065634eb
+SHA1: 6753b547c235583176256c2bdcd0d2c4e21b09df
+SHA256: b96bfa462178b034897400cec04cdbd334a27453f8582f6738de0dc6e7c741ff
+Section: Tweaks
+Description: High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
+
 Package: com.go.mango
 Version: 1.0-Beta8-1
 Architecture: iphoneos-arm64
