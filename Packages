@@ -4853,6 +4853,61 @@ Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 Name: CPU智能温控(iOS16/17)
 
+Package: com.quicklaunch.tweak
+Version: 0.1.44
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 604
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/com.quicklaunch.tweak_0.1.44_iphoneos-arm64e.deb
+Size: 190348
+MD5sum: c810e6e5e6277e23c4272bf3df2169fb
+SHA1: 350744d8959f9165a0147b90028e618cd1cd6456
+SHA256: f99fb5ccfb2ce243c42e678abfab42f7c546164a4bdc9c98f1063badc1167163
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Version: 0.1.44
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1132
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Filename: debs/com.quicklaunch.tweak_0.1.44_iphoneos-arm64.deb
+Size: 311808
+MD5sum: db735b6afbb7f46c01dd2ac9f9bbc3a3
+SHA1: 80ddcff548f287cc3aa242ac14c7aa81571a1e2e
+SHA256: ffc44d801ebf1f520d8a58eff79210e8aed00274173c6d81e2c16153687a07a9
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
 Package: com.sbcpu.floating
 Version: 4.61
 Architecture: iphoneos-arm64
