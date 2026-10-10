@@ -3282,6 +3282,38 @@ Author: MoWang
 Name: 独立锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
+Version: 2.0.18
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.18_iphoneos-arm64.deb
+Size: 439100
+MD5sum: 5f1463a0f4facd56a58dd8696c0cad06
+SHA1: cf447ae4bd4471e65ffffcf4c082785df480a5f6
+SHA256: eb9d26b2946e42521fe36ff5cc3e3844576060dbe7768aebfe7239b6b3f87532
+Section: Tweaks
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
+Version: 2.0.18
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.18_iphoneos-arm64e.deb
+Size: 438772
+MD5sum: 3b8278d0de246e0d349cbcd03d6230c2
+SHA1: 139bfa49256b507a9b2b168b54f303106b0bb2c9
+SHA256: eb836420410fff55daf707d99e9b1f94e8afb82875fa10bccca4bef3edec5f9c
+Section: Tweaks
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
 Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: MoWang
