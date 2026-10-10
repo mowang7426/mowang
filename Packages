@@ -2140,6 +2140,42 @@ Name: CPU 解除温控
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.huayuarc.cputhermal
+Version: 1.6.2-154+isolation.6
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 1844
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CPU 解除温控-1.6.2-154+isolation.6-iphoneos-arm64.deb
+Size: 125716
+MD5sum: e0449eceaf59de1e663279b82fc3c308
+SHA1: 7f9acdc337e2b51a3966ddc87fec9bba91e6307e
+SHA256: 193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650
+Section: Tweaks
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Version: 1.6.2-154+isolation.6
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1844
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CPU 解除温控-1.6.2-154+isolation.6-iphoneos-arm64e.deb
+Size: 120880
+MD5sum: 4f6f69973fa84a597832a9921b27c9ca
+SHA1: 8b43286520f44a878a3d7f32cec82c09fe23f6ea
+SHA256: 9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79
+Section: Tweaks
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
 Version: 1.6.2-171
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
