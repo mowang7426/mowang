@@ -3361,6 +3361,22 @@ Name: 独立锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
 Version: 2.0.20
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.20_iphoneos-arm64e.deb
+Size: 452454
+MD5sum: 059c282e9939e7224cc809beb3c8a7f2
+SHA1: 40c0fe1cf19a5fe7306a4ade24dcccc3dd0ae2c5
+SHA256: afb72fdfcc7a36545cd49a895ab15ecb0bbef578fd352a85fbf9986622b5e52b
+Section: Tweaks
+Description: 修复胶囊未充电显示
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
+Version: 2.0.20
 Architecture: iphoneos-arm64
 Maintainer: MoWang
 Installed-Size: 992
