@@ -1943,6 +1943,38 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stayalivelite
+Version: 0.4.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 1272
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64e.deb
+Size: 188524
+MD5sum: 3fab3c10374a4ebd001a8e7bd10dedc0
+SHA1: 8a46cf937c6c39efcb292b9209967bf812d24eb1
+SHA256: 854f2626019702e59b7a93d3dfdb4bacbf53fba67987651b0121e5422d9c98b7
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 2568
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64.deb
+Size: 280160
+MD5sum: bc3481e91f6dbd2f951e15032e24daad
+SHA1: 7c9de8bd369fce70001c6cff78b5eaf4a78cf704
+SHA256: c461432292217c9a22103107fdb8ea16f792a9f48345461747165efe18c89777
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
 Package: com.doimty.promotion
 Version: 1.0.14-1
 Architecture: iphoneos-arm64e
