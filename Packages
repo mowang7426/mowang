@@ -7883,6 +7883,24 @@ Description: WeChatOrbit
 Author: ylr
 Name: WeChatOrbit（免授权）
 
+Package: com.ylr.wchook
+Version: 2.2-9
+Architecture: iphoneos-arm64e
+Maintainer: ylr
+Installed-Size: 3708
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/com.ylr.wchook_2.2-9_iphoneos-arm64e.deb
+Size: 1325464
+MD5sum: 75a260baa1f87c71638bc38b8c24407e
+SHA1: 900758ca3dfb4105e71871ec206a09844bda3f9f
+SHA256: 3703fad1c5a0d637e624fe27684c11606e41ca8796c09333ed6f0dce9a3d9e41
+Section: Tweaks
+Description: 悬浮按钮分屏
+Author: ylr
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: 悬浮按钮分屏
+
 Package: com.yzdmm.kbtheme
 Version: 1.1.1
 Architecture: iphoneos-arm64e
