@@ -504,40 +504,6 @@ Icon: https://axs66.github.io/pro/icon/duostatus.png
 Name: DuoStatus
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
 
-Package: com.axs.ios16dao
-Version: 5.2.0-244
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 704
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/com.axs.ios16dao_5.2.0-244_iphoneos-arm64.deb
-Size: 123852
-MD5sum: 89d00e0bce8f7ec23d2f78116155306a
-SHA1: 4400c694b975535528afd2b7fba4b535397c0c9e
-SHA256: 2e73e5a7eea5f4b85701c815da6c4b00bad11a50cb750b4bdd4881e0bfdb9b9a
-Section: 系统美化
-Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
- * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
- * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
- * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
- * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
- * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-Name: A狗150动态岛（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-
-Package: com.axs.ios16dao.keygen
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Filename: debs/com.axs.ios16dao.keygen_1.0.0_iphoneos-arm64.deb
-Size: 5498
-MD5sum: b7c8924634136934273758cb3de89244
-SHA1: 01da0f5d6eb379ac5e82cb29c89b359d82ff16d7
-SHA256: 200979191864fdf881ffb00c2322a41a1fa4e596c145e86b9d8ab0d48d292632
-Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
-Name: A狗动态岛激活码生成器
-
 Package: com.axs.ipslog
 Version: 5.2.0-11
 Architecture: iphoneos-arm64
