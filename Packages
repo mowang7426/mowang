@@ -3297,6 +3297,22 @@ Name: 独立锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
 Version: 2.0.19
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.19_iphoneos-arm64e.deb
+Size: 450520
+MD5sum: 00eca94bfc0be2a36b675e8f2e572764
+SHA1: ec5c6ea66bdf02079e179e00ca56114a31d1ce6e
+SHA256: bd61fa40e129715888e23a97b3ca6cada6c3fd43183d0855af4d80416bcbee12
+Section: Tweaks
+Description: 修复无法隐藏原生目前电量显示
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
+Version: 2.0.19
 Architecture: iphoneos-arm64
 Maintainer: MoWang
 Installed-Size: 992
