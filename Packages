@@ -5079,6 +5079,46 @@ Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 Name: CPU智能温控(iOS16/17)
 
+Package: com.qq391160.cpucore
+Version: 2.0.96
+Architecture: iphoneos-arm64e
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)-2.0.96-iphoneos-arm64e.deb
+Size: 608832
+MD5sum: 62d59e5f53fa6eb0da9c9061df4793d7
+SHA1: bd8a6870d86c8cae9f58ebaef6c1c5325671a9fc
+SHA256: c70d7b49a9d799b036489202096ebf2c756d17226f660478da74343fdbc2ab86
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.96
+Architecture: iphoneos-arm64
+Maintainer: qq391160
+Installed-Size: 3976
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)-2.0.96-iphoneos-arm64.deb
+Size: 569726
+MD5sum: 208088e7d7cd0b9b5f4e52fd35393c21
+SHA1: 19079d00ddaaebb31c002c9400550361615ef2dd
+SHA256: f9898038670641e4ee66606c34d56f58b95ae0aedf7afba91284cceec2dd434b
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
 Package: com.quicklaunch.tweak
 Version: 0.1.44
 Architecture: iphoneos-arm64e
