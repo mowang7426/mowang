@@ -6477,6 +6477,22 @@ Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按�
 Author: MoWang
 Name: 灵动监测
 
+Package: com.sbcpu.floating
+Version: 6.2
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 3444
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_6.2_iphoneos-arm64.deb
+Size: 1164930
+MD5sum: f7738ebdd747c61ace86bfe07c1e2a89
+SHA1: dbe35dcbb593a1e16c3250cb30ce6d5484462043
+SHA256: 6f0e08c654bcf752482374ccdef5740f5437051f8368802a8a892bf17f49eaac
+Section: Tweaks
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 上限）
+Author: MoWang
+Name: 灵动监测
+
 Package: com.shtm.amplify
 Version: 1.1-0beta2
 Architecture: iphoneos-arm64
