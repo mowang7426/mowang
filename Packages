@@ -305,6 +305,22 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
+Package: com.anfyya.screenshotbypass
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Minis build (upstream Anfyya)
+Installed-Size: 352
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy, firmware (>= 16.0)
+Filename: debs/com.anfyya.screenshotbypass_1.0.2_iphoneos-arm64e.deb
+Size: 24724
+MD5sum: 832aa577679542adae980218b8e1e0a7
+SHA1: dcfcff8680a8f811f5b6469582a250a019eb1cd4
+SHA256: fbe71660b7465e5064cda42035e4f1d9c6679241bdbe6d9518089e63cbf4c419
+Section: Tweaks
+Description: 小工具。屏蔽截屏录屏检测
+Author: Anfyya
+Name: ScreenshotBypass
+
 Package: com.axs.ahsfilter
 Version: 5.2.0-3
 Architecture: iphoneos-arm64e
