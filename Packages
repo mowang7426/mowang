@@ -305,6 +305,40 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
+Package: com.aa22qq.axiskey
+Version: 10.0.0
+Architecture: iphoneos-arm64e
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/AxisKeyGesture-10.0.0-iphoneos-arm64e.deb
+Size: 108736
+MD5sum: 0ff9e94d4332d47a45dafef74d9b9530
+SHA1: 92aee521ddd73c370ee3b925c9fde770f648556b
+SHA256: af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc
+Section: Tweaks
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Author: aa22qq
+Icon: https://huayuarc.github.io/icon/axiskey.png
+Name: AxisKeyGesture
+
+Package: com.aa22qq.axiskey
+Version: 10.0.0
+Architecture: iphoneos-arm64
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/AxisKeyGesture-10.0.0-iphoneos-arm64.deb
+Size: 109148
+MD5sum: c347601c4c41de00607027bca49a5753
+SHA1: d9a7e100a5625c2d6eaa65d54515ee84cfe261c4
+SHA256: 94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309
+Section: Tweaks
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Author: aa22qq
+Icon: https://huayuarc.github.io/icon/axiskey.png
+Name: AxisKeyGesture
+
 Package: com.anfyya.screenshotbypass
 Version: 1.0.2
 Architecture: iphoneos-arm64e
@@ -4445,6 +4479,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra-1.2-iphoneos-arm64e.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra-1.2-iphoneos-arm64.deb
+Size: 753924
+MD5sum: 98904d6d68b585c30880770c73ca7c7f
+SHA1: fcfb6180ef970d49bb359a65a4b382109e8899e9
+SHA256: 8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -4461,6 +4531,74 @@ Description: 应用、插件数据管理工具，一键备份/恢复
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
+
+Package: com.mlgm.isgkb
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iSgkb-1.1.1-iphoneos-arm64e.deb
+Size: 39524
+MD5sum: 1dca3263537e1d878ad9f7dbf79388b5
+SHA1: 4631da18fdafdde575854286da78ed01fc4be3f8
+SHA256: 7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
+Package: com.mlgm.isgkb
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iSgkb-1.1.1-iphoneos-arm64.deb
+Size: 41496
+MD5sum: c0e757ea42c547ea10f1b79827eaec1d
+SHA1: 4239f14bfcfcec13c372363975ef70c2b3f63354
+SHA256: 0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
+Package: com.mlgm.iwxkb
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iWxkb-1.1.1-iphoneos-arm64.deb
+Size: 44704
+MD5sum: 503f5f4a3e0aba18e21f97dff0cf84f2
+SHA1: 03d4e734bd9088249098d0088c33adf692355a90
+SHA256: f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
+
+Package: com.mlgm.iwxkb
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/iWxkb-1.1.1-iphoneos-arm64e.deb
+Size: 42936
+MD5sum: dba2858ec4c7df12de89d86546f52da0
+SHA1: 9f61b7d872fbcf448076dc576fbc2f79ffec8c52
+SHA256: 0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
 
 Package: com.mlgm.prefnest
 Version: 1.2
@@ -4956,6 +5094,40 @@ Author: 半生年华
 Icon: https://huayuarc.github.io/icon/NoAds@2x.png
 Name: NoAdsX
 
+Package: com.noads.tweka
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.3.1-iphoneos-arm64.deb
+Size: 767952
+MD5sum: 82d85d4e4bd67eeb40f721e1ea5ee70c
+SHA1: 0dbece6baa7825af07145577cf9cd072d3d16a53
+SHA256: d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
+Package: com.noads.tweka
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 2616
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/NoAdsX-1.3.1-iphoneos-arm64e.deb
+Size: 765864
+MD5sum: 2b2f2a28158215a080f6ddf03ea2514e
+SHA1: 2c8f06954e51bdfff014e7b54b631539ae9b210d
+SHA256: c4ee712d376462ffc58b2a82f897038bffc6515e5777b506f90b206e4616db99
+Section: Tweaks
+Description: 去除广告。
+Author: 半生年华
+Icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Name: NoAdsX
+
 Package: com.nx.stheno
 Version: 0.1.23-1
 Architecture: iphoneos-arm64
@@ -5210,6 +5382,46 @@ Size: 607768
 MD5sum: a870f71867238a506a635a51628badf1
 SHA1: ea9cd938c9535c40b1335b519728d3b0d04cdd2a
 SHA256: 2538b56cf42a16752d9d5e65f0c342a5d0d80145ab4d6eb3852e2cf8973fed1c
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.109
+Architecture: iphoneos-arm64e
+Maintainer: qq391160
+Installed-Size: 4220
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)-2.0.109-iphoneos-arm64e.deb
+Size: 621424
+MD5sum: a7d8538babc0fceeebc6e1f258b473ef
+SHA1: fd6a2da8411f811e9f3e3e6116f5c98ea14cf692
+SHA256: a1da9d9490de8ef818d58de2ac873d4b40d9ee86e5a5a8ad54f08fdc1ac10f22
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.109
+Architecture: iphoneos-arm64
+Maintainer: qq391160
+Installed-Size: 4012
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)-2.0.109-iphoneos-arm64.deb
+Size: 579318
+MD5sum: ee37e20f0629365b92ed89eb7bd51697
+SHA1: b794b3443c8440f84949ed557ad8f28cea9058ac
+SHA256: d84535a6cc37772fb0096939849a51c2bec1e6c1afb3bf05ebe52fd23b26cd7b
 Section: Tweaks
 Priority: optional
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
