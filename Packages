@@ -321,6 +321,22 @@ Description: 小工具。屏蔽截屏录屏检测
 Author: Anfyya
 Name: ScreenshotBypass
 
+Package: com.anyi.wcpluginsclone-v4.1.6
+Version: 4.1.6+trollfix
+Architecture: iphoneos-arm64e
+Maintainer: Anyi <anyi@example.com>
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.anyi.wcpluginsclone-v4.1.6_4.1.6+trollfix_iphoneos-arm64e.deb
+Size: 419612
+MD5sum: 798908b38b6e47878bf4a9e6d02b1905
+SHA1: 1194eab13e9e2a8dc84448c602f4f7ae689ffa64
+SHA256: 39c2eac4996e62a288d637be347ff2ac4824d6eddc5a12c3e9f7abef38cd83df
+Section: Tweaks
+Description: 微信插件收纳美化
+Author: Anyi
+Name: WCPluginsClone
+
 Package: com.axs.ahsfilter
 Version: 5.2.0-3
 Architecture: iphoneos-arm64e
