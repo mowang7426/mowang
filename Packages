@@ -337,6 +337,22 @@ Description: 微信插件收纳美化
 Author: Anyi
 Name: WCPluginsClone
 
+Package: com.anyi.wcpluginsclone-v4.1.6
+Version: 4.1.6+trollfix
+Architecture: iphoneos-arm64
+Maintainer: Anyi <anyi@example.com>
+Installed-Size: 1612
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.anyi.wcpluginsclone-v4.1.6_4.1.6+trollfix_iphoneos-arm64.deb
+Size: 836156
+MD5sum: 7d431e7be070132fa73be5cd58d4cd2f
+SHA1: 79ed026a2950d9375fa7e4f8a9228fda127ef589
+SHA256: 4272924cc97c17f1825eabd22cb86982c96ee63e4fcc1f5f32034a8f2c7d7062
+Section: Tweaks
+Description: 微信插件收纳美化
+Author: Anyi
+Name: WCPluginsClone
+
 Package: com.axs.ahsfilter
 Version: 5.2.0-3
 Architecture: iphoneos-arm64e
