@@ -7391,6 +7391,59 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore
 
+Package: com.susudear.screencore
+Version: 2.0.3+windowscheduler.11.pulloverjump
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 3188
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/com.susudear.screencore_2.0.3+windowscheduler.11.pulloverjump_iphoneos-arm64e.deb
+Size: 514300
+MD5sum: 70f80907894d69d60bfceddb60a2d648
+SHA1: 6d540cfddcd8e729bb1ffba4c0aba974144a9139
+SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+Section: Tweaks
+Description: Scheduler .7 with native .6 switches, PullOver-style app jumps and the Bottom-x 6.59 bridge.
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore + PullOver Jump + Bottom-x
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Window-Scheduler-Author: qianuo
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Window-Scheduler-Version: 0.1.6
+
+Package: com.susudear.screencore
+Version: 2.0.3+windowscheduler.11.pulloverjump
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 3751
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/com.susudear.screencore_2.0.3+windowscheduler.11.pulloverjump_iphoneos-arm64.deb
+Size: 990614
+MD5sum: a05f955090d55705134c40c7629f0d9f
+SHA1: fff94e06da11e939facc9f039694ee17f74b58d6
+SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+Section: Tweaks
+Description: Scheduler .7 with native .6 switches, PullOver-style app jumps and the Bottom-x 6.59 bridge.
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore + PullOver Jump + Bottom-x
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Install-Environment: standard-rootless-var-jb
+X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rootless-Input-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Window-Scheduler-Author: qianuo
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Window-Scheduler-Version: 0.1.6
+
 Package: com.susudear.sharingdalertwatchdog
 Version: 1.0.8
 Architecture: iphoneos-arm64e
@@ -8365,6 +8418,40 @@ Description: 27Home
 Author: ngkhoi&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
 Name: 27Home
+
+Package: com.zegeyoudaoli.home27
+Version: 2.1.62+rootless
+Architecture: iphoneos-arm64
+Maintainer: ngkhoi&泽哥
+Installed-Size: 2452
+Depends: mobilesubstrate | ellekit, preferenceloader
+Conflicts: com.ngkhoi.26home
+Replaces: com.ngkhoi.26home
+Filename: debs/27Home（rootless 测试）-2.1.62+rootless-iphoneos-arm64.deb
+Size: 611126
+MD5sum: 12b05324a2784b0efee048137b9492aa
+SHA1: b686db38dfd745218fdbfcbab04c2e79027a554a
+SHA256: adfdd126c657edc09853c34daec5267d0352b3b23c82add9652bfaaf5a7360c2
+Section: Tweaks
+Description: 27Home
+ 主屏幕图标美化工具
+ 基于 ngkhoi 的 26Home 汉化维护版。
+ 内部标识全面统一为 27Home：类名 / 源文件名 / 资源目录 / 日志文件名 / 偏好包名。
+ 偏好存储沿用原有域名，升级不会丢设置（也不影响从上游包换装时的设置继承）。
+ 液态玻璃图标
+ 接 LiquidAss 引擎真折射
+ 图标折射跟随 LiquidAss 总开关：关了退回普通玻璃（9002 模糊 + 9003 底色），
+ 并监听 LiquidAss 的偏好重载通知，开关变化当场生效、不用注销。
+ 未装 LiquidAss 时走零依赖普通玻璃
+ 所有效果参数可调
+ 支持相册自定义图标和例外应用
+ 图标包管理器，直连 SnowBoard 本地主题（实时生效）
+ 本地图标包的作者显示包内 Info.plist 的 PackageName 字段，没有该文件显示「未知」
+ 新增本地压缩包一键导入
+ 性能：调试日志关闭时诊断代码零开销；修掉打开日志时的大体积日志卡顿
+Author: ngkhoi&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+Name: 27Home（rootless 测试）
 
 Package: com.zegeyoudaoli.liquidass27
 Version: 1.0.0-34
