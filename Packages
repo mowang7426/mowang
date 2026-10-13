@@ -9374,6 +9374,26 @@ Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段�
 Author: MoWang
 Name: SBLiquidGlass
 
+Package: im.mjh.xianyuadblock
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb
+Size: 82542
+MD5sum: 9e8b896222364564ed9bcaa797f261a2
+SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
+SHA256: 3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
 Package: iya.banana.billie.ambientbadge
 Version: 0.1.15
 Architecture: iphoneos-arm64e
