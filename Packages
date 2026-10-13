@@ -1461,6 +1461,38 @@ Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持
 Author: crctdd
 Name: Crane Drop Down
 
+Package: com.crctdd.disablecallpop
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/Disable CallPoP-0.0.2-iphoneos-arm64.deb
+Size: 5098
+MD5sum: 11c9b653be1170c7966ffec25a67e407
+SHA1: f9066e07296147eba5b001c284c50d4ee4118626
+SHA256: 59a227eb17f39097c7d921ca86936d94629eb04438b26bf952168f01312751e8
+Section: Tweaks
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Disable CallPoP
+
+Package: com.crctdd.disablecallpop
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/Disable CallPoP-0.0.2-iphoneos-arm64e.deb
+Size: 4056
+MD5sum: 8dc7d31763aba0ef609eb8a9293ab64a
+SHA1: 39836de8743cb4f0d31e434a7388f5916f5eacdf
+SHA256: e1f79d0b9960e3cf4fc7c311aa03b9f22e8cad3d973a8c203ab454905b237303
+Section: Tweaks
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Disable CallPoP
+
 Package: com.crctdd.memtrim
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -2022,6 +2054,42 @@ Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
 Name: StayAlive Lite
+
+Package: com.dao.velvet2
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 668
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.hk.velvet2.cn, com.hk.velvet2.cn.rl, com.hk.velvet2, com.hk.rootless.velvet2, com.qms.velvet2
+Filename: debs/Velvet2 中文版(RootHide)-2.3-iphoneos-arm64e.deb
+Size: 104792
+MD5sum: c40ef95405edf4be80bc258039f37e3d
+SHA1: 2e3740d9bd7456d17305d0aa43e7b3ffdf487f23
+SHA256: c8d06d4903d5ea1ef82b05ac5691aa72c019a4e137be193b20d727e0d5f67cfc
+Section: 嗨-工具
+Description: 完全可自由定制的通知横幅变色，根据开源编译/优化/汉化而来。
+Author: NoisyFlake
+Name: Velvet2 中文版(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
+
+Package: com.dao.velvet2
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: daodao
+Installed-Size: 668
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.hk.velvet2.cn, com.hk.velvet2.cn.rl, com.hk.velvet2, com.hk.rootless.velvet2, com.qms.velvet2
+Filename: debs/Velvet2 中文版(rootless)-2.3-iphoneos-arm64.deb
+Size: 105642
+MD5sum: 6a254079d88afff607a9626c9b529145
+SHA1: 5bf10af9167da8833c9d1661334210b9a48921e0
+SHA256: f9669b950643ad7e03903d658cad1037ac72b884281aaa428becb2834f7dc3f5
+Section: 嗨-工具
+Description: 完全可自由定制的通知横幅变色，根据开源编译/优化/汉化而来。
+Author: NoisyFlake
+Name: Velvet2 中文版(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
 
 Package: com.doimty.promotion
 Version: 1.0.14-1
@@ -3083,6 +3151,26 @@ Description: 仿iOS26液态玻璃效果，支持锁屏、控制中心、通知�
 Author: jl
 Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
 Name: 58 液态玻璃
+
+Package: com.kernelrw.adytum
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 1805
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/Adytum-2.2-iphoneos-arm64.deb
+Size: 197968
+MD5sum: 3c924aff4fc8c16a2c92496d605ca65a
+SHA1: eba47772724d37797d10bc19711a5b4605a559a6
+SHA256: a1aa26a158a2e4411f2b45af4d7a034ab38115c2a8c4e7e8a8fbefda5fd5e1ed
+Section: Tweaks
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Depiction: https://chariz.com/get/adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Name: Adytum
 
 Package: com.layii.ccrnd
 Version: 0.1.0
@@ -4622,6 +4710,25 @@ SHA1: d7148c7d5bdb5b4a6fbe94754e9d0dfdec1f7e61
 SHA256: d0122c1440d96fa9132f169566cb908dda0c830b57cafb5086780b259d04151f
 Section: Tweaks
 Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏）、电池健康与深度信息
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool(rootless)
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Version: 2.1.87
+Architecture: iphoneos-arm64
+Maintainer: Muzi
+Installed-Size: 4920
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/MUtool(rootless)-2.1.87-iphoneos-arm64.deb
+Size: 730090
+MD5sum: 5edc35b7cca5e2d2284158541023e9bf
+SHA1: 70b997adb81b9381a903c61f95892229e616da37
+SHA256: a70def7c1d236bb7fbb830fab00242c319e74542e3e5301c8bcb35a4a747c598
+Section: Tweaks
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
 Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool(rootless)
@@ -8224,6 +8331,40 @@ Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移�
 Author: yzdmm
 Icon: https://huayuarc.github.io/icon/kb.jpg
 Name: 键盘下方状态
+
+Package: com.zegeyoudaoli.home27
+Version: 2.1.62
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi&泽哥
+Installed-Size: 2337
+Depends: mobilesubstrate | ellekit, preferenceloader
+Conflicts: com.ngkhoi.26home
+Replaces: com.ngkhoi.26home
+Filename: debs/27Home-2.1.62-iphoneos-arm64e.deb
+Size: 612546
+MD5sum: f2c54d91c3c6737989ea8bda3854806b
+SHA1: 89e6c3179fe4958efec259936ee73bc0e8f3ba0a
+SHA256: c08fe244b2a0dfc8ff4f7fbe6fb8e815d3f7eba4a6c932426a8cbdf7083cbdb6
+Section: Tweaks
+Description: 27Home
+ 主屏幕图标美化工具
+ 基于 ngkhoi 的 26Home 汉化维护版。
+ 内部标识全面统一为 27Home：类名 / 源文件名 / 资源目录 / 日志文件名 / 偏好包名。
+ 偏好存储沿用原有域名，升级不会丢设置（也不影响从上游包换装时的设置继承）。
+ 液态玻璃图标
+ 接 LiquidAss 引擎真折射
+ 图标折射跟随 LiquidAss 总开关：关了退回普通玻璃（9002 模糊 + 9003 底色），
+ 并监听 LiquidAss 的偏好重载通知，开关变化当场生效、不用注销。
+ 未装 LiquidAss 时走零依赖普通玻璃
+ 所有效果参数可调
+ 支持相册自定义图标和例外应用
+ 图标包管理器，直连 SnowBoard 本地主题（实时生效）
+ 本地图标包的作者显示包内 Info.plist 的 PackageName 字段，没有该文件显示「未知」
+ 新增本地压缩包一键导入
+ 性能：调试日志关闭时诊断代码零开销；修掉打开日志时的大体积日志卡顿
+Author: ngkhoi&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+Name: 27Home
 
 Package: com.zegeyoudaoli.liquidass27
 Version: 1.0.0-34
