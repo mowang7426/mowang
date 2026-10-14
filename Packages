@@ -10161,6 +10161,22 @@ Description: 如上，好像不支持 17 以下
 Author: Minis
 Name: 禁用分享隔空投送
 
+Package: local.minis.hideairdrop
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/local.minis.hideairdrop_1.1.0_iphoneos-arm64e.deb
+Size: 10838
+MD5sum: cdc90f04b63b0ac84599339bcf5e88f4
+SHA1: dbb906250651a1e7bb6931ffe988fb9231ed732f
+SHA256: 5868facc0a847408988b9a62ad026a67a3439af0dbcfd53327ccdd2dd8e416d2
+Section: Tweaks
+Description: 如上，好像不支持 17 以下
+Author: Minis
+Name: 禁用分享隔空投送
+
 Package: local.notifybubbles
 Version: 0.4.1
 Architecture: iphoneos-arm64e
