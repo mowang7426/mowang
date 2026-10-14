@@ -10145,6 +10145,22 @@ Description: Customize Siri with NewSiri edge lighting or the SiriAI glass inter
 Author: Thijs mussig, Banana
 Name: LiquidSiri
 
+Package: local.minis.hideairdrop
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/local.minis.hideairdrop_1.1.0_iphoneos-arm64.deb
+Size: 10976
+MD5sum: 692bdd3f1730f4e1809851890192a05c
+SHA1: 3572485dadee8a14b0ac4a619867b059379c3128
+SHA256: 3b4326fcb23cb73414c1fdb6a289053177f6115486095e25fb6e19850ab80617
+Section: Tweaks
+Description: 如上，好像不支持 17 以下
+Author: Minis
+Name: 禁用分享隔空投送
+
 Package: local.notifybubbles
 Version: 0.4.1
 Architecture: iphoneos-arm64e
