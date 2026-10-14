@@ -3695,6 +3695,22 @@ Author: MoWang
 Name: 独立锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
+Version: 2.0.21
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 992
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.21_iphoneos-arm64e.deb
+Size: 461718
+MD5sum: 4cd9e24f1d19202e639bd075e790250a
+SHA1: 699d876291de68355eb4f231acb01742b0020fe7
+SHA256: c432dedfc5cbda1bd87784092555a42ba5128ee447b3bb374a2cd1d0b943fc52
+Section: Tweaks
+Description: 新增隐藏原生日期和农历显示
+Author: MoWang
+Name: 独立锁屏时间渐变
+
+Package: com.minis.lockscreengradientclock
 Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: MoWang
