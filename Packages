@@ -867,6 +867,48 @@ Icon: https://axs66.github.io/pro/icon/ips.png
 Name: IPSLog
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: com.axs.ipslog
+Version: 5.2.0-30
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/IPSLog-5.2.0-30-iphoneos-arm64e (1).deb
+Size: 84186
+MD5sum: af8bf675427f2da0622fb1c006a677f3
+SHA1: dc82c106fa0175f8e7280245ece4adc4ffb76869
+SHA256: 78fa9e89b8aa2a3f99bef422d06437e6950ce12c7eb311fe29941dd29e52a961
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Name: IPSLog
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
+Version: 5.2.0-30
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/IPSLog-5.2.0-30-iphoneos-arm64.deb
+Size: 85156
+MD5sum: e7b9d46820e1405e0462c9f6d8666f7f
+SHA1: 47b508302393fa008b8f8f3471c7dd52e41b5ad0
+SHA256: 6a796508f5c122e5929013cf3bef99760ab828415759c56748560f05a20f5b91
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Name: IPSLog
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.axs.keyboardtools
 Version: 5.2.0-159
 Architecture: iphoneos-arm64
@@ -2156,6 +2198,23 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.dao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/Filza Crack(RootHide)-1.1-9-iphoneos-arm64e.deb
+Size: 28916
+MD5sum: 780888e00f6a297ae56497c8a703e641
+SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
+SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
+Section: 嗨-工具
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Author: Netskao
+Name: Filza Crack(RootHide)
+
 Package: com.dao.velvet2
 Version: 2.3
 Architecture: iphoneos-arm64e
@@ -3284,6 +3343,40 @@ Description: 仿iOS26液态玻璃效果，支持锁屏、控制中心、通知�
 Author: jl
 Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
 Name: 58 液态玻璃
+
+Package: com.johndie.triggr
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: John d_ie
+Installed-Size: 1644
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/Triggr-1.5.0-iphoneos-arm64.deb
+Size: 198276
+MD5sum: c1f69afa321d3efff97b9745af24efbe
+SHA1: 84d6ea7c6f3ad2696667a370e14a7048c80b697c
+SHA256: 71acf50f079605d1fc9c3eabd6319a826c19939e9fa34eea9eed5df3f2b17def
+Section: Tweaks
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Author: John d_ie
+Icon: https://huayuarc.github.io/icon/triggr.png
+Name: Triggr
+
+Package: com.johndie.triggr
+Version: 1.5.0
+Architecture: iphoneos-arm64e
+Maintainer: John d_ie
+Installed-Size: 1588
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/Triggr-1.5.0-iphoneos-arm64e.deb
+Size: 199564
+MD5sum: 6fdf4fccde4650cafe1cc36a69001274
+SHA1: 6ca4073081139b0298240209b91adcfd22054413
+SHA256: 3916678a1e118a47e9561c0f3b7abe2b66e601c87038cfffa16d4e9b843399fe
+Section: Tweaks
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Author: John d_ie
+Icon: https://huayuarc.github.io/icon/triggr.png
+Name: Triggr
 
 Package: com.kernelrw.adytum
 Version: 2.2
@@ -7189,6 +7282,24 @@ Author: SHTM
 Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
 Name: AmpLify
 
+Package: com.sini.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/FilzaSwipeSelect-Unknown-unknown.deb
+Size: 8716
+MD5sum: 7bcbd25de2a6bbc3bf6989d8aeaff789
+SHA1: 88b0dc31959390f146fe408dd052773f16456502
+SHA256: bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0
+Section: Tweaks
+Description: Filza的滑动多选功能。不再单独点击每个文件进行选择。
+Author: korboy <korboybeats@gmail.com>
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Name: FilzaSwipeSelect
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+
 Package: com.siwenjiajia.tweak.comm
 Version: 28.35
 Architecture: iphoneos-arm64
@@ -8476,6 +8587,27 @@ Section: 微信插件
 Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子（免授权）
+
+Package: com.tigisoftware.filza64bits
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/Filza 文件管理器-4.0.1-4~roothide-iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+Section: RootHide
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Author: TIGI Software
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+Name: Filza 文件管理器
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
 
 Package: com.tsangbaby.kayoko
 Version: 4.8
