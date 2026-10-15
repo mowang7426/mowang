@@ -4550,6 +4550,25 @@ Description: 修复表情渐变 bug
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.wetypeverticalswitch
+Version: 0.4.5
+Architecture: iphoneos-arm64
+Maintainer: 小菜
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.minis.wetypeverticalswitch_0.4.5_iphoneos-arm64.deb
+Size: 75708
+MD5sum: 66e7b9ed6d8da89e385f0565768e855d
+SHA1: 8f49793131cca0eab95bda7b5d629f69b57c8eae
+SHA256: 5acf848d6f73732cb565387531571ea37bb08dcdc64d64cd96cd6061e35e8b73
+Section: Tweaks
+Description: 微信输入法 3.5.5/743 全键盘上下滑动切换中英文（rootless）。
+ 0.4.5 更新：修复关闭「禁用下滑」后下滑仍收回键盘的问题——关闭时下滑与上滑一样切换中英文，
+ 开启时下滑收回键盘；开关下方新增行为注解。新增「更多好玩」按钮（跳转群聊）与「注销桌面」按钮
+ （确认后 sbreload 重载 SpringBoard，非重启）。设置页含总开关、灵敏度滑条、作者：小菜。
+ 需真机验证；仅适配微信输入法 3.5.5（743）。
+Author: 小菜
+Name: 微信输入法滑动切换
+
 Package: com.mlgm.actra
 Version: 1.0
 Architecture: iphoneos-arm64e
