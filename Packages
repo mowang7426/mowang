@@ -10023,6 +10023,38 @@ Description: Custom notification badge styles with adaptive ambient glow. For Bi
 Author: Banana
 Name: AmbientBadge
 
+Package: iya.banana.dockicon
+Version: 0.9.20
+Architecture: iphoneos-arm64
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/DarkIcon-0.9.20-iphoneos-arm64.deb
+Size: 427142
+MD5sum: 18fac7f535276a38dc4564fafed05608
+SHA1: 3236f6b5762fdfac31c9ea68e08e5658baada153
+SHA256: bc4af65745016595c1ff84b7acfa5a25d5c54e8a248cad87841e4e7457f62ab5
+Section: Tweaks
+Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Author: hades
+Name: DarkIcon
+
+Package: iya.banana.dockicon
+Version: 0.9.20
+Architecture: iphoneos-arm64e
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/DarkIcon-0.9.20-iphoneos-arm64e.deb
+Size: 428640
+MD5sum: ee3aee6342d4973bccf3583a6cf7a762
+SHA1: c68f8a35e64630939c7f62634fdc1195e7ef8c48
+SHA256: 161601dcf526ab4f183c9e60c26d0dd018763d7bf25fc79ea5251114a083dacb
+Section: Tweaks
+Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Author: hades
+Name: DarkIcon
+
 Package: iya.banana.iphoneduoicon
 Version: 0.1.13
 Architecture: iphoneos-arm64
