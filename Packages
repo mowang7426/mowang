@@ -4551,6 +4551,22 @@ Author: MoWang
 Name: 彩虹键盘光效
 
 Package: com.minis.wetypeverticalswitch
+Version: 0.4.3
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.minis.wetypeverticalswitch_0.4.3_iphoneos-arm64e.deb
+Size: 44208
+MD5sum: ac078b7ba6acf8c3fd158c406d251ac5
+SHA1: d0fe33beef66402db2a117ec705ec39fee1f5d35
+SHA256: 8c99048258f64406869feda3e563266b30c5d10c2fa218ee35dbfb35a3685710
+Section: Tweaks
+Description: Native touch transaction staging for WeType 3.5.5/743; includes Settings. Device testing required.
+Author: 小菜
+Name: 微信输入法滑动切换
+
+Package: com.minis.wetypeverticalswitch
 Version: 0.4.5
 Architecture: iphoneos-arm64
 Maintainer: 小菜
