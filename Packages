@@ -5885,6 +5885,70 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 Name: QuickLaunch
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
+Package: com.quicklaunch.tweak
+Version: 0.1.55
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1284
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.55-iphoneos-arm64.deb
+Size: 376910
+MD5sum: a9c698127733b2725d9904d1958b6b97
+SHA1: 517fce803743dd87152e29fdff12f190e1b4a09c
+SHA256: cf69aa1028a0200a15f81209faf8f6f65840c61483d494b19f6c57bc506d3770
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Version: 0.1.55
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 708
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.55-iphoneos-arm64e.deb
+Size: 225456
+MD5sum: 58e6d7226aa6a44f1091d098a66558bd
+SHA1: df2e463dde6ede789cf7a1ab29ed74c55e582797
+SHA256: 09260ee552deea35f6573fbd34a870aae8ddcdbec92b8361b7c229d89c876509
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
 Package: com.sbcpu.floating
 Version: 4.61
 Architecture: iphoneos-arm64
