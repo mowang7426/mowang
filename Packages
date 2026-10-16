@@ -9094,6 +9094,41 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SystemX（wkk）
 
+Package: com.wxkb
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wetypeverticalswitch, com.wxkb
+Replaces: com.minis.wetypeverticalswitch, com.wxkb
+Filename: debs/com.wxkb_1.0.0_iphoneos-arm64e.deb
+Size: 160314
+MD5sum: 3e3a2c9100fd736517461e762180f454
+SHA1: ec0daddf84ee6e4a20dc00a4096a7e129931b18f
+SHA256: e25a5f9ccbf1ffc7208f2c9ee06ac7dc2e014dbd75958cf4f2adc8dad96f7775
+Section: Tweaks
+Description: 在微信输入法上启用上下滑手势切换输入方式 只会切换英文 不会和键盘切换按钮冲突 同理可以切换三种键盘
+Author: 小菜
+Name: Wxkb
+
+Package: com.wxkb
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 小菜
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wetypeverticalswitch, com.wxkb
+Replaces: com.minis.wetypeverticalswitch, com.wxkb
+Filename: debs/com.wxkb_1.0.0_iphoneos-arm64.deb
+Size: 143188
+MD5sum: 997c7ab43d67147c6570da9441d98fb5
+SHA1: f738711fd899a6f100a02e47e755451e3f83b3f1
+SHA256: 398cd45d1e7a42d17ace2634e1a341f9169611b059b98dc6ef484abc351724fa
+Section: Tweaks
+Description: 在微信输入法上启用上下滑手势切换输入方式 只会切换英文 不会和键盘切换按钮冲突 同理可以切换三种键盘
+Author: 小菜
+Name: Wxkb
+
 Package: com.ylr.wcfloatsplit
 Version: 3.0-5
 Architecture: iphoneos-arm64
