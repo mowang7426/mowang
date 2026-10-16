@@ -10777,6 +10777,42 @@ Description: Customizable glass status bar capsules with weather, media, notific
 Author: Banana
 Name: Lunora
 
+Package: iya.banana.iphoneduoicon
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 4524
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora-1.1.0-iphoneos-arm64e.deb
+Size: 794612
+MD5sum: 1a94eecc8cd3af6b956baf945ff535f7
+SHA1: cceb6051600c006653b4225946770891e931690a
+SHA256: 1ab31b116860145cd4b97a571fd76f66ae032a7b6cfb94d76886b01ba92494fe
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 4540
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora-1.1.0-iphoneos-arm64.deb
+Size: 805968
+MD5sum: 423a01810a13a61b57105234ccf6b91c
+SHA1: 927eb35c92fd8a05becee5eb181f76ebc10751c7
+SHA256: 0529a3fd35539375ff92468c806ecf24c6c642ca4406012bbd1153e3ff6a7f76
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64e
