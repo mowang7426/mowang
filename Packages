@@ -3555,6 +3555,44 @@ Description: Movable overlay showing CPU, RAM, battery, network and system info.
 Author: mathelord
 Name: InfoBar
 
+Package: com.mikifp.griddys
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy, com.dao.griddy, byg.iosios.net.griddy
+Filename: debs/Griddy-1.1.2-iphoneos-arm64e.deb
+Size: 26584
+MD5sum: 8d5e1f3aaa51d16a669e6807de5ec40f
+SHA1: a78551b43e91df52655e24261c4f63b6edd777c9
+SHA256: 63cc252d702ed46befe82d4394174baeaf5201a5453f038d867035b13279ea8e
+Section: 插件
+Description: 桌面图标可以随意摆放
+ * Layout your icons anywhere you want!
+Author: mikifp
+Icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
+Name: Griddy
+
+Package: com.mikifp.griddys
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy, com.dao.griddy, byg.iosios.net.griddy
+Filename: debs/Griddy-1.1.2-iphoneos-arm64.deb
+Size: 27712
+MD5sum: 8aae089e780dfe4bf891cec1cffb11d1
+SHA1: faeda084168cc90068d1db57ef1efdea2be96919
+SHA256: 2631e631c14f41968777668d0a31507cdadeeec485ea92e69c89d33690503617
+Section: 插件
+Description: 桌面图标可以随意摆放
+ * Layout your icons anywhere you want!
+Author: mikifp
+Icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
+Name: Griddy
+
 Package: com.minis.lockscreengradientclock
 Version: 1.5.1
 Architecture: iphoneos-arm64e
@@ -5147,6 +5185,70 @@ Section: Tweaks
 Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏
 Author: Muzi
 Name: 悬浮药丸独立版(rootless)
+
+Package: com.nan.deb
+Version: 0.3.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/deb-0.3.0-iphoneos-arm64e.deb
+Size: 4260
+MD5sum: 01da4bd69920757d94adaf2fcfebc8ee
+SHA1: b398d75478a7ef64d2c1ed6e18a3b8d9de649175
+SHA256: a4ab792400b7a63c6193eae143b2e51f9a81c420bdc617cbbcf7bcb8319120e9
+Section: Terminal_Support
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+
+Package: com.nan.deb
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/deb-0.3.0-iphoneos-arm64.deb
+Size: 4280
+MD5sum: 8d85747587fa2d3cb2733408bb0d28fd
+SHA1: eb2db2c14f4b615e001c2a957886deddedcd5638
+SHA256: b118565c12aa7257b0ab4c2b372e890586f84931ff0ea2aba059f74fec91a602
+Section: Terminal_Support
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+
+Package: com.nan.debd
+Version: 0.4.2
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: debs/debd-0.4.2-iphoneos-arm64.deb
+Size: 4788
+MD5sum: 6794b6824bf170390848517805cd1218
+SHA1: 4a05a247d21f109b92951d62dc7af18160ba6c10
+SHA256: e91ffbdfb1fb61f8300f1e239db55e312bbd0ad640efaf9f50d380a984872a25
+Section: Terminal_Support
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Author: zhaonan
+Name: debd
+
+Package: com.nan.debd
+Version: 0.4.2
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: debs/debd-0.4.2-iphoneos-arm64e.deb
+Size: 4764
+MD5sum: 8058cf876c153d1d1b8775e18b41c5f1
+SHA1: 04f96e514f3c34935a26dc784262220bbb1aa8c2
+SHA256: 1ff5350a748a52b3ea24a167b75056edfc943fabca42d540f241425ae3afc7ca
+Section: Terminal_Support
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Author: zhaonan
+Name: debd
 
 Package: com.ngkhoi.26home
 Version: 1.3.12-clear-top-highlight-control-zh-roothide
@@ -9110,6 +9212,41 @@ Description: cool！
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: CopylogX（wkk）
+
+Package: com.wkk.dndmyrecording
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/DNDMyRecording-1.3-iphoneos-arm64.deb
+Size: 7016
+MD5sum: 503b79e4d52be91fb33cd62ac5d0e4ea
+SHA1: c604286f396cda4324da6202b4c8f001181efd75
+SHA256: e3608f8287c57d6cd08a0a2ef22f5dddf8aa68d5c4aceaaf38d9428dfe46619c
+Section: Tweaks
+Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏！（录屏结束自动关闭）
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
+Name: DNDMyRecording
+
+Package: com.wkk.dndmyrecording
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/DNDMyRecording-1.3-iphoneos-arm64e.deb
+Size: 8172
+MD5sum: 8f6ce4f213a4b22970eb2361b9f1f3d0
+SHA1: 5fe990726f079a9c882a5892ddb5068561fe1468
+SHA256: 9bc0ca08f5085d057f9d33d47ea3178c0e1c685105e75c1fc7984561b8a8bd74
+Section: Tweaks
+Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏！（录屏结束自动关闭）
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
+Name: DNDMyRecording
 
 Package: com.wkk.installedpackages
 Version: 1.0-1
