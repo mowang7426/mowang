@@ -6358,6 +6358,23 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 Name: QuickLaunch
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
+Package: com.rain.rainback
+Version: 1.6.4-4+debug
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 1124
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.rain.rainback_1.6.4-4+debug_iphoneos-arm64.deb
+Size: 420530
+MD5sum: fde3ad8cc10149498a205b7a4e5b2bbb
+SHA1: 4b10fb170f58251de8c1763bbd0ab545203fcffe
+SHA256: 4978b04e971e5b7981d1eec73344591f0a90426382e2967bea68c78f0b1cff22
+Section: Tweaks
+Description: 从屏幕边缘或任意位置滑动返回上一页面，支持灵敏度调节、全屏手势、墨水扩散、光剑切割、动态触觉、自定义音效、黑白名单。
+Tag: role::hacker, purpose::extension
+Author: rain
+Name: rain的返回（免授权）
+
 Package: com.sbcpu.floating
 Version: 4.61
 Architecture: iphoneos-arm64
