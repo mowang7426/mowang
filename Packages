@@ -6818,6 +6818,86 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
 Author: kanuo
 Name: QuickLaunch
 
+Package: com.quicklaunch.tweak
+Version: 0.1.62
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 784
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.62-iphoneos-arm64e.deb
+Size: 253252
+MD5sum: eac18e60b38f2db6ceac88bb15040470
+SHA1: b6e54e746d95ac9756e5894145a8316ecb5bcf87
+SHA256: cdc2c8ae479a3dca7116b69ffe3554194de5a6c3e619a7b226e7a66593b95594
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Version: 0.1.62
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1424
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.62-iphoneos-arm64.deb
+Size: 422218
+MD5sum: c9444af568f0cd11a1580f457e97822b
+SHA1: bf7a65515fd5ed41ef248b2d0d5c5e42bb740910
+SHA256: 91eb82a3341f9f57980ecadf126552de750e4c2eca67acdc4fbdfd87e6f6bb99
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
 Package: com.rain.rainback
 Version: 1.6.4-4+debug
 Architecture: iphoneos-arm64
