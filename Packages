@@ -561,6 +561,81 @@ Icon: https://axs66.github.io/pro/icon/cpufree.png
 Name: CPU Free
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
+Package: com.axs.cpufree
+Version: 5.2.0-72
+Architecture: iphoneos-arm64
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/CPU Free-5.2.0-72-iphoneos-arm64.deb
+Size: 146792
+MD5sum: b336a51a8459a1656cf4a571bc856461
+SHA1: da0364b933d4e4be37fa3e63cee30bfc8ffb3539
+SHA256: 6aba040f381d2189aea33dafc73b0be79dc402de8b8e753e82babba1c220c926
+Section: Tweaks
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Name: CPU Free
+
+Package: com.axs.cpufree
+Version: 5.2.0-72
+Architecture: iphoneos-arm64e
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/CPU Free-5.2.0-72-iphoneos-arm64e.deb
+Size: 142248
+MD5sum: ea5fb57dc59e58ed7af5a5879ca8da16
+SHA1: 885992662c7b3a3719395f769ccf712c579032fc
+SHA256: 1135a7c796d00d949a04fc1163395162c3e4749f74ff6701132a4dc6d50828ca
+Section: Tweaks
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Name: CPU Free
+
 Package: com.axs.duostatus
 Version: 5.2.0-101
 Architecture: iphoneos-arm64
@@ -5690,6 +5765,44 @@ Section: Tweaks
 Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图录屏自动隐藏
 Author: Muzi
 Name: 悬浮药丸独立版(rootless)
+
+Package: com.muzi.mutool
+Version: 2.2.09
+Architecture: iphoneos-arm64
+Maintainer: Muzi
+Installed-Size: 4844
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/MUtool-2.2.09-iphoneos-arm64.deb
+Size: 753880
+MD5sum: dca62644ab86f439057bf2bc99de2d2e
+SHA1: e742376516ab278ee421c283848bd09acc82e7fc
+SHA256: 339ad55d6ab15165ffaa96bdc5b83c597737bfb1e2001ae0eccf0c75bab21477
+Section: Tweaks
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.10 修复：在 2.2.09 完全取消 CXCall 私有 KVC 的基础上，把 VoIP 录音功能进一步回退到 2.2.01 的可靠实现——CXCallObserver delegate 队列改回主线程队列，通话状态回调直接在主线程处理（只读 CXCall 公开属性），前台 App 名统一经 _MUCFrontmostAppName 获取，与 2.2.01 之前行为一致；同时保留录音列表三行布局、底栏遮挡修复与收藏页按钮隐藏等增强。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool(rootless)
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Version: 2.2.09
+Architecture: iphoneos-arm64e
+Maintainer: Muzi
+Installed-Size: 4812
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/MUtool-2.2.09-iphoneos-arm64e.deb
+Size: 751404
+MD5sum: b1b9d60112100ec205cc1896a890c1cd
+SHA1: 74331075ae5962677922305670d9a8ae9e62b295
+SHA256: 548eb99d62847230246b00040e3d230fc280328fd344aa89e337a250c9f18d3b
+Section: Tweaks
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.10 修复：在 2.2.09 完全取消 CXCall 私有 KVC 的基础上，把 VoIP 录音功能进一步回退到 2.2.01 的可靠实现——CXCallObserver delegate 队列改回主线程队列，通话状态回调直接在主线程处理（只读 CXCall 公开属性），前台 App 名统一经 _MUCFrontmostAppName 获取，与 2.2.01 之前行为一致；同时保留录音列表三行布局、底栏遮挡修复与收藏页按钮隐藏等增强。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool(roothide)
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
 Package: com.nan.deb
 Version: 0.3.0
