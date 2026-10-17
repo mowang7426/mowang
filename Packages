@@ -8816,6 +8816,44 @@ Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/ThemeCore.png
 Name: ThemeCore
 
+Package: com.taikulayyds.rotatefree
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Little 34306
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.34306.upsidedowned
+Replaces: com.34306.upsidedowned
+Filename: debs/com.taikulayyds.rotatefree_1.0.0_iphoneos-arm64e.deb
+Size: 51344
+MD5sum: 945b6236a551601c578ed57557c6c7d2
+SHA1: 1624c1c05b971da7744aeda7faeb78946d2255ff
+SHA256: 0b519104380f41552415e3ac67959fee101ee3127d2f5ecbe8ffcac9de27aa9c
+Section: Tweaks
+Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自由旋转。设置内可单独指定app或者锁屏/主屏幕状态。
+Author: 34306, KhanhDuyTran, taikulayyds
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
+Name: 旋转随心 · RotateFree
+
+Package: com.taikulayyds.rotatefree
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.34306.upsidedowned
+Replaces: com.34306.upsidedowned
+Filename: debs/com.taikulayyds.rotatefree_1.0.0_iphoneos-arm64.deb
+Size: 51408
+MD5sum: 4de94d2be1fc43af9b10dceabba10a56
+SHA1: 8fa8fd18944e1f7fa9983f32ada9d596328666ba
+SHA256: f1c21e2790cd9034355ead639218e10c3d72519d7b0814eb3d0b0a39dffa6f11
+Section: Tweaks
+Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自由旋转。设置内可单独指定app或者锁屏/主屏幕状态。
+Author: 34306, KhanhDuyTran, taikulayyds
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
+Name: 旋转随心 · RotateFree
+
 Package: com.tencent.themebox
 Version: 2.3.6
 Architecture: iphoneos-arm64
