@@ -2424,6 +2424,22 @@ Description: Mango分屏，小液微信液态美化，系统级真液态玻璃�
 Author: go
 Name: mango
 
+Package: com.gu.xianyupick
+Version: 1.9.1
+Architecture: iphoneos-arm
+Maintainer: 故
+Depends: mobilesubstrate
+Filename: debs/闲鱼捡漏-1.9.1-unlocked.deb
+Size: 153346
+MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
+SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
+SHA256: e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120
+Section: Tweaks
+Homepage: https://t.me/zakadeep_bot
+Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
+Author: 故
+Name: 闲鱼捡漏
+
 Package: com.hang.zzzj
 Version: 0.0.1-8
 Architecture: iphoneos-arm64e
@@ -11089,6 +11105,42 @@ Description: Customizable glass status bar capsules with weather, media, notific
 Author: Banana
 Name: Lunora
 
+Package: iya.banana.iphoneduoicon
+Version: 1.1.1~beta6
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 4620
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_1.1.1~beta6_iphoneos-arm64e.deb
+Size: 2084870
+MD5sum: e90516d7fd8e75e77b095b41bb61b62b
+SHA1: 494c7825ebfd9aaf8ae181225ce718da1275c4d2
+SHA256: 025991e3d606c8a6dd5d88c08f573c989088eff58960142d180d067aa7a4225f
+Section: Tweaks
+Description: 测试版已支持 15 系统，修复左侧胶囊开启卡顿问题，测试了请反馈
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.1.1~beta6
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 4620
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_1.1.1~beta6_iphoneos-arm64.deb
+Size: 2089302
+MD5sum: cd1db39bcfb174fd349680d6470d0f8d
+SHA1: c667b8855f19b56fff30ab700b72691a9c33560a
+SHA256: b81a003ffb8b8cb1be645f95b7e19404ce0b914029b3d56199c37e07f40ff10b
+Section: Tweaks
+Description: 测试版已支持 15 系统，修复左侧胶囊开启卡顿问题，测试了请反馈
+Author: Banana
+Name: Lunora
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64e
@@ -11939,6 +11991,38 @@ Depiction: https://lakr233.github.io/Irisin/
 Icon: https://lakr233.github.io/Irisin/icon.png
 Name: Irisin
 Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.writenow
+Version: 2.4
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.writenow_2.4_iphoneos-arm64e.deb
+Size: 2572380
+MD5sum: fefc988a4b26562f1975294728a4a5db
+SHA1: 4ddb4d4b8dcfd312b1c9b21a7c508ccdd221bd54
+SHA256: 6aac278ee54996693c8bb42be4c1b9eb60e20a74b04812e521c24e8aa0e71389
+Section: Tweaks
+Description: AI tool within your hands.
+Author: Lessica <82flex@gmail.com>
+Name: Write Now
+
+Package: wiki.qaq.writenow
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.writenow_2.4_iphoneos-arm64.deb
+Size: 2574454
+MD5sum: fef9f8ac34581710824673b30cf67afa
+SHA1: cdb7c74881064830a3de4bbdc3421a90e030d8cd
+SHA256: f34874c5656a954e05d206f4119377fd472d52b17badaadc7d14adb7b7aabb3a
+Section: Tweaks
+Description: AI tool within your hands.
+Author: Lessica <82flex@gmail.com>
+Name: Write Now
 
 Package: xyz.cypwn.remotecompanion
 Version: 2.0.0
