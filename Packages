@@ -3873,6 +3873,22 @@ Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver Plus
 
+Package: com.hx.120
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.hx.120_2.2_iphoneos-arm64e.deb
+Size: 6020
+MD5sum: f8cdf665bf45e46a18f377da3d456b1c
+SHA1: 4d49b0a1f54f82b6f81809fdaf5bdabe584970ce
+SHA256: 9cc469193bf5e8f5b73fbf21ce4f0c2d2036dbccc6e7040f9dd56f1f79c797fb
+Section: Tweaks
+Description: 满血120赫兹、qq172942805
+Author: 半生年华
+Name: MotionX
+
 Package: com.iosdump.customccbg
 Version: 0.0.1
 Architecture: iphoneos-arm64
