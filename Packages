@@ -11198,6 +11198,44 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Name: 闲鱼助手
 
+Package: im.mjh.xianyuadblock
+Version: 3.2.0
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手-3.2.0-iphoneos-arm64.deb
+Size: 566448
+MD5sum: 8671fd7a7ec0e65f8f8e9f563100ed79
+SHA1: 062b20ad7e43637ac7f92d4c38a10da94f89e2ce
+SHA256: 9b3f322c0daead3f4c4312c30cfa852c737a28746f1a0137ddde939e284a4774
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手-3.2.0-iphoneos-arm64e.deb
+Size: 563168
+MD5sum: 4dc97328f2c1a3fe780a67a4478ef540
+SHA1: d55fbdabf2a1446ff702aefcda2646788c4ecdd1
+SHA256: d36422cfbdc8ee2b83970532412af3b65c5e42394967c13fcd63e4a642c384d6
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
 Package: iya.banana.billie.ambientbadge
 Version: 0.1.15
 Architecture: iphoneos-arm64e
@@ -11261,6 +11299,38 @@ Section: Tweaks
 Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
 Author: hades
 Name: DarkIcon
+
+Package: iya.banana.iphoneduoflow
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/DuoFlow-0.1.0-iphoneos-arm64e.deb
+Size: 134190
+MD5sum: 7c02b3e700f9546b92332945b4175ab6
+SHA1: 70581e67ebccb64565285b5dbc6821667616d832
+SHA256: 092aa43f71b0e31f29754ff76f05e95403c7ed169782f3c04188d4a83580d4fa
+Section: Tweaks
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Author: Banana
+Name: DuoFlow
+
+Package: iya.banana.iphoneduoflow
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 1352
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/DuoFlow-0.1.0-iphoneos-arm64.deb
+Size: 134322
+MD5sum: 7a5e9f1b551e22f12b0de9523e232115
+SHA1: 5bb43c8db7ef05d4bec81ddbaafd1be42226075a
+SHA256: f6993a66e2d90609e5d2130715fdbf6758620d621feba47305486a0f0d71bdbd
+Section: Tweaks
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Author: Banana
+Name: DuoFlow
 
 Package: iya.banana.iphoneduoicon
 Version: 0.1.13
