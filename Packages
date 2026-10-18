@@ -192,6 +192,26 @@ Author: 刀哥
 Name: 乌贼手势隐根（免授权）
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: cn.therm120
+Version: 6.6.6-2
+Architecture: iphoneos-arm64e
+Maintainer: haoge
+Installed-Size: 316
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Provides: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-2_iphoneos-arm64e.deb
+Size: 69840
+MD5sum: f2a97ac5e026fd020ef672a3182e2ba1
+SHA1: 728d5b702eab6e77bc380eba2824e8ef788055cf
+SHA256: bde236f7611d049121a92e79cb01ac0768e5e3e577955d61491662a66464a0cf
+Section: Tweaks
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+Name: 稳帧温控120
+
 Package: cn.zqbb.hello.gradientsound
 Version: 0.0.1
 Architecture: iphoneos-arm64
