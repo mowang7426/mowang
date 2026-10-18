@@ -3396,6 +3396,42 @@ Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 Name: DYKiller
 
+Package: com.hierarch.dykiller
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: hierarch
+Installed-Size: 2476
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller_0.6.3_iphoneos-arm64_a25fcbf958ad10d9.deb
+Size: 597680
+MD5sum: eeb6bd90649813375d53914b03be613b
+SHA1: 37ffa33088dfc57ccbb60ebc41e3f4d645976990
+SHA256: 3f714f495346a2c4195947e12ea313e9e57e88e48750570d3348458cbb664830
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
+Package: com.hierarch.dykiller
+Version: 0.6.3
+Architecture: iphoneos-arm64e
+Maintainer: hierarch
+Installed-Size: 2476
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller_0.6.3_iphoneos-arm64e_87528d513a5825a0.deb
+Size: 597696
+MD5sum: 14d7734fb930aa0c6446e02dda9f77b8
+SHA1: 2c66265488def32ab2315627ce212928f3f88ff6
+SHA256: 207c2797db9061b74931e33c5de0414b7b351b8fde83e4c53a5de9d4d3e50b5a
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
 Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64e
@@ -6343,6 +6379,44 @@ Author: muzikeji <muzi@local>
 Icon: layout/Library/PreferenceLoader/Preferences/DuoStatusBarPrefs.plist
 Name: Duo 状态栏
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.duostatusbar
+
+Package: com.muzi.keyboardx
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: Muzi
+Installed-Size: 7188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/KeyboardX_1.0.9_iphoneos-arm64e_b96874ae5f5d3951.deb
+Size: 1795164
+MD5sum: 6aa99ced477cac34985ecb5469418aaa
+SHA1: 7af68e89f3e5d48982255a0ed16a8bcc763baa3b
+SHA256: b29c4e58e33560a8de033bbacb3e155bb9584b5a50c6a0da53a01ec6cd0bb993
+Section: Tweaks
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Author: Muzi
+Icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Name: KeyboardX
+
+Package: com.muzi.keyboardx
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: Muzi
+Installed-Size: 7236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/KeyboardX_1.0.9_iphoneos-arm64_be5bec0761831734.deb
+Size: 1802540
+MD5sum: 345a8dd30f287f15530472b092152de2
+SHA1: 9ef5ca0c8953812e358dd52230d3fa531a3f8ea1
+SHA256: b0eed646615308a35d3fa9a2e881dd93195cdd4144919038d209c77d982b320a
+Section: Tweaks
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Author: Muzi
+Icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Name: KeyboardX
 
 Package: com.muzi.mupill
 Version: 1.0.11
@@ -10867,6 +10941,40 @@ Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Name: Liquid (Gl)ass 27（rootless 测试）
+
+Package: danmutool
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/_____________2.0.0_iphoneos-arm64e_f6bb90528d7cd37d.deb
+Size: 312376
+MD5sum: 2aa2a328f1a642f6f9f4bca72f583128
+SHA1: c32ffe3b7c8ad40dc2f14a0c9b52bbcd2a5e961d
+SHA256: 24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong
+Icon: https://huayuarc.github.io/icon/danmutool.jpg
+Name: 弹幕助手
+
+Package: danmutool
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 952
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/_____________2.0.0_iphoneos-arm64_f1131919444406d0.deb
+Size: 309132
+MD5sum: 5022dc593b82be6ad8cbceda0a19981e
+SHA1: c0ab92ca0037ef11622e267bdd04044bcb29589c
+SHA256: 196acc5efa03e2f5f5c098e2eca6cab6ecd3d3bb69e922d77bf7999a05d69501
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong
+Icon: https://huayuarc.github.io/icon/danmutool.jpg
+Name: 弹幕助手
 
 Package: dylv.deepliquid
 Version: 0.1.93b
