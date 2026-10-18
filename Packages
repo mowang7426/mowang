@@ -6165,6 +6165,40 @@ Name: Duo 状态栏
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.duostatusbar
 
 Package: com.muzi.mupill
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: Muzi
+Installed-Size: 1388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutool
+Filename: debs/悬浮药丸独立版(roothide)-1.0.11-iphoneos-arm64e.deb
+Size: 270576
+MD5sum: 4bd0c3d7ae4f0df46dcd12d13063e9bd
+SHA1: c6287270f06b6528307d436768c6c560f10e8cb6
+SHA256: 511d54bb7d00f417c3f37de4338eddf257d93013c4a116a1eb073c89c2bee727
+Section: Tweaks
+Description: 桌面悬浮信息药丸独立版：最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量），Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏。1.0.11：纯文字/去边框样式的文字反色完全改用 Helium 方案——移除旧的 0.05s 高频截图采样（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。
+Author: Muzi
+Name: 悬浮药丸独立版(roothide)
+
+Package: com.muzi.mupill
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: Muzi
+Installed-Size: 1404
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutool
+Filename: debs/悬浮药丸独立版(rootless)-1.0.11-iphoneos-arm64.deb
+Size: 275536
+MD5sum: 3d087ec8a64e2cd6b92f1c4bad214af7
+SHA1: b6d602d2a38b06c4c1ce00709a570d05939c2323
+SHA256: ba095dfac4a1ff45516723f4817497183e4c9174c45b3ec9573998d9a2b01638
+Section: Tweaks
+Description: 桌面悬浮信息药丸独立版：最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量），Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏。1.0.11：纯文字/去边框样式的文字反色完全改用 Helium 方案——移除旧的 0.05s 高频截图采样（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。
+Author: Muzi
+Name: 悬浮药丸独立版(rootless)
+
+Package: com.muzi.mupill
 Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: Muzi
@@ -7503,6 +7537,108 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
 Author: kanuo
 Name: QuickLaunch
+
+Package: com.quicklaunch.tweak
+Version: 0.1.72
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 2020
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.72-iphoneos-arm64.deb
+Size: 631988
+MD5sum: a58c831785aa4bf83e04025cf1e03eba
+SHA1: df259d50e5cd00c42d6fc1bfad5c9e23729f1958
+SHA256: 913783add3d1f1e14807bae16ccfd964f581d6ad6b576fd59deffec991d176c9
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
+Package: com.quicklaunch.tweak
+Version: 0.1.72
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1092
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/QuickLaunch-0.1.72-iphoneos-arm64e.deb
+Size: 365294
+MD5sum: e55a662bfee988f60d36b097f07e560f
+SHA1: 74996b2eef4489819b2caa1262ce457061795a11
+SHA256: d178b2cf50c7264dbc43d1e83360b6e346c24228831a8de7afaa805d23186df9
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+Name: QuickLaunch
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.rain.rainback
 Version: 1.6.4-4+debug
