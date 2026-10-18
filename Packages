@@ -192,6 +192,74 @@ Author: 刀哥
 Name: 乌贼手势隐根（免授权）
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: cn.zqbb.hello.gradientsound
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Hello GradientSound-0.0.1-iphoneos-arm64.deb
+Size: 5964
+MD5sum: bb079496cceb99785ab097c7d9afe26b
+SHA1: 6be5a857d3462afefdbf34d8e9b4712e6bf3c3f7
+SHA256: 34be3a2c24688837f5a2bcfe70c12f2dcd5322b3502ca038c49b5bfe7f79f6a2
+Section: Tweaks
+Description: 为时钟 App 的计时器响铃和铃声试听添加平滑渐强效果，从低音量开始，在铃声前半段逐渐提升至正常音量。
+Author: zqbb
+Icon: https://huayuarc.github.io/icon/gradientsound.jpg
+Name: Hello GradientSound
+
+Package: cn.zqbb.hello.gradientsound
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Hello GradientSound-0.0.1-iphoneos-arm64e.deb
+Size: 5912
+MD5sum: e4b01e835492a979fb9d2a787915dbbd
+SHA1: 7c4ded85139878c22cbfc786100db466bed58b59
+SHA256: 57ac26c8e23739ae26063f28139236fabe64e94fdbfa65c52308cc8b42e5fd45
+Section: Tweaks
+Description: 为时钟 App 的计时器响铃和铃声试听添加平滑渐强效果，从低音量开始，在铃声前半段逐渐提升至正常音量。
+Author: zqbb
+Icon: https://huayuarc.github.io/icon/gradientsound.jpg
+Name: Hello GradientSound
+
+Package: com.25mao.kuaipanel3
+Version: 3.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Mao
+Installed-Size: 8760
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/快捷面板-3.1-1-iphoneos-arm64e.deb
+Size: 2383884
+MD5sum: b89cf7970349abdfc87521b97b346b36
+SHA1: 9a118d7fef4466c45d38211bc215b43c665b67c4
+SHA256: aa8cf71490ebe99f41f227f06dfc5243f7e6b522afab0ebe7312daf4eb9274e3
+Section: Tweaks
+Description: 快捷面板重构版
+Author: Mao
+Icon: https://huayuarc.github.io/icon/kuaipanel3.png
+Name: 快捷面板
+
+Package: com.25mao.kuaipanel3
+Version: 3.1-1
+Architecture: iphoneos-arm64
+Maintainer: Mao
+Installed-Size: 8648
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/快捷面板-3.1-1-iphoneos-arm64.deb
+Size: 2385564
+MD5sum: 34b70d61e55315519cd7ecad96e0fb08
+SHA1: bc63d9a50b566d251b63156ab143be4f8a237dad
+SHA256: b7ddcb57b131c8a1d087750e35e747e93d0893130ef15d9ec0969e9d218c0349
+Section: Tweaks
+Description: 快捷面板重构版
+Author: Mao
+Icon: https://huayuarc.github.io/icon/kuaipanel3.png
+Name: 快捷面板
+
 Package: com.Axs.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64
@@ -2904,6 +2972,78 @@ Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系�
 Author: hang
 Name: 转转找机-Roothide
 
+Package: com.hierarch.dykiller
+Version: 0.6.2
+Architecture: iphoneos-arm64
+Maintainer: hierarch
+Installed-Size: 2428
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller-0.6.2-iphoneos-arm64.deb
+Size: 590016
+MD5sum: 4049c1bee965df243866b8c5134f130e
+SHA1: 1b07364b5be33686c1e6e33b59d14ce660c2f478
+SHA256: 2dca90723106b00c6f5319073dbb2694254c8588f0bbb66440c41696e0781fc6
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
+Package: com.hierarch.dykiller
+Version: 0.6.2
+Architecture: iphoneos-arm64e
+Maintainer: hierarch
+Installed-Size: 2428
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller-0.6.2-iphoneos-arm64e.deb
+Size: 589760
+MD5sum: 51b73d021fd472673b4b35ba6b78ccf5
+SHA1: 8ea546eb40684c26b726da1ae4fb4901d44d1e80
+SHA256: 3fa9265d120bee61425ad56095b49c39059c149b3c1731e0cd18ea7ac720f9b3
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 3372
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/DYYY-2.3-0-iphoneos-arm64e.deb
+Size: 747276
+MD5sum: 7025161b29f610730b5ac8b2da8629ec
+SHA1: 31cf00736d3fb2a0791d033ce16724f40e3d4543
+SHA256: 068d5da73df5d4b91e611ea445457178c17086a62aee075a4e3581d7d9d17ea0
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目前在维护持续更新的版本，抖音插件
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 3372
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/DYYY-2.3-0-iphoneos-arm64.deb
+Size: 745236
+MD5sum: ab217f8e9101a9ce5c56f7384c2d6c64
+SHA1: c598ace37451781cf9488cf548f853151a99743f
+SHA256: f52b382106ea20249c2be49f1706b9e6d0f72b2b01070f698308c168f6bcf9e4
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目前在维护持续更新的版本，抖音插件
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYYY
+
 Package: com.huayuarc.cputhermal
 Version: 1.6.2-103
 Architecture: iphoneos-arm64
@@ -5501,6 +5641,41 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.monian.b612patch
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Monian
+Installed-Size: 2964
+Depends: mobilesubstrate
+Filename: debs/B612 Unlocked VIP-0.0.1-iphoneos-arm64.deb
+Size: 74188
+MD5sum: ebb485c9bf17fbd405a28a746865007d
+SHA1: 39a8520c9ce689308d18499ad164f63d6683e96b
+SHA256: 168009fae95490ef0b81df6e547252bdcc569670355b02a90544322fcef155cc
+Section: Tweaks
+Description: B612 Unlocked VIP
+Author: Monian
+Icon: https://huayuarc.github.io/icon/b612.jpg
+Name: B612 Unlocked VIP
+
+Package: com.monian.b612patch
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Monian
+Installed-Size: 2964
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/B612 Unlocked VIP-0.0.1-iphoneos-arm64e.deb
+Size: 72612
+MD5sum: 0a7855a04c151415d4abe4350039c4a3
+SHA1: 0f3335f90cd6fe72a71e623982de176b40d62ee8
+SHA256: 356c3691dc6920aaa50a476c6547ed6ba5faa14d2ecacd2004e50a5b433f00e4
+Section: Tweaks
+Description: B612 Unlocked VIP
+Author: Monian
+Icon: https://huayuarc.github.io/icon/b612.jpg
+Name: B612 Unlocked VIP
+
 Package: com.mowang.crashanalyzer
 Version: 1.1.5
 Architecture: iphoneos-arm64e
@@ -6087,10 +6262,40 @@ Name: Stheno奥利奥分屏
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/TrollStoreLite_2.1.1_RootHide_iphoneos-arm64e.deb
+Size: 3685026
+MD5sum: 9d99f92ae744d4220e303bb8e6aed41f
+SHA1: 906cd9caaf8c5a88e723d3171077ad179db59233
+SHA256: 13665cdbd99c60597a25ffae6a72aa6f9a0c9f73a727d50818d697a31e4e23b2
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite (RootHide)
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: opa334
 Installed-Size: 11424
 Filename: debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64.deb
+Size: 3684976
+MD5sum: 44b9e0a418757ccf0c2f5bb30abb8442
+SHA1: bd9c0bb270b68af827bf11136dcc3d141153f968
+SHA256: 264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/TrollStoreLite_2.1.1_rootless_iphoneos-arm64.deb
 Size: 3684976
 MD5sum: 44b9e0a418757ccf0c2f5bb30abb8442
 SHA1: bd9c0bb270b68af827bf11136dcc3d141153f968
@@ -10865,6 +11070,42 @@ Section: Tweaks
 Description: Confirm or block cross-app launch requests on RootHide iOS.
 Author: hades
 Name: JumpGuard
+
+Package: iya.banana.springboardaction
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 588
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/SpringBoardAction-1.0.0-iphoneos-arm64e.deb
+Size: 78516
+MD5sum: 9bc412beebde31399a265750f187851a
+SHA1: 83af6d8d4aeff44f367bf5524f8f7e3854eeac96
+SHA256: acc4af51acec414ff7c2a8442409555ab4198bfe40f5a8409074fd5813e5961d
+Section: Tweaks
+Description: 适用于iOS 16-18的自定义锁定屏幕快速操作、应用程序和快捷方式。Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/springboardaction.png
+Name: SpringBoardAction
+
+Package: iya.banana.springboardaction
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 608
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/SpringBoardAction-1.0.0-iphoneos-arm64.deb
+Size: 80868
+MD5sum: 778d94eac21c834b68fe1c43c5abda8b
+SHA1: 9a77d3f7d9c014902c9a29fcc74de8afccbd8971
+SHA256: 62471ca9452f2961b0098d7dcc3d2ae783b16d9651278f17467c896ad6dfff37
+Section: Tweaks
+Description: 适用于iOS 16-18的自定义锁定屏幕快速操作、应用程序和快捷方式。Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/springboardaction.png
+Name: SpringBoardAction
 
 Package: iya.iapple.siri
 Version: 1.1.3
