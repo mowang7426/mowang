@@ -11421,6 +11421,38 @@ Description: Confirm or block cross-app launch requests on RootHide iOS.
 Author: hades
 Name: JumpGuard
 
+Package: iya.banana.multitask
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 1940
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)-0.1.0-iphoneos-arm64.deb
+Size: 294196
+MD5sum: 94aae23492026258ce6aeb1600b779cd
+SHA1: c609b0e993d3bc251f07b1b4048773bd363d2816
+SHA256: 2d10c577598700f7f1e05f8636f0d5b3527b9aa1161fee80cdc9d3fd73950806
+Section: Tweaks
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Name: 一芽分屏 (Iya Split)
+
+Package: iya.banana.multitask
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 1924
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)-0.1.0-iphoneos-arm64e.deb
+Size: 293158
+MD5sum: 4e22f30b927d4f87e5bbce988cc4ce1f
+SHA1: 7ddd0a90a10da6ba7c85c50852da445e22c03607
+SHA256: b0a5edd5b714ec29f32c1fc055bb332da8ff9d8b5b4c19b3b08fe39a1234c9ac
+Section: Tweaks
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Name: 一芽分屏 (Iya Split)
+
 Package: iya.banana.springboardaction
 Version: 1.0.0
 Architecture: iphoneos-arm64e
