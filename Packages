@@ -11464,6 +11464,48 @@ Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
 Name: DuoStatusRing
 Sileodepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
 
+Package: wiki.qaq.duostatusring
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 328
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/DuoStatusRing-1.0.1-iphoneos-arm64.deb
+Size: 63812
+MD5sum: b6dc2b05bbceb183364908a42eb6f3c3
+SHA1: 903e84041da23523e55b38aeb7286af29658c72c
+SHA256: 0535b7f19d0e4073a5740d285c27c3fdef44360dd5ee48c482aa8afb72e1f09e
+Section: Tweaks
+Priority: optional
+Description: Fold the status bar into a ring when the Dynamic Island splits.
+ When the Dynamic Island shows two activities side by side, the signal, Wi-Fi and battery icons fold into a ring beside the bubble, and unfold when the island becomes one again. No settings.
+Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+Depiction: https://owngoal-dev.github.io/DuoStatusRing/
+Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
+Name: DuoStatusRing
+Sileodepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
+
+Package: wiki.qaq.duostatusring
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 168
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/DuoStatusRing-1.0.1-iphoneos-arm64e.deb
+Size: 44876
+MD5sum: 9d5af69b09828411b9b805b3c41a89ad
+SHA1: 16e0062c46c9df8ce94d2c956180253adad87a25
+SHA256: 26593d078cda70a28fbc7157dd1bd8499c75346766f486df3628c20a80f637a6
+Section: Tweaks
+Priority: optional
+Description: Fold the status bar into a ring when the Dynamic Island splits.
+ When the Dynamic Island shows two activities side by side, the signal, Wi-Fi and battery icons fold into a ring beside the bubble, and unfold when the island becomes one again. No settings.
+Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+Depiction: https://owngoal-dev.github.io/DuoStatusRing/
+Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
+Name: DuoStatusRing
+Sileodepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
+
 Package: wiki.qaq.inspector
 Version: 0.6.3
 Architecture: iphoneos-arm64
@@ -12299,6 +12341,58 @@ Size: 5096820
 MD5sum: ed2c3950c31f5ce6b522e363244949fb
 SHA1: 008d1c4268d07c6398ca804d27a6a19c05517fef
 SHA256: 118c62245687c685d7464527b1d09332026175831747501ffe3bcb2bdfe16c4e
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.7.2
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17732
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin-4.7.2-iphoneos-arm64e.deb
+Size: 5102640
+MD5sum: e6e289f57380a3c8e73850cccd827da0
+SHA1: 5dd09484bda51ea7d414df32fc4f83bd34185717
+SHA256: 5c2f4a38bd20ed1e0bc0c0c944682d731a88fd2579038de14d83988ff04cde50
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.7.2
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17732
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin-4.7.2-iphoneos-arm64.deb
+Size: 5102052
+MD5sum: ac2432235600dc724a2b8d6bfe4707c7
+SHA1: 07af9f83374f1bb6c214e02497a280692494c747
+SHA256: 7ba8658ab8698544383d4b5199730e0a983847e16b844f081aa555e3d03e8031
 Section: Applications
 Priority: optional
 Homepage: https://github.com/Lakr233/Irisin
