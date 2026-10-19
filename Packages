@@ -2833,6 +2833,24 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.crctdd.choicy-whitelist
+Version: 1.5.4-5
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 648
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Filename: debs/Choicy-Whitelist_1.5.4-5_iphoneos-arm64e.deb
+Size: 131518
+MD5sum: da41a506d72db21b2dc18e6b656941ad
+SHA1: 08497aaa39e3056219b1293c5bbdf9dfaa797ff7
+SHA256: 7337debf77a731cffe2446d5fa4d6a839102a7d518cc7b412997f661ff9eb691
+Section: Tweaks
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Author: crctdd
+Name: Choicy-Whitelist
+
 Package: com.crctdd.cranedd
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -10555,6 +10573,21 @@ Author: TIGI Software
 Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 Name: Filza 文件管理器
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+
+Package: com.tsangbaby.autoscroll
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Installed-Size: 56
+Depends: mobilesubstrate
+Filename: debs/AutoScroll-0.0.1-iphoneos-arm64e.deb
+Size: 2590
+MD5sum: 41740244260e665e939336b264dd93c1
+SHA1: 967c6e7ef71ae5f46287cc02fbc30c04ecb81e5f
+SHA256: cfb4588257119629e7ddab3dd9882a4472b76361b087ae9b171f74f31dd6b6db
+Description: AutoScroll scroll behavior tweak for RootHide.
+Author: Tsangbaby
+Name: AutoScroll
 
 Package: com.tsangbaby.kayoko
 Version: 4.8
