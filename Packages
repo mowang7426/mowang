@@ -232,6 +232,26 @@ Author: haoge
 Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
 Name: 稳帧温控120
 
+Package: cn.therm120
+Version: 6.6.6-6
+Architecture: iphoneos-arm64e
+Maintainer: haoge
+Installed-Size: 320
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Provides: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-6_iphoneos-arm64e.deb
+Size: 70214
+MD5sum: 61e181422470ba748a6fb1510a86e305
+SHA1: beaae808057ae52a70c23cd676e6ed3abdb8fb24
+SHA256: b648f20e6754e07e95ba7b2dd9fb68c38c8c0ff10c877ea67f7f3a0ca1d9de52
+Section: Tweaks
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+Name: 稳帧温控120
+
 Package: cn.zqbb.hello.gradientsound
 Version: 0.0.1
 Architecture: iphoneos-arm64
