@@ -10581,6 +10581,65 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 Name: split view pro-ios17优化版
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
 
+Package: com.sunshinesong.split-view-pro
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Filename: debs/com.sunshinesong.split-view-pro_2.1.0_iphoneos-arm64e.deb
+Size: 2553712
+MD5sum: 4bcd2dd6b19a16ef4f01fa6da3bdaf84
+SHA1: e8515453d2df3d3683f556fcb6a6520a0d827259
+SHA256: ebf29c65d072f623c48eafb7d6eda3ddac022b937bb85f756bdc43df452ca730
+Section: Tweaks
+Description: iOS 17 隐根（RootHide）优化版的真分屏插件，把任意 App 塞进可选大小的浮窗，
+ 同时开多个窗口、边看视频边聊天、边看文档边回消息。
+  .
+  【核心功能】
+  - 真浮窗分屏：任意 App 在独立浮窗中运行，可拖动、缩放、圆角可调
+  - 三屏模式：主窗口 + 左右两个小窗同时运行，配合自带 arc 环形菜单呼出
+  - arc 环形菜单：从屏幕角落滑出，1->4 层同心环，按钮大小与弧半径可调，
+    支持震动反馈、触控音效、松手收回
+  - 控制台：可排序的 App 工具栏，关闭时可选择是否一并关闭小窗应用
+  - 浮窗增强：极简模式、自动钉住、图钉位置（横/竖屏分别设置）、
+    竖屏浮窗固定在屏中心、横屏键盘弹起时放大浮窗
+  - 桌面唤起：开启后从桌面图标直接唤起对应 App 的浮窗
+  - 手势快捷：可选择手势快速呼出浮窗，摇晃手机打开分屏
+  - 悬浮图标：图标阴影与悬停透明度可调，已打开 App 可设为浮窗打开
+  .
+  【iOS 17 隐根适配】
+  - 主插件、键盘窗口、媒体、设置、UI 与兼容库共 7 个组件全部 arm64 + arm64e 双架构
+  - .roothidepatch 隐根重定向链接完整，适合 RootHide（Dopamine 2 / roothide 越狱）
+  - 键盘弹出时应用画面进入独立整屏窗口，键盘保持原生宽度与触摸区域，
+    收回后恢复原窗口几何；输入期间隐藏角落图标
+  - 浮窗尺寸记忆：按模式、横竖屏分别保存，重开浮窗后自动恢复上次大小
+  - 左上角 App 图标：轻点进入全屏，全屏中轻点同一图标返回分屏
+  - 长按左上角图标约 0.5 秒，把画面旋转 90 度移入顶部音乐区域
+  - 保留启动保护与设置刷新保护，覆盖安装不清除已保存配置与浮窗尺寸
+  .
+  【2.1.0 重点】
+  - 键盘收起还原提速：直接订阅正在输入的 App 回报，优先处理它的 WillHide
+  - 应用回报绝对结束时间，迟到的 Hide 只用剩余时间，不再播放完整缩窗动画
+  - 还原动画改缓出曲线，兜底时长不超过 0.22 秒；完成即清理保护与触摸接管
+  - 漏发 Hide 时编辑结束确认从 100ms 缩到 32ms，避免切换编辑器时误退出
+  .
+  【安装说明】
+  - 使用 RootHide 包管理器（Sileo / Zebra）覆盖安装，装完按提示注销一次
+  - 注销后请彻底退出并重开要用来分屏的 App，让 App 端组件加载新代码
+  - 设置路径：设置 > split-view-pro；开启开关后部分功能需注销才生效
+  - 需要 rootless-compat（rootless 兼容层），已随越狱环境提供
+  .
+  【已知限制】
+  - 本版为 iOS 17 适配分支，仅测试到 iOS 17 隐根环境；其他系统版本未验证
+  - 第三方输入法与自绘视频播放器的方向识别可能不准，需真机实测
+  - 与原版 Split View Pro 及第三方改版（cypwn / jtis / tqm-mos / bvn）冲突，需先卸载
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
+Name: split view pro-ios17优化版
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
+
 Package: com.susudear.themecore
 Version: 0.3
 Architecture: iphoneos-arm64e
