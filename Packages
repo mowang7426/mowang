@@ -6267,6 +6267,21 @@ Description: 微信输入法 3.5.5/743 全键盘上下滑动切换中英文（ro
 Author: 小菜
 Name: 微信输入法滑动切换
 
+Package: com.minis.wxscanrouter
+Version: 0.1.0-3+debug
+Architecture: iphoneos-arm64
+Maintainer: Minis
+Installed-Size: 84
+Depends: firmware (>= 17.0), ellekit
+Filename: debs/com.minis.wxscanrouter_0.1.0-3+debug_iphoneos-arm64.deb
+Size: 13710
+MD5sum: 3e4a8b988455538c051e7d68813f54df
+SHA1: 0b6b393580a469491eacd315c2e6d57040ff68b0
+SHA256: 1d2705825eef3ae8b2f3692c5c470b967930069dce20e893f7860483186d8ce7
+Section: Tweaks
+Author: Minis
+Name: 微信扫码直达
+
 Package: com.mlgm.actra
 Version: 1.0
 Architecture: iphoneos-arm64e
