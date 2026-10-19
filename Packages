@@ -13118,6 +13118,26 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Name: Irisin
 Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
 
+Package: wiki.qaq.umbra.patcher
+Version: 3.0-1
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/wiki.qaq.umbra.patcher_3.0-1_iphoneos-arm64e.deb
+Size: 880254
+MD5sum: 50a10c6c48bc0caec493772308476722
+SHA1: e3099c8b45deafa2343fd43688fc7c4a7abfe218
+SHA256: 078755b71225cd67dfb5948a863c10699b10b0d646482faea66213aa1d650fd4
+Section: Utilities
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Name: Umbra Patcher
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
 Package: wiki.qaq.writenow
 Version: 2.4
 Architecture: iphoneos-arm64e
