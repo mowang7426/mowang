@@ -4982,6 +4982,46 @@ Depiction: https://chariz.com/get/adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Name: Adytum
 
+Package: com.kernelrw.adytum
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2748
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/Adytum_3.0_iphoneos-arm_b40bb8e8ea1de9ff.deb
+Size: 291720
+MD5sum: 249ef5c29609ad8d53435be30e3c9c69
+SHA1: fe6063afc038a7ebc253a504243ceae5c16072fd
+SHA256: ba1512be81f09260a22e27b1acab4838ccedf98490cbb56e6a4a17b34710ffb3
+Section: Tweaks
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Depiction: https://chariz.com/get/adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Name: Adytum
+
+Package: com.kernelrw.adytum
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2757
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Filename: debs/Adytum_3.0_iphoneos-arm64_13df4763fe116f3e.deb
+Size: 294470
+MD5sum: 9133c0dc222eb71ec343dd145accb965
+SHA1: 30b4b62347d31f7411e86f51e64da128209ad2df
+SHA256: aad851beb95943de90790acb5fbb84cfa41cff127440bec29389110f9cabe36d
+Section: Tweaks
+Description: True application backgrounding management.
+Tag: compatible_min::ios15.0
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Depiction: https://chariz.com/get/adytum
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Name: Adytum
+
 Package: com.layii.ccrnd
 Version: 0.1.0
 Architecture: iphoneos-arm64e
