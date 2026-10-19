@@ -3343,6 +3343,40 @@ Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机�
 Author: 故
 Name: 闲鱼捡漏
 
+Package: com.hang.keyboardeffects
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/_____________1.2_iphoneos-arm64e_8ee0a8aeae4e21cf.deb
+Size: 125772
+MD5sum: 72c9abe1d7c6a2e3da7bbf6f382d9394
+SHA1: 924456d5b59f63aa177758ae7e5f423d764a9c02
+SHA256: 63bd0514d015ebf71325c02210ebe06400ec333f0e63ab84df18ff0bfb938062
+Section: Tweaks
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Author: 航
+Icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Name: 键盘特效
+
+Package: com.hang.keyboardeffects
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/_____________1.2_iphoneos-arm64_ccbb46da038c1d82.deb
+Size: 125584
+MD5sum: 6db11903126809e41388714a55e875a5
+SHA1: ef53786715032a1f0a786e6c28faf1d6c2871d5f
+SHA256: 48b79b33827db3df13f765f8fd6786e8c13d7a09235ec4fc1ed24f59296b2c62
+Section: Tweaks
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Author: 航
+Icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Name: 键盘特效
+
 Package: com.hang.zzzj
 Version: 0.0.1-8
 Architecture: iphoneos-arm64e
@@ -4477,6 +4511,40 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Author: iosdump
 Name: Zone
 
+Package: com.iosrxwy.vvebofix
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/VVeboFix_1.0.1_iphoneos-arm64e_2811d73965e1ba87.deb
+Size: 49632
+MD5sum: f4a6de6546d9590875d97a51375e1d7e
+SHA1: 00f6c5563fe8ca0e76612ed6f5b633562d089bcc
+SHA256: f3d0ff6b556b02969884626bda7d56d4587d5e7062d0346d0326a5287687cfec
+Section: Tweaks
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Author: iosrxwy
+Icon: https://huayuarc.github.io/icon/vvebo.jpg
+Name: VVeboFix
+
+Package: com.iosrxwy.vvebofix
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/VVeboFix_1.0.1_iphoneos-arm64_83fffc2eb529916a.deb
+Size: 49680
+MD5sum: 3835368a624dfb83afc76681e94b6596
+SHA1: 22f2b68d62c8760eac7dec6b147b33427ff6933b
+SHA256: 143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29
+Section: Tweaks
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Author: iosrxwy
+Icon: https://huayuarc.github.io/icon/vvebo.jpg
+Name: VVeboFix
+
 Package: com.iosrxwy.weibonoads
 Version: 1.1-12
 Architecture: iphoneos-arm64
@@ -4492,6 +4560,40 @@ Section: Tweaks
 Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
 Author: iosrxwy
 Name: WeiboNoAds
+
+Package: com.iosrxwy.weibonoads
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/_______NoAds_1.2.4_iphoneos-arm64_2c40ca783ae5591d.deb
+Size: 107076
+MD5sum: b5776ca02f72fdd79425b4aac0d4e2a5
+SHA1: 2916846ec83f810dab041138f2c816a0eadbaf2b
+SHA256: 97f61e1f567fe098739b97417166d6b5e60e0d7e472895a3c196bbf561d99758
+Section: Tweaks
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Author: iosrxwy
+Icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Name: 微博 NoAds
+
+Package: com.iosrxwy.weibonoads
+Version: 1.2.4
+Architecture: iphoneos-arm64e
+Maintainer: iosrxwy
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/_______NoAds_1.2.4_iphoneos-arm64e_a965b0e54b1f9164.deb
+Size: 107044
+MD5sum: fefa201a798c8957395e338ac3ae7b79
+SHA1: d1a5c3725eaaf93469fe68a93ecc9ed8f3a25ddd
+SHA256: 952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6
+Section: Tweaks
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Author: iosrxwy
+Icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Name: 微博 NoAds
 
 Package: com.jaysuen.evocenter
 Version: 4.0.0-beta.2
@@ -11230,6 +11332,44 @@ Size: 563168
 MD5sum: 4dc97328f2c1a3fe780a67a4478ef540
 SHA1: d55fbdabf2a1446ff702aefcda2646788c4ecdd1
 SHA256: d36422cfbdc8ee2b83970532412af3b65c5e42394967c13fcd63e4a642c384d6
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.1
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/_____________3.2.1_iphoneos-arm64_0895bb16e8649c58.deb
+Size: 572880
+MD5sum: 358bd08b21a9bfebc51204189a9165bc
+SHA1: 6e3bc699f8a4e814c1b1d6ee746d8cc39b277ffe
+SHA256: fc186d04fd3560d838e4e4c40c7eb807fc7d8eaff66369ea4998d7f81d1a3fe3
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.1
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/_____________3.2.1_iphoneos-arm64e_814c96d01379ddf5.deb
+Size: 570532
+MD5sum: e0b628c86d7f4422f17374a662594ac7
+SHA1: b5a88a199e759656555054fe3082a4048b07ee66
+SHA256: 9d0d2d34962cae379b05558b77b0a3d0335011150fa3c88bdcff7aca21375dd7
 Section: Tweaks
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
