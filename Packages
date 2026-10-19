@@ -10995,6 +10995,23 @@ Author: ylr
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Name: 悬浮按钮分屏
 
+Package: com.yunx.app.ios
+Version: 0.1.1-14
+Architecture: iphoneos-arm64e
+Maintainer: muzikeji
+Installed-Size: 76836
+Depends: firmware (>= 15.0)
+Filename: debs/com.yunx.app.ios_0.1.1-14_iphoneos-arm64e.deb
+Size: 20990212
+MD5sum: 42a2da4d3f02d8c2a101ac75a21ab6a3
+SHA1: a29c37cd201ae45588f4d632ead190af50847fd4
+SHA256: d9a61dbff5153807b200de1ae5ce17f19b4132bc6292584f81504d1c811bf94e
+Section: Applications
+Description: 云析 YunX —— 夸克/UC/迅雷/百度/139/123 等网盘分享链接解析与 Range 分片并发下载（iOS 移植版越狱包）
+Author: cc1477 (iOS 移植), CYQawa (上游)
+Icon: https://muzikeji.github.io/sileo/icons/com.yunx.app.ios.png
+Name: YunX 云析
+
 Package: com.yzdmm.kbtheme
 Version: 1.1.1
 Architecture: iphoneos-arm64e
