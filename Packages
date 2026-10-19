@@ -6282,6 +6282,22 @@ Section: Tweaks
 Author: Minis
 Name: 微信扫码直达
 
+Package: com.minis.wxscanrouter
+Version: 0.3.7-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 泉涌
+Installed-Size: 264
+Depends: firmware (>= 17.0), ellekit
+Filename: debs/com.minis.wxscanrouter_0.3.7-1+debug_iphoneos-arm64.deb
+Size: 96786
+MD5sum: f65e77f215a86ace8499b64cd18af0c7
+SHA1: 7106cd7a4d97d97e9238d2fd3b742c6d2e3f40ca
+SHA256: 8933188017791ea5e4c971f6991086b463a939936ca0edfbad5a9025b99df7d1
+Section: Tweaks
+Description: 扫码直达
+Author: 泉涌
+Name: 微信一键扫码直达
+
 Package: com.mlgm.actra
 Version: 1.0
 Architecture: iphoneos-arm64e
