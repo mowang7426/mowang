@@ -8620,23 +8620,6 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 Name: QuickLaunch
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
-Package: com.rain.120hzstable
-Version: 1.3.0
-Architecture: iphoneos-arm64
-Maintainer: Rain
-Installed-Size: 484
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
-Conflicts: com.rain.120hzpro
-Filename: debs/com.rain.120hzstable_1.3.0_iphoneos-arm64.deb
-Size: 69954
-MD5sum: 910949d1355f856f05ede306965f4f61
-SHA1: a9a765a8c0773fb009afed7fed8acee2c62881fe
-SHA256: fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba
-Section: Tweaks
-Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
-Author: Rain
-Name: RainFlow 120Hz
-
 Package: com.rain.rainback
 Version: 1.6.4-4+debug
 Architecture: iphoneos-arm64
