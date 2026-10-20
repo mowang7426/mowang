@@ -3572,6 +3572,42 @@ Author: daodao
 Name: KeyBar(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/keybar/js.json
 
+Package: com.dao.little16
+Version: 0.0.12
+Architecture: iphoneos-arm64
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: debs/Little16(rootless)_0.0.12_iphoneos-arm64.deb
+Size: 12934
+MD5sum: 6308df700ac15f53d800cea77b6f8d2d
+SHA1: 05ce8c8466216359759cacea79d41bfee8e2f6ad
+SHA256: 245d618ac310adda467a670d847230fbed5879b9ae5178ae29dbf409581a71fb
+Section: 嗨-工具
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Author: michaelmelita1 & daodao
+Name: Little16(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
+
+Package: com.dao.little16
+Version: 0.0.12
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.michaelmelita1.little16
+Filename: debs/Little16(RootHide)_0.0.12_iphoneos-arm64e.deb
+Size: 12852
+MD5sum: 0ab30434efede2f575b3b980a3527aff
+SHA1: d408044fb34c497c19413e76582036224e34264f
+SHA256: 37588285321927d751380ed453cae62a9ab05aa490d3a83f6f96641fe24c199b
+Section: 嗨-工具
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Author: michaelmelita1 & daodao
+Name: Little16(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
+
 Package: com.dao.velvet2
 Version: 2.3
 Architecture: iphoneos-arm64e
@@ -6893,6 +6929,40 @@ Section: Tweaks
 Description: 修复渐变表情 bug
 Author: MoWang
 Name: 彩虹键盘光效（安全版）
+
+Package: com.mumu.wcgg
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: mumu
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/WCGG_0.2.0_iphoneos-arm64.deb
+Size: 289944
+MD5sum: b2a2f6d10504692addc30ecf56047f8b
+SHA1: bed506ffd70c24a590179366f00b1221ca297bbd
+SHA256: 904c45c7aaafae0a1acc9b7ba1813f3c1442fae54ed05a76c1cf5248078a210b
+Section: Tweaks
+Description: WeChat custom badge plugin
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: WCGG
+
+Package: com.mumu.wcgg
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: mumu
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/WCGG_0.2.0_iphoneos-arm64e.deb
+Size: 289744
+MD5sum: 4dde5cc026ca9aa473478bfb889470f1
+SHA1: b0b7f7644c04bd339d1e713bec4fcc73a4e2498b
+SHA256: 9c817adb54d08e87a35e772cd8b9cfef4434da058a140db462aeeade470b5f6f
+Section: Tweaks
+Description: WeChat custom badge plugin
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: WCGG
 
 Package: com.muratkurt.cyswitcher
 Version: 0.5.70
