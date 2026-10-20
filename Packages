@@ -12714,6 +12714,40 @@ Description: 在微信输入法上启用上下滑手势切换输入方式 只会
 Author: 小菜
 Name: Wxkb
 
+Package: com.yidao.daynightswitch
+Version: 0.4.1
+Architecture: iphoneos-arm64e
+Maintainer: 一刀
+Installed-Size: 588
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/全局开关_0.4.1_iphoneos-arm64e.deb
+Size: 43324
+MD5sum: f87f9cf876747a56a346089ee4faaa63
+SHA1: 4d72cd6604962cdadf0577425869b7e17a1c4e69
+SHA256: a4ce4e1361601d3706a9352064ab8ab86ea169c4ef4a3d1ed6254169a0f02b26
+Section: Tweaks
+Description: 全局动态开关（鲸鱼跃出 / 水墨）
+ 这是一个全局的动态开关，想定制可以联系一刀，TG群：https://t.me/gyddpu
+Author: 一刀
+Name: 全局开关
+
+Package: com.yidao.daynightswitch
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: 一刀
+Installed-Size: 588
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/全局开关_iphoneos-arm64.deb
+Size: 43294
+MD5sum: ebadd506422269c8d6a33a378bef81b2
+SHA1: ab4e280d65ea7ec7ef15ebc74a0510781294e29c
+SHA256: 8efb81474286791094e1d195a2ae0234f987f5cd256c4044b171db70dcb99fbb
+Section: Tweaks
+Description: 全局动态开关（鲸鱼跃出 / 水墨）
+ 这是一个全局的动态开关，想定制可以联系一刀，TG群：https://t.me/gyddpu
+Author: 一刀
+Name: 全局开关
+
 Package: com.ylr.wcfloatsplit
 Version: 3.0-5
 Architecture: iphoneos-arm64
