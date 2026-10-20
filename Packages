@@ -15324,6 +15324,22 @@ Name: 通知悬浮气泡
 
 Package: moe.waru.jikan
 Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: waruhachi
+Installed-Size: 2380
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/moe.waru.jikan_1.0.2_iphoneos-arm64.deb
+Size: 939092
+MD5sum: 447bd289ac3e84966f5cdf1c52e1f68f
+SHA1: 06acedbcc8509eb6592294f31d3966a7d8ef9a8b
+SHA256: ff959df04a3cafb3aeb7be6c49628d56532bda9e24c19cbb7b201ce1e6d100d7
+Section: Tweaks
+Description: Show time left to full charge on your lock screen
+Author: waruhachi
+Name: 锁屏充电胶囊
+
+Package: moe.waru.jikan
+Version: 1.0.2
 Architecture: iphoneos-arm64e
 Maintainer: waruhachi
 Installed-Size: 2344
