@@ -4125,6 +4125,43 @@ Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机�
 Author: 故
 Name: 闲鱼捡漏
 
+Package: com.hang.ccbackground
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 996
+Depends: mobilesubstrate
+Filename: debs/控制中心背景自定义_1.5_iphoneos-arm64.deb
+Size: 204632
+MD5sum: 8316ea2822435a5518d9b303cba27d25
+SHA1: e19a3ecf1657967fe1c2ebe24a582d8f40b8b199
+SHA256: df4a50e23884935de9dc3cd74275b8e4682cbd1eaf455536e9e0f162fb351d5e
+Section: Tweaks
+Description: 控制中心背景
+Author: 航
+Depiction: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Name: 控制中心背景自定义
+
+Package: com.hang.ccbackground
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 996
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/控制中心背景自定义_1.5_iphoneos-arm64e.deb
+Size: 202556
+MD5sum: 8a0572d07fde760d665fd83e009cfcc1
+SHA1: f6eb0025e22236a5447d3467e0fb150bd36b9098
+SHA256: 56a92db83ac45c0a4d20fff0c41c244ed8787d67a43436b6fd543b5f4614f39e
+Section: Tweaks
+Description: 控制中心背景
+Author: 航
+Depiction: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Name: 控制中心背景自定义
+
 Package: com.hang.keyboardeffects
 Version: 1.2
 Architecture: iphoneos-arm64e
@@ -4153,6 +4190,40 @@ Size: 125584
 MD5sum: 6db11903126809e41388714a55e875a5
 SHA1: ef53786715032a1f0a786e6c28faf1d6c2871d5f
 SHA256: 48b79b33827db3df13f765f8fd6786e8c13d7a09235ec4fc1ed24f59296b2c62
+Section: Tweaks
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Author: 航
+Icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Name: 键盘特效
+
+Package: com.hang.keyboardeffects
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/键盘特效_1.5_iphoneos-arm64.deb
+Size: 133064
+MD5sum: 758e4df8c45dbc8c221363252c25d811
+SHA1: a6b6813247d66bcd143f610952fcf9b9b3c47cfc
+SHA256: 39ad760741d19b792aeb4b311ab2ccfeb9bda3c75c0a306307ec3eac3d26b287
+Section: Tweaks
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Author: 航
+Icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Name: 键盘特效
+
+Package: com.hang.keyboardeffects
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/键盘特效_1.5_iphoneos-arm64e.deb
+Size: 132628
+MD5sum: aecd468ede6209cc7b1cd9cd8a7c2fe4
+SHA1: 6ad47984589dedd00ee81ecb3c9d9ce8e094adce
+SHA256: 28348dbf37065055632a18d119cdc9ae39b1619090383f51c8b68378b785326a
 Section: Tweaks
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Author: 航
