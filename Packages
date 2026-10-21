@@ -7122,6 +7122,23 @@ Author: mikifp
 Icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
 Name: Griddy
 
+Package: com.milkway.apppro
+Version: 0.0.35
+Architecture: iphoneos-arm64e
+Maintainer: Milkway
+Installed-Size: 1100
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Filename: debs/com.milkway.apppro_0.0.35_iphoneos-arm64e.deb
+Size: 212122
+MD5sum: 18cea2e53a1cbce6acfe53e8329eddd0
+SHA1: 3341056f1037bf58c7af77209c28c25458923cb0
+SHA256: 01db29b7df6593319fdc659b85eb5061d311fd27093d6bd009d93e8e2c8e7e48
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
+Author: Milkway
+Name: App Pro
+
 Package: com.minis.lockscreengradientclock
 Version: 1.5.1
 Architecture: iphoneos-arm64e
