@@ -12948,6 +12948,20 @@ Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风�
 Author: TLzypjy
 Name: 58微信液态玻璃（免授权）
 
+Package: com.wcmoments.plugin
+Version: 0.6.49
+Architecture: iphoneos-arm64
+Maintainer: Local Package
+Filename: debs/com.wcmoments.plugin_0.6.49_iphoneos-arm64.deb
+Size: 352744
+MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
+SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
+SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
+Section: Tweaks
+Priority: optional
+Description: WCMoments jailbreak tweak
+Name: WCMoments
+
 Package: com.wcneo.free
 Version: 1.0.8-3
 Architecture: iphoneos-arm64
