@@ -8087,38 +8087,6 @@ Author: MoWang
 Name: 独立锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
-Version: 2.0.26
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 1196
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/LockScreenGradientClock-rootless.deb
-Size: 323570
-MD5sum: 9a616294a99e6dd38fead94bd665b85a
-SHA1: a8721a7bf6b4ca1424f99fb4bde3c2eacfa88418
-SHA256: 7b9d7a1d24cea9d194423ba9c22e67007332f54a393c7b2439dc6d5c23cc98b4
-Section: Tweaks
-Description: Configurable Lock Screen clock gradient.
-Author: MoWang
-Name: 独立锁屏时间渐变
-
-Package: com.minis.lockscreengradientclock
-Version: 2.0.26
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 1196
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/LockScreenGradientClock-roothide.deb
-Size: 323998
-MD5sum: fe164448077f2438fa8d55ece5d0af0d
-SHA1: 87c262f5b64379b3889a8be4664a26adf33705d9
-SHA256: c004f108b0ae61b157c59e0c64bc45ffae17d02583317cb18acb13e8d24fee8e
-Section: Tweaks
-Description: Configurable Lock Screen clock gradient.
-Author: MoWang
-Name: 独立锁屏时间渐变
-
-Package: com.minis.lockscreengradientclock
 Version: 2.0.6
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
