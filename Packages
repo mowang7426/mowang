@@ -530,6 +530,38 @@ Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 
 Package: com.MoWang.islanddigest
+Version: 0.3.11
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 1912
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.11_iphoneos-arm64.deb
+Size: 1484848
+MD5sum: 141259a86e610563a806357aaa7195fd
+SHA1: 2dcfc1ea4009bb353116bb937376b6cac5914fa7
+SHA256: b61a7c838cf2aab9cd443aca869eb5b86a4893261feae02216aed0a118554354
+Section: Tweaks
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Author: MoWang
+Name: 灵屿通知
+
+Package: com.MoWang.islanddigest
+Version: 0.3.11
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 1912
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.11_iphoneos-arm64e.deb
+Size: 1484512
+MD5sum: 9f473df39ac4ae814d09563d344e2c10
+SHA1: ec2c36058ae6d1b23c38da01d2bf3b6bb48015eb
+SHA256: a4cfbe20ba2217bf01696fba2b91d2133b6b5a18c996b4690231bce6f2220a89
+Section: Tweaks
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Author: MoWang
+Name: 灵屿通知
+
+Package: com.MoWang.islanddigest
 Version: 0.3.2
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
