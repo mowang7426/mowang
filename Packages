@@ -21097,6 +21097,42 @@ Description: AI tool within your hands.
 Author: Lessica <82flex@gmail.com>
 Name: Write Now
 
+Package: xyz.cypwn.novaunlock
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: debs/xyz.cypwn.novaunlock_1.2.3_iphoneos-arm64.deb
+Size: 226188
+MD5sum: 74d47b9230aa2962f9e7626771e7d751
+SHA1: a46b643160c90c099e2ba42f34c1cedeb7589310
+SHA256: 84d856c27d5333515e0205b23a69d393a0682b2446247cc259d18b060a1cf7c5
+Section: Tweaks
+Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
+Author: Sanderzen
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+
+Package: xyz.cypwn.novaunlock
+Version: 1.2.3
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: debs/xyz.cypwn.novaunlock_1.2.3_iphoneos-arm64e.deb
+Size: 226220
+MD5sum: 7536120e75896f8b86370de79b89ae6a
+SHA1: 29678634f8f8191b8f02fd48c733db3582749919
+SHA256: 2020fb2c202e5473d81db677a94c7ad65993bd98a9b1b8142a921f0cd13fdf61
+Section: Tweaks
+Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
+Author: Sanderzen
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+
 Package: xyz.cypwn.remotecompanion
 Version: 2.0.0
 Architecture: iphoneos-arm64e
