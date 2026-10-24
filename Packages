@@ -15362,6 +15362,38 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 Name: SnapBackup 备份恢复
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Conflicts: com.dao.disablepastealert16
+Filename: debs/禁用iOS16+粘贴警告弹窗粘贴提醒_1.0_iphoneos-arm64e.deb
+Size: 3992
+MD5sum: 000a7fdd0f9b32f6d52a3c1ff27f7e92
+SHA1: 5b5e4eb2984ab6a908d27d0ef604a2eb5ccd7907
+SHA256: fe55c96ff771d940c92fedfd438a4b8b5f533a3fd4fe4a68ce5b05e6a3d18124
+Section: Tweaks
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Author: SquidForce
+Icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
+Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
+
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Conflicts: com.dao.disablepastealert16
+Filename: debs/禁用iOS16+粘贴警告弹窗粘贴提醒_1.0_iphoneos-arm64.deb
+Size: 4056
+MD5sum: 51892795e639fa087628778131f53d44
+SHA1: 2bb8aa94f7fc936cbd8b8b867cda6697ef480a26
+SHA256: 61ec0274e939e23b2f2015930556201e70e6b849c59a99eb1dc360c1d613e727
+Section: Tweaks
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Author: SquidForce
+Icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
+Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
+
 Package: com.sunshinesong.split-view-pro
 Version: 2.0
 Architecture: iphoneos-arm64e
