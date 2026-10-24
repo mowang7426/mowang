@@ -17981,6 +17981,53 @@ Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 
 Author: hxhlb
 Name: FaceTime Audio Enabler
 
+Package: iya.banana.hide2less
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 484
+Depends: firmware (>= 15.0), dpkg, ldid
+Filename: debs/Hide2Less-0.1.1-iphoneos-arm64e.deb
+Size: 147310
+MD5sum: e4d7df657630b9fd7e47ed4c4ce79b17
+SHA1: 25c49f0befa47131254da1785ede88a059ba06b8
+SHA256: 9418750bc54d017c520d5bd0724a1673d6e61247a27fd23f8065a832e914e908
+Section: Utilities
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Author: Banana
+Name: Hide2Less
+
+Package: iya.banana.hide2less
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 484
+Depends: firmware (>= 15.0), dpkg, ldid
+Filename: debs/Hide2Less-0.1.1-iphoneos-arm64.deb
+Size: 147428
+MD5sum: b1cf8002105292d14b7c3acd2838098b
+SHA1: 1b20ad4fc8d6a7f4c4baf7a81829a9b28e5c60fc
+SHA256: eb6ad94a5bd99cdfa9a4ef871710d7bf9ecbb0c2fb3bc368a1856ec2f3037742
+Section: Utilities
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Author: Banana
+Name: Hide2Less
+
+Package: iya.banana.hide2less.compat
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Depends: firmware (>= 15.0)
+Filename: debs/Hide2Less Compatibility-0.1.0-iphoneos-arm64.deb
+Size: 31314
+MD5sum: acec38fcfa6b63474507662eb8edbfe6
+SHA1: 4d8aa1c82023e3c6674c6a286b4852058dab12fa
+SHA256: 315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8
+Section: System
+Description: Shared path API compatibility for packages converted by Hide2Less.
+Author: Banana
+Name: Hide2Less Compatibility
+
 Package: iya.banana.iphoneduoflow
 Version: 0.1.0
 Architecture: iphoneos-arm64e
@@ -19038,6 +19085,40 @@ SHA256: a916cc1d3820989915679024ab14d1f4dce4303b36ce54c49562d23729e00e53
 Section: Tweaks
 Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
 Author: Banana
+Name: 一芽分屏 (Iya Split)
+
+Package: iya.banana.multitask
+Version: 0.1.3
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 2356
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)_0.1.3_iphoneos-arm64e.deb
+Size: 396500
+MD5sum: beca2a87cc64546568f382eae7a014b6
+SHA1: b9fb502447520c4f5129ecd009a4d9301a488de4
+SHA256: fe4e99e6c36c21e3a44a74617305686a90b9952b2504452c02d958f6c6e95339
+Section: Tweaks
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Name: 一芽分屏 (Iya Split)
+
+Package: iya.banana.multitask
+Version: 0.1.3
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 2372
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)_0.1.3_iphoneos-arm64.deb
+Size: 396772
+MD5sum: 3b90c7cef90237417f320603d0c7cf69
+SHA1: afca542bc893e8a1e96ade96ce5fd70c20b99478
+SHA256: 16a85feaf23a97c5cd0f2ea112d41cb440eb08463b82e1679490cb97b0368aa9
+Section: Tweaks
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/onboarding-icon.png
 Name: 一芽分屏 (Iya Split)
 
 Package: iya.banana.musichaptics
