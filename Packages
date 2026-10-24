@@ -21133,6 +21133,42 @@ Author: Sanderzen
 Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
 Name: NovaUnlock
 
+Package: xyz.cypwn.novaunlock
+Version: 1.2.4
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: debs/xyz.cypwn.novaunlock_1.2.4_iphoneos-arm64e.deb
+Size: 279526
+MD5sum: 47795407f4539f03543252e5d61a459c
+SHA1: 327105d3da1134cacb728eb1b1f78337a9109a09
+SHA256: ad8f1bda00ecf1d4bfb4791f677dcb698b855779204a438d1874a2e946d2fe98
+Section: Tweaks
+Description: iOS26风格解锁和锁定动画。（已支持 16 系统）
+Author: Sanderzen
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+
+Package: xyz.cypwn.novaunlock
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: debs/xyz.cypwn.novaunlock_1.2.4_iphoneos-arm64.deb
+Size: 279570
+MD5sum: 12bf8bf6a0dcea39b08656bad060381a
+SHA1: 49c8e68e630bf6df66681e15f2432833364a4bbe
+SHA256: 92e92771c80e92fd8352c3412daf6a00b672135175d43448f1aed72c6fd918d2
+Section: Tweaks
+Description: iOS26风格解锁和锁定动画。（已支持 16 系统）
+Author: Sanderzen
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+
 Package: xyz.cypwn.remotecompanion
 Version: 2.0.0
 Architecture: iphoneos-arm64e
