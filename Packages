@@ -6979,6 +6979,38 @@ Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭�
 Author: doimty
 Name: Fiona
 
+Package: com.doimty.nrmanager
+Version: 1.7.5
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 1688
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/NR Manager_1.7.5_iphoneos-arm64e.deb
+Size: 274710
+MD5sum: 617b20edf8006a62252444fa407bdd5a
+SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
+SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
+Section: Control Center (Modules)
+Description: Select NR bands and view live serving status in Control Center
+Author: doimty
+Name: NR Manager
+
+Package: com.doimty.nrmanager
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 1720
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/NR Manager_1.7.5_iphoneos-arm64.deb
+Size: 258806
+MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
+SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
+SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
+Section: Control Center (Modules)
+Description: Select NR bands and view live serving status in Control Center
+Author: doimty
+Name: NR Manager
+
 Package: com.doimty.promotion
 Version: 1.0.14-1
 Architecture: iphoneos-arm64e
@@ -18013,6 +18045,40 @@ Description: Album-art-driven animated color fields for Lock Screen Now Playing 
 Author: banana
 Name: DynamicMusicBG
 
+Package: iya.banana.dynamicnotch
+Version: 0.1.0~beta1
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 1320
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/DynamicNotch · 动态刘海_0.1.0~beta1_iphoneos-arm64e.deb
+Size: 203024
+MD5sum: b20fced435bcdc779c016f784128e243
+SHA1: e45c4e5899ed1ddfa8eb95840be16c5901cae535
+SHA256: 63804c826b8f697286c4b52397bf0cfdef51234e16716dbc62bebf24142975df
+Section: Tweaks
+Description: Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Author: Banana
+Name: DynamicNotch · 动态刘海
+
+Package: iya.banana.dynamicnotch
+Version: 0.1.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 1320
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/DynamicNotch · 动态刘海_0.1.0~beta1_iphoneos-arm64.deb
+Size: 205272
+MD5sum: c93e57f79188ae2c7752b36626419425
+SHA1: 9dc3323212f056def71ad5a19df3b5cb74d2147d
+SHA256: bba9d490e0c0f6dc3949d0856e12066f489f0b8d2add76c51ebcda80e5889c29
+Section: Tweaks
+Description: Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Author: Banana
+Name: DynamicNotch · 动态刘海
+
 Package: iya.banana.facetimeaudioenabler
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -18072,6 +18138,38 @@ Size: 147428
 MD5sum: b1cf8002105292d14b7c3acd2838098b
 SHA1: 1b20ad4fc8d6a7f4c4baf7a81829a9b28e5c60fc
 SHA256: eb6ad94a5bd99cdfa9a4ef871710d7bf9ecbb0c2fb3bc368a1856ec2f3037742
+Section: Utilities
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Author: Banana
+Name: Hide2Less
+
+Package: iya.banana.hide2less
+Version: 0.1.2~beta10
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 516
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Filename: debs/Hide2Less_0.1.2~beta10_iphoneos-arm64.deb
+Size: 151904
+MD5sum: b8f04dc9b5596a79463173afe78f6c52
+SHA1: 82afdff719a0ff4bcc280d7d33363f11047cc63e
+SHA256: 89d6fccba055e4f74527c5c8a9539317dbeefc5cd0b084ae7c6e894db1ef9528
+Section: Utilities
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Author: Banana
+Name: Hide2Less
+
+Package: iya.banana.hide2less
+Version: 0.1.2~beta10
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 516
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Filename: debs/Hide2Less_0.1.2~beta10_iphoneos-arm64e.deb
+Size: 153018
+MD5sum: 0a85dd9bf0799a17ac576907b158c085
+SHA1: f93b27aa95aeec36163070c45f53713da968e9d4
+SHA256: e5e9eb66c6c9af3e4a2a371b4902a5f9c1b6493ca0c567f25f958962d6216de1
 Section: Utilities
 Description: Convert supported RootHide tweak packages to Rootless on device.
 Author: Banana
@@ -18970,6 +19068,42 @@ Size: 940032
 MD5sum: aea3adf44a020bc893a842c0420690a3
 SHA1: 5d4adf57aea9b3e81191cdd3bd7e62fce9d75105
 SHA256: 756c9c6e1b6372f56ff9d7ea18e6bb93879b922b5ab1aec8478669f596c6bad0
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 5364
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora_1.1.4_iphoneos-arm64e.deb
+Size: 972124
+MD5sum: 1e6e3b360998d2c5860932916dcd82a8
+SHA1: 22fbd30f414de51cd6d19c603075e13a2d889b97
+SHA256: 4b399d4657516d69cbfaa496a37920e8f72ea298c9781eb3beffcbf760f9324e
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 5380
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora_1.1.4_iphoneos-arm64.deb
+Size: 973106
+MD5sum: 91f2e63d439d9c8210e731eee55328a4
+SHA1: 1377f56a675fb63d870ae81899e06eb1228a1a23
+SHA256: 3126af75dda9c3bcd93dfa667a6aea0d0f144009d3b081d6da62da203357daa3
 Section: Tweaks
 Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Author: Banana
