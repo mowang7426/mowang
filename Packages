@@ -6889,6 +6889,22 @@ Architecture: iphoneos-arm64
 Maintainer: doimty
 Installed-Size: 304
 Depends: firmware (>= 15.0)
+Filename: debs/Fiona_0.3_iphoneos-arm64.deb
+Size: 4962
+MD5sum: eebc8e660c42510908751004ebbaab3f
+SHA1: 260b67696805c3d92215bd597fa1ac6d0ba4c8b5
+SHA256: 6c99bc146296e388299cefc65152df439151176f36d8e130303e8c3c72396af2
+Section: Tweaks
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Author: doimty
+Name: Fiona
+
+Package: com.doimty.fiona
+Version: 0.3
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
 Filename: debs/com.doimty.fiona_0.3_iphoneos-arm64.deb
 Size: 4962
 MD5sum: eebc8e660c42510908751004ebbaab3f
@@ -6906,6 +6922,22 @@ Maintainer: doimty
 Installed-Size: 304
 Depends: firmware (>= 15.0)
 Filename: debs/com.doimty.fiona_0.3_iphoneos-arm64e.deb
+Size: 4908
+MD5sum: 35545bdc292d9c982cccf6c21ecfa912
+SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
+SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
+Section: Tweaks
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Author: doimty
+Name: Fiona
+
+Package: com.doimty.fiona
+Version: 0.3
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/Fiona_0.3_iphoneos-arm64e.deb
 Size: 4908
 MD5sum: 35545bdc292d9c982cccf6c21ecfa912
 SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
