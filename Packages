@@ -7793,6 +7793,154 @@ Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 Name: 抖音 UI 增强插件 DYKiller
 
+Package: com.hmmzzz.fontmanager
+Version: 0.2.2
+Architecture: iphoneos-arm64e
+Maintainer: Hmmzzz
+Installed-Size: 7548
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/MarkFont 字体管理器_0.2.2_iphoneos-arm64e.deb
+Size: 2313600
+MD5sum: 80087140c694f2bab4f361db09e5035b
+SHA1: 8731121d7ae7ef96b3f8621d894a143e24a9cf7e
+SHA256: 19784763cc0ae8ade55ab3732348ba1fa8a5f983b0e36d0165a0dd4dc01616e7
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: Hmmzzz
+Installed-Size: 7584
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/MarkFont 字体管理器_0.2.2_iphoneos-arm64.deb
+Size: 2308464
+MD5sum: 9f16dc69b8b5c4ad7e059591c427f8b2
+SHA1: 2268eaab4208f2a3e9dd7efc961b57caab1da41f
+SHA256: a63b77cf3ba03b4af95195ce8180dc46c3075199d889fa7e3a3e2aa39cee52c5
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Version: 0.3.7
+Architecture: iphoneos-arm64
+Maintainer: Hmmzzz
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/MarkFont 字体管理器_0.3.7_iphoneos-arm64.deb
+Size: 504328
+MD5sum: 0629b24546f205f3be694685e8e9f6e7
+SHA1: 3eba7ae3106f41bbf0b2fcdb6993ca1f7d268640
+SHA256: 649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Version: 0.3.7
+Architecture: iphoneos-arm64e
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/MarkFont 字体管理器_0.3.7_iphoneos-arm64e.deb
+Size: 494332
+MD5sum: c0726ae3a112a488c5bfc7951052151b
+SHA1: 94b78c892a4a4ba388e30a8656ff5d87316f0031
+SHA256: c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Version: 0.3.8
+Architecture: iphoneos-arm64e
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/MarkFont 字体管理器_0.3.8_iphoneos-arm64e.deb
+Size: 496768
+MD5sum: fd37c0b069da3c2778cf971c94f3574b
+SHA1: ad9fdf5dbd7e6b93fa4c8d68588f856f11ebac3c
+SHA256: 70a5d96cfc65f56e196cdc450b534d4a225574254b5fb96543d1d99e04093f47
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
+Package: com.hmmzzz.fontmanager
+Version: 0.3.8
+Architecture: iphoneos-arm64
+Maintainer: Hmmzzz
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/MarkFont 字体管理器_0.3.8_iphoneos-arm64.deb
+Size: 503524
+MD5sum: 482ed7c78534b40ba35d8e4992440a27
+SHA1: e0ab33d509fc717724581188be8762f1b8f65196
+SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Name: MarkFont 字体管理器
+Sileodepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
 Package: com.huami.dyyy
 Version: 2.3-0
 Architecture: iphoneos-arm64e
@@ -10708,11 +10856,119 @@ Maintainer: mlgm
 Installed-Size: 3552
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
 Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.0_iphoneos-arm64e.deb
+Size: 699722
+MD5sum: d26bede3ca0035e23d7c31880e4886ba
+SHA1: 5d4e401418d0a597a4e5994e6b46fe2911161e2b
+SHA256: 4c134400068576292a1d75c5a5de54afd4dd4045eec53a765325dc19737f3040
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3564
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.0_iphoneos-arm64.deb
+Size: 702424
+MD5sum: fb50ea22abe3d01c9197bb6362a692c7
+SHA1: 952b59dca07591e9ef79aa52035fc526095291fe
+SHA256: 27807b06d264500e08c83cf0df9d44082b8516455ed4d00943af8824a7e609b1
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3552
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
 Filename: debs/com.mlgm.actra_1.0_iphoneos-arm64e.deb
 Size: 700172
 MD5sum: 91db8e3f6f9f8b62c1586f0670c1d2f8
 SHA1: 6526e07c9cac2e3c7c152462f182829627ff2f42
 SHA256: 6c87636ca5847e7f011731af5bf0418924db48f6ceee49da07ade6f1693f4499
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3684
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.1_iphoneos-arm64e.deb
+Size: 716296
+MD5sum: 02c1654761e032bbbc62236a99fd56c6
+SHA1: 10197519795e9171b8384ad1bf555675edebeaf2
+SHA256: 1642b2c47571b722a3d7b63bb17ed0457fcc10938f03dd6d2750a78d29650a47
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3716
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.1_iphoneos-arm64.deb
+Size: 715162
+MD5sum: 0a506462c390fe57b7a7bbcdffb0019b
+SHA1: 8fa5d76cbf0842d0c79aca34dc28fe8b60987ce0
+SHA256: 468ac9285763ee8a44f1ddbc683bc648750bb8b3522473b510bac3d5e0f99d79
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3716
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.1.1_iphoneos-arm64.deb
+Size: 716124
+MD5sum: b33ded35300eb17181458f96923d41be
+SHA1: 3f1c9fe08b1626d41f41c15d0e21ac8d67d5ef92
+SHA256: 8a405f83c126d4236e8548a7d678a97152bf7f990c893a3989d08f8fc65d773e
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3684
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.1.1_iphoneos-arm64e.deb
+Size: 717602
+MD5sum: 265b05a03d73862d834a700918c5b1c4
+SHA1: 26497834a32444fb56de820ff30836c6144d3779
+SHA256: 56836b22568092d848a89c2641e70c8a73882b6f6b8b1aebc4757d4467f4a91f
 Section: Tweaks
 Description: 手势与事件自动化工具
 Author: mlgm
@@ -10757,6 +11013,24 @@ Name: Actra
 
 Package: com.mlgm.actra
 Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.2_iphoneos-arm64.deb
+Size: 752646
+MD5sum: 4737b0ee5af4011f5b0ee5edf110943b
+SHA1: 35e5906ad01f5653ef4a9be500e24c8de92837ec
+SHA256: ad668c37dc18a911b93e8ce0530ff812a25c38599393e8ad60557446ff3b474b
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.2
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
 Installed-Size: 3844
@@ -10775,6 +11049,24 @@ Name: Actra
 
 Package: com.mlgm.actra
 Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.2_iphoneos-arm64e.deb
+Size: 754400
+MD5sum: 8147ae6a2bc8cd2f7093f5b6343b5ec4
+SHA1: bdf49531ca4487adefd7efc1d991992988de35c7
+SHA256: 9681f042382682f9c0ac9efe65a111d22573c71d62cc672b2d88f5120a1181bd
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: mlgm
 Installed-Size: 3844
@@ -10785,6 +11077,78 @@ Size: 753924
 MD5sum: 98904d6d68b585c30880770c73ca7c7f
 SHA1: fcfb6180ef970d49bb359a65a4b382109e8899e9
 SHA256: 8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4072
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.3_iphoneos-arm64.deb
+Size: 815142
+MD5sum: b73dc8ddc4b2d9b54c9eadb92f5bb351
+SHA1: 2c28c635a8189effa51378802174f2e793d817f8
+SHA256: 843996e623a7996cdfb16822466d4bc414bc6785450579ccb88a00c7c718d6f7
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.3_iphoneos-arm64e.deb
+Size: 812914
+MD5sum: a0aa2b9a93a3dd7698256f8149807dbc
+SHA1: 79c329f7a333a488f9b341824b084726fda87ce8
+SHA256: 643d91f4ec44233f0a88975390b4d3d0f186a8ec2cf44cca601d58c4318f0a6f
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4076
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.3.1_iphoneos-arm64.deb
+Size: 813346
+MD5sum: b1b981872e2857dade9a3b9b12ce0d04
+SHA1: 9927938e9dae35482bcfaee3f6aed613203e70fa
+SHA256: b10f0f9bdb05faddebc660d8c191ef8f1296da22dc05a2ad986fa00e72833187
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4080
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.3.1_iphoneos-arm64e.deb
+Size: 813664
+MD5sum: 1d7dfe8daae9e1b7d0a343bd0092e1c1
+SHA1: 6795a8e3bdd4a2ae81f481b9d41ec5fee6db19e0
+SHA256: 0d238d40b6d6706dc9a0622953be4b14e16dc78829ee3b822e93390a65598382
 Section: Tweaks
 Description: 手势与事件自动化工具
 Author: mlgm
