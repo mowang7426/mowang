@@ -722,6 +722,38 @@ Author: MoWang
 Name: 灵屿通知
 
 Package: com.MoWang.islanddigest
+Version: 0.3.25
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.25_iphoneos-arm64e.deb
+Size: 1571098
+MD5sum: 9beaf4e540af86d0060a11edd409fb84
+SHA1: 3a2a839e3cc51cf9e4562afe3c659bb332c0d66a
+SHA256: d3606a0e592e7a867a9864e1dc290fc280897e673706d3c220a68b4f01d151fa
+Section: Tweaks
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Author: MoWang
+Name: 灵屿通知
+
+Package: com.MoWang.islanddigest
+Version: 0.3.25
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.25_iphoneos-arm64.deb
+Size: 1571446
+MD5sum: 9862a2a9fe09f9aaf0de681fcb2afe06
+SHA1: 9ed24cfa7859b1f3315ec82fe43173dbff9cb06c
+SHA256: e7c66d52bdc66903278917eb2ed0cc5914c3f404682f40ae90fbfd9ed643cf95
+Section: Tweaks
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Author: MoWang
+Name: 灵屿通知
+
+Package: com.MoWang.islanddigest
 Version: 0.3.3
 Architecture: iphoneos-arm64
 Maintainer: MoWang
@@ -6854,6 +6886,40 @@ Author: crctdd
 Icon: https://huayuarc.github.io/icon/surgeactive.jpg
 Name: SurgeActive
 
+Package: com.crctdd.surgeactive
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/SurgeActive_0.0.5_iphoneos-arm64.deb
+Size: 16128
+MD5sum: f47291b7b8026579dc398e9ca988b88c
+SHA1: b07695bac97356e5f49141bebfb60310c1aaf728
+SHA256: 6d65056663050dfe9e96a68b06a1287f9029656c2116b89c34203155ae79ab7a
+Section: Tweaks
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Author: crctdd
+Icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Name: SurgeActive
+
+Package: com.crctdd.surgeactive
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/SurgeActive_0.0.5_iphoneos-arm64e.deb
+Size: 11632
+MD5sum: 72ec5e3291bcba9ca73f44aa628a5f45
+SHA1: 7febe1e25d99df8c212777e39176e6c3b739fd34
+SHA256: 90a4c6761264a2cae181e77fea59e72edfae7dc003b1d1f979f984013cf1bb74
+Section: Tweaks
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Author: crctdd
+Icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Name: SurgeActive
+
 Package: com.dao.filzacrack
 Version: 1.1-9
 Architecture: iphoneos-arm64e
@@ -7824,6 +7890,60 @@ Description: 抖音 UI 增强插件（模块化 hook 框架）
 Author: hierarch
 Icon: https://huayuarc.github.io/icon/douyin.jpg
 Name: 抖音 UI 增强插件 DYKiller
+
+Package: com.hierarch.dykiller
+Version: 0.6.8
+Architecture: iphoneos-arm
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller_0.6.8_iphoneos-arm.deb
+Size: 1005380
+MD5sum: c1ada263982517da788b2b1fc765996d
+SHA1: ee1c4151c97cf72868d711c069049e5f9d0a3bc5
+SHA256: 83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
+Package: com.hierarch.dykiller
+Version: 0.6.8
+Architecture: iphoneos-arm64
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller_0.6.8_iphoneos-arm64.deb
+Size: 1007668
+MD5sum: ae4996f3305d67e5a6cff10774ce08ae
+SHA1: ca0214d6bfd7ab25305d0a578e3935b1071acb68
+SHA256: 5b082c5bfbeb115955f9bada6066ca1acc0d7120fec25ba58f3fb2455e9e27c7
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
+
+Package: com.hierarch.dykiller
+Version: 0.6.8
+Architecture: iphoneos-arm64e
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/DYKiller_0.6.8_iphoneos-arm64e.deb
+Size: 1007576
+MD5sum: c170ecd56bcca21faace3a107ede5e85
+SHA1: b1353912eea51f757b1d5b078036d61b63ca1606
+SHA256: 2d8c34ab1daa8da50190a65905c4acf008f8ef332b70a4da6d8358d6c5c9b81b
+Section: Tweaks
+Priority: optional
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Author: hierarch
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: DYKiller
 
 Package: com.hmmzzz.fontmanager
 Version: 0.2.2
@@ -16511,6 +16631,58 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 Name: Filza 文件管理器
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
 
+Package: com.touchWorld.doubanTweak
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: TouchWorld
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/DoubanTweak_1.2.0_iphoneos-arm64e.deb
+Size: 19540
+MD5sum: 82954d6c467a3b8addea0d4fa5511592
+SHA1: 8a3fe6022c57c8855caf7070f9fc4a005e74c5a7
+SHA256: e42a9b9773957a8350e90fc586187ae48bfcdc7cfff5a3fdf271e64a6f5c16d9
+Section: Tweaks
+Priority: optional
+Description: 去除豆瓣广告插件
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Name: DoubanTweak
+
+Package: com.touchWorld.doubanTweak
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/DoubanTweak_1.2.0_iphoneos-arm64.deb
+Size: 19948
+MD5sum: 03e6857902dcd055b0842c82e1b8e0ef
+SHA1: e0a72c0f0a4858837b3e40c1295ecad674f57180
+SHA256: 4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1
+Section: Tweaks
+Priority: optional
+Description: 去除豆瓣广告插件
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Name: DoubanTweak
+
+Package: com.touchWorld.doubanTweak
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/DoubanTweak_1.2.0_iphoneos-arm.deb
+Size: 19884
+MD5sum: 3b49087f7bcb0caaad8981b2e9b0b5c6
+SHA1: acdeae2531d6b1bd570b80dd5e1d3826bc8c7413
+SHA256: 21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d
+Section: Tweaks
+Priority: optional
+Description: 去除豆瓣广告插件
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Name: DoubanTweak
+
 Package: com.tsangbaby.autoscroll
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -16560,6 +16732,60 @@ Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀（免授权）
+
+Package: com.vita.yuki
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/Yuki_0.1-2_iphoneos-arm64.deb
+Size: 142788
+MD5sum: acdad4d7d303335395da651788c8ed74
+SHA1: 2e6ef9349d387be7a3c2e63a25e394250fe8c2e4
+SHA256: cf55adb1432e107ade63de56c9069a74ba17a583e4c017195d2ad04d4f3a62aa
+Section: Tweaks
+Priority: optional
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Author: vita
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: Yuki
+
+Package: com.vita.yuki
+Version: 0.1-2
+Architecture: iphoneos-arm
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/Yuki_0.1-2_iphoneos-arm.deb
+Size: 143340
+MD5sum: 75918966f2a8566a705f8c104da45cfb
+SHA1: ba52e9987f2b2de577fb233817977c330082a5fd
+SHA256: 9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc
+Section: Tweaks
+Priority: optional
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Author: vita
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: Yuki
+
+Package: com.vita.yuki
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/Yuki_0.1-2_iphoneos-arm64e.deb
+Size: 142912
+MD5sum: 3b510b2bac8cb5a59dcb99333a374480
+SHA1: bef1e39ef6c365b9ef4cc2fd852de72585263149
+SHA256: 78d2a478f606f658f272a93cd151940bf2e0ae6cfe3525a1d3ff02a94ab41367
+Section: Tweaks
+Priority: optional
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Author: vita
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: Yuki
 
 Package: com.wcglass.free
 Version: 3.2.1
