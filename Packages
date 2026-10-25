@@ -690,6 +690,22 @@ Author: MoWang
 Name: 灵屿通知
 
 Package: com.MoWang.islanddigest
+Version: 0.3.24
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.24_iphoneos-arm64e.deb
+Size: 1571004
+MD5sum: 74cf0761522f3d60ab355995a69726bc
+SHA1: 34c4d273e139d18a52f4368cc7a686dae023ae9c
+SHA256: c40980e846042f0a6b7c029087c3f1f356d5d8a207f3327563fe2fbb31c6dc83
+Section: Tweaks
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Author: MoWang
+Name: 灵屿通知
+
+Package: com.MoWang.islanddigest
 Version: 0.3.3
 Architecture: iphoneos-arm64
 Maintainer: MoWang
