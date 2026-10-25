@@ -20831,6 +20831,40 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 Name: 微信净化 2026.04
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
 
+Package: org.shallowdream.dockpages
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate
+Replaces: local.apelin.dockpages
+Filename: debs/org.shallowdream.dockpages_1.0.1_iphoneos-arm64.deb
+Size: 27862
+MD5sum: 666f6f5635565913270d46b91ad1fe87
+SHA1: b6096a092cdf54a99809e538402dac109bb914d3
+SHA256: a5b38dec0e220f484caae3b835467637083957f40f9bf760ea99ee2a09566af9
+Section: Tweaks
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Author: MoWang
+Name: 三页 Dock
+
+Package: org.shallowdream.dockpages
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 109
+Depends: firmware (>= 16.0), mobilesubstrate
+Replaces: local.apelin.dockpages
+Filename: debs/org.shallowdream.dockpages_1.0.1_iphoneos-arm64e.deb
+Size: 20072
+MD5sum: 1510a9e4db3caec37e697b25976cea1e
+SHA1: 815c704885a74a8ae18aa7c9bcf5ffdc6b47b392
+SHA256: 42f45eaf66243152adf9a6ae03004eceee4d0e8d2873830343ebbe08dc5625bf
+Section: Tweaks
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Author: MoWang
+Name: 三页 Dock
+
 Package: spoofnotify
 Version: 1.0.2
 Architecture: iphoneos-arm64
