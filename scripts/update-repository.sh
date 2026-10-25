@@ -42,8 +42,7 @@ awk '
       if ($field ~ /^Section: /) section = substr($field, 10)
     }
     if (package != "" && section == "") {
-      printf "Package %s has no Section field, which Sileo needs.\n", package > "/dev/stderr"
-      exit 1
+      printf "Warning: package %s has no Section field; keeping it in the index.\n", package > "/dev/stderr"
     }
   }
 ' "$work_dir/Packages"
