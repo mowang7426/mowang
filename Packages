@@ -22109,6 +22109,58 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Name: Irisin
 Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
 
+Package: wiki.qaq.irisin
+Version: 4.7.5
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 23140
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin_4.7.5_iphoneos-arm64.deb
+Size: 6352036
+MD5sum: 7603224bcde3f1b499a2af0dbecad9ba
+SHA1: ade2ac23fb871f14f89623c5539f3861944f4196
+SHA256: 0b64d145997efd04c767370394447230e2e6ef645ae2fd936d6c7f862252de7e
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.7.5
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 23140
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin_4.7.5_iphoneos-arm64e.deb
+Size: 6354524
+MD5sum: 7e8c2e42ed006abebce7e4b92e3aa2f3
+SHA1: 253055fc846df6e45e4274421eb7970fd3b1c3bc
+SHA256: 80d30acdcfc1ea424de42725df32d2a81eeb01371ed946ed151d1c1be4e7b833
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
 Package: wiki.qaq.umbra.patcher
 Version: 3.0-1
 Architecture: iphoneos-arm64e
