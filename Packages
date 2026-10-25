@@ -21093,6 +21093,50 @@ Icon: https://owngoal-dev.github.io/Apelin/icon.png
 Name: Apelin
 Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 
+Package: wiki.qaq.apelin
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91964
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.9.2)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.2_iphoneos-arm64.deb
+Size: 31786108
+MD5sum: 9d23aa4f7a016240272fde6b52deb7de
+SHA1: 0dc0e1acb8847d4b6d37fca680ad74760d1f30c2
+SHA256: b3e6ac4f20bec09650f9ef30a3294e77ad1e41e5e14085c85d909fdc852cf8c4
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.2.2
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91964
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.9.2)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.2_iphoneos-arm64e.deb
+Size: 31783980
+MD5sum: e43f2d9cb123927968d2827646f97990
+SHA1: 48070bebcca1956195bba85816370c7aa272201c
+SHA256: 2ce11d4d891c08cb62d4551b16ee119db951678a199be2ca1b98b60819072472
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
 Package: wiki.qaq.duostatusring
 Version: 1.0.0
 Architecture: iphoneos-arm64
