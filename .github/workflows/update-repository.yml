@@ -9,6 +9,7 @@ on:
       - "debs/**"
       - "depictions/**"
       - "scripts/update-repository.sh"
+      - "scripts/apply-depictions.sh"
       - "CydiaIcon.png"
       - "index.html"
       - "sileo-featured.json"

@@ -1,0 +1,21 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "#3478F6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "说明",
+      "views": [
+        { "class": "DepictionHeaderView", "title": "三页 Dock · DockPages" },
+        { "class": "DepictionMarkdownView", "markdown": "**版本 1.0.1 · 作者 MoWang**\n\nDockPages 保留原生中间 Dock，并增加左、右两页快捷入口。每页 4 个位置，三页共 **12 个 Dock 位置**：原生中间 4 个，左右各 4 个。\n\n- 左右滑动切换页面。\n- 点击已配置的快捷入口启动应用。\n- 长按侧页位置进行配置。\n- 侧页应用配置持久保存。" },
+        { "class": "DepictionHeaderView", "title": "配置方式与当前限制" },
+        { "class": "DepictionMarkdownView", "markdown": "滑动到左页或右页，点击空位置的 **“+”**，从列表中选择应用；需要调整时可长按配置。\n\n**桌面直接拖动 App 到侧页目前尚未实现。点击“+”选择应用是当前可用的配置方式。**" },
+        { "class": "DepictionHeaderView", "title": "发行信息" },
+        { "class": "DepictionTableTextView", "title": "包名", "text": "三页 Dock" },
+        { "class": "DepictionTableTextView", "title": "版本", "text": "1.0.1" },
+        { "class": "DepictionMarkdownView", "markdown": "包标识：`org.shallowdream.dockpages`\n\n- roothide：`iphoneos-arm64e`\n- rootless：`iphoneos-arm64`\n\n依赖：iOS 16.0 或更高版本、mobilesubstrate。" }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ shopt -u nullglob
 
 # Running from the root keeps each Filename relative: debs/<file>.deb.
 if ((${#packages[@]} > 0)); then
-  apt-ftparchive packages debs > "$work_dir/Packages"
+  apt-ftparchive packages debs | bash scripts/apply-depictions.sh > "$work_dir/Packages"
 else
   : > "$work_dir/Packages"
 fi
