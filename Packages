@@ -21091,6 +21091,40 @@ Description: Dock 左右各增加一页，每页四个图标，支持左右滑�
 Author: MoWang
 Name: 三页 Dock
 
+Package: org.shallowdream.dockpages
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 521
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Filename: debs/org.shallowdream.dockpages_1.0.3_iphoneos-arm64.deb
+Size: 88634
+MD5sum: a5df6fe90808c8c7e18a1ee9fe9a2b9b
+SHA1: 3a2b04b3e5ecd12cfe7c8c67d1b1286b4dfd9547
+SHA256: 3a355bc56a7e5eceb6875b5abcec615ae07728bba7b62813ffafab250b60203f
+Section: Tweaks
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Author: MoWang
+Name: 三页 Dock
+
+Package: org.shallowdream.dockpages
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 263
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Filename: debs/org.shallowdream.dockpages_1.0.3_iphoneos-arm64e.deb
+Size: 71082
+MD5sum: e673b486d8cc59c7c5f560e37d8790c4
+SHA1: 609766dfd0d85d85adaacceff59a6202ae50b75a
+SHA256: e8b5e7fece008b25128407069a81da494ff0c144b379e7946cb4d847b7f72264
+Section: Tweaks
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Author: MoWang
+Name: 三页 Dock
+
 Package: spoofnotify
 Version: 1.0.2
 Architecture: iphoneos-arm64
