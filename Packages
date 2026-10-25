@@ -20971,6 +20971,50 @@ Icon: https://owngoal-dev.github.io/Apelin/icon.png
 Name: Apelin
 Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 
+Package: wiki.qaq.apelin
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91884
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.0_iphoneos-arm64.deb
+Size: 31748606
+MD5sum: 0c95add0c9771fcf0da5e7b953dc1a50
+SHA1: a282fa02f9b8b38cda1dc7ebe4bd9403a8bd8d8c
+SHA256: 94c5698d1f411d0f2d09ef085c079ebf62440078aba787dda32b6d199103ecd4
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91884
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.0_iphoneos-arm64e.deb
+Size: 31746398
+MD5sum: 95c70bda39d4d976dcb7772e02921b5d
+SHA1: 2797dcef7772cef59d9206aa85fb7429979d829e
+SHA256: ea4e21793f0821acdc020b3c19c8d69d5376a69041416d287ef156f887bcaf17
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
 Package: wiki.qaq.duostatusring
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -22150,6 +22194,58 @@ Section: Applications
 Priority: optional
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 5.0.0
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20528
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin_5.0.0_iphoneos-arm64e.deb
+Size: 5255320
+MD5sum: 0bcd75d28c4039a3b15366dd2b26b6ee
+SHA1: 512cc17680455255c933210e632a8fffac8430f2
+SHA256: 9017aaf96e931fd7db75b31d4be08886817a540084c06b4706be7f5e2c2128a3
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 5.0.0
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20528
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin_5.0.0_iphoneos-arm64.deb
+Size: 5253048
+MD5sum: b71e3782d051bdd55212380e3f9f6978
+SHA1: 2522b3cd87507ecbc0c6bfbbc1311b4a1f210361
+SHA256: 8b98450c4ae7c2d2473f7e8d6beff505f2613c3837da586b56402a0dbc428e37
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
  and read every depiction, on iPhone and iPad. The app runs without root;
  installs go through a small on-demand root daemon whose helper installs
