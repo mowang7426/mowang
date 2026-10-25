@@ -12566,6 +12566,42 @@ Description: 聊伴 ChatAssist：区域 OCR + AI 智能回复助手。悬浮窗�
 Author: kanuo
 Name: ChatAssist
 
+Package: com.qianuo.chatassist
+Version: 0.1.67
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/ChatAssist_0.1.67_iphoneos-arm64e.deb
+Size: 599680
+MD5sum: b0bdc09aa4e1184c9d8eddbb11d8f4bb
+SHA1: de771ef357330ffaac3f0ddd43ea06d1bb7f0e3a
+SHA256: 41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c
+Section: Tweaks
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+Name: ChatAssist
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
+Package: com.qianuo.chatassist
+Version: 0.1.67
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/ChatAssist_0.1.67_iphoneos-arm64.deb
+Size: 599512
+MD5sum: 49788016a7f4668eecb8e1977324a165
+SHA1: 29629f67d1ab6ca53f3da622d8a7ce90d3196fbf
+SHA256: 0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d
+Section: Tweaks
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+Name: ChatAssist
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
 Package: com.qianuo.smartdeck.app
 Version: 0.7.11
 Architecture: iphoneos-arm64e
@@ -12952,6 +12988,46 @@ Size: 702592
 MD5sum: b542947a1c682cf682fa5d0c9abf161f
 SHA1: 68cbc3be356ab4f22203906f5a24d1986793b862
 SHA256: 2bfbe0894b60ae0581a3d5a4ad0d79004a06e15056e87075e79eb952fdf3d41e
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.292
+Architecture: iphoneos-arm64e
+Maintainer: qq391160
+Installed-Size: 4408
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.292_iphoneos-arm64e.deb
+Size: 711922
+MD5sum: 758ba33715e6f66d9769ec73fd6de05f
+SHA1: acbcc011961822100eb1514a56b905b9a11c2846
+SHA256: 6c3c41eba07f90bb0feba154c449a36875dff546e51a500036d9bd7bba594316
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.292
+Architecture: iphoneos-arm64
+Maintainer: qq391160
+Installed-Size: 4108
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.292_iphoneos-arm64.deb
+Size: 644838
+MD5sum: 387f5aca2406e4c769e22f750a6dbcc1
+SHA1: 2c13837334aa23915d79fe06295682cf339f46ae
+SHA256: f430c7d2dc3a39318a66754b66354bda3cb8523a52eeb49367398b8832c9591e
 Section: Tweaks
 Priority: optional
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
