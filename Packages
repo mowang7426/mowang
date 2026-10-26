@@ -11526,6 +11526,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
 
+Package: com.mlgm.idata
+Version: 1.3.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 8532
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iData-1.3.4-iphoneos-arm64e.deb
+Size: 2530360
+MD5sum: d2e4dc8c7ba4631e9f1f273a540417b8
+SHA1: 8356f466c3630bdef5fa780523e473fb3eb4b5b2
+SHA256: 33fcc09db2dbfb24ab832bf01eff73abe1df22121b4c9f9c57fd5788d9db7c50
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.3.4
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 8532
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iData-1.3.4-iphoneos-arm64.deb
+Size: 2532544
+MD5sum: ae40dfce1feeb2680188e475fec5fbf7
+SHA1: 59eee85614cbccf2bda8c4cce1ed428d949e3699
+SHA256: dfb84d3fa9c41dc4e7810c12d18632725b28449bd8f5463b315bb36b3bea74ea
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
 Package: com.mlgm.isgkb
 Version: 1.1.1
 Architecture: iphoneos-arm64e
