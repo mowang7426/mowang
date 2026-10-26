@@ -6259,6 +6259,42 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.cracklock.7513
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 7513
+Installed-Size: 1741
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Filename: debs/熄屏幻术_1.0.1_iphoneos-arm64e-roothide.deb
+Size: 1227952
+MD5sum: d5bd9d3fb17af491ddd4dcb7381a2ecf
+SHA1: 43858f273ad6c7161cacbb30b5ce9f1f0d9aa965
+SHA256: 208d32afc2b1cba9920b5afa4705dd7f51916e566034cbba9ad2718f226d8e04
+Section: Tweaks
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Author: 7513
+Name: 熄屏幻术
+
+Package: com.cracklock.7513
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 7513
+Installed-Size: 1788
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Filename: debs/熄屏幻术_1.0.1_iphoneos-arm64-rootless.deb
+Size: 1228108
+MD5sum: c7d9a1b5c040f29c25627ba34ca995d4
+SHA1: dca3cdafb82d66585a2087b2bc245525508532a2
+SHA256: 55c645c49215fdec3af9fb41f20c5cf9d1b726a37a06f0eca7854241bb20c740
+Section: Tweaks
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Author: 7513
+Name: 熄屏幻术
+
 Package: com.crctdd.choicy-whitelist
 Version: 1.5.4-5
 Architecture: iphoneos-arm64e
