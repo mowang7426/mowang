@@ -883,6 +883,70 @@ Description: 微信插件收纳美化
 Author: Anyi
 Name: WCPluginsClone
 
+Package: com.apelin.gamerskysplash
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Apelin
+Depends: firmware (>= 16.0)
+Filename: debs/游民星空去开屏广告_1.0.0_iphoneos-arm64.deb
+Size: 12636
+MD5sum: 73adb1d283e105df447f0e97e473faed
+SHA1: 58e915133cdc2702cee06d7e77c11e16228c9c1c
+SHA256: 7671aa7d0a1587b6fecf336171b182bdff6faae8a83b2b10d23b7f1c5fee76fb
+Section: Tweaks
+Description: 一个专门注入游民星空（com.gamersky.gamersky）的插件，去除启动开屏广告（自有 LaunchAd 与 TopOn 第三方开屏）。
+Author: Apelin
+Icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
+Name: 游民星空去开屏广告
+
+Package: com.apelin.gamerskysplash
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Apelin
+Depends: firmware (>= 16.0)
+Filename: debs/游民星空去开屏广告_1.0.0_iphoneos-arm64e.deb
+Size: 10072
+MD5sum: 1b662297a2a5baf19f0c8d593bcdc1cf
+SHA1: 38d4b9d6e540e2b117d83d5b7332eac6cd2058fc
+SHA256: ad4d6c5b2aed9b8b78705b0e6f587f4b31a1cd6b2e56a3100ec2e3576ffe64e7
+Section: Tweaks
+Description: 一个专门注入游民星空（com.gamersky.gamersky）的插件，去除启动开屏广告（自有 LaunchAd 与 TopOn 第三方开屏）。
+Author: Apelin
+Icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
+Name: 游民星空去开屏广告
+
+Package: com.apelin.jufengvip
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Apelin <apelin@local>
+Depends: mobilesubstrate
+Filename: debs/飓风相机 PRO_0.1.0_iphoneos-arm64.deb
+Size: 29460
+MD5sum: 00fa5a6a59aee2e1dc01faa37178d7c3
+SHA1: 4098e19efb891950ea7f9351135ab3e310f4d4f9
+SHA256: f5a5b2e12daa30cae3c6b2cbe41c18a43a2b4218c09213d4c7a2eecb17f1a8c2
+Section: Tweaks
+Description: Unlocks the Pro membership of 飓风相机 on this device.
+Author: Apelin
+Icon: https://huayuarc.github.io/icon/jufengvip.jpg
+Name: 飓风相机 PRO
+
+Package: com.apelin.jufengvip
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Apelin <apelin@local>
+Depends: mobilesubstrate
+Filename: debs/飓风相机 PRO_0.1.0_iphoneos-arm64e.deb
+Size: 29568
+MD5sum: 7f3587acac063c39eaad9bab54c205c1
+SHA1: a5e3c613316d66515cd4c228d65e0ada1bc7cac6
+SHA256: 3fd8b1547a95d497bf5ec1fff723273639742e7cf9a95c9fa9f360fdd59831db
+Section: Tweaks
+Description: Unlocks the Pro membership of 飓风相机 on this device.
+Author: Apelin
+Icon: https://huayuarc.github.io/icon/jufengvip.jpg
+Name: 飓风相机 PRO
+
 Package: com.aronsz26.lockscreenrestore
 Version: 1.9.5
 Architecture: iphoneos-arm64
@@ -8787,6 +8851,96 @@ Section: Tweaks
 Description: 满血120赫兹、qq172942805
 Author: 半生年华
 Name: MotionX
+
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iamdega
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/UIScroller_1.0.5_iphoneos-arm64e.deb
+Size: 9536
+MD5sum: ea8f2b7fd38f02dfba738f20f78c20da
+SHA1: 209fbac472990eda9198e5132942d186b5962ed2
+SHA256: 9f088cd67e91a59d3b69c6b01104ee238a3154c87a576fca655c2aac93cf7f3c
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!
+Author: iamdega
+Icon: https://huayuarc.github.io/icon/uiscroller.jpg
+Name: UIScroller
+
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: iamdega
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/UIScroller_1.0.5_iphoneos-arm64.deb
+Size: 9604
+MD5sum: 818d8f1cc6f81362b1d4fbe11ae6eb18
+SHA1: 1f135cfb0f812004047d8d725e2dff06aaccbb4d
+SHA256: dad9f872b19c236638d48ebd3b6c3c89439e6478280e04f0b0560c130e8e9b81
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!
+Author: iamdega
+Icon: https://huayuarc.github.io/icon/uiscroller.jpg
+Name: UIScroller
+
+Package: com.icli.icli
+Version: 0.10.0
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/icli_0.10.0_iphoneos-arm64e.deb
+Size: 1121452
+MD5sum: fe170aca58709f53231e50eef800c882
+SHA1: 5d6f3346f55f0fcadfe395bfe9644e94971a7509
+SHA256: 1bfba4c37de94c34db8c92f01626c48bb75dbe7bb0f18feee8160fed3aea5904
+Section: Development
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Version: 0.10.0
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/icli_0.10.0_iphoneos-arm64.deb
+Size: 1120476
+MD5sum: 1f2bd751e9b7be5866e436cf99e412c8
+SHA1: 06468d37cbfa1a7cf10ffe185683a114c901e1bc
+SHA256: 7dd20c99e9105c4427c5a021ea1ff25fb20395d96309e86ecfece82006d57a0f
+Section: Development
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Version: 0.9.2
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/icli_0.9.2_iphoneos-arm64.deb
+Size: 1100868
+MD5sum: 26dbc10e2068358921a4194166c281ee
+SHA1: 034843755dd14f7942d775031f64e7e62299dc62
+SHA256: 1fd6304c1af71bffdb73e5185c40aae34b6b810d83d66a0c33e3fdcb3324aa03
+Section: Development
+Description: On-device iOS control CLI
+Name: icli
+
+Package: com.icli.icli
+Version: 0.9.2
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/icli_0.9.2_iphoneos-arm64e.deb
+Size: 1100864
+MD5sum: 345297a51bb950cce23893359e14c75f
+SHA1: e5bf382361fda2c054acb4446632fcd93689bf5b
+SHA256: b32308a4c2831d2e748991e16196a0fb1aed1aa0623cac734435ce357f0cbe3f
+Section: Development
+Description: On-device iOS control CLI
+Name: icli
 
 Package: com.iosdump.customccbg
 Version: 0.0.1
@@ -17211,6 +17365,75 @@ Author: yzdmm
 Icon: https://huayuarc.github.io/icon/kb.jpg
 Name: 键盘下方状态
 
+Package: com.zege.sileobackground
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: 泽哥
+Installed-Size: 260
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/Sileo 背景图_1.1.6_iphoneos-arm64.deb
+Size: 26224
+MD5sum: b8e26c195304961444dcda95848c7da1
+SHA1: 2f9f7c45da4764819a242a862481fb549353c9c6
+SHA256: 269431b8e43206a78734def001b59a422f7f8d208ea6744c67b67fc79bf5c856
+Section: Tweaks
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Author: 泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Name: Sileo 背景图
+
+Package: com.zege.sileobackground
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: 泽哥
+Installed-Size: 260
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/Sileo 背景图_1.1.6_iphoneos-arm64e.deb
+Size: 26164
+MD5sum: 9d0daf32ee1fd247fe60e1d867e19807
+SHA1: b31db2a776d02ad565071ea89a51b149020d032f
+SHA256: 5d2711ac2902da033160e6420c9c1b56877ebec284fab41b25dbc6f6a1fe3ff3
+Section: Tweaks
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Author: 泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Name: Sileo 背景图
+
+Package: com.zege.transparentkeypad
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 泽哥
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/去拨号键盘背景_1.0.3_iphoneos-arm64.deb
+Size: 11560
+MD5sum: 85779fdce363db2937b11f8e821348e9
+SHA1: 57d74d84d2b984118629dc03ba81943e4938b4fa
+SHA256: a0d071027ee268a2462afd38ac0282747d3d33fda34242bcd250f7e74d99c589
+Section: Tweaks
+Description: 把「电话」App 拨号键盘的圆底和绿色呼叫键背景变透明，只保留数字和电话图标。rootless 版（/var/jb）。重开电话 App 即生效。
+Author: 泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-transparentkeypad.png
+Name: 去拨号键盘背景
+
+Package: com.zege.transparentkeypad
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 泽哥
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Replaces: com.rein.transparentkeypad
+Filename: debs/去拨号键盘背景_1.0.3_iphoneos-arm64e.deb
+Size: 11592
+MD5sum: 5c25d138d5989ae0fe058b0953e9153b
+SHA1: e4299635c9e4992041ba54284eb653a80ef1d12b
+SHA256: 91e5d6f7d323d6517dd14a979d37b6d6289b6e60eb4325838fa91b483d6b3096
+Section: Tweaks
+Description: 把「电话」App 拨号键盘的圆底和绿色呼叫键背景变透明，只保留数字和电话图标。重开电话 App 即生效。
+Author: 泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-transparentkeypad.png
+Name: 去拨号键盘背景
+
 Package: com.zegeyoudaoli.home27
 Version: 2.1.62
 Architecture: iphoneos-arm64e
@@ -20286,6 +20509,38 @@ Author: Banana
 Icon: https://huayuarc.github.io/icon/onboarding-icon.png
 Name: 一芽分屏 (Iya Split)
 
+Package: iya.banana.multitask
+Version: 0.1.4-1
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 2536
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)_0.1.4-1_iphoneos-arm64e.deb
+Size: 430466
+MD5sum: 7b763538fd7e5e9e7033fe1c1cf70cae
+SHA1: 7ef65f9cae26b795d3c02167757b010fee52f917
+SHA256: 953e8995c91bcdfab1d3d1a94104ef3df7a805dd8eef4889fb97c1b9031007ef
+Section: Tweaks
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Name: 一芽分屏 (Iya Split)
+
+Package: iya.banana.multitask
+Version: 0.1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 2552
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏 (Iya Split)_0.1.4-1_iphoneos-arm64.deb
+Size: 432208
+MD5sum: de37d0947ef7b1d184b954e6fb1c178b
+SHA1: 5264682ed1e2339f8015839e4445ffec7409cb20
+SHA256: 88d8dc9283565baf5fff187b85f75b934fe8a277f061d24724bc08c2cba078f9
+Section: Tweaks
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Author: Banana
+Name: 一芽分屏 (Iya Split)
+
 Package: iya.banana.musichaptics
 Version: 0.1.3
 Architecture: iphoneos-arm64e
@@ -20938,6 +21193,40 @@ Description: Customize Siri with NewSiri edge lighting or the SiriAI glass inter
 Author: Thijs mussig, Banana
 Name: LiquidSiri
 
+Package: local.apelin.nomo
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: yqcrack
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/NOMO 解锁PRO_0.0.2_iphoneos-arm64.deb
+Size: 25992
+MD5sum: 519934b6aa547881ab3fe11634b9e0f5
+SHA1: bd2149df8fa2753831c2446f136ddd628a4d455c
+SHA256: 5ef97dfe1396aff94d98d0f30175e24b6ad70cde2f73b38207e0536c7fdef1b0
+Section: Tweaks
+Description: 保留 NOMO 已下载的相机皮肤，切换账号后不再需要重新下载，并解锁 PRO 功能。
+Author: yqcrack
+Icon: https://huayuarc.github.io/icon/nomo.jpg
+Name: NOMO 解锁PRO
+
+Package: local.apelin.nomo
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: yqcrack
+Installed-Size: 109
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/NOMO 解锁PRO_0.0.2_iphoneos-arm64e.deb
+Size: 18704
+MD5sum: fd46e15e78f58bb6ed29e49cc3b98312
+SHA1: f9bcddb8a0c38bbaf96a043fd41b77457c48946f
+SHA256: 2596d1a0ffe44ac235346dd3c85af89e29d2001f7285ec3f945337b047863dfc
+Section: Tweaks
+Description: 保留 NOMO 已下载的相机皮肤，切换账号后不再需要重新下载，并解锁 PRO 功能。
+Author: yqcrack
+Icon: https://huayuarc.github.io/icon/nomo.jpg
+Name: NOMO 解锁PRO
+
 Package: local.minis.hideairdrop
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -21390,6 +21679,50 @@ SHA256: 2ce11d4d891c08cb62d4551b16ee119db951678a199be2ca1b98b60819072472
 Section: Utilities
 Priority: optional
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.2.3
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92020
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.3_iphoneos-arm64e.deb
+Size: 31806074
+MD5sum: d1994fbe2e18c04b0b19bf97584edde0
+SHA1: a819b9e749c8c146cf4e4c7da37facd5dfd4e3b1
+SHA256: 54001649e00a261621202d99cc9159612cac2c29db872ba0d62b8c2bb33ff04c
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 92020
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.2.3_iphoneos-arm64.deb
+Size: 31814958
+MD5sum: f1528c5b443429aa7360011e40cc2f9e
+SHA1: 5c070a8ce35ab242b6b81643a1505a3f35acfad6
+SHA256: 94dd3ebef5cb9697bef2f33e208535ab1e16c3b00bf6306c8c933f2840bb0191
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Depiction: https://owngoal-dev.github.io/Apelin/
@@ -22784,4 +23117,37 @@ Depiction: https://repo.cypwn.xyz/depiction/3486
 Icon: https://repo.cypwn.xyz/packages/RemoteCompanion-Rootless/icon.png
 Name: RemoteCompanion
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3486
+
+Package: xyz.local.bilispeed
+Version: 1.4.2
+Architecture: iphoneos-arm64e
+Maintainer: local
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/BiliSpeed B站 3倍速_1.4.2_iphoneos-arm64e.deb
+Size: 10976
+MD5sum: 51c9613cb8126a7019df2ba04df0f6e6
+SHA1: 0aae60284e19bbfd99ae7bcea1a3b78d077d65e1
+SHA256: ce9f4bb9324e3e6d7b21b281b280799df44ed9edd5c01811150f62c0105a1146
+Section: Tweaks
+Description: B站 3倍速BiliSpeed 注入：tv.danmaku.bilianime Native portrait and landscape 3.0 playback rate for Bilibili 8.99.
+Author: local
+Icon: https://huayuarc.github.io/icon/bilispeed.jpg
+Name: BiliSpeed B站 3倍速
+
+Package: xyz.local.bilispeed
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: local
+Depends: mobilesubstrate
+Filename: debs/BiliSpeed B站 3倍速_1.4.2_iphoneos-arm64.deb
+Size: 14584
+MD5sum: 9bea204c424b4c2d7d6adc1f1d7aafcd
+SHA1: 5767cb02d8bc1ab99887693cbcf4c99230b2ae09
+SHA256: aaa662aff74c5856c3ef77ece8cdf0c0b49b62d28ae9908c70e35db2a3813249
+Section: Tweaks
+Description: B站 3倍速BiliSpeed 注入：tv.danmaku.bilianime Native portrait and landscape 3.0 playback rate for Bilibili 8.99.
+Author: local
+Icon: https://huayuarc.github.io/icon/bilispeed.jpg
+Name: BiliSpeed B站 3倍速
 
