@@ -13544,6 +13544,46 @@ Icon: https://qq391160.github.io/repo/icons/thermal.png
 Name: CPU智能温控(iOS16/17)
 
 Package: com.qq391160.cpucore
+Version: 2.0.298
+Architecture: iphoneos-arm64
+Maintainer: qq391160
+Installed-Size: 4340
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.298_iphoneos-arm64.deb
+Size: 660056
+MD5sum: 45ca291ec5e416e64944e24db816c988
+SHA1: 3e03042ef4dcdef2e50ed0e9277b37a17a3d7a98
+SHA256: e105f85edea06b0a9353c4c903550a76b01b9cacdcbfb415b45556bfddb8b69a
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.298
+Architecture: iphoneos-arm64e
+Maintainer: qq391160
+Installed-Size: 4624
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.298_iphoneos-arm64e.deb
+Size: 727088
+MD5sum: 389ece9a1768c647fbe3873aed5c5f3c
+SHA1: 6a6f8e2eccb6525299de3b2020e07ed83584ae67
+SHA256: 94b6c8b847d1f704a4392b7ab2eb1a9c5bc1db872c75c2c814f8147e75043f60
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
 Version: 2.0.45
 Architecture: iphoneos-arm64
 Maintainer: qq391160
@@ -18429,6 +18469,24 @@ Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Name: Liquid (Gl)ass 27（rootless 测试）
 
+Package: com.zuner.lunanoad
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: liwhs
+Installed-Size: 2856
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/LunaNoAd 汽水音乐-1.5-iphoneos-arm64e.deb
+Size: 1041424
+MD5sum: f8ea90c1d5e7cd7962538c8c95873c33
+SHA1: 9f74d928e5d39d6417d62a60c08e0d6e3e621422
+SHA256: 6b6fa6b49d33378b6fad4de54495c01fcd52d603219ee1e670bfad9c26c29ff4
+Section: Tweaks
+Description: 禁止开屏广告、秒过激励广告，如注入提示：汽水当前版本不安全请在正规应用市场下载，请随意改名LunaNoAd.dylib，再重新注入即可解决。
+Author: Zuner
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Name: LunaNoAd 汽水音乐
+
 Package: danmutool
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -19435,6 +19493,42 @@ SHA256: 745619fc1d10507d7598b0b18f5b20709c1d487ce19f21bd2964c6d91f1c8410
 Section: Tweaks
 Description: Right-side Orbit and Capsule status icons with native reveal animations.
 Author: Banana
+Name: Lunora DuoIcon
+
+Package: iya.banana.duoicon
+Version: 0.1.6
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 1692
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora DuoIcon_0.1.6_iphoneos-arm64e.deb
+Size: 290996
+MD5sum: 73f3b51067888eda664881a9f2bbb164
+SHA1: a509a0cd5ac3238eda03703bb2f89f62093b86db
+SHA256: 8f022ca8d667ae5062e347df05333a7590d1cdaca8dd96e8187315df1d14f418
+Section: Tweaks
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Name: Lunora DuoIcon
+
+Package: iya.banana.duoicon
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 1692
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora DuoIcon_0.1.6_iphoneos-arm64.deb
+Size: 291740
+MD5sum: ccebf9598f931014e72d61c141929a88
+SHA1: 1289b022dce24eaf7435a99db266f42c59b03513
+SHA256: dde1def91ad39130f5f1a90c03cf3c71266f5c682a6bf8add5d385b94093af53
+Section: Tweaks
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
 Name: Lunora DuoIcon
 
 Package: iya.banana.dynamicmusicbg
