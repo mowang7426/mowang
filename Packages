@@ -11807,6 +11807,40 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.mlgm.taploom
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/Taploom_1.1_iphoneos-arm64.deb
+Size: 166400
+MD5sum: 1468a4d55fa2cac643d3f97eb144cdb0
+SHA1: da69fa2481fde56d320f17e2fa23eb5e51b46959
+SHA256: 32739d0974e212395844b75b753a11b85beb9f3aef25129e9f3bc3fd03c7803a
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
+Package: com.mlgm.taploom
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/Taploom_1.1_iphoneos-arm64e.deb
+Size: 166580
+MD5sum: 692a0e2dd8783c80ee06966875d00d52
+SHA1: 18efb8fe69de8796404a539bae1e01e7bc648021
+SHA256: 81679fce83169fef99e71c21305d04f88f3a1f5e004b8c0f7842ad060c03c6d8
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
 Package: com.monian.b612patch
 Version: 0.0.1
 Architecture: iphoneos-arm64
