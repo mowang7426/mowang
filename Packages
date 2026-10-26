@@ -16435,6 +16435,36 @@ Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字
 Author: MoWang
 Name: sileo 壁纸
 
+Package: com.sileowallpaper.tweak
+Version: 0.1.8
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.sileowallpaper.tweak_0.1.8_iphoneos-arm64e.deb
+Size: 18560
+MD5sum: 4fc2b35f367c7f5d8ae10c4f0c83b994
+SHA1: 00fbdcc64acc8b5b77c2c4adf37600d381064087
+SHA256: 02eaad73e38f3de18b1adebac0db352e382f4d893cdab3e7b0c800d418214bd2
+Section: Tweaks
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Name: sileo 壁纸
+
+Package: com.sileowallpaper.tweak
+Version: 0.1.8
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.sileowallpaper.tweak_0.1.8_iphoneos-arm64.deb
+Size: 26100
+MD5sum: a771650ed74549e5ab65bdbfcd4a4e0c
+SHA1: df26878e827843cb8d59a581754767705056fa5e
+SHA256: c19a91364e1eb7bc071f78279f868ef2edd11987dba818319f6c7297e90c23e8
+Section: Tweaks
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Name: sileo 壁纸
+
 Package: com.sini.filzaswipeselect
 Version: 0.0.2
 Architecture: iphoneos-arm64
