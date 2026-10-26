@@ -16371,6 +16371,36 @@ Author: SHTM
 Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
 Name: AmpLify
 
+Package: com.sileowallpaper.tweak
+Version: 0.1.3
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.sileowallpaper.tweak_0.1.3_iphoneos-arm64.deb
+Size: 20300
+MD5sum: e0c4063e5f257574b09bfae63cddf4c4
+SHA1: c6ae3cb9a8186a14aae7d05e6549513be5f5bc6d
+SHA256: 43adc386509ace7dc3446f70f0a41795fa53cd47bd7b0205740f733be1b8ff09
+Section: Tweaks
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Name: sileo 壁纸
+
+Package: com.sileowallpaper.tweak
+Version: 0.1.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.sileowallpaper.tweak_0.1.3_iphoneos-arm64e.deb
+Size: 15372
+MD5sum: 563d39912eef21abbb1f84ceafb5c8b7
+SHA1: 4c063ddfd076a114baaa552389e2ee6fafad500a
+SHA256: 68c45f02573f9ab868095861f5a2e43df8d2e013cc2a916f4e279e426edc940d
+Section: Tweaks
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Name: sileo 壁纸
+
 Package: com.sini.filzaswipeselect
 Version: 0.0.2
 Architecture: iphoneos-arm64
