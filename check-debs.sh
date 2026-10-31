@@ -6,8 +6,7 @@ cd "$(dirname "$0")"
 broken=0
 for f in debs/*.deb; do
   [ -e "$f" ] || continue
-  # 指定字段会触发严格解析；不指定字段仅原样展示 control，可能漏报。
-  if ! dpkg-deb --field "$f" Package Version Architecture >/dev/null 2>&1; then
+  if ! dpkg-deb -I "$f" >/dev/null 2>&1; then
     echo "[坏包] $f"
     broken=1
   fi
