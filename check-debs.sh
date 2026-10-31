@@ -6,8 +6,12 @@ cd "$(dirname "$0")"
 broken=0
 for f in debs/*.deb; do
   [ -e "$f" ] || continue
-  if ! dpkg-deb -I "$f" >/dev/null 2>&1; then
-    echo "[坏包] $f"
+  # 仅读取 control，不安装包、不执行维护脚本；检查 Debian control 末尾换行。
+  if ! dpkg-deb -I "$f" control 2>/dev/null | perl -0777 -e '
+    my $control = <STDIN>;
+    exit(!defined($control) || $control !~ /\n\z/);
+  '; then
+    echo "[坏包] $f（control 解包失败或缺少末尾换行）"
     broken=1
   fi
 done
