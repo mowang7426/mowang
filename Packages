@@ -18826,6 +18826,24 @@ Description: 给系统键盘底栏加一排常用按钮，打字不用再长按�
 Author: wacljcr
 Name: 键盘下方状态
 
+Package: com.wacljcr.keyboardstatus
+Version: 1.4.46
+Architecture: iphoneos-arm64
+Maintainer: wacljcr
+Installed-Size: 928
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/键盘下方状态_1.4.46_iphoneos-arm64.deb
+Size: 298980
+MD5sum: c6836089806fa0a7d5d91a8955e15151
+SHA1: afef55b34492cff0d5ab65a4e4378abd6569f42f
+SHA256: f442ff68c5f372166a5e01e063ba0ca26c1670fb793061f046784c923be2a74a
+Section: Tweaks
+Description: 为系统键盘底栏添加可配置的快捷工具栏。
+ 据包内说明，提供全选、剪切、复制、粘贴、剪贴板历史、短语、光标移动、删除、撤销和输入法切换等功能。按钮可单独开关及排序，工具栏支持单排或双排、图标或文字显示，并可调整字号、间距和位置；另提供隐藏地球键、光标样式调整及设置备份与恢复功能。
+ 依赖 mobilesubstrate 或 ellekit，以及 preferenceloader。具体功能表现、系统版本及设备兼容性尚未验证。
+Author: wacljcr
+Name: 键盘下方状态
+
 Package: com.wacljcr.qqmixtxtimg
 Version: 1.0.6
 Architecture: iphoneos-arm64e
