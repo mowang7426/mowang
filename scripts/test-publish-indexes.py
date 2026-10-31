@@ -166,6 +166,8 @@ class PublicationTests(unittest.TestCase):
             'marker = Path(' + repr(str(self.root / 'writer-done')) + ')\n' +
             "if sys.argv[1:2] == ['push'] and not marker.exists():\n" +
             "    marker.touch()\n    env = dict(os.environ)\n" +
+            # Identical same-second commits otherwise have the same object ID on fast CI.
+            "    env['GIT_COMMITTER_DATE'] = '2000-01-01T00:00:00Z'\n" +
             '    env["PATH"] = ' + repr(os.environ['PATH']) + '\n' +
             '    subprocess.run(["bash", ' + repr(str(SCRIPT)) + '], cwd=' + repr(str(self.other)) + ', env=env, check=True)\n' +
             'os.execv(real, [real] + sys.argv[1:])\n')
