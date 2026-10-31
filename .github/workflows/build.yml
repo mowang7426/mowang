@@ -9,7 +9,14 @@ on:
       - 'check-debs.sh'
       - 'validate-repo.sh'
       - '.github/workflows/build.yml'
+      - 'scripts/publish-indexes.sh'
+      - 'scripts/test-publish-indexes.py'
   workflow_dispatch:
+
+# Finish validation for the running snapshot; obsolete snapshots never write back.
+concurrency:
+  group: repository-indexes-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -23,6 +30,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Record build base
+        run: echo "INDEX_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Test index publication guards
+        run: python3 scripts/test-publish-indexes.py
+
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils zstd
 
@@ -33,13 +46,6 @@ jobs:
         run: bash ./validate-repo.sh
 
       - name: Commit generated indexes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Packages Packages.gz Packages.bz2 Packages.xz Packages.zst Release
-          if git diff --cached --quiet; then
-            echo "No generated changes to commit."
-          else
-            git commit -m "build: regenerate repository indexes"
-            git push
-          fi
+        env:
+          INDEX_BUILD_REF: ${{ github.ref }}
+        run: bash scripts/publish-indexes.sh
