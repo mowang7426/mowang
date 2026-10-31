@@ -30,6 +30,16 @@ class PublicationTests(unittest.TestCase):
             git(self.work, 'config', key, value)
         for name in FILES:
             (self.work / name).write_text('original\n')
+        (self.work / 'build.sh').write_text(
+            '#!/bin/bash\nset -eu\n'
+            '[[ ! -f fail-build ]] || exit 42\n'
+            'for name in ' + ' '.join(FILES) + '; do\n'
+            '  if [[ -f uploaded.deb ]]; then cat uploaded.deb > "$name";\n'
+            '  else printf "generated\\n" > "$name"; fi\ndone\n')
+        (self.work / 'validate-repo.sh').write_text(
+            '#!/bin/bash\nset -eu\n[[ ! -f fail-validation ]] || exit 43\n'
+            'for name in ' + ' '.join(FILES) + '; do cmp Packages "$name"; done\n'
+            'touch validation-ran\nrm validation-ran\n')
         git(self.work, 'add', '.')
         git(self.work, 'commit', '-m', 'base')
         git(self.work, 'push', 'origin', 'main')
@@ -37,7 +47,7 @@ class PublicationTests(unittest.TestCase):
         git(self.root, 'clone', str(self.remote), str(self.other))
         git(self.other, 'config', 'user.name', 'Uploader')
         git(self.other, 'config', 'user.email', 'uploader@example.invalid')
-        self.env = dict(os.environ, INDEX_BASE_SHA=self.base, INDEX_BUILD_REF='refs/heads/main', LC_ALL='C')
+        self.env = dict(os.environ, INDEX_BASE_SHA=self.base, INDEX_BUILD_REF='refs/heads/main', LC_ALL='C', RUNNER_TEMP=str(self.root))
         # Do not inherit any caller's repository-scoped Git variables.
         for key in ['GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE']:
             self.env.pop(key, None)
@@ -67,15 +77,19 @@ class PublicationTests(unittest.TestCase):
         bin_dir.mkdir()
         wrapper = bin_dir / 'git'
         wrapper.write_text('#!/usr/bin/env python3\n' +
-            'import os, subprocess, sys\n' +
+            'import os, subprocess, sys\nfrom pathlib import Path\n' +
             'real = ' + repr(GIT) + '\n' +
             'other = ' + repr(str(self.other)) + '\n' +
             'kind = ' + repr(kind) + '\n' +
+            'counter = Path(' + repr(str(self.root / 'push-count')) + ')\n' +
             "if sys.argv[1:2] == ['push']:\n" +
-            "    if kind in ('race', 'network_after_advance', 'permission_after_advance'):\n" +
+            "    n = int(counter.read_text()) + 1 if counter.exists() else 1\n" +
+            "    counter.write_text(str(n))\n" +
+            "    if kind == 'always_race' or (n == 1 and kind in ('race', 'network_after_advance', 'permission_after_advance')):\n" +
+            "        if kind == 'always_race': (Path(other) / 'uploaded.deb').write_text('racing package ' + str(n) + '\\n')\n" +
             "        for args in [['add', '.'], ['commit', '-m', 'racing upload'], ['push', 'origin', 'main']]:\n" +
             "            subprocess.run([real, '-C', other] + args, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n" +
-            "    if kind != 'race':\n" +
+            "    if kind not in ('race', 'always_race'):\n" +
             "        print('fatal: authentication denied' if kind == 'permission_after_advance' else 'fatal: network connection failed', file=sys.stderr)\n" +
             "        sys.exit(128)\n" +
             "os.execv(real, [real] + sys.argv[1:])\n")
@@ -92,16 +106,99 @@ class PublicationTests(unittest.TestCase):
     def test_remote_advanced_before_check(self):
         self.generate()
         tip = self.advance()
-        self.assertIn('SKIP: stale indexes', self.run_script())
-        self.assertEqual(self.tip(), tip)
+        self.assertIn('REBUILD:', self.run_script())
+        self.assertEqual(git(self.remote, 'rev-parse', 'main^'), tip)
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'new package snapshot')
         self.assertEqual(git(self.work, 'rev-parse', 'HEAD'), self.base)
+
+    def test_unrelated_commit_still_publishes(self):
+        self.generate()
+        (self.other / 'README.md').write_text('no path-filtered successor run\n')
+        git(self.other, 'add', '.')
+        git(self.other, 'commit', '-m', 'docs only')
+        git(self.other, 'push', 'origin', 'main')
+        tip = self.tip()
+        self.assertIn('PUBLISHED:', self.run_script())
+        self.assertEqual(git(self.remote, 'rev-parse', 'main^'), tip)
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'generated')
 
     def test_race_between_check_and_push(self):
         self.generate()
         self.inject_push('race')
-        self.assertIn('SKIP: main advanced during publication', self.run_script())
-        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'original')
+        output = self.run_script()
+        self.assertIn('RETRY: main advanced during push', output)
+        self.assertIn('PUBLISHED:', output)
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'racing package snapshot')
         self.assertEqual(git(self.remote, 'show', 'main:uploaded.deb'), 'racing package snapshot')
+
+    def test_bounded_retries_fail(self):
+        self.generate()
+        self.inject_push('always_race')
+        self.assertIn('exhausted 3 attempts', self.run_script(False))
+        self.assertEqual((self.root / 'push-count').read_text(), '3')
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'original')
+        self.assertEqual(git(self.remote, 'show', 'main:uploaded.deb'), 'racing package 3')
+
+    def test_rebuild_failure_fails(self):
+        self.generate()
+        (self.other / 'fail-build').touch()
+        tip = self.advance()
+        self.run_script(False)
+        self.assertEqual(self.tip(), tip)
+
+    def test_revalidation_failure_fails(self):
+        self.generate()
+        (self.other / 'fail-validation').touch()
+        tip = self.advance()
+        self.run_script(False)
+        self.assertEqual(self.tip(), tip)
+
+    def test_two_index_writers(self):
+        self.generate()
+        for name in FILES:
+            (self.other / name).write_text('generated\n')
+        bin_dir = self.root / 'bin'
+        bin_dir.mkdir()
+        wrapper = bin_dir / 'git'
+        wrapper.write_text(
+            '#!/usr/bin/env python3\nimport os, subprocess, sys\nfrom pathlib import Path\n' +
+            'real = ' + repr(GIT) + '\n' +
+            'marker = Path(' + repr(str(self.root / 'writer-done')) + ')\n' +
+            "if sys.argv[1:2] == ['push'] and not marker.exists():\n" +
+            "    marker.touch()\n    env = dict(os.environ)\n" +
+            '    env["PATH"] = ' + repr(os.environ['PATH']) + '\n' +
+            '    subprocess.run(["bash", ' + repr(str(SCRIPT)) + '], cwd=' + repr(str(self.other)) + ', env=env, check=True)\n' +
+            'os.execv(real, [real] + sys.argv[1:])\n')
+        wrapper.chmod(0o755)
+        self.env['PATH'] = str(bin_dir) + os.pathsep + self.env['PATH']
+        output = self.run_script()
+        self.assertIn('RETRY: main advanced during push', output)
+        self.assertIn('No generated changes', output)
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'generated')
+        self.assertEqual(git(self.remote, 'rev-parse', 'main^'), self.base)
+
+    def test_advance_during_final_fetch_without_changes(self):
+        bin_dir = self.root / 'bin'
+        bin_dir.mkdir()
+        wrapper = bin_dir / 'git'
+        (self.other / 'uploaded.deb').write_text('late upload\n')
+        wrapper.write_text(
+            '#!/usr/bin/env python3\nimport os, subprocess, sys\nfrom pathlib import Path\n' +
+            'real = ' + repr(GIT) + '\n' +
+            'other = ' + repr(str(self.other)) + '\n' +
+            'counter = Path(' + repr(str(self.root / 'fetch-count')) + ')\n' +
+            "if sys.argv[1:2] == ['fetch']:\n" +
+            "    n = int(counter.read_text()) + 1 if counter.exists() else 1\n    counter.write_text(str(n))\n" +
+            "    if n == 2:\n" +
+            "        for args in [['add', '.'], ['commit', '-m', 'late upload'], ['push', 'origin', 'main']]:\n" +
+            "            subprocess.run([real, '-C', other] + args, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n" +
+            'os.execv(real, [real] + sys.argv[1:])\n')
+        wrapper.chmod(0o755)
+        self.env['PATH'] = str(bin_dir) + os.pathsep + self.env['PATH']
+        output = self.run_script()
+        self.assertIn('RETRY: main advanced before push', output)
+        self.assertIn('PUBLISHED:', output)
+        self.assertEqual(git(self.remote, 'show', 'main:Packages'), 'late upload')
 
     def test_server_hook_rejection_fails(self):
         self.generate()
