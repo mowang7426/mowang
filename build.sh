@@ -8,7 +8,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 ORIGIN="MoWang"
-LABEL="莫忘的专属源"
+LABEL="莫忘专属源"
 SUITE="stable"
 VERSION="1.0"
 CODENAME="iphoneos"
