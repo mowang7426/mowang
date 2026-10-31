@@ -7,7 +7,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-ORIGIN="MoWang"
+ORIGIN="莫忘专属源"
 LABEL="莫忘专属源"
 SUITE="stable"
 VERSION="1.0"
@@ -115,8 +115,8 @@ python3 - <<'PY'
 from hashlib import md5, sha256
 from pathlib import Path
 
-origin = "MoWang"
-label = "莫忘的专属源"
+origin = "莫忘专属源"
+label = "莫忘专属源"
 suite = "stable"
 version = "1.0"
 codename = "iphoneos"

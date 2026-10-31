@@ -54,8 +54,8 @@ cp "$work_dir/Packages" "$work_dir/Packages.xz" "$work_dir/indexes/"
 # Release is written beside the indexes, never among them, so it does
 # not hash itself.
 apt-ftparchive \
-  -o APT::FTPArchive::Release::Origin="$owner" \
-  -o APT::FTPArchive::Release::Label="$name" \
+  -o APT::FTPArchive::Release::Origin="莫忘专属源" \
+  -o APT::FTPArchive::Release::Label="莫忘专属源" \
   -o APT::FTPArchive::Release::Suite="stable" \
   -o APT::FTPArchive::Release::Version="1.0" \
   -o APT::FTPArchive::Release::Codename="$name" \
