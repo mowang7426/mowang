@@ -1073,6 +1073,27 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://huayuarc.github.io/icon/ahsfilter.jpg
 Name: AhsFilter
 
+Package: com.axs.classicfolders
+Version: 5.2.0-20
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Filename: debs/ClassicFolders_5.2.0-20_iphoneos-arm64.deb
+Size: 67598
+MD5sum: 0bb7287ac1a9f592431017fa71568222
+SHA1: ea54462c53aaa21b3868052b581b67f9f64579da
+SHA256: 906e616cdd78106ac5051fcba477990a75daa5f24c3ac39bff399c2d45b7962c
+Section: Axs-Tweaks
+Description: 让 iOS 15+ 的桌面文件夹按经典 macOS 风格原位展开。
+ * 1. 点开文件夹时在图标原位弹出半透明玻璃面板，桌面图标随面板重排、淡出
+ * 2. 支持重命名、轻点空白关闭、启动应用自动收起
+ * 3. 支持导入图片、GIF、静音视频作为文件夹面板背景
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/ClassicFolders3.png
+Name: ClassicFolders
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classicfolders/js.json
+
 Package: com.axs.cpufree
 Version: 5.2.0-5
 Architecture: iphoneos-arm64
@@ -7964,6 +7985,22 @@ Author: michaelmelita1 & daodao
 Name: Little16(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
 
+Package: com.dao.sileo
+Version: 2.5.1-14.1
+Architecture: iphoneos-arm64e
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/Sileo(RootHide)_2.5.1-14.1_iphoneos-arm64e.deb
+Size: 3007148
+MD5sum: 9411b8e67a2d1935bf1914ed1ea17b6c
+SHA1: 8cfb3ca1d51c126e7a95a831d225df2a6f93f5c4
+SHA256: a8172ba18ef6fdb3551f11c2498570f4306c228b9b12333281d1ee6108b1e237
+Section: 嗨-系统
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Author: Amy While
+Name: Sileo(RootHide)
+
 Package: com.dao.velvet2
 Version: 2.3
 Architecture: iphoneos-arm64e
@@ -9281,6 +9318,42 @@ SHA1: 7f9acdc337e2b51a3966ddc87fec9bba91e6307e
 SHA256: 193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650
 Section: Tweaks
 Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Version: 1.6.2-157+isolation.30
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/CPU 解除温控_1.6.2-157+isolation.30_iphoneos-arm64e.deb
+Size: 160272
+MD5sum: 4c392c3a10480141b7c4bbafbe27e560
+SHA1: f3ccc051ecd799183210429eabf578594ff67ffb
+SHA256: 4c1f5e81410fb4ff19ffde9abdaa032a6cc3d43b2ebbdb12b684cb38355e717c
+Section: Tweaks
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Version: 1.6.2-157+isolation.30
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/CPU 解除温控_1.6.2-157+isolation.30_iphoneos-arm64.deb
+Size: 214632
+MD5sum: fe9ece53a1dfc4c1d169c59a1add9075
+SHA1: 2bbd8c95c7900236ead0d638879b179478c7258f
+SHA256: 708fbb19ff8b504b733b087db889ef0e7b7f9bd98f09cfdf00af3f22c0f8b48e
+Section: Tweaks
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU 解除温控
@@ -10878,6 +10951,39 @@ Section: Tweaks
 Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
 Author: yzdmm2024
 Name: 我的手势
+
+Package: com.mallin.tunnelsharevpn
+Version: 1.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Mallin
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/TunnelShareVPN_1.2.4_iphoneos-arm64e.deb
+Size: 145920
+MD5sum: 0e8c8d21ff3eec3ae533b1e5db1377ba
+SHA1: 7efacd9efb83cedf2165ef960ea9bdcac4a3f0f1
+SHA256: 605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171
+Section: Tweaks
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Name: TunnelShareVPN
+
+Package: com.mallin.tunnelsharevpn
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Mallin
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/TunnelShareVPN_1.2.4_iphoneos-arm64.deb
+Size: 145844
+MD5sum: 61461170b612f0a7f970383fca6a1e02
+SHA1: 75dfb86f278249879b6e69f643b8c860dff7d878
+SHA256: 3dcfbf8eda46433f1556255ae1785c98f0ff36ec7994252838c2825313aeeefb
+Section: Tweaks
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Name: TunnelShareVPN
 
 Package: com.mathelord.infobar
 Version: 1.2.0
@@ -15085,6 +15191,46 @@ Size: 717392
 MD5sum: a7c8423d41acbd151fed595d6764f8dc
 SHA1: 9ae9dbd2527f712b0d1d297810f0d12f0634f3f4
 SHA256: 92113e5c4068246944a79aca6057509479490513b354693182134d0ea8bfb04e
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.350
+Architecture: iphoneos-arm64
+Maintainer: qq391160
+Installed-Size: 4308
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.350_iphoneos-arm64.deb
+Size: 636240
+MD5sum: 743fd32c3d10ebb7dcff5190dc22950c
+SHA1: bce59c5b3278d5884dcad80d97d22d7031039a10
+SHA256: 17e8e17bfe1f6865f9d120898b7d99b372dd4a4d0b2c7185782402741f8c84e1
+Section: Tweaks
+Priority: optional
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Name: CPU智能温控(iOS16/17)
+
+Package: com.qq391160.cpucore
+Version: 2.0.350
+Architecture: iphoneos-arm64e
+Maintainer: qq391160
+Installed-Size: 4584
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/CPU智能温控(iOS16_17)_2.0.350_iphoneos-arm64e.deb
+Size: 701380
+MD5sum: a629871521f06d3ef612ce6e5e82b82a
+SHA1: fc60cb6d734e5db5b4c856933556962e885488c0
+SHA256: cd2ec23ce4a0d44b7e86d6a79e8476aae3b39dac15c48d30972d160c750ef409
 Section: Tweaks
 Priority: optional
 Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
@@ -20569,6 +20715,44 @@ Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Name: Liquid (Gl)ass 27（rootless 测试）
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
 
+Package: com.zooah.debrecords
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 1736
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords_1.2.1_iphoneos-arm64.deb
+Size: 335076
+MD5sum: 51c0fb7757ed0455253b5983ed8cc0a8
+SHA1: 96a5fbb27fcdfdf4197c3cef8add885c872c3634
+SHA256: db5117a8c6069e81ac1e66611b074ab06e22e270575546b1adc37f9fc4094f07
+Section: Tweaks
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+ Records plugin install, upgrade, and removal information. Can back up plugins. Records SpringBoard restart, safe mode, and device reboot information.
+ 1.2.1
+Author: zooah212
+Icon: https://huayuarc.github.io/icon/debrecords.jpg
+Name: DebRecords
+
+Package: com.zooah.debrecords
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 1736
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords_1.2.1_iphoneos-arm64e.deb
+Size: 334836
+MD5sum: 024bd6289b4b60759bf2cf87a5586f75
+SHA1: 5c884ae52e7bfd6035b4d9d012991a0553b27e5a
+SHA256: fa403c92a3005c87a03ba95cbd1625d71fa4b96d52615959fe5400d86141389b
+Section: Tweaks
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+ Records plugin install, upgrade, and removal information. Can back up plugins. Records SpringBoard restart, safe mode, and device reboot information.
+ 1.2.1
+Author: zooah212
+Icon: https://huayuarc.github.io/icon/debrecords.jpg
+Name: DebRecords
+
 Package: com.zuner.lunanoad
 Version: 1.5
 Architecture: iphoneos-arm64e
@@ -24231,6 +24415,28 @@ Author: Netskao
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 Name: 微信净化 2026.04
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+
+Package: org.coolstar.libhooker
+Version: 1.6.9-22+roothide
+Architecture: iphoneos-arm64e
+Maintainer: libhooker roothide port contributors
+Installed-Size: 580
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Filename: debs/libhooker (roothide port)_1.6.9-22+roothide_iphoneos-arm64e.deb
+Size: 48516
+MD5sum: 22804fd1899fdd0210e9de1980e5ac89
+SHA1: 430d9eb31c9ccbccae6be8180fc85b316a9fbcfb
+SHA256: b009abda7c5f8e345a2e047b2b40a789bf49e9a35b83e4910d0215eedabd9ec9
+Section: Tweak Injection
+Priority: optional
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Author: CoolStar and contributors
+Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
+Name: libhooker (roothide port)
+Sileodepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
 
 Package: org.shallowdream.dockpages
 Version: 1.0.1
