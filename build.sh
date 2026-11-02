@@ -49,10 +49,12 @@ python3 <<'PY'
 from pathlib import Path
 
 packages = Path("Packages")
-text = packages.read_text(encoding="utf-8", errors="replace")
+text = packages.read_text(encoding="utf-8")
 entries = []
 current = {}
-for line in text.splitlines():
+# Debian fields are LF-delimited; Unicode separators (e.g. U+0085) are filename data.
+# read_text normalizes CRLF; never use splitlines(), which also splits that data.
+for line in text.split("\n"):
     if not line.strip():
         if current:
             entries.append(current)

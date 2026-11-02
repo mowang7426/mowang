@@ -11,6 +11,7 @@ on:
       - '.github/workflows/build.yml'
       - 'scripts/publish-indexes.sh'
       - 'scripts/test-publish-indexes.py'
+      - 'scripts/test-index-filenames.py'
   workflow_dispatch:
 
 # Finish validation for the running snapshot; obsolete snapshots never write back.
@@ -32,6 +33,9 @@ jobs:
 
       - name: Record build base
         run: echo "INDEX_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Test index filename parsing
+        run: python3 scripts/test-index-filenames.py
 
       - name: Test index publication guards
         run: python3 scripts/test-publish-indexes.py
