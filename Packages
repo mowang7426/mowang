@@ -20028,6 +20028,97 @@ Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
 Name: 27Home（rootless 测试）
 
 Package: com.zegeyoudaoli.liquidass27
+Version: 1.0.0-125
+Architecture: iphoneos-arm64e
+Maintainer: dylv&泽哥
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/Liquid (Gl)ass 27_1.0.0-125_iphoneos-arm64e.deb
+Size: 3659872
+MD5sum: 6a6c0f39849fa70c07e50805fbfdc04c
+SHA1: 995563a4e61242c5eb6ee2b2cb3a89baa7810367
+SHA256: 0e0a46a5436a736955ff699c0c4e153ed3d1f8a59eb661612273587267d42b51
+Section: Tweaks
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Name: Liquid (Gl)ass 27
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
+Version: 1.0.0-125+rootless
+Architecture: iphoneos-arm64
+Maintainer: dylv&泽哥
+Installed-Size: 10392
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/Liquid (Gl)ass 27（rootless 测试）_1.0.0-125+rootless_iphoneos-arm64.deb
+Size: 3655328
+MD5sum: b559888375b567b76626746437f28244
+SHA1: 5a24b8e42f3ff94d7b48126d66cc20f2c9bae437
+SHA256: 583a242bb16a20b5df437820f52c4ee2c88b38cd41560aede3754f261778b606
+Section: Tweaks
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Name: Liquid (Gl)ass 27（rootless 测试）
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
+Package: com.zegeyoudaoli.liquidass27
 Version: 1.0.0-34
 Architecture: iphoneos-arm64e
 Maintainer: dylv&泽哥
@@ -25308,6 +25399,50 @@ SHA256: 20dedb8ea6c90c70b9ef08fad8fa0b64a6479b6c77bc36f40591753a142b3830
 Section: Utilities
 Priority: optional
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.3.4
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.3.4_iphoneos-arm64e.deb
+Size: 33096436
+MD5sum: d09ceb5cc9defee6766ef3c3fbba1776
+SHA1: bb21c56d8d8463603377c7949ca0d837fc46a22c
+SHA256: 5b55ad49828ef79d33c87d57b3b1306ef5d21b844bbbf154fa1542be21b633d0
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Apelin/
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Name: Apelin
+Sileodepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+
+Package: wiki.qaq.apelin
+Version: 0.3.4
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 96260
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Filename: debs/wiki.qaq.apelin_0.3.4_iphoneos-arm64.deb
+Size: 33106052
+MD5sum: 057b7c130e5b10d14532c2834e923966
+SHA1: ae7433a091ad2f1ca7fcb9e32a17fab7fa323c20
+SHA256: 7bf642a2daa6b90a82b5670b9b69314242e97724404166c08604ffc6bd099789
+Section: Utilities
+Priority: optional
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Depiction: https://owngoal-dev.github.io/Apelin/
