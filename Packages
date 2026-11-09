@@ -27166,6 +27166,38 @@ Description: 设置插件与应用分类、自定义名称、全局壁纸和首�
 Author: MoWang
 Name: 设置插件收纳
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.8
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.8_iphoneos-arm64.deb
+Size: 89742
+MD5sum: 70fc8a011f151837a5c67047563308a8
+SHA1: 16486e32869b52cff99e0cd7fdab926f109b78e2
+SHA256: 3712c1ec74c23f7b6742628507026554dda3cde2364b8bb64a70c3411ad5edc6
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.8
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 248
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.8_iphoneos-arm64e.deb
+Size: 72324
+MD5sum: d878114b730b5b89432b6fa4b4380d30
+SHA1: 66524b8fadd10987c72f99798e498ad5b8157395
+SHA256: bf97a20c7dcaa67f6fca1ae0f13cee3cf1e3123049f090dfcbc8d3f09bf8ef29
+Section: Tweaks
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Author: MoWang
+Name: 设置插件收纳
+
 Package: dylv.deepliquid
 Version: 0.1.93b
 Architecture: iphoneos-arm64e
