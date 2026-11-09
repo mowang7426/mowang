@@ -15732,6 +15732,57 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: debs/Filza Crack-1.0-iphoneos-arm64.deb
+Size: 8322
+MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
+SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
+SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: debs/Filza Crack-1.0-iphoneos-arm64e.deb
+Size: 8218
+MD5sum: 2b3ff3386e5bac07350d3603f38dbdf8
+SHA1: ac263dd2b716545ba3ccdceaebd980159b61fdab
+SHA256: a7c6701650c28da8dd03d4eacb23c959e3b35ddcb5bb9c50a2a5c1e57c4906c1
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
+Package: com.mlgm.filzapatch
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 170
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Filename: debs/Filza Patch_1.0.2_iphoneos-arm64e.deb
+Size: 39566
+MD5sum: f37d4476873e51e021f82f544b64e719
+SHA1: 9fe3f9db3bb1bdb44372a55ee03b751e02bf5b4f
+SHA256: d74f3b167f62dc5fd5325a43dc7fc926f483a98989c98339d6a4754e72505bd3
+Section: Tweaks
+Description: Filza 5.x 的 RootHide 动态补丁
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -24558,6 +24609,24 @@ Section: 微信插件
 Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子（免授权）
+
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-3
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Installed-Size: 28616
+Depends: firmware (>= 15.0), com.mlgm.filzapatch (>= 1.0.2)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/Filza File Manager 64-bit_5.0.1-3_iphoneos-arm64e.deb
+Size: 12433456
+MD5sum: 8873db32acc0ffc386269c2e258f2aa3
+SHA1: ba6324fda7d3f702e8267496c6b6c8c7c4f492b2
+SHA256: 1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
 Package: com.tigisoftware.filza64bits
 Version: 4.0.1-4~roothide
