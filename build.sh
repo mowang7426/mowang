@@ -49,11 +49,15 @@ python3 <<'PY'
 from pathlib import Path
 
 packages = Path("Packages")
-text = packages.read_text(encoding="utf-8", errors="replace")
+# Preserve legacy control bytes losslessly; decoding must not rewrite filenames.
+text = packages.read_bytes().decode("utf-8", errors="surrogateescape")
 entries = []
 current = {}
-for line in text.splitlines():
-    if not line.strip():
+# Debian fields are LF-delimited; Unicode separators (e.g. U+0085) are filename data.
+# Accept CRLF framing without changing any other filename/control bytes.
+for line in text.split("\n"):
+    line = line.removesuffix("\r")
+    if not line:
         if current:
             entries.append(current)
         current = {}
@@ -83,6 +87,11 @@ for e in entries:
         raise SystemExit(f"❌ 非法 Filename：{filename}")
     if not Path(filename).is_file():
         raise SystemExit(f"❌ Packages 指向不存在的文件：{filename}")
+    import hashlib
+    with Path(filename).open('rb') as package_file:
+        digest = hashlib.file_digest(package_file, 'sha256').hexdigest()
+    if e['Size'] != str(Path(filename).stat().st_size) or e['SHA256'] != digest:
+        raise SystemExit(f"❌ Packages Size/SHA256 不匹配：{filename}")
     key = (e["Package"], e["Version"], e["Architecture"])
     if key in seen:
         # 同一 Package/Version/Architecture 的多个文件不属于“多版本”。

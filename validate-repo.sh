@@ -8,9 +8,19 @@ bash ./check-debs.sh
 grep -q '^Architectures: ' Release
 grep -q '^SHA256:' Release
 
-grep '^Filename: ' Packages | while read -r _ path; do
-    [ -f "$path" ] || { echo "❌ 缺失：$path"; exit 1; }
-done
+python3 <<'PY'
+from pathlib import Path
+
+# Parse physical LF records, not Unicode line separators or grep's binary mode.
+filenames = [line.removesuffix(b'\r')[10:] for line in Path('Packages').read_bytes().split(b'\n')
+             if line.startswith(b'Filename: ')]
+if not filenames:
+    raise SystemExit('❌ Packages 没有 Filename')
+for raw in filenames:
+    path = Path(raw.decode('utf-8', 'surrogateescape'))
+    if path.is_absolute() or '..' in path.parts or not path.is_file():
+        raise SystemExit(f'❌ 缺失或非法路径：{path}')
+PY
 
 python3 - <<'PY'
 from pathlib import Path
