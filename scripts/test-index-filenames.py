@@ -11,9 +11,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 BUILD = (ROOT / 'build.sh').read_text(encoding='utf-8')
 VALIDATOR = BUILD.split("python3 <<'PY'\n", 1)[1].split('\nPY\n', 1)[0]
-SHELL_VALIDATOR = (ROOT / 'validate-repo.sh').read_text(encoding='utf-8').split(
-    "grep '^Filename: ' Packages", 1)[1].split('\ndone', 1)[0]
-SHELL_VALIDATOR = "set -euo pipefail\ngrep '^Filename: ' Packages" + SHELL_VALIDATOR + '\ndone\n'
+PATH_VALIDATOR = (ROOT / 'validate-repo.sh').read_text(encoding='utf-8').split(
+    "python3 <<'PY'\n", 1)[1].split('\nPY\n', 1)[0]
 NORMAL = 'debs/com.snapbackup_3.6.5_iphoneos-arm64e.deb'
 
 
@@ -42,7 +41,7 @@ class FilenameTests(unittest.TestCase):
         text = '\n\n'.join('\n'.join(k + ': ' + v for k, v in e.items()) for e in entries)
         if final_newline:
             text += '\n\n'
-        (self.root / 'Packages').write_bytes(text.replace('\n', eol).encode('utf-8'))
+        (self.root / 'Packages').write_bytes(text.replace('\n', eol).encode('utf-8', 'surrogateescape'))
 
     def run_validator(self, source=VALIDATOR, expected=None):
         if expected is not None:
@@ -93,14 +92,24 @@ class FilenameTests(unittest.TestCase):
         self.assertIn(entries[0]['Filename'], result.stderr)
         self.assertIn('Packages 指向不存在的文件', result.stderr)
 
-    def test_invalid_utf8_is_not_silently_replaced(self):
+    def test_legacy_control_bytes_are_preserved_without_rewriting_index(self):
         entries = self.entries([NORMAL])
         self.write_index(entries)
-        with (self.root / 'Packages').open('ab') as f:
-            f.write(b'Description: invalid \xff\n')
+        index = self.root / 'Packages'
+        raw = index.read_bytes().replace(b'Description: ', b'Description: legacy \xe5\xbe ')
+        index.write_bytes(raw)
+        result = self.run_validator(source=VALIDATOR + '\nassert text.encode("utf-8", "surrogateescape") == packages.read_bytes()\n')
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(index.read_bytes(), raw)
+
+    def test_non_utf8_filename_does_not_match_replacement_character_path(self):
+        entries = self.entries(['debs/legacy-\ufffd.deb'])
+        self.write_index(entries)
+        index = self.root / 'Packages'
+        index.write_bytes(index.read_bytes().replace(b'\xef\xbf\xbd', b'\xff'))
         result = self.run_validator()
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn('UnicodeDecodeError', result.stderr)
+        self.assertIn('Packages 指向不存在的文件', result.stderr)
 
     def test_required_fields_architecture_and_unsafe_paths(self):
         for field, value in [('SHA256', None), ('Architecture', 'unsupported'),
@@ -118,14 +127,32 @@ class FilenameTests(unittest.TestCase):
         (self.root / 'Packages').write_bytes(b'')
         self.assertNotEqual(self.run_validator().returncode, 0)
 
-    def test_existing_shell_path_check_preserves_unicode(self):
-        entries = self.entries(['debs/中文 \u0085 \u2028 \u2029 & backup.deb', NORMAL])
-        self.write_index(entries)
-        result = subprocess.run(['bash', '-c', SHELL_VALIDATOR], cwd=self.root, capture_output=True)
-        self.assertEqual(result.returncode, 0, result.stderr)
+    def test_independent_path_check_preserves_bytes_and_crlf(self):
+        entries = self.entries(['debs/中文 \u0085 \u2028 \u2029 & backup.deb', NORMAL,
+                                'debs/trailing-space.deb '])
+        for eol in ['\n', '\r\n']:
+            self.write_index(entries, eol)
+            result = self.run_validator(PATH_VALIDATOR)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assert_valid(entries)
         (self.root / entries[0]['Filename']).unlink()
-        result = subprocess.run(['bash', '-c', SHELL_VALIDATOR], cwd=self.root, capture_output=True)
+        result = self.run_validator(PATH_VALIDATOR)
         self.assertNotEqual(result.returncode, 0)
+
+    def test_size_and_hash_mismatch_still_rejected(self):
+        for field, value in [('Size', '0'), ('SHA256', '0' * 64)]:
+            entries = self.entries([NORMAL])
+            entries[0][field] = value
+            self.write_index(entries)
+            self.assertNotEqual(self.run_validator().returncode, 0)
+
+    def test_strict_utf8_regression_mutant_fails(self):
+        entries = self.entries([NORMAL])
+        entries[0]['Description'] = 'legacy \udcff'
+        self.write_index(entries)
+        mutant = VALIDATOR.replace('errors="surrogateescape"', 'errors="strict"')
+        self.assertNotEqual(self.run_validator(mutant).returncode, 0)
+        self.assert_valid(entries)
 
     def test_depiction_filter_preserves_filename_bytes(self):
         entries = self.entries(['debs/中文 \u0085 \u2028 \u2029 & backup.deb', NORMAL])
