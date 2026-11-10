@@ -29617,6 +29617,38 @@ Description: iOS27-inspired system animations for iOS15-18. Purchase and device 
 Author: Banana
 Name: iOS27 Animation
 
+Package: iya.banana.ios27animation
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 4148
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iOS27 Animation_1.0.8_iphoneos-arm64.deb
+Size: 1094256
+MD5sum: 6c15607bb2484e309cf2682a1c4ed30b
+SHA1: 14336294abfa11cd8464e3481e366866bc726531
+SHA256: ea62e2704232f7505ce28cf90064012745e8c8138c0404d1b3351bf8cf3958ab
+Section: Tweaks
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Author: Banana
+Name: iOS27 Animation
+
+Package: iya.banana.ios27animation
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 4144
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iOS27 Animation_1.0.8_iphoneos-arm64e.deb
+Size: 1090068
+MD5sum: eb4de82a6e6b0af4c954fc89ee3dec87
+SHA1: d1e5c0393c5cd0ddef7a458ba01ebd5778ff3063
+SHA256: 06f87c778a5144fd0185c4f1437fb8ecdf0cf53242dd8ec0cdf3fe577c97a1ea
+Section: Tweaks
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Author: Banana
+Name: iOS27 Animation
+
 Package: iya.banana.iphoneduoflow
 Version: 0.1.0
 Architecture: iphoneos-arm64e
@@ -31139,6 +31171,38 @@ SHA1: 38847b87f2f6910f8d455e07e805c70ac296d682
 SHA256: 7953033639f5fb308b2f0164754e0107d03c03c98ebca8d2b7dd74dfdfff9196
 Section: Tweaks
 Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Author: Banana
+Name: KineticDock
+
+Package: iya.banana.pickerwheeldock
+Version: 0.1.5-3
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 656
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: debs/KineticDock_0.1.5-3_iphoneos-arm64.deb
+Size: 88932
+MD5sum: 34b6ef53d618dd15602c166671665480
+SHA1: 36fbeee9a77fc485eacbbef36120b17323c582bb
+SHA256: 118d729cf43806ec5c412317c9e214e60b48479df247317de0deb14fdb791e8f
+Section: Tweaks
+Description: A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 26 support.
+Author: Banana
+Name: KineticDock
+
+Package: iya.banana.pickerwheeldock
+Version: 0.1.5-3
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 656
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: debs/KineticDock_0.1.5-3_iphoneos-arm64e.deb
+Size: 89706
+MD5sum: e80f120013ab3ed903a003ffe8b03bde
+SHA1: 5e63d85e9252ecbdb208a59443a7601c5caa213a
+SHA256: 73122d2fdc14b1e712da94aeca49438f87b3b65c3fc6e236c246dde303322c69
+Section: Tweaks
+Description: A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 26 support.
 Author: Banana
 Name: KineticDock
 
