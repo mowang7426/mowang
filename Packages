@@ -18163,6 +18163,21 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool(roothide)
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
+Package: com.naiwaguo.native
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: NaiWa
+Depends: firmware (>= 15.0)
+Filename: debs/com.naiwaguo.native_0.1.1_iphoneos-arm64.deb
+Size: 333622
+MD5sum: 38d99b06694071645b6b9e1ebad898b0
+SHA1: 3f952914394fcd24ae736a9d587ba9dfe81d0b0d
+SHA256: 2be10559e151f35526ba722f3ee1be9e6a854df5dddaa84dfc4e5e28fff19120
+Section: Tweaks
+Description: Full-height video playback and native floating glass tab bar for Red Fruit Short Drama.
+Author: NaiWa
+Name: 奶蛙
+
 Package: com.nan.deb
 Version: 0.3.0
 Architecture: iphoneos-arm64
