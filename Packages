@@ -11516,6 +11516,22 @@ Tag: supports::roothide
 Author: doimty
 Name: ProMotion 120Hz
 
+Package: com.dy778.douyin
+Version: 1.0-4
+Architecture: iphoneos-arm64
+Maintainer: DY778
+Installed-Size: 2296
+Depends: firmware (>= 14.0)
+Filename: debs/com.dy778.douyin_1.0-4_iphoneos-arm64.deb
+Size: 689478
+MD5sum: 3a195a94f09e12bc5ebce7ef7e2ff41b
+SHA1: 6fef8dab5f94b57719908f8fa90d77315ee53cc4
+SHA256: 3b9bb48c3b868a438148d9669957ca0d5639337afc16c684e92988308962e0a6
+Section: Tweaks
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Author: DY778
+Name: DY778
+
 Package: com.evgeniy558.controlcenter18
 Version: 1.0-beta
 Architecture: iphoneos-arm64e
@@ -17166,6 +17182,20 @@ Description: B612 Unlocked VIP
 Author: Monian
 Icon: https://huayuarc.github.io/icon/b612.jpg
 Name: B612 Unlocked VIP
+
+Package: com.mowang.bilibili
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Depends: ellekit
+Filename: debs/com.mowang.bilibili_1.0.0_iphoneos-arm64.deb
+Size: 221468
+MD5sum: 23b1479ddc1c19f5b778524f5e7dc79c
+SHA1: f9ccfe3983c47213fe6e6ad9c32df1a1ffcfb72f
+SHA256: 8581734d2f239910536d0ee7310e09b98960e56ccfa3cbb4a9995e458837037d
+Description: 通过 dylib 打包的 deb，如果安装不生效就提取里面的 dylib 用巨魔注入注入到哔哩哔哩
+Author: MoWang
+Name: 哔哩哔哩下载
 
 Package: com.mowang.crashanalyzer
 Version: 1.1.5
