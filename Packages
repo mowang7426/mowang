@@ -31470,6 +31470,22 @@ Description: 电池耗电分析：统计各 App 前台/后台运行时长与电�
 Author: yzdmm2024
 Name: 电池耗电分析
 
+Package: wacljcr.batteryanalyzer
+Version: 1.6.7
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/wacljcr.batteryanalyzer_1.6.7_iphoneos-arm64e.deb
+Size: 175400
+MD5sum: 497d0baafa5aad3fae5055ae41adb323
+SHA1: 0d273be95403ac79e1d4f5a90d98ab5675bbd964
+SHA256: fe2e3eca956a69ffeca9286747f62552f0c60d88c4ca0b33d5dac56c702781c2
+Section: Tweaks
+Description: 电池耗电分析：统计各 App 前台/后台运行时长与电量变化，估算耗电占比，展示电量历史与充放电统计。注：耗电为估算值，仅供参考，非精确测量。
+Author: yzdmm2024
+Name: 电池耗电分析
+
 Package: wacljcr.desktoporganizer
 Version: 1.0.0
 Architecture: iphoneos-arm64
