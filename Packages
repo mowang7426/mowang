@@ -11751,6 +11751,23 @@ Description: AppTools for iOS15-17 Rootless
 Author: aReo
 Name: AppTools15-17（免授权）
 
+Package: com.flex2areo.apptools15rootless
+Version: 2.9.2+unlocked
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 5632
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64e.deb
+Size: 5964912
+MD5sum: 20157c0af76cf98dd8431e093a198ffb
+SHA1: a42e1d94d2745d3f72fd9a55801e1ff3b21bf7e4
+SHA256: bfbb965ea28fe3c2c347d89280646d0df7e449beb148be53aaf80fc149607960
+Section: Tweaks
+Description: AppTools for iOS15-17 Rootless
+Author: aReo
+Name: AppTools15-17（免授权）
+
 Package: com.go.mango
 Version: 1.0-Beta8-1
 Architecture: iphoneos-arm64e
