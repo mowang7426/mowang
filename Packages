@@ -17700,21 +17700,6 @@ Author: 半生年华
 Icon: https://huayuarc.github.io/icon/NoAds@2x.png
 Name: NoAdsX
 
-Package: com.ntm.batteryanalyzer
-Version: 1.6.10
-Architecture: iphoneos-arm64
-Maintainer: yzdmm2024
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/电池耗电分析_1.6.10_iphoneos-arm64.deb
-Size: 94104
-MD5sum: 54b469dfe8f70b7e6ceab9e59d5599a6
-SHA1: 63481dbe8eb8e07e6ad8178324f9d43a3a20ea93
-SHA256: c612f656b25e0d4b9c49ac9be971534bb6d9ce6c21173190b1a6f04edd7b1659
-Section: Tweaks
-Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
-Author: yzdmm2024
-Name: 电池耗电分析
-
 Package: com.ntm.notifymanager
 Version: 2.3.14
 Architecture: iphoneos-arm64
