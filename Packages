@@ -11735,6 +11735,22 @@ Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/heade
 Name: ControlCenter18
 Sileodepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
 
+Package: com.flex2areo.apptools15rootless
+Version: 2.9.2+unlocked
+Architecture: iphoneos-arm64
+Maintainer: aReo
+Installed-Size: 5632
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64.deb
+Size: 2995782
+MD5sum: 08cb2add9981b72dc1a2017efd87b58a
+SHA1: e6ccdd8074f2f73886ff0e4915a3d8d3eac881d0
+SHA256: 93da16630d99819c15afc3270efa9b51c46f606c19139a23f4c4af36ad4f6c05
+Section: Tweaks
+Description: AppTools for iOS15-17 Rootless
+Author: aReo
+Name: AppTools15-17（免授权）
+
 Package: com.go.mango
 Version: 1.0-Beta8-1
 Architecture: iphoneos-arm64e
