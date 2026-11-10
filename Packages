@@ -27252,6 +27252,102 @@ Description: 设置插件与应用分类、自定义名称、全局壁纸和首�
 Author: MoWang
 Name: 设置插件收纳
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb
+Size: 96606
+MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
+SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
+SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
+Section: Tweaks
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Author: MoWang
+Name: 设置插件收纳
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.9
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 264
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64e.deb
+Size: 77288
+MD5sum: ac2c8879c69c7477d5d60a72aa2be1e8
+SHA1: 270c2cc3fab74f8ce0746eebedf84fe4112303dc
+SHA256: 1f1a17e5191d81c71bf6c0891d3cc03a82b16fd0ab49158218f707b22115cb5e
+Section: Tweaks
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Author: MoWang
+Name: 设置插件收纳
+
 Package: dylv.deepliquid
 Version: 0.1.93b
 Architecture: iphoneos-arm64e
