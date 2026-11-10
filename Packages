@@ -11281,6 +11281,42 @@ Author: michaelmelita1 & daodao
 Name: Little16(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
 
+Package: com.dao.pogr
+Version: 0.5.5
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/PodsGrant_0.5.5_iphoneos-arm64e.deb
+Size: 79784
+MD5sum: 119a75d3d3ab2e7ca0620767fdfcb9cf
+SHA1: 4b38629ac1348e267e992003bdeee1dd36dd1b13
+SHA256: 532b1c77e4d18be242bfa137d7a914d88319b1ef5aa144830b772038397d4f2e
+Section: Tweaks
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Author: Ruphane
+Icon: https://huayuarc.github.io/icon/PodsGrant.png
+Name: PodsGrant
+
+Package: com.dao.pogr
+Version: 0.5.5
+Architecture: iphoneos-arm64
+Maintainer: Ruphane
+Installed-Size: 452
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/PodsGrant_0.5.5_iphoneos-arm64.deb
+Size: 76140
+MD5sum: c07edd50ba338b3efe1ef44a4cc3231c
+SHA1: 3587d97342230a66d020315520865c8b87096896
+SHA256: bdceb083948bf610c86c91bca014e8c970bd5061db26e199442380897f657f3d
+Section: Tweaks
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Author: Ruphane
+Icon: https://huayuarc.github.io/icon/PodsGrant.png
+Name: PodsGrant
+
 Package: com.dao.sileo
 Version: 2.5.1-14.1
 Architecture: iphoneos-arm64e
@@ -11799,6 +11835,40 @@ Author: 航
 Depiction: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
 Icon: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
 Name: 控制中心背景自定义
+
+Package: com.hang.gdqj
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/航の缺德地图净化_1.0_iphoneos-arm64.deb
+Size: 19216
+MD5sum: a85691ac8f4de70e8878d6e33b723655
+SHA1: 897749b87d9834cd72aed1e886c15abb5c39db47
+SHA256: 21e9eb1b2a2efc72252dc6e50e5d98e6c67a21525924e3a7101a9d296f7dd304
+Section: Tweaks
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Author: 航
+Icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Name: 航の缺德地图净化
+
+Package: com.hang.gdqj
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/航の缺德地图净化_1.0_iphoneos-arm64e.deb
+Size: 19160
+MD5sum: 0048b6087e300e26849a3dd3f3fddbe8
+SHA1: 3b468c0fe9a464ca0d6d2c483d3ec770eb60e30f
+SHA256: d918ac6a5110c3699221b42138dd2ce762e0f9e9abd5d0c0bb8e235ececfad03
+Section: Tweaks
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Author: 航
+Icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Name: 航の缺德地图净化
 
 Package: com.hang.keyboardeffects
 Version: 1.2
@@ -13062,6 +13132,46 @@ SHA1: 17345c8a39c8175c064bacb1b79cfba054736965
 SHA256: 992d531a2685d4dd653998f2fcd4d697ea1af987b6f7a5af3d1081012a2d479d
 Section: Tweaks
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及  120Hz
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
+Package: com.huayuarc.insulation
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 2284
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Provides: com.be-huge.insulation
+Filename: debs/insulation_1.0.5_iphoneos-arm64.deb
+Size: 207348
+MD5sum: 4becf658cf958cbffbaf5e4ef2fe4f1c
+SHA1: ce0ccea94b78f8a1bfada3409877bd19d1184100
+SHA256: b6a387e7e789e3bf16bb456dd2d1b48a2b95a7832566490092b628bf8b009e1c
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，120Hz。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
+Package: com.huayuarc.insulation
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Provides: com.be-huge.insulation
+Filename: debs/insulation_1.0.5_iphoneos-arm64e.deb
+Size: 204668
+MD5sum: 670411032f2392438f46fedf92cdc0ee
+SHA1: 056ea7344e3a77c4e981465c4cb6a2dbff1b6ae4
+SHA256: 0e3183fd4c76b776220b5c0e28fde989e58352e0b43d3dc92034bb647f42c625
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，120Hz。
 Author: be-huge & doimty
 Icon: https://huayuarc.github.io/icon/Insulation.png
 Name: insulation
@@ -27433,6 +27543,41 @@ Size: 303210
 MD5sum: d985c90da0b6a8946073e6e19c9b480a
 SHA1: 8c509e3d35c0bbed883436d7edbe70da942a2478
 SHA256: 5684c1abc85ec5a42db219b115539702a65d32f2fe04c581239ec3d99e6b6db1
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Name: 曾牛-分屏🐮
+
+Package: com.zengniu.splitview
+Version: 0.8.90
+Architecture: iphoneos-arm64e
+Maintainer: ZengNiu
+Installed-Size: 3507
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/曾牛-分屏🐮_0.8.90_iphoneos-arm64e.deb
+Size: 730128
+MD5sum: 8b7f74d27b1617e585be549bcec7677d
+SHA1: 61bf97b9903f728440650c530d1a44fa32eeb747
+SHA256: 271243b6f94bf438ca083d081c5e0fcc4d7cccd6e3b0c58d3e0bdabcf79eaaa2
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Author: ZengNiu
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Name: 曾牛-分屏🐮
+
+Package: com.zengniu.splitview
+Version: 0.8.90
+Architecture: iphoneos-arm64
+Maintainer: ZengNiu
+Installed-Size: 3507
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/曾牛-分屏🐮_0.8.90_iphoneos-arm64.deb
+Size: 730420
+MD5sum: c3997a972d3c5ac343976d06f3483c8b
+SHA1: 5e0401a431cd4f4052b25dc25c9f56c9bda3b77b
+SHA256: 653ce86ed3c46faffea1edac13af09e76825ee5ad535b31b0b7811b8abd7b5b4
 Section: Tweaks
 Description: Experimental live app windows with Home Screen icon gestures and basic docking.
 Author: ZengNiu
