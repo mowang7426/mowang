@@ -11128,6 +11128,23 @@ Author: crctdd
 Icon: https://huayuarc.github.io/icon/surgeactive.jpg
 Name: SurgeActive
 
+Package: com.dao.apptools15
+Version: 2.9.3
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Filename: debs/AppTools15-17(RootHide)-2.9.3-iphoneos-arm64e.deb
+Size: 2394520
+MD5sum: 49b4d8856010411f62ce3bfad4ccdd17
+SHA1: c6428661bf2d2a2008f0a429085f7cc94446e10f
+SHA256: f8d6f8f591aabf8cb782c95ddd683dbe7153a3ee696854105df4030e704413aa
+Section: 嗨-付费
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Author: aReo
+Name: AppTools15-17(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
 Package: com.dao.asjtiktok
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -11753,6 +11770,23 @@ Sileodepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bu
 
 Package: com.flex2areo.apptools15rootless
 Version: 2.9.2+unlocked
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 5632
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64e-1.deb
+Size: 6040546
+MD5sum: 537118c0e7317ca95d5af2787ea45694
+SHA1: 268a9298be0d02eae935d4d4932bdafcb1ed558d
+SHA256: 5bc0d5241abec4fe81624bcba8c407f2c43eb366982fefa9f84b26764a4dd31f
+Section: Tweaks
+Description: AppTools for iOS15-17 Rootless
+Author: aReo
+Name: AppTools15-17(Rootless)
+
+Package: com.flex2areo.apptools15rootless
+Version: 2.9.2+unlocked
 Architecture: iphoneos-arm64
 Maintainer: aReo
 Installed-Size: 5632
@@ -11766,6 +11800,22 @@ Section: Tweaks
 Description: AppTools for iOS15-17 Rootless
 Author: aReo
 Name: AppTools15-17（免授权）
+
+Package: com.flex2areo.apptools15rootless
+Version: 2.9.2+unlocked
+Architecture: iphoneos-arm64
+Maintainer: aReo
+Installed-Size: 5632
+Depends: mobilesubstrate
+Filename: debs/AppTools15-17-Rootless-2.9.2.deb
+Size: 2583812
+MD5sum: ca40ebb2ddab0f4bfaa24c714db750f2
+SHA1: ca0ec3ea16e1050536f474be4911762db4442c6c
+SHA256: 1527b1f6c4d4a302f6173d50ed9fddb76c7e18ac008ed48faafaccafda21e607
+Section: Tweaks
+Description: AppTools for iOS15-17 Rootless
+Author: aReo
+Name: AppTools15-17(Rootless)
 
 Package: com.flex2areo.apptools15rootless
 Version: 2.9.2+unlocked
@@ -17197,6 +17247,20 @@ Description: 通过 dylib 打包的 deb，如果安装不生效就提取里面�
 Author: MoWang
 Name: 哔哩哔哩下载
 
+Package: com.mowang.bilibili
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Depends: ellekit
+Filename: debs/com.mowang.bilibili_1.0.0.deb
+Size: 178584
+MD5sum: fea7fe45c8da1db045cbc8affabad91f
+SHA1: ddd970bb28d76d220bdcee75ed4a74975690011b
+SHA256: f8102e0fbe052f5757504e273dcac022e15e1425a3bbc3bdcae33b2c7e20551b
+Description: 我的dylib通过Fuck开发的Deb提取软件打包的deb
+Author: MoWang
+Name: 哔哩哔哩下载
+
 Package: com.mowang.crashanalyzer
 Version: 1.1.5
 Architecture: iphoneos-arm64
@@ -18192,6 +18256,21 @@ Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool(roothide)
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.naiwaguo.native
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: NaiWa
+Depends: firmware (>= 15.0)
+Filename: debs/com.naiwaguo.native_0.1.1_iphoneos-无根.deb
+Size: 333622
+MD5sum: 38d99b06694071645b6b9e1ebad898b0
+SHA1: 3f952914394fcd24ae736a9d587ba9dfe81d0b0d
+SHA256: 2be10559e151f35526ba722f3ee1be9e6a854df5dddaa84dfc4e5e28fff19120
+Section: Tweaks
+Description: Full-height video playback and native floating glass tab bar for Red Fruit Short Drama.
+Author: NaiWa
+Name: 奶蛙
 
 Package: com.naiwaguo.native
 Version: 0.1.1
@@ -27861,6 +27940,22 @@ Name: LunaNoAd 汽水音乐
 
 Package: danmutool
 Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 952
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/弹幕助手_2.0.0_iphoneos-arm64.deb
+Size: 309354
+MD5sum: 2eb6b4c920a241dab02e6cbc2ecba923
+SHA1: d85dacaa67c08205bd732843168f709fe2cd2bf2
+SHA256: 11b21ab1afae03424bf36f63cbcfc24b4c407ce227960acc45966b4129700162
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong
+Name: 弹幕助手
+
+Package: danmutool
+Version: 2.0.0
 Architecture: iphoneos-arm64e
 Maintainer: Junhong <mail@mjh.im>
 Installed-Size: 968
@@ -27892,6 +27987,22 @@ Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong
 Icon: https://huayuarc.github.io/icon/danmutool.jpg
 Name: 弹幕助手
+
+Package: danmutool.roothide
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/弹幕助手 (Roothide)_2.0.0_iphoneos-arm64e.deb
+Size: 312372
+MD5sum: 8f42b14e1849ae7bd003f267533d1304
+SHA1: 6cccd19f261c04f12158fe9b974061b9085cded0
+SHA256: 9ba3081ab53e76dcec68198047bb6d7bc3274684c8ba552e1c868f3c41dae698
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong
+Name: 弹幕助手 (Roothide)
 
 Package: dev.owngoal.settingsorganizer
 Version: 0.0.1
@@ -28526,6 +28637,43 @@ Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、
 Author: junhong
 Name: 番茄净化
 
+Package: fanqiefn
+Version: 3.3.0
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 3412
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/番茄净化_3.3.0_iphoneos-arm64.deb
+Size: 1494246
+MD5sum: e1bdfa537da80fdae96726a0af4a49a1
+SHA1: 7d7e2434f8ce61098c4008cee7b9a3b9f141733d
+SHA256: fc217a3d8ce03324b15c3e3c9c8821e8dffbab1ce55ead0732f5db039d47dc21
+Section: Tweaks
+Homepage: https://fanqie.goforit.si
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Author: junhong
+Name: 番茄净化
+
+Package: fanqiefn.roothide
+Version: 3.3.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 3396
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Filename: debs/番茄净化 (Roothide)_3.3.0_iphoneos-arm64e.deb
+Size: 1488930
+MD5sum: 23f330eff34a9f01d886120460607779
+SHA1: 39d1b23e1f55cc76747f46635e2e0cbf3660bd5d
+SHA256: cd1a9274091dbc3d532765b92438bda02e51580c128a84a5c0f62b1725aca9e2
+Section: Tweaks
+Homepage: https://fanqie.goforit.si
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Author: junhong
+Name: 番茄净化 (Roothide)
+
 Package: hongguofn
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -28611,6 +28759,110 @@ Author: Junhong
 Icon: https://huayuarc.github.io/icon/hongguo.png
 Name: 红果净化
 
+Package: hongguofn
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 6712
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/红果净化_2.2.2_iphoneos-arm64.deb
+Size: 2928424
+MD5sum: eb2003c21ecab324abdad5cf892f3257
+SHA1: 6b70bafdd366685c731e1886c1a3ded9604ec1e7
+SHA256: 9778ccd20c89537a8158ffad87860b7c2e7083014f7a66243d88dfa7ef8e4fb7
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Author: Junhong
+Name: 红果净化
+
+Package: hongguofn.roothide
+Version: 2.2.2
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 6712
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/红果净化 (Roothide)_2.2.2_iphoneos-arm64e.deb
+Size: 2938920
+MD5sum: ab7f753c88af4ac901ed2978d1a741f8
+SHA1: d5a9673b19aeae2e6aa7c4ff41c226d964c00b75
+SHA256: b54c89b9fc2c6628ecc95b699b1e7ee016619d9104ddc242de127177951c33ba
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Author: Junhong
+Name: 红果净化 (Roothide)
+
+Package: hypicfix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/醒图国际版修复工具_1.0.0_iphoneos-arm64.deb
+Size: 17362
+MD5sum: 08a113576b4987ac3ef107d88f4a8ff0
+SHA1: 116b9886b3a44490316c2186aba9a7455c4f5f8e
+SHA256: 847c50dcb811c60e59654c4812f4985cf1b6b706d18f33287e7cae72cc722c55
+Section: Tweaks
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Author: Junhong
+Name: 醒图国际版修复工具
+
+Package: hypicfix.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/醒图国际版修复工具 (Roothide)_1.0.0_iphoneos-arm64e.deb
+Size: 17276
+MD5sum: c71b20ada5ee8e665ccbffeefaabb5fe
+SHA1: 42b383b40d1d8228f32c8b48858fdf3a383494d3
+SHA256: bd0fcbe26790e423235cbead292d045c109fa85860d029449c8c52740e397f21
+Section: Tweaks
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Author: Junhong
+Name: 醒图国际版修复工具 (Roothide)
+
+Package: im.mjh.alipay2nfc
+Version: 3.5.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 364
+Depends: firmware (>=14.0), preferenceloader
+Conflicts: com.yourname.alipaynfcredirect
+Replaces: com.yourname.alipaynfcredirect
+Filename: debs/Alipay2NFC_3.5.0_iphoneos-arm64.deb
+Size: 22864
+MD5sum: de94eed8e015ff62c18a34a16dcd5f74
+SHA1: 5a3abf2f7b4c03dfae0cd484b5526eb6e3fa8f64
+SHA256: fc7dc40c3a5546fa278de6f08ab69145af205b4f9467a7a646489e54bf491fb3
+Section: Tweaks
+Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
+Author: Junhong
+Name: Alipay2NFC
+
+Package: im.mjh.alipay2nfc.roothide
+Version: 3.5.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 364
+Depends: firmware (>=14.0), preferenceloader
+Conflicts: com.yourname.alipaynfcredirect
+Replaces: com.yourname.alipaynfcredirect
+Filename: debs/Alipay2NFC · 碰一碰转接 (Roothide)_3.5.0_iphoneos-arm64e.deb
+Size: 22880
+MD5sum: bb360395cc75dfdbac778145902bf7fc
+SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
+SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
+Section: Tweaks
+Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
+Author: Junhong
+Name: Alipay2NFC · 碰一碰转接 (Roothide)
+
 Package: im.mjh.doleo
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -28689,6 +28941,167 @@ Author: Junhong
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Name: Doleo
 
+Package: im.mjh.doleo.roothide
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/Doleo (Roothide)_1.0.3_iphoneos-arm64e.deb
+Size: 232272
+MD5sum: e1c299a04c0b098b273413f312f334ec
+SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
+SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
+Section: Tweaks
+Description: Download and keep local DEB packages in Sileo.
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
+Name: Doleo (Roothide)
+
+Package: im.mjh.fakenotify
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 584
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/FakeNotify_1.0.1_iphoneos-arm64.deb
+Size: 78132
+MD5sum: d7ff654f48a7792bb886d89ed7f9aeb7
+SHA1: ce373d9045d9aeb637fb210e29a5cac2dc3105ad
+SHA256: e928665b3982038f83fad5c7945b3fa34cd649fbe9432823d674c9213822be5c
+Section: Tweaks
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Author: Junhong
+Name: FakeNotify
+
+Package: im.mjh.fakenotify.roothide
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 584
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: im.mjh.fakenotify
+Replaces: im.mjh.fakenotify
+Filename: debs/FakeNotify (Roothide)_1.0.1_iphoneos-arm64e.deb
+Size: 78742
+MD5sum: 514073af111a49b810ecfde2f4f56fe6
+SHA1: ed8551a83c2b95f97f34e816dc7194a9ec9a4039
+SHA256: 3aafaadc029ba84f12baa1fea2796f372fc0e83a6479c2941b86fd66b7b47d91
+Section: Tweaks
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Author: Junhong
+Name: FakeNotify (Roothide)
+
+Package: im.mjh.fakeperm
+Version: 8.9.3
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 1588
+Depends: firmware (>=15.0), preferenceloader
+Filename: debs/虚拟权限 · Fake Permission_8.9.3_iphoneos-arm64.deb
+Size: 282264
+MD5sum: 892b47eb2899e6a2b3dcb98ea1151575
+SHA1: 42a697c901436fba4348bd52588e42fd5fb96ecc
+SHA256: 7ced0ca6b174505d49133fc72601238d13f4b20f2fc270dfb1f728872761aa02
+Section: Tweaks
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
+Author: Junhong
+Name: 虚拟权限 · Fake Permission
+
+Package: im.mjh.fakeperm.roothide
+Version: 8.9.3
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 1588
+Depends: firmware (>=15.0), preferenceloader
+Filename: debs/虚拟权限 · Fake Permission (Roothide)_8.9.3_iphoneos-arm64e.deb
+Size: 282146
+MD5sum: df05845d523fce7e81aedf248d7dfe28
+SHA1: dc29bd1beeed78196d41565724fa7b6e012bec9e
+SHA256: 339e00dc705e98bc74ba0bab16540ee77a097dcd613df27751513abe937ffd2f
+Section: Tweaks
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
+Author: Junhong
+Name: 虚拟权限 · Fake Permission (Roothide)
+
+Package: im.mjh.myeyeclean
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/喵眼精灵去广告_0.1.0_iphoneos-arm64.deb
+Size: 7690
+MD5sum: 6cda0e49f440f5ed0a298d650122208d
+SHA1: 8349b8a0530d4bc5d320a198ad52066bc9ba61fa
+SHA256: f65f577ebbf868a9179c1676a9a60456043bea160d813355fd9556bf485e5e9e
+Section: Tweaks
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Author: Junhong
+Name: 喵眼精灵去广告
+
+Package: im.mjh.myeyeclean.roothide
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 168
+Filename: debs/喵眼精灵去广告 (Roothide)_0.1.0_iphoneos-arm64e.deb
+Size: 7660
+MD5sum: ffa876e362a02dd1681fe39c4d92107e
+SHA1: 410990967e1cdee8688d0c694cc84e554f2a4b03
+SHA256: cb40c5b090684113b01cc6275efc0ac5e4f13ab846ba4d050420b3d1f49baf17
+Section: Tweaks
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Author: Junhong
+Name: 喵眼精灵去广告 (Roothide)
+
+Package: im.mjh.uuscreenswitch
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 240
+Depends: firmware (>= 15.0)
+Filename: debs/UU远控切屏_1.0.3_iphoneos-arm64.deb
+Size: 26060
+MD5sum: 68a286f8ba38591de21697dfe17970b5
+SHA1: 7819835266674d82ba43e39ceea8137454a3212e
+SHA256: faa7a9547619441ab0369848f55fe485fc16f4f71d326dab1cbb19d0c1d288cf
+Section: Tweaks
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Author: junhong
+Name: UU远控切屏
+
+Package: im.mjh.uuscreenswitch.roothide
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 240
+Depends: firmware (>= 15.0)
+Filename: debs/UU远控切屏 (Roothide)_1.0.3_iphoneos-arm64e.deb
+Size: 26020
+MD5sum: 7761697085f553fd6a1377c183efe98c
+SHA1: d6e8246a663b399ad28ddf75a1bed3912f922332
+SHA256: 63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9
+Section: Tweaks
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Author: junhong
+Name: UU远控切屏 (Roothide)
+
+Package: im.mjh.wclocate
+Version: 4.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 272
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: debs/微信虚拟定位_4.0.0_iphoneos-arm64.deb
+Size: 35122
+MD5sum: 417f12a6b514e7db71a3d7b4a444cb2d
+SHA1: 15c024aa039f67e127bd6d8420565330334b61ac
+SHA256: 8927f501de4d458264094f89b0a7c03a95511a037c6bf9f18dd755c400172625
+Section: Tweaks
+Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装。开源地址：已在 github 开源，地址：https://github.com/11195666/wclocate
+Author: Junhong
+Name: 微信虚拟定位
+
 Package: im.mjh.xianyuadblock
 Version: 3.0.0
 Architecture: iphoneos-arm64
@@ -28698,6 +29111,26 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: debs/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb
+Size: 82542
+MD5sum: 9e8b896222364564ed9bcaa797f261a2
+SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
+SHA256: 3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.0.0_iphoneos-arm64.deb
 Size: 82542
 MD5sum: 9e8b896222364564ed9bcaa797f261a2
 SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
@@ -28723,6 +29156,26 @@ MD5sum: 37ba13d2cdb0a545869d0a0457e27052
 SHA1: 530ddaf24610ab7daf55260241f2992dc8293c8b
 SHA256: 183f36952cdcd7598a90d698e449e69f62465cabaeaa19e0d94b35bbfab279f9
 Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.1.2+2
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.1.2+2_iphoneos-arm64.deb
+Size: 559872
+MD5sum: ce5e319992db2717817b68af305e77b5
+SHA1: 89d6009286dfe4fadfbd1f8388393fc8b05e44c8
+SHA256: a603a5338b9d7e770acf61a4dbc2c14a39674d14ebfa5a2caa2918f14cd18ae9
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
@@ -28768,6 +29221,46 @@ Name: 闲鱼助手
 
 Package: im.mjh.xianyuadblock
 Version: 3.2.0
+Architecture: iphoneos-arm
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 Rootful_3.2.0_iphoneos-arm.deb
+Size: 565692
+MD5sum: 4251b49a4cf38f9b90eef622c14405a1
+SHA1: 1e7e41cc1dc9921f0182bdf6de9ea87122c7f3ee
+SHA256: af182d5d8d2c20e8102710266535cc1ac7ab508ebf3443218d51aae3755ee12e
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 Rootful
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.0
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.2.0_iphoneos-arm64.deb
+Size: 566334
+MD5sum: 1b22ed67b08a8c9042d06b4f46d7b5cf
+SHA1: 8cb2a7d9254fd22fcfa5ac3249d9c4a7e78d71f8
+SHA256: 7368f35f049a03cc5a33aa1442951f44952f55115b1c3a7afddffb0e3252ef13
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.0
 Architecture: iphoneos-arm64
 Maintainer: junhong
 Installed-Size: 1560
@@ -28780,6 +29273,46 @@ MD5sum: 8671fd7a7ec0e65f8f8e9f563100ed79
 SHA1: 062b20ad7e43637ac7f92d4c38a10da94f89e2ce
 SHA256: 9b3f322c0daead3f4c4312c30cfa852c737a28746f1a0137ddde939e284a4774
 Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 Rootful_3.2.1_iphoneos-arm.deb
+Size: 570494
+MD5sum: c5fde29f2b391f8522bb59db3c584fae
+SHA1: decedcc410eb259ea727ba6aa0f36b5f833aa1ad
+SHA256: 6137da153d4ada975f92123b6e4627fc029f1f681178b98b537c236e65d79621
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 Rootful
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.1
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.2.1_iphoneos-arm64.deb
+Size: 572918
+MD5sum: d60858bd390fe98a188e1e7ce10cc3a3
+SHA1: 1a3985332024619252e1c9d9f0d67d14be3bf9d9
+SHA256: d59e53da8f22846fd5c05865449eccda3a6e4eb7e1495fdd5d7a238a5f73a477
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
@@ -28824,6 +29357,66 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Name: 闲鱼助手
 
 Package: im.mjh.xianyuadblock
+Version: 3.2.2
+Architecture: iphoneos-arm
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 Rootful_3.2.2_iphoneos-arm.deb
+Size: 571054
+MD5sum: 49f93f09b4b54b9d5fae71cb6666ee7f
+SHA1: 61da1f709e9da2eab9eff35d95aedc4b6f13eece
+SHA256: c8e5abf8373b47e2756f6ec693e52e2b1173362761f2fc0776910601922aec4b
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 Rootful
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.2
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.2.2_iphoneos-arm64.deb
+Size: 572324
+MD5sum: a11e4cc8001ee909c05262c8419600ce
+SHA1: 1c1e3101dae4bd51d88afec64faac86c53e77069
+SHA256: 9638dfb97707391d980095c0f920c2aa562e12d5d0dffbbe0aecb342baedeaf7
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.3
+Architecture: iphoneos-arm
+Maintainer: junhong
+Installed-Size: 2504
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 Rootful_3.2.3_iphoneos-arm.deb
+Size: 832260
+MD5sum: d61d33dbc8a2f4791c244dcdbbea82a3
+SHA1: bec21139e1b23e22b47aa9efe66b633838b03a76
+SHA256: 80e657fccd6b2cda924449db88546483c69a1b1115a55f0959fb00a0accaad40
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 Rootful
+
+Package: im.mjh.xianyuadblock
 Version: 3.2.3
 Architecture: iphoneos-arm64e
 Maintainer: junhong
@@ -28863,6 +29456,146 @@ Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Name: 闲鱼助手
 
+Package: im.mjh.xianyuadblock
+Version: 3.2.4
+Architecture: iphoneos-arm
+Maintainer: junhong
+Installed-Size: 2536
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 Rootful_3.2.4_iphoneos-arm.deb
+Size: 836958
+MD5sum: 04a8c8e56ac9e0963815f1875882ef63
+SHA1: d93216518500200668c98f7e3c958f8cc9177ad7
+SHA256: 1db84d57cbd574edc2becf0499eaf10de0d711c3b9f3747a2ed20fbf4ab578b1
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 Rootful
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.4
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 2536
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手_3.2.4_iphoneos-arm64.deb
+Size: 842472
+MD5sum: 5ef5febd1ae1d616e8752d29d91b82d5
+SHA1: 5f05ce119c804a06f3017e9ee31782c48f0eaa36
+SHA256: adbd6896c747d501fcd3fda93dec4c2e2fbeb0ef96b57e3922b81555810e06a2
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.0.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.0.0_iphoneos-arm64e.deb
+Size: 82322
+MD5sum: 8fe1283a5ac18b63e3b0f74b400a29a8
+SHA1: 45be5507ad9bb066c906132a8b6d3db91c593e7d
+SHA256: eab72d0172937761158abee5153df749a5b94b6c0c62b63c62648a1b3c4b2199
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 (Roothide)
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.1.2+2
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.1.2+2_iphoneos-arm64e.deb
+Size: 557826
+MD5sum: a11ed8506d28d8ae82ecb4b157104ae4
+SHA1: 1a18944aad0487c53e857ac0390cd56ad4760301
+SHA256: f5637b2074d4e12451541a801f56d28dec2b8d3262e27406b476157da366e3f4
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 (Roothide)
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1560
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.2.0_iphoneos-arm64e.deb
+Size: 563020
+MD5sum: 01e8259eea8fce37eecc070974abfebb
+SHA1: 591408928a70a41f9e4906cf6afbefa5e7a20083
+SHA256: 2fdf3d1de5daf0a4e0444470f725b97a9f3d1d2a339a5e5562c130427b4400f9
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 (Roothide)
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.1
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.2.1_iphoneos-arm64e.deb
+Size: 570470
+MD5sum: ac09b66dab5ee1e71298b62847e60d4b
+SHA1: 8f170d137b2513e05cb929e244cf44bed659077b
+SHA256: 0a05319e054f7f77abaff80bc14fe088824106c4836a298f537d1a5a8d94c31d
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 (Roothide)
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.2
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.2.2_iphoneos-arm64e.deb
+Size: 572782
+MD5sum: 7a7390546e48127b10269b88c4aa219a
+SHA1: fd32e630d49bdfa93f1e5411e558d848d7870566
+SHA256: ae47c8891b67bee9bf46ee061f37e2923615c94852d45bca385f4f5f29302324
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手 (Roothide)
+
 Package: im.mjh.xianyuadblock.roothide
 Version: 3.2.2
 Architecture: iphoneos-arm64e
@@ -28876,6 +29609,46 @@ Size: 572774
 MD5sum: 9d0317285d0e725d6da1b011dddb6bf0
 SHA1: f1a8d95a8448a0e454317cc542dc7003441166af
 SHA256: 91b6c48ffd0754c30528c3f2e709866884a375972d3d6cae28119d93f7e0367e
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.3
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 2504
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.2.3_iphoneos-arm64e.deb
+Size: 834582
+MD5sum: 908fbfcbd11f1f321f1a5788b8bf5d59
+SHA1: 28928cdff3ef7834a6efafd5f4b19f2705448b84
+SHA256: f749618fb0632b3fa67f4261718fe29720f58f48aef754779e59f756e4a4223e
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Name: 闲鱼助手
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.4
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 2536
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/闲鱼助手 (Roothide)_3.2.4_iphoneos-arm64e.deb
+Size: 838294
+MD5sum: ef549cac00b8701f5d6f8672e43fb715
+SHA1: 7dba66f5306acf60a964fc12a0ec716c48b3d0b3
+SHA256: 8ffe65ea16a0ca5c7149ae2acb635236359a064502a7d5a14be38cde3548787a
 Section: Tweaks
 Homepage: https://xianyu.goforit.si
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
@@ -32596,6 +33369,31 @@ Installed-Size: 300
 Depends: firmware (>= 15.0)
 Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/通知权限伪装_1.0.2_iphoneos-arm64.deb
+Size: 36646
+MD5sum: f2c442b8e1183057234a97d1c0ef3945
+SHA1: e40f23f9191143047099ec188da7e56626163021
+SHA256: 439cda8717aec660983a5cda5d4842e06e73219004b3a1aee8f22fe75812b807
+Section: Tweaks
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Author: Junhong
+Name: 通知权限伪�
+
+Package: spoofnotify
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Filename: debs/通知权限伪装-1.0.2-iphoneos-arm64.deb
 Size: 36720
 MD5sum: 2039fb5ee5b7d7baac07de9afcfeb85a
@@ -32639,6 +33437,67 @@ Description: 从虚拟权限插件独立出来的通知权限伪装插件
 Author: Junhong
 Icon: https://huayuarc.github.io/icon/spoofnotify.png
 Name: 通知权限伪�
+
+Package: spoofnotify.roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/通知权限伪装 (Roothide)_1.0.2_iphoneos-arm64e.deb
+Size: 36562
+MD5sum: 43ac1fce63db713e857ced5aee776208
+SHA1: ea3eff25b67de895a2ee9859d2fcd55d36a04b56
+SHA256: 3251eb15911caa5b9f37b2c09189a23e6214eb7c888258c21b5ecd28580b6726
+Section: Tweaks
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Author: Junhong
+Name: 通知权限伪�
+
+Package: uuhelper
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 360
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Filename: debs/uu 远控增强_1.0.3_iphoneos-arm64.deb
+Size: 58712
+MD5sum: d5c659c0e99f29df1040a91cdbdedd56
+SHA1: e37e8e9120a9672ebfd8a8e41f89118e2117daee
+SHA256: 7327407404b61992eaff00188604c78a7b7c00b8dff85ba4af4f3f680306fab9
+Section: Tweaks
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Author: junhong
+Name: uu 远控增强
+
+Package: uuhelper.roothide
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 360
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Filename: debs/uu 远控增强 (Roothide)_1.0.3_iphoneos-arm64e.deb
+Size: 58776
+MD5sum: 7245231dd959d7dca7ca3dc5254b12f7
+SHA1: 25a596f9a633bdd26c3f546d6383c4dbf5e60b92
+SHA256: fb3825a2d7ae2d299815ee79e845d0f9a91510af6fc50a2c71245491f5feb3b0
+Section: Tweaks
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Author: junhong
+Name: uu 远控增强 (Roothide)
 
 Package: wacljcr.batteryanalyzer
 Version: 1.6.7
