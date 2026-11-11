@@ -366,22 +366,6 @@ Author: zqbb
 Icon: https://huayuarc.github.io/icon/gradientsound.jpg
 Name: Hello GradientSound
 
-Package: com. MoWang.islanddigest
-Version: 0.3.5
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 1816
-Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
-Filename: debs/com. MoWang.islanddigest_0.3.5_iphoneos-arm64.deb
-Size: 1428084
-MD5sum: 3e50e1c2598b853cbbc0ee877a7223f6
-SHA1: 7c44e78fa923ba8abf1be5e8902f3a44447802a5
-SHA256: eda72508e655921fde95e59cd6e2519a454273e1c16aa2232aa0880b6e9d446a
-Section: Tweaks
-Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（更新适配多巴胺越狱以及 16 系统适配）
-Author: MoWang
-Name: 灵屿通知
-
 Package: com.25mao.kuaipanel3
 Version: 3.1-1
 Architecture: iphoneos-arm64
@@ -862,22 +846,6 @@ SHA1: 91a6c57cb6dc3c8a9cb250a56ffe3aed28513545
 SHA256: a78a9a5d9b4e304222de94925d9a906489a5c337af30bd19d28917bf20c67bbd
 Section: Tweaks
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
-Author: MoWang
-Name: 灵屿通知
-
-Package: com.MoWang.islanddigest
-Version: 0.3.5
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 1816
-Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
-Filename: debs/com.MoWang.islanddigest_0.3.5_iphoneos-arm64e.deb
-Size: 1427828
-MD5sum: 50855be957a69c8cf8cad7ea794fed72
-SHA1: 537dca87e0211d35c6c3cb8d1f7eae34864a507d
-SHA256: 3806c428cdf4f4e65299eead9d66ecd2a10b0b8cc9342707025d80c298904998
-Section: Tweaks
-Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（更新适配多巴胺越狱以及 16 系统适配）
 Author: MoWang
 Name: 灵屿通知
 
