@@ -16615,6 +16615,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4196
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.4.1_iphoneos-arm64e.deb
+Size: 842216
+MD5sum: 0433250789055a7568db8910c5c4ed5c
+SHA1: 7ab4d8060c6c28ccc59bb5b66f5495dedde6adbf
+SHA256: 832635f8bb46e5514e7d796b2bbd9767cc9ec7b75e3e6480b45b4e116670f46e
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4196
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/Actra_1.4.1_iphoneos-arm64.deb
+Size: 840482
+MD5sum: a8aebecda87a6443fe73958b3768a664
+SHA1: bbd44454d50965cd0473eae2fdb38b9db4ed8d49
+SHA256: e4e2c4a6f03fd9b5e05f573ed5606caafd830d1f638057e85091738c22f24b00
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.clippa
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -16752,6 +16788,42 @@ Size: 31186192
 MD5sum: 16260eb48854ad88e61b6f173e7d443c
 SHA1: 4161bddf4b08764c457b8307b67eed040f8d7a19
 SHA256: fffb84f671ec684c01c1dc5dc4637697195c0761379173fbe0c3d35a532006e8
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36692
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.clippa_1.1.2_iphoneos-arm64e.deb
+Size: 31186160
+MD5sum: ef77d5b82586ab751e53f956160b09d7
+SHA1: 0f2f2387e225a905ac7ab61fef7f7e0032758abd
+SHA256: f3ef7f9cd7e96fd3b60275e4afe9a2b86a71b79aa83c8324f72a0c0f0e28016a
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36696
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.clippa_1.1.2_iphoneos-arm64.deb
+Size: 31186044
+MD5sum: c8173d63a00b2b620adeacb7f8bc41fe
+SHA1: 112f11000a5d289d3e9530f0a58cf186ea6dc627
+SHA256: 54adcd9bbfc1d18a95b683dba4ea83b3c9aa29de8419ce3958bfd0a3c67bd21f
 Section: Tweaks
 Priority: optional
 Description: 截图与悬浮贴图工具。
@@ -30946,6 +31018,38 @@ Size: 1109372
 MD5sum: c83060702253ca7f037f95c18e73babf
 SHA1: 586f8f9deec4ffe42bfb066cf83fee62cf00c7d6
 SHA256: 8723bb6b6ceb863909269868b9bc2343eb60d659146a0c799d8a8f40a80be52c
+Section: Tweaks
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Author: Banana
+Name: iOS27 Animation
+
+Package: iya.banana.ios27animation
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 4144
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iOS27 Animation_1.0.11_iphoneos-arm64e.deb
+Size: 1111848
+MD5sum: 2439360c5530abb21e93739e9cb7c703
+SHA1: 947847f77a3db0a9817a8428dfea25f122d38fd3
+SHA256: 90d2e673a11f5f913ae726e4c85b9910315c48f22b927236ac05b5ff9470bfe3
+Section: Tweaks
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Author: Banana
+Name: iOS27 Animation
+
+Package: iya.banana.ios27animation
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 4148
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/iOS27 Animation_1.0.11_iphoneos-arm64.deb
+Size: 1110800
+MD5sum: fc29e9ca16a722bacaae0c09fdea3378
+SHA1: 83b1ad5d748ecc6c2032492cc7a7ad70e86ba989
+SHA256: f4f2e62ace13bbc63359726b2077a68d7e8744a6a36464a84a38ebed40e9a68f
 Section: Tweaks
 Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
 Author: Banana
