@@ -14508,6 +14508,23 @@ Author: jumping8
 Icon: https://huayuarc.github.io/icon/thermaldetect.png
 Name: 耗电发热排行榜
 
+Package: com.jumping.thermaldetect
+Version: 1.0.32-2
+Architecture: iphoneos-arm64e
+Maintainer: jumping8
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Filename: debs/com.jumping.thermaldetect_1.0.32-2_iphoneos-arm64e.deb
+Size: 248566
+MD5sum: 348461bb350e8628bfefb950b34bd562
+SHA1: f1a2b1862882a1a47cfe248edae9097f5bbfcc72
+SHA256: 56a61576b012aebcd6d2cfbd92874c8509472e477966c2b6053f20c69056cedf
+Section: Utilities
+Description: 定位哪个插件耗电发热排行榜，仅16.2系统真机，其他系统要安装自行负责。
+Author: jumping8
+Icon: file:///var/jb/Library/PreferenceBundles/com.jumping.thermaldetect.bundle/Icon.png
+Name: 耗电发热排行榜
+
 Package: com.kdt.unrestrictmirroring
 Version: 0.0.2
 Architecture: iphoneos-arm64e
