@@ -11139,23 +11139,6 @@ Author: crctdd
 Icon: https://huayuarc.github.io/icon/surgeactive.jpg
 Name: SurgeActive
 
-Package: com.dao.apptools15
-Version: 2.9.3
-Architecture: iphoneos-arm64e
-Maintainer: aReo
-Depends: firmware (>=15.0), mobilesubstrate
-Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
-Filename: debs/AppTools15-17(RootHide)-2.9.3-iphoneos-arm64e.deb
-Size: 2394520
-MD5sum: 49b4d8856010411f62ce3bfad4ccdd17
-SHA1: c6428661bf2d2a2008f0a429085f7cc94446e10f
-SHA256: f8d6f8f591aabf8cb782c95ddd683dbe7153a3ee696854105df4030e704413aa
-Section: 嗨-付费
-Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
-Author: aReo
-Name: AppTools15-17(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
-
 Package: com.dao.asjtiktok
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -11795,72 +11778,6 @@ Description: 在控制中心快速开启或关闭手机卡。
 Author: 半生年华
 Icon: https://huayuarc.github.io/icon/safesim.png
 Name: SafeSIM
-
-Package: com.flex2areo.apptools15rootless
-Version: 2.9.2+unlocked
-Architecture: iphoneos-arm64e
-Maintainer: aReo
-Installed-Size: 5632
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64e-1.deb
-Size: 6040546
-MD5sum: 537118c0e7317ca95d5af2787ea45694
-SHA1: 268a9298be0d02eae935d4d4932bdafcb1ed558d
-SHA256: 5bc0d5241abec4fe81624bcba8c407f2c43eb366982fefa9f84b26764a4dd31f
-Section: Tweaks
-Description: AppTools for iOS15-17 Rootless
-Author: aReo
-Name: AppTools15-17(Rootless)
-
-Package: com.flex2areo.apptools15rootless
-Version: 2.9.2+unlocked
-Architecture: iphoneos-arm64
-Maintainer: aReo
-Installed-Size: 5632
-Depends: mobilesubstrate
-Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64.deb
-Size: 2995782
-MD5sum: 08cb2add9981b72dc1a2017efd87b58a
-SHA1: e6ccdd8074f2f73886ff0e4915a3d8d3eac881d0
-SHA256: 93da16630d99819c15afc3270efa9b51c46f606c19139a23f4c4af36ad4f6c05
-Section: Tweaks
-Description: AppTools for iOS15-17 Rootless
-Author: aReo
-Name: AppTools15-17（免授权）
-
-Package: com.flex2areo.apptools15rootless
-Version: 2.9.2+unlocked
-Architecture: iphoneos-arm64
-Maintainer: aReo
-Installed-Size: 5632
-Depends: mobilesubstrate
-Filename: debs/AppTools15-17-Rootless-2.9.2.deb
-Size: 2583812
-MD5sum: ca40ebb2ddab0f4bfaa24c714db750f2
-SHA1: ca0ec3ea16e1050536f474be4911762db4442c6c
-SHA256: 1527b1f6c4d4a302f6173d50ed9fddb76c7e18ac008ed48faafaccafda21e607
-Section: Tweaks
-Description: AppTools for iOS15-17 Rootless
-Author: aReo
-Name: AppTools15-17(Rootless)
-
-Package: com.flex2areo.apptools15rootless
-Version: 2.9.2+unlocked
-Architecture: iphoneos-arm64e
-Maintainer: aReo
-Installed-Size: 5632
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/com.flex2areo.apptools15rootless_2.9.2+unlocked_iphoneos-arm64e.deb
-Size: 5964912
-MD5sum: 20157c0af76cf98dd8431e093a198ffb
-SHA1: a42e1d94d2745d3f72fd9a55801e1ff3b21bf7e4
-SHA256: bfbb965ea28fe3c2c347d89280646d0df7e449beb148be53aaf80fc149607960
-Section: Tweaks
-Description: AppTools for iOS15-17 Rootless
-Author: aReo
-Name: AppTools15-17（免授权）
 
 Package: com.go.mango
 Version: 1.0-Beta8-1
