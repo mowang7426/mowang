@@ -37,6 +37,12 @@ class MigrationTests(unittest.TestCase):
  def storage(self):
   s=Mock();s.head_object.return_value={'ContentLength':18,'Metadata':{'sha256':self.sha,'size':'18'}};s.get_object.return_value={'Body':io.BytesIO(self.deb.read_bytes())};return s
  def curl(self,args,stdout,check):stdout.write(self.deb.read_bytes())
+ def test_safe_production_prefix_is_accepted(self):
+  index.rewrite(self.p,BASE+'/repo',self.debs)
+  self.assertIn(('Filename: debs/'+self.sha+'.deb').encode(),self.p.read_bytes())
+ def test_unsafe_prefixes_are_rejected(self):
+  for base in [BASE+'/../repo', BASE+'/repo?x=1', BASE+'/a//b', BASE+'/repo#x']:
+   with self.subTest(base=base),self.assertRaises(ValueError):index.rewrite(self.p,base,self.debs)
  def test_existing_verified_not_overwritten(self):
   s=self.storage()
   with patch.object(sync.subprocess,'run',side_effect=self.curl):sync.sync_one(s,'bucket',self.deb,BASE)
