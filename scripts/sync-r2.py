@@ -16,11 +16,14 @@ def digest(stream):
             return n, h.hexdigest()
         h.update(b); n += len(b)
 
-def sync_one(s3, bucket, path, public_base):
+def sync_one(s3, bucket, path, public_base, owner=None, previous_owned=False):
     with path.open('rb') as f:
         size, sha = digest(f)
     key = 'debs/'+sha+'.deb'
     metadata = {'sha256': sha, 'size': str(size)}
+    created = False
+    if owner:
+        metadata.update({'owner': owner, 'owner-version': '1'})
     try:
         head = s3.head_object(Bucket=bucket, Key=key)
     except ClientError as e:
@@ -28,9 +31,12 @@ def sync_one(s3, bucket, path, public_base):
             raise
         with path.open('rb') as f:
             s3.put_object(Bucket=bucket, Key=key, Body=f, Metadata=metadata, IfNoneMatch='*')
+        created = True
         head = s3.head_object(Bucket=bucket, Key=key)
-    if head['ContentLength'] != size or head.get('Metadata') != metadata:
+    meta = head.get('Metadata', {})
+    if head['ContentLength'] != size or (not owner and meta != metadata) or (owner and any(k in meta and meta[k] != v for k,v in {'sha256':sha,'size':str(size)}.items())):
         raise ValueError('R2 metadata mismatch: '+key)
+    managed = bool(owner and (created or previous_owned) and all(meta.get(k)==v for k,v in metadata.items()))
     response = s3.get_object(Bucket=bucket, Key=key)
     try:
         if digest(response['Body']) != (size, sha):
@@ -45,6 +51,7 @@ def sync_one(s3, bucket, path, public_base):
         if digest(f) != (size, sha):
             raise ValueError('Public GET bytes mismatch: '+key)
     print('Verified '+key+' ('+str(size)+' bytes)', flush=True)
+    return 'managed' if managed else 'external'
 
 def main():
     account, bucket, public = (os.environ[k] for k in ['R2_ACCOUNT_ID', 'R2_BUCKET', 'R2_PUBLIC_BASE_URL'])

@@ -5,9 +5,9 @@ from pathlib import Path
 from unittest.mock import patch
 from botocore.exceptions import ClientError
 spec=importlib.util.spec_from_file_location('pub',Path(__file__).with_name('publish-r2.py'));p=importlib.util.module_from_spec(spec);spec.loader.exec_module(p)
-BASE='https://example.r2.dev'; A='debs/'+'a'*64+'.deb';B='debs/'+'b'*64+'.deb'
+BASE='https://example.r2.dev/repo'; A='debs/'+'a'*64+'.deb';B='debs/'+'b'*64+'.deb'
 def manifest(keys=(A,),refs=1):
- return {'schema':1,'base':BASE,'objects':{k:{'sha256':k[5:-4],'size':3,'refs':refs} for k in keys},'garbage':{}}
+ return {'schema':1,'base':BASE,'commit':'previous','objects':{k:{'sha256':k[5:-4],'size':3,'refs':refs,'ownership':'managed'} for k in keys},'garbage':{}}
 class MemoryS3:
  def __init__(self):self.data={};self.meta={};self.deleted=[];self.puts=[]
  def get_object(self,Bucket,Key):
@@ -42,7 +42,8 @@ class Production(unittest.TestCase):
    with self.assertRaises(RuntimeError):p.freshness('old')
  def run_pipeline(self,failure=None,prior=True):
   s=MemoryS3();old=manifest((A,));old['garbage']={B:1}
-  if prior:s.data[p.MANIFEST]=p.payload(old)
+  if prior:
+   s.data[p.MANIFEST]=p.payload(old);s.meta[p.MANIFEST]={'owner':p.OWNER,'owner-version':'1'}
   with tempfile.TemporaryDirectory() as t:
    cwd=os.getcwd();os.chdir(t)
    try:
@@ -51,21 +52,23 @@ class Production(unittest.TestCase):
     def public(base,key):
      if failure=='public' and key=='Packages':return b'wrong'
      return s.data[key]
-    def sync(*args):
+    def sync(*args,**kw):
      if failure=='sync':raise RuntimeError('sync failure')
+     return 'managed'
     calls=[0]
     def fresh(commit):
      calls[0]+=1
      if failure=='race' and calls[0]>=3:raise RuntimeError('stale commit')
     env={'R2_PUBLIC_BASE_URL':BASE,'R2_BUCKET':'bucket','R2_ACCOUNT_ID':'account','GITHUB_REF':'refs/heads/main'}
-    with patch.dict(os.environ,env),patch.object(p.boto3,'client',return_value=s),patch.object(p,'freshness',side_effect=fresh),patch.object(p,'public',side_effect=public),patch.object(p,'verify_indexes'),patch.object(p.sync,'sync_one',side_effect=sync),patch.object(p.subprocess,'check_output',return_value='commit'):
+    with patch.dict(os.environ,env),patch.object(p,'ScopedS3',side_effect=lambda s:s),patch.object(p,'audit_prefix'),patch.object(p.boto3,'client',return_value=s),patch.object(p,'freshness',side_effect=fresh),patch.object(p,'public',side_effect=public),patch.object(p,'verify_indexes'),patch.object(p.sync,'sync_one',side_effect=sync),patch.object(p.subprocess,'check_output',return_value='commit'):
      if failure:
       with self.assertRaises((RuntimeError,ValueError)):p.main()
      else:p.main()
    finally:os.chdir(cwd)
   return s
- def test_full_production_delayed_delete_after_release(self):
-  s=self.run_pipeline();self.assertIn(B,s.deleted);self.assertNotIn(A,s.deleted);self.assertLess(s.puts.index('Release'),s.puts.index(p.MANIFEST));self.assertNotIn(p.LOCK,s.data)
+ def test_full_production_delayed_plan_no_delete_after_release(self):
+  s=self.run_pipeline();self.assertEqual(s.deleted,[p.LOCK]);self.assertLess(s.puts.index('Release'),s.puts.index(p.MANIFEST));self.assertNotIn(p.LOCK,s.data)
+  self.assertFalse(json.loads(s.data[p.MANIFEST])['physical_gc_enabled'])
  def test_sync_failure_never_publishes_or_deletes(self):
   s=self.run_pipeline('sync');self.assertNotIn('Release',s.puts);self.assertEqual(s.deleted,[p.LOCK])
  def test_public_failure_never_deletes(self):
@@ -78,6 +81,42 @@ class Production(unittest.TestCase):
   s=MemoryS3()
   with patch.object(p,'public',return_value=b'corrupt'):
    with self.assertRaises(ValueError):p.put_verify(s,'bucket',BASE,'Packages',b'ok')
+ def test_external_same_hash_never_planned(self):
+  old=manifest();old['objects'][A]['ownership']='external'
+  self.assertEqual(p.plan(old,manifest((B,)),10),({},[]))
+ def test_unstamped_legacy_manifest_never_grants_ownership(self):
+  old=manifest();del old['objects'][A]['ownership']
+  self.assertEqual(p.plan(old,manifest((B,)),10),({},[]))
+ def test_history_reference_prevents_candidate(self):
+  old=manifest((B,));old['garbage']={A:1};current=manifest((B,));current['history']=[{'objects':[A]}]
+  self.assertEqual(p.plan(old,current,p.GRACE+5),({},[]))
+ def test_external_index_cannot_be_overwritten(self):
+  s=MemoryS3();s.data['Packages']=b'foreign';s.meta['Packages']={}
+  with self.assertRaises(ValueError):p.put_verify(s,'b',BASE,'Packages',b'new')
+  self.assertEqual(s.data['Packages'],b'foreign')
+ def test_scoped_all_operations_never_touch_root(self):
+  s=MemoryS3();scoped=p.ScopedS3(s);scoped.put_object(Bucket='b',Key='Packages',Body=b'ok')
+  self.assertEqual(s.data,{'repo/Packages':b'ok'})
+ def test_unclaimed_nonempty_prefix_refuses(self):
+  from unittest.mock import Mock
+  s=Mock();s.get_object.side_effect=ClientError({'ResponseMetadata':{'HTTPStatusCode':404}},'GetObject')
+  s.get_paginator.return_value.paginate.return_value=[{'Contents':[{'Key':'repo/external'}]}]
+  with self.assertRaises(ValueError):p.audit_prefix(p.ScopedS3(s),'b')
+  s.put_object.assert_not_called()
+ def test_owner_stamp_without_prior_manifest_remains_external(self):
+  s=MemoryS3();content=b'abc';h=hashlib.sha256(content).hexdigest();key='debs/'+h+'.deb';s.data[key]=content;s.meta[key]={'sha256':h,'size':'3','owner':p.OWNER,'owner-version':'1'}
+  with tempfile.TemporaryDirectory() as t:
+   path=Path(t)/'p.deb';path.write_bytes(content)
+   with patch.object(p.sync.subprocess,'run',side_effect=lambda args,stdout,check:stdout.write(content)):
+    self.assertEqual(p.sync.sync_one(s,'b',path,BASE,owner=p.OWNER),'external')
+   self.assertEqual(s.puts,[])
+ def test_external_same_hash_is_verified_not_adopted(self):
+  s=MemoryS3();content=b'abc';h=hashlib.sha256(content).hexdigest();key='debs/'+h+'.deb';s.data[key]=content;s.meta[key]={}
+  with tempfile.TemporaryDirectory() as t:
+   path=Path(t)/'p.deb';path.write_bytes(content)
+   with patch.object(p.sync.subprocess,'run',side_effect=lambda args,stdout,check:stdout.write(content)):
+    self.assertEqual(p.sync.sync_one(s,'b',path,BASE,owner=p.OWNER),'external')
+   self.assertEqual(s.puts,[])
  def test_distributed_lock_conflict(self):
   s=MemoryS3();s.data[p.LOCK]=b'other'
   with self.assertRaises(RuntimeError):s.put_object(Bucket='b',Key=p.LOCK,Body=b'mine',IfNoneMatch='*')

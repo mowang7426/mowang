@@ -7,6 +7,11 @@ on:
   pull_request:
     paths: ['debs/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
   workflow_dispatch:
+    inputs:
+      prepublish:
+        description: 'Explicit trusted branch prepublication to isolated repo/ prefix'
+        type: boolean
+        default: false
   schedule:
     - cron: '23 3 * * *'
 
@@ -23,6 +28,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Protect all original DEBs against latest main
+        run: |
+          git fetch origin main
+          test "$(git rev-parse HEAD:debs)" = "$(git rev-parse origin/main:debs)"
+          git diff --exit-code origin/main -- debs
       - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
       - run: python3 -m pip install 'boto3>=1.36,<2'
       - name: Original 28 and migration 15 regressions
@@ -35,12 +47,16 @@ jobs:
         run: bash build.sh && bash validate-repo.sh
       - name: Build complete relative R2 indexes without credentials
         env:
-          R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev
+          R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/repo
           REPOSITORY_NAME: mowang
           REPOSITORY_OWNER: mowang7426
         run: bash scripts/update-repository.sh
       - name: Actual APT relative Filename download
         run: bash scripts/test-r2-apt.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-original-packages
+          path: Packages
       - uses: actions/upload-artifact@v4
         with:
           name: verified-r2-indexes
@@ -49,8 +65,8 @@ jobs:
 
   publish:
     needs: regression
-    # No secrets in pull requests or branch dispatch. Only trusted main can publish.
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    # PRs never receive credentials. Only main or explicit trusted branch dispatch.
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/r2-deb-publish' && inputs.prepublish))
     runs-on: ubuntu-latest
     env:
       R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -59,15 +75,28 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: auto
+      R2_PREPUBLISH: ${{ inputs.prepublish && 'true' || 'false' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: git fetch origin main
       - run: python3 -m pip install 'boto3>=1.36,<2'
       - uses: actions/download-artifact@v4
         with:
           name: verified-r2-indexes
           path: _site
-      - name: Immutable DEBs and complete source; Release last; manifest-scoped delayed cleanup
-        run: python3 scripts/publish-r2.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: verified-original-packages
+          path: _original
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils
+      - name: Immutable DEBs and complete source; Release last; physical GC DISABLED
+        run: |
+          export R2_PUBLIC_BASE_URL="${R2_PUBLIC_BASE_URL%/}/repo"
+          python3 scripts/publish-r2.py
+      - name: Public isolated APT small large RootHide Unicode and original metadata bytes
+        run: python3 scripts/verify-r2-public.py
       - uses: actions/upload-artifact@v4
         with:
           name: r2-publication-receipt

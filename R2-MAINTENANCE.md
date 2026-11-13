@@ -1,23 +1,23 @@
 # 正式 R2 软件源维护
 
-新源：https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/
+正式独立前缀：https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/repo/
 
-索引、debs/<SHA256>.deb、图标、横幅和 depiction 全在同一 origin。Filename 只能是相对路径。Sileo Release 必须包含 Components: main。原 build.sh、validate-repo.sh、build.yml 和 GitHub 仓库 debs 原样保留；新发布流程先执行原构建和完整校验，再复制原 Packages 仅改 Filename（UTF-8 surrogateescape，LF 分帧）。
+索引、相对 Filename `debs/<SHA256>.deb`、图标、横幅和 depiction 全在该前缀。首次发布先完整 list 审计 `repo/`；非空且无本发布器 ownership.json 时拒绝写入，绝不覆盖桶根、smoke 或 test-runs。已有外部同哈希包可以全字节验证后引用，但 manifest 必须标 external，不能自动纳管。仅本流程新建并具有 owner/owner-version 元数据，或此前成功 manifest 明确托管且元数据一致的对象可标 managed。外部索引/资源禁止覆盖。
 
-## 日常上传、删除
+原 build.sh、validate-repo.sh、build.yml 的测试、并发及回写保护不变，GitHub debs 不改。索引只替换 Filename；保留原 Package/Version/Architecture/Size/SHA256 和历史 UTF-8 surrogateescape 字节，LF 分帧。Release 含莫忘专属源及 Components: main。
 
-通过 GitHub 上传、替换或删除 debs 中的文件并提交 main 即触发正式 workflow。PR 和非 main workflow_dispatch 只全量校验，不接触 secrets、不写 R2。默认 GitHub checkout 是完整的，不使用本地稀疏布局。原仓库索引回写保护独立保留。
+## 上传与自动下架
 
-正式发布逐 unique hash 条件创建对象（不覆盖既有不同内容），检查 S3 HEAD 的 SHA256/size、S3 GET 全字节和公网 GET 全字节，逐文件核对引用与 Packages。资源和索引先发布，Release 最后发布并回读所有索引，再保存 managed-manifest.json。无 S3 多对象原子性承诺：刷新窗口可能临时 checksum mismatch，重试可恢复。snapshots/<commit>/ 保留历史索引，缓存的旧根索引客户端仍有 48 小时包保留期；超过该窗口不能保证旧索引下载。源目前沿用未签名 Release，未新增/谎称 GPG 信任链。
+main 中 debs/ 的新增、替换、删除触发完整校验和发布。每个 unique hash 均 HEAD + S3 GET + public GET 核验 size/SHA256，全部包完成后发布资源/索引，Release 最后，再回读索引和保存成功清单。共享 hash 按引用数保留。正式物理 GC **禁用**，GitHub 删包只从下一代索引自动下架，不从 R2 物理删除。定时任务仅重验/同步并产生建议计划，不执行包 DELETE。
 
-## 自动清理严格边界
+保留 immutable snapshots/<commit>/ 和前三代引用。48 小时 tombstone 仅供未来人工审核计划参考，不是删除授权。没有可执行的生产物理 GC workflow；将来启用需另行人工审核与重新核验全部历史引用及归属。不得声称 S3 锁能锁住 GitHub 提交或实现跨系统原子性。
 
-只根据上次成功 managed manifest 和当前 manifest 的差集接管删除，限定 debs/<64hex>.deb。共享 hash 按引用数保留。新无引用对象记录 tombstone，至少 48 小时后、一次成功完整发布后才可删除。每天 UTC 03:23 的 Actions 或下一次 main 变更执行到期清理；GitHub 定时任务可能延迟。首次无旧 manifest 时没有候选，不接管桶内既有 smoke、test-runs/ 或其他对象。禁止 list+批量删除、sync --delete、空目录清空桶。
+所有 publisher 同 Actions 队列、S3 条件锁，不取消运行；每个关键阶段重查 branch freshness，过期运行不能发布。main 和 S3 多对象 PUT 不原子，发布窗口可能 checksum mismatch，重试可恢复。包永不自动物理删除，旧索引仍可获取已上传对象。异常杀进程可能留锁，需维护者确认无存活 publisher 后处理，不能自动抢锁。锁删除仅为协调，不是包 GC。
 
-main commit freshness 每个关键阶段和每个删除前重查；Actions 固定 concurrency group 不取消运行，另有 S3 IfNoneMatch 条件创建 production-publish.lock 分布式门闩。任何上传/校验/主线变更失败都不进入清理。进程异常被杀可能留下 lock；不自动超时抢锁，须确认没有存活 publisher 后由维护者处理。锁对象删除属于协调，不是 DEB 清理。
+PR 无 secrets。仅 main，或用户显式 workflow_dispatch、固定受信分支 feat/r2-deb-publish 且 prepublish=true，才能获取凭据并写同一 repo/ 前缀。预发布必须核对当前 main 全部 debs tree 相同。每个新 commit 都须重新 CI，不沿用旧结果。
 
 ## 旧源与 Pages
 
-不再部署 _site 到 GitHub Pages，避免发布不含 DEB 的相对索引造成旧 URL 下载 404。已有 Pages 部署保持不动；旧 URL 不会自动变为 R2、也不保证继续更新。用户需另外添加上述新 URL，确认正式源真机显示后可在客户端移除旧源以避免重复；不要删除 GitHub 仓库 debs。若未来重新部署 Pages，只可部署小型介绍页/图片，不能拿 R2 的相对索引替换旧 Pages 源。
+不把新的轻量相对索引部署到旧 Pages，以免旧相对 debs 路径损坏。旧 Pages 已部署内容不删除；旧 URL 不会自动切换为 R2，也不承诺以后继续更新。此 workflow 不再负责 Pages 部署，这是明确的行为变更。原 build.yml 仍保留并继续构建/回写原 GitHub 索引。Pages 若仍由仓库 legacy 自动构建大包，可能失败，需如实报告，不能称全部 Actions 绿。用户需在 Sileo 另加新正式 URL；确认后可自行移除旧源避免重复，不能删 GitHub debs。
 
-r2.dev 是有速率限制的开发地址，不是 SLA 生产域名；此次不购域、不部署付费代理。不把隔离测试源 Sileo 截图当正式源真机验收。
+Release 仍未签名，没有假造 GPG 信任链；隔离 APT 验证使用 trusted=yes，仅测试下载不安装，不等于密码学认证。r2.dev 有开发域速率限制，无 SLA；不购域名。测试源真机截图不等于此正式 URL 真机验收。
