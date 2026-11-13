@@ -29,35 +29,12 @@ shopt -u nullglob
 
 # Build metadata from local debs, then replace each Filename with its immutable R2 URL.
 if ((${#packages[@]} > 0)); then
-  apt-ftparchive packages debs | bash scripts/apply-depictions.sh > "$work_dir/Packages"
-  python3 - "$work_dir/Packages" "$R2_PUBLIC_BASE_URL" <<'PY'
-from pathlib import Path
-import re, sys
-p = Path(sys.argv[1]); base = sys.argv[2].rstrip('/')
-text = p.read_text(encoding='utf-8', errors='surrogateescape')
-blocks = []
-for block in text.split('\n\n'):
-    if not block.strip():
-        continue
-    msha = re.search(r'^SHA256: ([0-9a-f]{64})$', block, re.M)
-    if not msha:
-        raise SystemExit('Package entry missing valid SHA256')
-    sha = msha.group(1)
-    if not re.search(r'^Filename: ', block, re.M):
-        raise SystemExit('Package entry missing Filename')
-    block = re.sub(r'^Filename: .*$', f'Filename: {base}/debs/{sha}.deb', block, flags=re.M)
-    blocks.append(block)
-p.write_text('\n\n'.join(blocks) + '\n\n', encoding='utf-8')
-PY
-  python3 - "$work_dir/Packages" <<'PY'
-from pathlib import Path
-import hashlib, re, sys
-text = Path(sys.argv[1]).read_text(encoding='utf-8', errors='surrogateescape')
-rows = re.findall(r'^Size: (\\d+)\\nSHA256: ([0-9a-f]{64})$', text, re.M)
-expected = sorted((p.stat().st_size, hashlib.sha256(p.read_bytes()).hexdigest()) for p in Path('debs').glob('*.deb'))
-if sorted(rows) != expected:
-    raise SystemExit(f'index/deb reconciliation failed: {len(rows)} entries for {len(expected)} debs')
-PY
+  if [[ -s Packages ]]; then
+    cp Packages "$work_dir/Packages"
+  else
+    apt-ftparchive packages debs > "$work_dir/Packages"
+  fi
+  python3 scripts/index-r2.py "$work_dir/Packages" "$R2_PUBLIC_BASE_URL" debs
 else
   : > "$work_dir/Packages"
 fi
@@ -77,9 +54,11 @@ awk '
   }
 ' "$work_dir/Packages"
 
+gzip -n -9 -c "$work_dir/Packages" > "$work_dir/Packages.gz"
+bzip2 -9 -c "$work_dir/Packages" > "$work_dir/Packages.bz2"
 xz -9e -c "$work_dir/Packages" > "$work_dir/Packages.xz"
 mkdir -p "$work_dir/indexes"
-cp "$work_dir/Packages" "$work_dir/Packages.xz" "$work_dir/indexes/"
+cp "$work_dir/Packages" "$work_dir/Packages.gz" "$work_dir/Packages.bz2" "$work_dir/Packages.xz" "$work_dir/indexes/"
 
 # Release is written beside the indexes, never among them, so it does
 # not hash itself.
@@ -88,7 +67,7 @@ apt-ftparchive \
   -o APT::FTPArchive::Release::Label="莫忘专属源" \
   -o APT::FTPArchive::Release::Suite="stable" \
   -o APT::FTPArchive::Release::Version="1.0" \
-  -o APT::FTPArchive::Release::Codename="$name" \
+  -o APT::FTPArchive::Release::Codename="iphoneos" \
   -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
   -o APT::FTPArchive::Release::Components="main" \
   -o APT::FTPArchive::Release::Description="Packages from $owner" \
@@ -105,7 +84,18 @@ done
 if [[ -d depictions ]]; then
   cp -R depictions "$site_dir/depictions"
 fi
-cp "$work_dir/Packages" "$work_dir/Packages.xz" "$work_dir/Release" "$site_dir/"
+cp "$work_dir/Packages" "$work_dir/Packages.gz" "$work_dir/Packages.bz2" "$work_dir/Packages.xz" "$work_dir/Release" "$site_dir/"
+# Stable absolute banner URL at the same R2 origin (Sileo does not resolve relative banners).
+python3 - "$site_dir/sileo-featured.json" "$R2_PUBLIC_BASE_URL" <<'PY'
+import json,sys
+from pathlib import Path
+p=Path(sys.argv[1])
+if p.exists():
+    data=json.loads(p.read_text())
+    for b in data.get('banners',[]):
+        if 'source-banner.jpg' in b.get('url',''):b['url']=sys.argv[2].rstrip('/')+'/assets/source-banner.jpg'
+    p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+PY
 # Pages runs no Jekyll over the site.
 touch "$site_dir/.nojekyll"
 # Never publish a DEB or an oversized Pages artifact.
@@ -116,13 +106,13 @@ max_kib=$(( (MAX_PAGES_BYTES + 1023) / 1024 ))
 python3 - "$site_dir/Packages" "$R2_PUBLIC_BASE_URL" <<'PY'
 from pathlib import Path
 import re, sys
-rows = [line[10:] for line in Path(sys.argv[1]).read_text(encoding='utf-8', errors='surrogateescape').splitlines() if line.startswith('Filename: ')]
+rows = [line[10:] for line in Path(sys.argv[1]).read_text(encoding='utf-8', errors='surrogateescape').split('\n') if line.startswith('Filename: ')]
 base = sys.argv[2].rstrip('/')
 if not rows:
     raise SystemExit('empty Packages')
 for value in rows:
-    match = re.fullmatch(r'https://[^/]+/debs/([0-9a-f]{64})\.deb', value)
-    if not match or value != f'{base}/debs/{match.group(1)}.deb':
+    match = re.fullmatch(r'debs/([0-9a-f]{64})\.deb', value)
+    if not match or value != f'debs/{match.group(1)}.deb':
         raise SystemExit(f'invalid or non-immutable Package Filename: {value}')
 PY
 

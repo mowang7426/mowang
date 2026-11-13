@@ -1,92 +1,74 @@
-name: Build and Deploy APT Repository
+name: Publish complete R2 APT repository
 
 on:
   push:
     branches: [main]
-    paths:
-      - '.github/workflows/update-repository.yml'
-      - 'debs/**'
-      - 'depictions/**'
-      - 'assets/**'
-      - 'scripts/**'
-      - 'CydiaIcon.png'
-      - 'index.html'
-      - 'sileo-featured.json'
+    paths: ['debs/**', 'depictions/**', 'assets/**', 'scripts/**', '.github/workflows/update-repository.yml', 'CydiaIcon.png', 'index.html', 'sileo-featured.json']
   pull_request:
     paths: ['debs/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
   workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * *'
 
 permissions:
   contents: read
 
+# Same group for all production publishers; no cancellation in the critical section.
 concurrency:
-  group: github-pages
-  cancel-in-progress: true
+  group: r2-production-publication
+  cancel-in-progress: false
 
 jobs:
-  build:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - name: Original 28 and migration 15 regressions
+        run: |
+          python3 scripts/test-index-filenames.py
+          python3 scripts/test-publish-indexes.py
+          python3 scripts/test-r2-migration.py
+          python3 scripts/test-r2-production.py
+      - name: Original full repository build and validation
+        run: bash build.sh && bash validate-repo.sh
+      - name: Build complete relative R2 indexes without credentials
+        env:
+          R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev
+          REPOSITORY_NAME: mowang
+          REPOSITORY_OWNER: mowang7426
+        run: bash scripts/update-repository.sh
+      - name: Actual APT relative Filename download
+        run: bash scripts/test-r2-apt.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-r2-indexes
+          path: _site
+          include-hidden-files: true
+
+  publish:
+    needs: regression
+    # No secrets in pull requests or branch dispatch. Only trusted main can publish.
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
       R2_BUCKET: ${{ secrets.R2_BUCKET }}
       R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
-      MAX_PAGES_BYTES: 52428800
       AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: auto
-    if: github.event_name != 'pull_request'
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-      - name: Install repository and R2 tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install --yes apt-utils xz-utils awscli
-      - name: Sync every DEB to R2 and verify coverage
-        run: bash ./scripts/sync-r2.sh
-      - name: Build Pages repository with immutable R2 filenames
-        env:
-          REPOSITORY_NAME: ${{ github.event.repository.name }}
-          REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: ./scripts/update-repository.sh
-      - name: Assert publication contains no DEB copies and valid R2 URLs
-        run: |
-          test ! -d _site/debs
-          test -s _site/Packages
-          python3 - <<'PY'
-          import re
-          from pathlib import Path
-          rows = [x[10:] for x in Path('_site/Packages').read_text(errors='surrogateescape').splitlines() if x.startswith('Filename: ')]
-          assert rows and all(re.fullmatch(r'https://[^/]+/debs/[0-9a-f]{64}\.deb', x) for x in rows)
-          assert Path('_site/assets/source-banner.jpg').stat().st_size > 0
-          PY
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  regression:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils zstd
-      - run: python3 scripts/test-index-filenames.py
-      - run: python3 scripts/test-publish-indexes.py
-
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - uses: actions/download-artifact@v4
+        with:
+          name: verified-r2-indexes
+          path: _site
+      - name: Immutable DEBs and complete source; Release last; manifest-scoped delayed cleanup
+        run: python3 scripts/publish-r2.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: r2-publication-receipt
+          path: r2-publication-result.json
