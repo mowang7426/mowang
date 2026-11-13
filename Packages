@@ -13419,6 +13419,46 @@ Author: be-huge & doimty
 Icon: https://huayuarc.github.io/icon/Insulation.png
 Name: insulation
 
+Package: com.huayuarc.insulation
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 2268
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Provides: com.be-huge.insulation
+Filename: debs/insulation_1.0.8_iphoneos-arm64.deb
+Size: 209188
+MD5sum: c985c3d56b9d688e2dd35cd391cdb753
+SHA1: 48c7220e3e204fdfe79afd086aa0596269592b0c
+SHA256: 700521f3289cbca079f52d1ed0b5b71e030ede691962caabbbb68aeccb9bf5fc
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
+Package: com.huayuarc.insulation
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 2220
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Provides: com.be-huge.insulation
+Filename: debs/insulation_1.0.8_iphoneos-arm64e.deb
+Size: 206576
+MD5sum: 09d9d2d4c90e6528089cf1156775213b
+SHA1: 25197f81310687783dc20acfcdbb716f71e27cd0
+SHA256: 8d26b17e3ba07e4e81f536267798fa54fcffcafd4f72b053412c283e89ca414c
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
 Package: com.huayuarc.picturemodule16
 Version: 1.3.2
 Architecture: iphoneos-arm64
@@ -18594,6 +18634,44 @@ Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool(roothide)
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
+Package: com.muzi.mutool
+Version: 2.2.88
+Architecture: iphoneos-arm64
+Maintainer: Muzi
+Installed-Size: 5984
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/MUtool_2.2.88_iphoneos-arm64.deb
+Size: 947696
+MD5sum: f05a5e5b0d100ce895069bbd599de2a5
+SHA1: 509bf5761aed80bd0de0ad5d25409897f281eca6
+SHA256: 8c70555aef0e4803f6a9d13b30b846764c442a56fd0aaba704069e5f5ccd060e
+Section: Tweaks
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息、锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强与 iPad 风格浮动 Dock）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
+Package: com.muzi.mutool
+Version: 2.2.88
+Architecture: iphoneos-arm64e
+Maintainer: Muzi
+Installed-Size: 5952
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/MUtool_2.2.88_iphoneos-arm64e.deb
+Size: 939692
+MD5sum: 288f219bf5dcf275354446b6e45e51df
+SHA1: 5ee3ea49a150c45f1ef1214d8696ba91779fb059
+SHA256: f8768e68785454d9d68f628c96044cd579abefcfe25e477ad74e1d4d5716cf73
+Section: Tweaks
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息、锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强与 iPad 风格浮动 Dock）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
 Package: com.naiwaguo.native
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -18805,6 +18883,41 @@ Section: Tweaks
 Description: 26Home Chinese RootHide build with per-app cutout controls and custom icon sources.
 Author: ngkhoi
 Name: 26Home
+
+Package: com.ning.simcontrol
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Ning
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Filename: debs/SIM卡切换_1.0.4_iphoneos-arm64e.deb
+Size: 125228
+MD5sum: e279d301a90c17cc8d2cfd7e02cadf0f
+SHA1: 263c5c7ead51b74a8fac4d8a33b934882f076c88
+SHA256: a3adaef267afad65d29523fff4a658723606195a159180b02fb76253ecc1bc04
+Section: Tweaks
+Priority: optional
+Description: Native SIM switches for the system Control Center (rootless).
+Author: Ning
+Icon: https://huayuarc.github.io/icon/simcontrol.png
+Name: SIM卡切换
+
+Package: com.ning.simcontrol
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: Ning
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Filename: debs/SIM卡切换_1.0.4_iphoneos-arm64.deb
+Size: 124560
+MD5sum: c0122531c24e064878adddfba601b0d7
+SHA1: e94110231434f98829aefb3a141e426cbf5a6323
+SHA256: e6f53ad20a3dd6d5f68e223ea1e313dce8199b6172718108532721827cee097f
+Section: Tweaks
+Priority: optional
+Description: Native SIM switches for the system Control Center (rootless).
+Author: Ning
+Icon: https://huayuarc.github.io/icon/simcontrol.png
+Name: SIM卡切换
 
 Package: com.noads.tweka
 Version: 1.2.7
@@ -19224,6 +19337,44 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
 Name: Stheno-去除验证版
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
+
+Package: com.oakstheawesome.solo
+Version: 1.0.1-12
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 2460
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Filename: debs/solo-卡诺中文版_1.0.1-12_iphoneos-arm64.deb
+Size: 564622
+MD5sum: e2bb2a2811add96354294dbec5f44249
+SHA1: d76f04deda667bd4b2d91575db1b50e43ce8a9a3
+SHA256: b290bcf53af955309aa21741d63682e7b4599c232d553e923e700f89bbcac633
+Section: Tweaks
+Description: Solo 主屏幕轮播增强版（卡诺中文版），支持快捷标签、共享底板、侧边栏隐藏与 App 打开方式。
+Tag: purpose::extension, compatible::ios15/16/17/18
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/solo/icon.png
+Name: solo-卡诺中文版
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depictions/com.oakstheawesome.solo.json
+
+Package: com.oakstheawesome.solo
+Version: 1.0.1-12
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 2460
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Filename: debs/solo-卡诺中文版_1.0.1-12_iphoneos-arm64e.deb
+Size: 565530
+MD5sum: 38f3d469ece18c7c7415b0ee991a0eb2
+SHA1: 35aa9a5947a3dc4269021d6af689f7ebcbf0b8ff
+SHA256: aa08c727dff309481faa5acd2eb5673cb8ac8caaf3f2b1c30d3f4f28e540a591
+Section: Tweaks
+Description: Solo 主屏幕轮播增强版（卡诺中文版），支持快捷标签、共享底板、侧边栏隐藏与 App 打开方式。
+Tag: purpose::extension, compatible::ios15/16/17/18
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/solo/icon.png
+Name: solo-卡诺中文版
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depictions/com.oakstheawesome.solo.json
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1
@@ -29511,6 +29662,42 @@ Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广�
 Author: Junhong
 Name: 红果净化
 
+Package: hongguofn
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 7728
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/红果净化_2.2.4_iphoneos-arm64e.deb
+Size: 3348588
+MD5sum: 579ac26983c6f99d957ef293f7589fd2
+SHA1: c8353775621f9b59e3952dcf964468815b054948
+SHA256: bacaf6308d1131f1de4dfcbb6147d87da0b31d78f6fff0a15838dccbf43442ca
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Icon: https://huayuarc.github.io/icon/hongguo.png
+Name: 红果净化
+
+Package: hongguofn
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 7728
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/红果净化_2.2.4_iphoneos-arm64.deb
+Size: 3344316
+MD5sum: d9b768c456034003af74aa10ea366642
+SHA1: 95a44b85498f02eb05b3ee25aac3942b3c1a6ca0
+SHA256: 598211386f9d4a45e2eeb6376823cdceced46268038ce6a58212fc61f7a5a642
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Icon: https://huayuarc.github.io/icon/hongguo.png
+Name: 红果净化
+
 Package: hongguofn.roothide
 Version: 2.2.2
 Architecture: iphoneos-arm64e
@@ -33192,6 +33379,40 @@ SHA256: 73122d2fdc14b1e712da94aeca49438f87b3b65c3fc6e236c246dde303322c69
 Section: Tweaks
 Description: A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 26 support.
 Author: Banana
+Name: KineticDock
+
+Package: iya.banana.pickerwheeldock
+Version: 0.1.7-1
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 900
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: debs/KineticDock_0.1.7-1_iphoneos-arm64.deb
+Size: 150428
+MD5sum: 6452db8fb0cc9a74becd2fb1b9363b1e
+SHA1: fe0d26bdfe5f5e7e77b2b75a7426a2e479c93d53
+SHA256: ad4e1384a0216fd07c866ee459bea1d555d3bd3b85ab85d7da509d8e00422303
+Section: Tweaks
+Description: 叠放、放大、滚筒与转盘，让 iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Name: KineticDock
+
+Package: iya.banana.pickerwheeldock
+Version: 0.1.7-1
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 900
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Filename: debs/KineticDock_0.1.7-1_iphoneos-arm64e.deb
+Size: 151276
+MD5sum: 4a598e0007674a08c7e84ab8a29ada52
+SHA1: 6b1445cb38e624f9c1ba94c935900a08e2fc4160
+SHA256: 6d8ff79994e533393c5771523482d3dc8529143cdf4f44f4dceb4ab9117d63b5
+Section: Tweaks
+Description: 叠放、放大、滚筒与转盘，让 iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Author: Banana
+Icon: https://huayuarc.github.io/icon/pickerwheeldock.png
 Name: KineticDock
 
 Package: iya.banana.replacedefapp
