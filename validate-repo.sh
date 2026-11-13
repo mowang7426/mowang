@@ -17,7 +17,12 @@ filenames = [line.removesuffix(b'\r')[10:] for line in Path('Packages').read_byt
 if not filenames:
     raise SystemExit('❌ Packages 没有 Filename')
 for raw in filenames:
-    path = Path(raw.decode('utf-8', 'surrogateescape'))
+    value = raw.decode('utf-8', 'surrogateescape')
+    if value.startswith('https://'):
+        if not __import__('re').fullmatch(r'https://[^/]+/debs/[0-9a-f]{64}\.deb', value):
+            raise SystemExit(f'❌ 非法远程 Filename：{value}')
+        continue
+    path = Path(value)
     if path.is_absolute() or '..' in path.parts or not path.is_file():
         raise SystemExit(f'❌ 缺失或非法路径：{path}')
 PY

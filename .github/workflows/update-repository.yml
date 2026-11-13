@@ -2,17 +2,18 @@ name: Build and Deploy APT Repository
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - ".github/workflows/update-repository.yml"
-      - "debs/**"
-      - "depictions/**"
-      - "scripts/update-repository.sh"
-      - "scripts/apply-depictions.sh"
-      - "CydiaIcon.png"
-      - "index.html"
-      - "sileo-featured.json"
+      - '.github/workflows/update-repository.yml'
+      - 'debs/**'
+      - 'depictions/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'CydiaIcon.png'
+      - 'index.html'
+      - 'sileo-featured.json'
+  pull_request:
+    paths: ['debs/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
   workflow_dispatch:
 
 permissions:
@@ -25,30 +26,58 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+      MAX_PAGES_BYTES: 52428800
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+    if: github.event_name != 'pull_request'
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      - name: Install repository tools
+      - name: Install repository and R2 tools
         run: |
           sudo apt-get update
-          sudo apt-get install --yes apt-utils xz-utils
-
-      - name: Build repository
+          sudo apt-get install --yes apt-utils xz-utils awscli
+      - name: Sync every DEB to R2 and verify coverage
+        run: bash ./scripts/sync-r2.sh
+      - name: Build Pages repository with immutable R2 filenames
         env:
           REPOSITORY_NAME: ${{ github.event.repository.name }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: ./scripts/update-repository.sh
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
+      - name: Assert publication contains no DEB copies and valid R2 URLs
+        run: |
+          test ! -d _site/debs
+          test -s _site/Packages
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          rows = [x[10:] for x in Path('_site/Packages').read_text(errors='surrogateescape').splitlines() if x.startswith('Filename: ')]
+          assert rows and all(re.fullmatch(r'https://[^/]+/debs/[0-9a-f]{64}\.deb', x) for x in rows)
+          assert Path('_site/assets/source-banner.jpg').stat().st_size > 0
+          PY
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
+  regression:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils zstd
+      - run: python3 scripts/test-index-filenames.py
+      - run: python3 scripts/test-publish-indexes.py
+
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:
