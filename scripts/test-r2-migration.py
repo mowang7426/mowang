@@ -77,11 +77,14 @@ class PagesIntegration(unittest.TestCase):
    r=Path(t);shutil.copytree(ROOT/'scripts',r/'scripts');(r/'debs').mkdir();(r/'assets').mkdir();(r/'assets'/'source-banner.jpg').write_bytes(b'banner fixture');(r/'depictions').mkdir()
    pkg=r/'pkg'/'DEBIAN';pkg.mkdir(parents=True);(pkg/'control').write_text('Package: test.r2\nVersion: 1.0\nArchitecture: iphoneos-arm64e\nMaintainer: Test <test@example.org>\nDescription: test fixture\nSection: Tweaks\n')
    subprocess.run(['dpkg-deb','--build',str(pkg.parent),str(r/'debs'/'test.deb')],check=True,capture_output=True)
-   (r/'sileo-featured.json').write_text('{"banners": [{"url":"https://mowang7426.github.io/mowang/assets/source-banner.jpg","title":"莫忘专属备份源"}]}')
+   (r/'sileo-featured.json').write_text('{"banners": [{"url":"https://mowang7426.github.io/mowang/assets/source-banner.jpg","title":"莫忘专属备份源"}, {"url":"https://mowang-repo.pages.dev/assets/source-banner-v2.jpg","title":"莫忘专属备份源"}]}')
+   (r/'assets'/'source-banner-v2.jpg').write_bytes(b'versioned clear banner fixture')
    env=dict(os.environ,R2_PUBLIC_BASE_URL=BASE,REPOSITORY_NAME='mowang',REPOSITORY_OWNER='mowang7426')
    result=subprocess.run(['bash',str(r/'scripts'/'update-repository.sh')],env=env,capture_output=True)
    self.assertEqual(result.returncode,0,(result.stdout+result.stderr).decode(errors='replace'));site=r/'_site';self.assertFalse((site/'debs').exists());self.assertEqual((site/'assets'/'source-banner.jpg').read_bytes(),b'banner fixture')
    deb=(r/'debs'/'test.deb').read_bytes();self.assertIn(('Filename: debs/'+hashlib.sha256(deb).hexdigest()+'.deb').encode(),(site/'Packages').read_bytes());self.assertIn('莫忘专属备份源'.encode(),(site/'Release').read_bytes());self.assertLess(sum(p.stat().st_size for p in site.rglob('*') if p.is_file()),52428800)
+   self.assertEqual((site/'assets'/'source-banner-v2.jpg').read_bytes(),b'versioned clear banner fixture')
+   self.assertIn('https://mowang-repo.pages.dev/assets/source-banner-v2.jpg',(site/'sileo-featured.json').read_text())
    # Existing publication stays untouched when artifact validation fails.
    previous=(site/'Packages').read_bytes();env['MAX_PAGES_BYTES']='1';failed=subprocess.run(['bash',str(r/'scripts'/'update-repository.sh')],env=env,capture_output=True);self.assertNotEqual(failed.returncode,0);self.assertEqual((site/'Packages').read_bytes(),previous)
 

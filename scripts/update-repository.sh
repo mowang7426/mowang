@@ -85,7 +85,8 @@ if [[ -d depictions ]]; then
   cp -R depictions "$site_dir/depictions"
 fi
 cp "$work_dir/Packages" "$work_dir/Packages.gz" "$work_dir/Packages.bz2" "$work_dir/Packages.xz" "$work_dir/Release" "$site_dir/"
-# Stable absolute banner URL at the same R2 origin (Sileo does not resolve relative banners).
+# Preserve explicit versioned HTTPS banner URLs (including the short Pages domain).
+# Only migrate the legacy source-banner.jpg URL to the R2 origin.
 python3 - "$site_dir/sileo-featured.json" "$R2_PUBLIC_BASE_URL" <<'PY'
 import json,sys
 from pathlib import Path
