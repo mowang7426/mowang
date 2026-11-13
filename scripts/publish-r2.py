@@ -105,7 +105,7 @@ def verify_indexes(site):
     for ext,fn in [('gz',gzip.decompress),('bz2',bz2.decompress),('xz',lzma.decompress)]:
         if fn((site/('Packages.'+ext)).read_bytes())!=raw:raise ValueError('compression mismatch')
     text=(site/'Release').read_text()
-    for field in ['Origin: 莫忘专属源','Label: 莫忘专属源','Components: main','Suite: stable','Codename:','Date:','Architectures:','SHA256:']:
+    for field in ['Origin: 莫忘专属备份源','Label: 莫忘专属备份源','Components: main','Suite: stable','Codename:','Date:','Architectures:','SHA256:']:
         if field not in text:raise ValueError('missing Release field '+field)
     section=None
     algorithms={'MD5Sum':'md5','SHA1':'sha1','SHA256':'sha256','SHA512':'sha512'}
