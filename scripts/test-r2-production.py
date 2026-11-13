@@ -14,9 +14,10 @@ class MemoryS3:
   if Key not in self.data:raise ClientError({'ResponseMetadata':{'HTTPStatusCode':404},'Error':{'Code':'404'}},'GetObject')
   return {'Body':io.BytesIO(self.data[Key])}
  def put_object(self,Bucket,Key,Body,**kw):
-  if kw.get('IfNoneMatch')=='*' and Key in self.data:raise RuntimeError('lock conflict')
+  if kw.get('IfNoneMatch')=='*' and Key in self.data:raise RuntimeError('conditional create conflict')
+  if 'IfMatch' in kw and (Key not in self.data or kw['IfMatch']!='"'+hashlib.md5(self.data[Key]).hexdigest()+'"'):raise RuntimeError('conditional update conflict')
   self.data[Key]=Body if isinstance(Body,bytes) else Body.read();self.meta[Key]=kw.get('Metadata',{});self.puts.append(Key)
- def head_object(self,Bucket,Key):return {'ContentLength':len(self.data[Key]),'Metadata':self.meta[Key]}
+ def head_object(self,Bucket,Key):return {'ContentLength':len(self.data[Key]),'Metadata':self.meta[Key],'ETag':'"'+hashlib.md5(self.data[Key]).hexdigest()+'"'}
  def delete_object(self,Bucket,Key):self.deleted.append(Key);self.data.pop(Key,None)
 class Production(unittest.TestCase):
  def test_initial_no_ownership_no_cleanup(self):self.assertEqual(p.plan(None,manifest(),10),({},[]))
@@ -117,6 +118,14 @@ class Production(unittest.TestCase):
    with patch.object(p.sync.subprocess,'run',side_effect=lambda args,stdout,check:stdout.write(content)):
     self.assertEqual(p.sync.sync_one(s,'b',path,BASE,owner=p.OWNER),'external')
    self.assertEqual(s.puts,[])
+ def test_conditional_update_rejects_concurrent_replacement(self):
+  s=MemoryS3();s.data['Packages']=b'owned';s.meta['Packages']={'owner':p.OWNER,'owner-version':'1'}
+  original=s.head_object
+  def racing_head(**kw):
+   result=original(**kw);s.data['Packages']=b'foreign';return result
+  with patch.object(s,'head_object',side_effect=racing_head),patch.object(p,'public',return_value=b'new'):
+   with self.assertRaises(RuntimeError):p.put_verify(s,'b',BASE,'Packages',b'new')
+  self.assertEqual(s.data['Packages'],b'foreign')
  def test_distributed_lock_conflict(self):
   s=MemoryS3();s.data[p.LOCK]=b'other'
   with self.assertRaises(RuntimeError):s.put_object(Bucket='b',Key=p.LOCK,Body=b'mine',IfNoneMatch='*')

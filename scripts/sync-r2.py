@@ -37,6 +37,8 @@ def sync_one(s3, bucket, path, public_base, owner=None, previous_owned=False):
     if head['ContentLength'] != size or (not owner and meta != metadata) or (owner and any(k in meta and meta[k] != v for k,v in {'sha256':sha,'size':str(size)}.items())):
         raise ValueError('R2 metadata mismatch: '+key)
     managed = bool(owner and (created or previous_owned) and all(meta.get(k)==v for k,v in metadata.items()))
+    if owner and created and not managed:
+        raise ValueError('new production object lacks required owner/version metadata: '+key)
     response = s3.get_object(Bucket=bucket, Key=key)
     try:
         if digest(response['Body']) != (size, sha):

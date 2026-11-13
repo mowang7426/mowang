@@ -21,7 +21,7 @@ def main():
     selected={
         'small':min(eligible,key=lambda r:int(r['Size'])),
         'large':max(eligible,key=lambda r:int(r['Size'])),
-        'roothide':next(r for r in eligible if any('roothide' in n.lower() for n in names[r['Filename']]) or r['Architecture']=='iphoneos-arm64e'),
+        'roothide':next(r for r in eligible if any('roothide' in n.lower() for n in names[r['Filename']])),
         'unicode':next(r for r in eligible if any(any(ord(c)>127 for c in n) for n in names[r['Filename']]))}
     with tempfile.TemporaryDirectory(prefix='r2-real-apt-') as t:
         root=Path(t)

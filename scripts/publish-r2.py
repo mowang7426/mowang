@@ -82,11 +82,16 @@ def freshness(commit):
         if main!=recorded or trees[0]!=trees[1]:raise RuntimeError('main advanced or DEB tree differs')
 
 def put_verify(s3,bucket,base,key,data,immutable=False):
-    kw={'IfNoneMatch':'*'} if immutable else {}
     existing=read(s3,bucket,key)
     if existing is not None:
-        meta=s3.head_object(Bucket=bucket,Key=key).get('Metadata',{})
+        if immutable: raise ValueError('immutable object already exists: '+key)
+        head=s3.head_object(Bucket=bucket,Key=key)
+        meta=head.get('Metadata',{})
         if meta.get('owner')!=OWNER or meta.get('owner-version')!='1':raise ValueError('refuse overwrite of external object: '+key)
+        # The object may change between read and write: require its observed ETag.
+        kw={'IfMatch':head['ETag']}
+    else:
+        kw={'IfNoneMatch':'*'}
     s3.put_object(Bucket=bucket,Key=key,Body=data,ContentType=mimetypes.guess_type(key)[0] or 'application/octet-stream',CacheControl='public, max-age=60' if key in ('Release',MANIFEST) or key.startswith('Packages') else 'public, max-age=3600',Metadata={'sha256':sha(data),'size':str(len(data)),'owner':OWNER,'owner-version':'1'},**kw)
     h=s3.head_object(Bucket=bucket,Key=key)
     if h['ContentLength']!=len(data) or h.get('Metadata',{}).get('sha256')!=sha(data) or read(s3,bucket,key)!=data or public(base,key)!=data:

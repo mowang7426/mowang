@@ -37,7 +37,7 @@ jobs:
           git diff --exit-code origin/main -- debs
       - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
       - run: python3 -m pip install 'boto3>=1.36,<2'
-      - name: Original 28 and migration 15 regressions
+      - name: Original 28, migration 17, and production safety 26 regressions
         run: |
           python3 scripts/test-index-filenames.py
           python3 scripts/test-publish-indexes.py
