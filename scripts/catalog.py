@@ -239,7 +239,7 @@ def cleanup_plan(records, ledger, snapshot, commit, debs_tree):
         if ledger['processed'].get(source_token(src)) != ledger_row(record):
             raise ValueError('record/ledger mismatch')
         if snapshot.get(unb64(src['filename_b64'])) == src['git_blob']:
-            rows.append(ledger_row(record))
+            rows.append(dict(ledger_row(record), display_filename=unb64(src['filename_b64']).decode('utf-8', 'backslashreplace')))
     return {'schema': 1, 'advisory_only': True, 'enabled': False,
             'base_commit': commit, 'debs_tree': debs_tree,
             'files': sorted(rows, key=lambda r: r['record']),

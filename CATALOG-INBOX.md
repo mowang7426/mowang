@@ -27,7 +27,7 @@
 
 对所有 R2 内容对象进行全量 GET，流式计算 SHA256；同时重建 Git SHA1：`SHA1("blob " + Size + NUL + bytes)`，与可信 Git 树 blob 比较。这在部分克隆中不用下载一份完整 Git 历史，也能证明回读字节就是原 blob。不会在磁盘保存 3GB Deb。
 
-导入输出必须是新目录，验证不通过不生成可用记录集。初始公共 GET 证明不是生产发布收据；正式发布时仍必须保留 S3 HEAD 元数据/所有权/Size 和全部 GET hash 校验，不能凭该历史证明跳过。
+导入输出必须是新目录。默认模式先完整验证，失败不生成记录。另有明确标记的 `--prepare-draft` 模式，仅准备草案：其证明为 `mode=draft-preparation`、`git_blob_full_hash_verified=false`、`production_r2_get_reverification=false`、`production_ready=false`，绝不是发布证据；独立无凭据 CI 必须用默认全量模式重新验证。初始公共 GET 证明不是生产发布收据；正式发布时仍必须保留 S3 HEAD 元数据/所有权/Size 和全部 GET hash 校验，不能凭该历史证明跳过。
 
 只读使用：
 

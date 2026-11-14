@@ -24,6 +24,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Explicit workflow_dispatch on the draft branch is necessary when a token
+  # push does not emit workflow events. This job is read-only and gets no secrets.
+  catalog_readonly:
+    if: github.ref == 'refs/heads/feat/catalog-inbox-phase1'
+    uses: ./.github/workflows/catalog-foundation.yml
+    permissions:
+      contents: read
   regression:
     runs-on: ubuntu-latest
     steps:
