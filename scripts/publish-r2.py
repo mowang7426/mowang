@@ -50,9 +50,9 @@ def public(base,key):
     # Mirror the deployed Worker's client-route allowlist. Everything else
     # (including .nojekyll and audit evidence) is verified on canonical R2.
     # Never move bulk DEB verification away from the short-domain binding.
-    client_route = re.fullmatch(r'(?:Release(?:\.gpg)?|InRelease|Packages(?:\.(?:gz|xz|bz2))?|[A-Za-z0-9_-]+\.(?:png|jpg|jpeg|webp|ico|json|html)|(?:debs|assets|depictions)/[^?#]+)', key)
+    client_route = key not in ('ownership.json', 'physical-gc-state-v2.json') and re.fullmatch(r'(?:Release(?:\.gpg)?|InRelease|Packages(?:\.(?:gz|xz|bz2))?|[A-Za-z0-9_-]+\.(?:png|jpg|jpeg|webp|ico|json|html)|(?:debs|assets|depictions)/[^?#]+)', key)
     read_base = catalog_publication.read_base(base) if client_route else base
-    return subprocess.check_output(['curl','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',read_base.rstrip('/')+'/'+key])
+    return subprocess.check_output(['curl','--user-agent','Mozilla/5.0 (compatible; MowangPublisher/2.0)','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',read_base.rstrip('/')+'/'+key])
 
 def validate(m,base):
     if not isinstance(m,dict) or m.get('schema')!=1 or m.get('base')!=base or not m.get('objects'):
@@ -162,12 +162,12 @@ def main():
     freshness(commit)
     s3=ScopedS3(boto3.client('s3',endpoint_url='https://'+os.environ['R2_ACCOUNT_ID']+'.r2.cloudflarestorage.com',region_name='auto'))
     audit_prefix(s3,bucket)
-    owner=payload({'commit':commit,'run':os.environ.get('GITHUB_RUN_ID')})
-    # No expiry takeover: a killed runner leaves a fail-closed lock for operator inspection.
-    s3.put_object(Bucket=bucket,Key=LOCK,Body=owner,IfNoneMatch='*')
+    import r2_shared_lock
+    mutex_context = r2_shared_lock.hold(s3, bucket, PREFIX, key_prefix='')
+    mutex = mutex_context.__enter__()
     def gate():
         freshness(commit)
-        if read(s3,bucket,LOCK)!=owner:raise RuntimeError('lost distributed lock')
+        mutex.verify()
     try:
         prior=read(s3,bucket,MANIFEST)
         previous=validate(json.loads(prior),base) if prior is not None else None
@@ -213,7 +213,7 @@ def main():
         if collections.Counter(rows)!=expected:raise ValueError('full index coverage differs from repository DEBs')
         current={'schema':1,'base':base,'commit':commit,'files':files,'objects':objects,'release_sha256':sha((site/'Release').read_bytes()),'published_at':datetime.datetime.now(datetime.timezone.utc).timestamp()}
         current['history']=(([{'commit':previous['commit'],'objects':list(previous['objects'])}]+previous.get('history',[]))[:3] if previous else [])
-        current['physical_gc_enabled']=False
+        current['physical_gc_enabled']=bool(catalog_mode and not prepublish)
         if catalog_mode:
             current['source_of_truth']='packages/*.json'
             current['catalog_sha256']=catalog_publication.c.sha(catalog_publication.c.encoded(sorted(records,key=lambda r:r['id'])))
@@ -254,12 +254,14 @@ def main():
             print('CATALOG RECEIPT '+json.dumps({'key':receipt_key,'sha256':sha(payload(proof)),
                 'commit':commit,'records':len(records),'cleanup_enabled':False}),flush=True)
         print('CLEANUP PLAN '+json.dumps({'first_publication':previous is None,'candidates':candidates,'deferred':garbage},sort_keys=True),flush=True)
-        # Advisory plan ONLY. No production DEB DELETE exists in this publisher.
-        # GitHub commits cannot be atomically locked with S3; physical GC is disabled.
-        # A future manual protected workflow must revalidate ownership, all retained
-        # generations, delay and a reviewed immutable plan before any physical GC.
-        print('FULL COVERAGE PASS '+json.dumps({'commit':commit,'packages':len(files),'unique_objects':len(objects),'bytes':sum(x['size'] for x in objects.values()),'deleted':0,'physical_gc_enabled':False,'deferred':len(current['garbage'])}),flush=True)
+        gc_result = {'deleted': []}
+        if current['physical_gc_enabled']:
+            import r2_gc_publication
+            import types
+            gc_result = r2_gc_publication.after_publication(types.SimpleNamespace(**globals()),
+                s3, bucket, base, current, receipt_key, proof, gate)
+        print('FULL COVERAGE PASS '+json.dumps({'commit':commit,'packages':len(files),'unique_objects':len(objects),'bytes':sum(x['size'] for x in objects.values()),'deleted':len(gc_result['deleted']),'physical_gc_enabled':current['physical_gc_enabled'],'deferred':len(current['garbage'])}),flush=True)
         Path('r2-publication-result.json').write_bytes(payload(current))
     finally:
-        if read(s3,bucket,LOCK)==owner:s3.delete_object(Bucket=bucket,Key=LOCK)
+        mutex_context.__exit__(*sys.exc_info())
 if __name__=='__main__':main()
