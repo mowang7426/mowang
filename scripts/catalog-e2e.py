@@ -41,6 +41,13 @@ def publish(label,count):
     return proof
 
 def seed():
+    # Claim an EMPTY isolated prefix before any immutable archive upload. Do not
+    # relax publisher's refusal to adopt nonempty/unclaimed foreign prefixes.
+    import boto3
+    pub=module('catalog_publisher','publish-r2.py')
+    pub.PREFIX=os.environ['R2_TEST_PREFIX'];pub.OWNER=os.environ['R2_TEST_OWNER']
+    client=boto3.client('s3',endpoint_url='https://'+os.environ['R2_ACCOUNT_ID']+'.r2.cloudflarestorage.com',region_name='auto')
+    pub.audit_prefix(pub.ScopedS3(client),os.environ['R2_BUCKET'])
     records=[];packages={}
     with tempfile.TemporaryDirectory() as t:
         root=Path(t)
