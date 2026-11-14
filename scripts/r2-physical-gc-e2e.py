@@ -91,13 +91,21 @@ try:
     assert not gc.candidates(restored, 3 * gc.GRACE)
     report['checks']['restore_cancels_candidate'] = True
     # Actual conditional DELETE rejection: wrong ETag must leave object intact.
+    wire = client.meta.service_model.operation_model('DeleteObject').input_shape.members['IfMatch'].serialization
+    report['delete_ifmatch_serialization'] = wire
     try:
-        client.delete_object(Bucket=bucket, Key=prefix + key, IfMatch='"incorrect-etag"')
+        response = client.delete_object(Bucket=bucket, Key=prefix + key, IfMatch='"incorrect-etag"')
     except ClientError as error:
         report['checks']['r2_conditional_wrong_etag_status'] = error.response['ResponseMetadata']['HTTPStatusCode']
         assert report['checks']['r2_conditional_wrong_etag_status'] == 412
     else:
-        raise AssertionError('R2 ignored IfMatch; unsafe API')
+        report['checks']['r2_conditional_wrong_etag_status'] = response['ResponseMetadata']['HTTPStatusCode']
+        report['checks']['wrong_etag_object_absent'] = absent(key)
+        report['conditional_delete_supported'] = False
+        report['success'] = False
+        report['blocked_reason'] = 'R2 accepted wrong If-Match; production must remain sealed'
+        print(json.dumps(report, indent=2))
+        raise SystemExit(2)
     assert not absent(key)
     # External owner with matching content is never adopted or deleted.
     put(prefix + key, raw, owner='external')
