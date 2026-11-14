@@ -88,6 +88,8 @@ class Cleanup(unittest.TestCase):
  def test_noop_does_not_push(self):
   parent=self.api.head('main');self.assertEqual(m.apply(self.root,'main',self.api,parent,[]),parent)
  def test_non_actions_provenance_refused(self):
-  with self.assertRaises((ValueError,KeyError)):m.provenance(self.api,'main')
+  from unittest.mock import patch
+  with patch.dict(os.environ,{'GITHUB_ACTIONS':'false'}):
+   with self.assertRaises((ValueError,KeyError)):m.provenance(self.api,'main')
 
 if __name__=='__main__':unittest.main()
