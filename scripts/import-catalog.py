@@ -80,8 +80,18 @@ class GitHub:
         request = urllib.request.Request(self.base + path, data=data, method=method,
             headers={'Authorization': 'Bearer ' + self.token, 'Accept': 'application/vnd.github+json',
                      'X-GitHub-Api-Version': '2022-11-28', 'Content-Type': 'application/json'})
-        with urllib.request.urlopen(request, timeout=90) as response:
-            return json.load(response)
+        # Retrying immutable blob/tree/commit creation and non-force exact ref
+        # updates is safe; transient TLS EOF must not strand an import halfway.
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(request, timeout=90) as response:
+                    return json.load(response)
+            except urllib.error.HTTPError as error:
+                if error.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                    raise
+            except (urllib.error.URLError, ConnectionError, TimeoutError):
+                if attempt == 3:
+                    raise
 
     def head(self, branch):
         return self.request('GET', '/git/ref/heads/' + urllib.parse.quote(branch, safe='/'))['object']['sha']
