@@ -55,7 +55,9 @@ def bootstrap(root, output, base, prepare_draft=False, download_base=None):
         digest = f['SHA256'].decode()
         size = int(f['Size'])
         key = 'debs/' + digest + '.deb'
-        manifest_name = path[5:].decode('utf-8', 'surrogateescape')
+        record = c.make_record(block, snapshot[path])
+        manifest_name = (record['id'] + '.json' if manifest.get('source_of_truth') == 'packages/*.json'
+                         else path[5:].decode('utf-8', 'surrogateescape'))
         if manifest['files'].get(manifest_name) != key:
             raise ValueError('manifest filename mapping mismatch')
         row = manifest['objects'].get(key, {})

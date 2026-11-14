@@ -63,9 +63,23 @@ def check(root):
     return records, ledger
 
 
+def prospective(root):
+    root=Path(root).resolve()
+    records,ledger=check(root)
+    spec=importlib.util.spec_from_file_location('catalog_import',Path(__file__).with_name('import-catalog.py'))
+    importer=importlib.util.module_from_spec(spec);spec.loader.exec_module(importer)
+    for path,blob in c.pending(c.tree_snapshot(root),ledger).items():
+        with tempfile.TemporaryDirectory(prefix='catalog-prospective-') as directory:
+            record,_=importer.archived_record(root,path,blob,Path(directory))
+            records.append(record)
+    rendered=c.render(records)
+    print('Read-only prospective catalog: %d records; no upload/CAS/secrets'%len(records))
+    return rendered
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['mode', 'check', 'render', 'validate'])
+    parser.add_argument('action', choices=['mode', 'check', 'render', 'validate', 'prospective'])
     parser.add_argument('--root', default='.')
     parser.add_argument('--output', default='Packages')
     args = parser.parse_args()
@@ -74,6 +88,9 @@ def main():
         raise SystemExit(0 if enabled(root) else 1)
     if not enabled(root):
         raise ValueError('catalog mode required')
+    if args.action == 'prospective':
+        Path(args.output).write_bytes(prospective(root))
+        return
     records, ledger = check(root)
     rendered = c.render(records)
     if args.action == 'render':

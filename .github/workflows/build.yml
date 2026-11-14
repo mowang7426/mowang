@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'debs/**'
+      - 'packages/**'
+      - 'catalog-state/**'
+      - 'scripts/catalog-build.py'
+      - 'scripts/import-catalog.py'
       - 'build.sh'
       - 'check-debs.sh'
       - 'validate-repo.sh'

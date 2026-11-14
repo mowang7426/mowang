@@ -32,6 +32,7 @@ jobs:
     permissions:
       contents: read
   regression:
+    if: "!startsWith(github.ref, 'refs/heads/catalog-e2e/')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -54,6 +55,12 @@ jobs:
           python3 scripts/test-catalog-bootstrap.py
           python3 scripts/test-catalog-publication.py
           python3 scripts/test-catalog-import.py
+          python3 scripts/test-catalog-integration.py
+      - name: Read-only pending archive validation and prospective catalog (no credentials)
+        run: |
+          if python3 scripts/catalog-build.py mode; then
+            python3 scripts/catalog-build.py prospective --output "$RUNNER_TEMP/prospective.Packages"
+          fi
       - name: Original full repository build and validation
         run: bash build.sh && bash validate-repo.sh
       - name: Build complete relative R2 indexes without credentials
@@ -73,6 +80,40 @@ jobs:
           name: verified-r2-indexes
           path: _site
           include-hidden-files: true
+
+  isolated_e2e:
+    if: github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/catalog-e2e/')
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_TEST_BRANCH: ${{ github.ref_name }}
+      R2_TEST_PREFIX: ${{ github.ref_name }}/
+      R2_IMPORT_PREFIX: ${{ github.ref_name }}/
+      R2_TEST_OWNER: mowang7426/mowang-catalog-e2e
+      R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - name: Real production CAS and publisher, empty inbox and unlist with stale upload
+        run: python3 scripts/catalog-e2e.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: catalog-isolated-e2e
+          path: e2e-*.json
+          if-no-files-found: error
 
   publish:
     needs: regression

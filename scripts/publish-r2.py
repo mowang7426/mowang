@@ -71,8 +71,24 @@ def plan(previous,current,now):
         if previous['objects'][k].get('ownership')=='managed': garbage.setdefault(k,now)
     return garbage,sorted(k for k,t in garbage.items() if now-t>=GRACE)
 
+def isolated_scope():
+    prefix=os.environ.get('R2_TEST_PREFIX','')
+    branch=os.environ.get('R2_TEST_BRANCH','')
+    if not prefix:
+        return None
+    if (not re.fullmatch(r'catalog-e2e/[A-Za-z0-9_-]+/',prefix)
+        or not re.fullmatch(r'catalog-e2e/[A-Za-z0-9_-]+',branch)
+        or os.environ.get('GITHUB_REF')!='refs/heads/'+branch
+        or os.environ.get('GITHUB_EVENT_NAME')!='workflow_dispatch'
+        or os.environ.get('R2_TEST_OWNER')!='mowang7426/mowang-catalog-e2e'
+        or os.environ.get('GITHUB_REPOSITORY')!='mowang7426/mowang'):
+        raise ValueError('untrusted isolated publication scope')
+    return prefix, branch
+
+
 def freshness(commit):
-    ref='refs/heads/main'
+    scope=isolated_scope()
+    ref='refs/heads/'+scope[1] if scope else 'refs/heads/main'
     prepublish=os.environ.get('GITHUB_REF')=='refs/heads/feat/r2-deb-publish'
     if prepublish: ref='refs/heads/feat/r2-deb-publish'
     r=subprocess.run(['git','ls-remote','origin',ref],check=True,capture_output=True,text=True).stdout.split()
@@ -127,11 +143,17 @@ def main():
     # A failed rerun must never leave an earlier local success artifact behind.
     for artifact in ('r2-publication-result.json','r2-publication-receipt.json'):
         Path(artifact).unlink(missing_ok=True)
+    global PREFIX, OWNER
+    scope=isolated_scope()
     base=os.environ['R2_PUBLIC_BASE_URL'].rstrip('/')
-    if not base.endswith('/repo'): raise ValueError('production public base must end /repo')
+    if scope:
+        PREFIX=scope[0]; OWNER=os.environ['R2_TEST_OWNER']
+        if base!='https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/'+PREFIX.rstrip('/'):
+            raise ValueError('isolated public base must match exact trusted prefix')
+    elif not base.endswith('/repo'): raise ValueError('production public base must end /repo')
     bucket=os.environ['R2_BUCKET'];commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     prepublish=os.environ.get('GITHUB_EVENT_NAME')=='workflow_dispatch' and os.environ.get('GITHUB_REF')=='refs/heads/feat/r2-deb-publish' and os.environ.get('R2_PREPUBLISH')=='true'
-    if os.environ.get('GITHUB_REF')!='refs/heads/main' and not prepublish:raise RuntimeError('production only on main or explicitly trusted prepublish dispatch')
+    if os.environ.get('GITHUB_REF')!='refs/heads/main' and not prepublish and not scope:raise RuntimeError('production only on main or explicitly trusted prepublish dispatch')
     freshness(commit)
     s3=ScopedS3(boto3.client('s3',endpoint_url='https://'+os.environ['R2_ACCOUNT_ID']+'.r2.cloudflarestorage.com',region_name='auto'))
     audit_prefix(s3,bucket)
