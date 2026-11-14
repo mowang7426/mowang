@@ -129,9 +129,11 @@ def verify_objects(s3, bucket, base, records, owner, previous=None, gate=lambda:
             response['Body'].close()
         if public_digest(base, key, row['size']) != expected:
             raise ValueError('catalog public GET digest/blob mismatch: ' + key)
-        # Strictly retain prior ownership; an owner stamp alone never adopts an
-        # object not previously tracked as managed. Physical GC remains disabled.
-        ownership = 'managed' if previous_objects.get(key, {}).get('ownership') == 'managed' else 'external'
+        # A fresh locked importer creation claim is the ONLY extra ownership
+        # source. Owner stamps alone still cannot adopt preexisting garbage.
+        import r2_object_claims
+        ownership = 'managed' if (previous_objects.get(key, {}).get('ownership') == 'managed'
+            or r2_object_claims.verified(s3, bucket, row, owner)) else 'external'
         evidence = {'sha256': row['sha256'], 'size': row['size'],
                     'head_metadata_verified': True, 'full_get_hash_verified': True}
         details = {'owner': owner, 'owner_version': '1', 'etag': head.get('ETag'),

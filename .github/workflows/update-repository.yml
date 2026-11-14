@@ -67,6 +67,7 @@ jobs:
           python3 scripts/test-catalog-integration.py
           python3 scripts/test-cleanup-inbox.py
           python3 scripts/test-r2-physical-gc.py
+          python3 scripts/test-r2-shared-gc.py
       - name: Read-only pending archive validation and prospective catalog (no credentials)
         run: |
           if python3 scripts/catalog-build.py mode; then
@@ -121,7 +122,12 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
       - run: python3 -m pip install 'boto3>=1.36,<2'
       - name: Real production CAS and publisher, empty inbox and unlist with stale upload
-        run: python3 scripts/catalog-e2e.py
+        run: |
+          if [[ "$R2_TEST_BRANCH" == catalog-e2e/r2-gc-* ]]; then
+            python3 scripts/r2-shared-gc-e2e.py
+          else
+            python3 scripts/catalog-e2e.py
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -154,6 +160,8 @@ jobs:
       - run: git fetch origin main
       - run: python3 -m pip install 'boto3>=1.36,<2'
       - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils
+      - name: Acquire non-takeover shared import-publication-GC mutex
+        run: python3 scripts/r2_shared_lock.py acquire
       - name: Verify new archives, immutable R2 GETs, then non-force import CAS
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -178,7 +186,7 @@ jobs:
           mkdir -p _original
           cp Packages _original/Packages
           bash scripts/update-repository.sh
-      - name: Immutable DEBs and complete source; Release last; physical GC DISABLED
+      - name: Immutable DEBs; Release last; future-only delayed physical GC
         run: |
           export R2_PUBLIC_BASE_URL="${R2_PUBLIC_BASE_URL%/}/repo"
           python3 scripts/publish-r2.py
@@ -197,7 +205,11 @@ jobs:
             r2-publication-receipt.json
             r2-publication-result.json
             catalog-import-result.json
+            r2-physical-gc-result.json
             cleanup-plan.json
+      - name: Release only our shared mutex (never take over stale locks)
+        if: always()
+        run: python3 scripts/r2_shared_lock.py release
 
   inbox_cleanup:
     needs: [publish]
@@ -236,7 +248,7 @@ jobs:
 
   isolated_cleanup:
     needs: [isolated_publish]
-    if: startsWith(github.ref, 'refs/heads/catalog-e2e/') && needs.isolated_publish.result == 'success'
+    if: startsWith(github.ref, 'refs/heads/catalog-e2e/') && !startsWith(github.ref, 'refs/heads/catalog-e2e/r2-gc-') && needs.isolated_publish.result == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: write

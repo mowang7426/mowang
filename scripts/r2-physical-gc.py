@@ -89,8 +89,9 @@ def owned_bytes(s3, bucket, key, owner):
         raw = response['Body'].read()
     finally:
         response['Body'].close()
-    meta = response.get('Metadata', {})
-    if (meta.get('owner') != owner or meta.get('owner-version') != '1' or
+    head = s3.head_object(Bucket=bucket, Key=key)
+    meta = head.get('Metadata', {})
+    if (head['ContentLength'] != len(raw) or meta.get('owner') != owner or meta.get('owner-version') != '1' or
             meta.get('sha256') != digest(raw) or meta.get('size') != str(len(raw))):
         raise ValueError('foreign or damaged evidence: ' + key)
     return raw
@@ -137,5 +138,48 @@ def delete_isolated(s3, bucket, prefix, owner, state, now, gate):
                 raise
         else:
             raise ValueError('DELETE did not produce authoritative S3 absence')
+        result['deleted'].append(key)
+    return result
+
+
+def delete_coordinated(s3, bucket, owner, state, now, gate):
+    """Scoped-client DELETE under the verified, non-takeover shared mutex.
+
+    No conditional DELETE assumption: the caller holds the SAME mutex used by
+    all writers through HEAD, gate and DELETE. Never exported as an unguarded CLI.
+    """
+    if owner not in (OWNER, TEST_OWNER):
+        raise ValueError('foreign GC owner')
+    result = {'deleted': [], 'protected': [], 'absent': []}
+    for key, event in sorted(candidates(state, now).items()):
+        if gate() != state['last_receipt']:
+            raise ValueError('changed publication/lock')
+        row = event['object']
+        objects({'objects': {key: row}})
+        if row['ownership'] != 'managed':
+            raise ValueError('external candidate')
+        try:
+            head = s3.head_object(Bucket=bucket, Key=key)
+        except ClientError as error:
+            if error.response['ResponseMetadata']['HTTPStatusCode'] == 404:
+                result['absent'].append(key)
+                continue
+            raise
+        meta = head.get('Metadata', {})
+        if (meta.get('owner') != owner or meta.get('owner-version') != '1' or
+                meta.get('sha256') != row['sha256'] or meta.get('size') != str(row['size']) or
+                head['ContentLength'] != row['size']):
+            result['protected'].append(key)
+            continue
+        if gate() != state['last_receipt']:
+            raise ValueError('changed publication/lock before DELETE')
+        s3.delete_object(Bucket=bucket, Key=key)
+        try:
+            s3.head_object(Bucket=bucket, Key=key)
+        except ClientError as error:
+            if error.response['ResponseMetadata']['HTTPStatusCode'] != 404:
+                raise
+        else:
+            raise ValueError('DELETE did not produce S3 HEAD404')
         result['deleted'].append(key)
     return result

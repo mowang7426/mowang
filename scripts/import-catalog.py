@@ -184,6 +184,9 @@ def r2_upload():
     prefix = os.environ.get('R2_IMPORT_PREFIX', 'repo/').strip('/') + '/'
     if prefix != 'repo/' and not re.fullmatch(r'catalog-e2e/[A-Za-z0-9_-]+/', prefix):
         raise ValueError('unsafe isolated import prefix')
+    import r2_shared_lock
+    if prefix != r2_shared_lock.scope():
+        raise ValueError('upload prefix differs from shared mutex')
     base = os.environ['R2_PUBLIC_BASE_URL'].rstrip('/')
     if not base.endswith('/' + prefix.rstrip('/')):
         raise ValueError('public base/prefix mismatch')
@@ -200,7 +203,16 @@ def r2_upload():
     public_spec.loader.exec_module(publication)
     read_base = publication.read_base(base)
     def upload(record, package):
-        return sync.sync_one(Scope(), os.environ['R2_BUCKET'], package, read_base, owner=owner)
+        import r2_object_claims
+        # Acquire or borrow at the upload boundary, even for programmatic callers.
+        with r2_shared_lock.hold() as lock:
+            lock.verify()
+            evidence = sync.sync_one(Scope(), os.environ['R2_BUCKET'], package, read_base, owner=owner)
+            lock.verify()
+            if evidence == 'managed':
+                r2_object_claims.create(Scope(), os.environ['R2_BUCKET'], record, owner)
+            lock.verify()
+            return evidence
     return upload
 
 
@@ -212,7 +224,23 @@ def main():
     parser.add_argument('--output', default='catalog-import-result.json')
     args = parser.parse_args()
     Path(args.output).unlink(missing_ok=True)
-    result = transaction(Path(args.root), args.branch, GitHub(args.repository, os.environ['GITHUB_TOKEN']), r2_upload())
+    import r2_shared_lock
+    if args.branch != ('main' if r2_shared_lock.scope() == 'repo/' else r2_shared_lock.scope().rstrip('/')):
+        raise ValueError('import branch/mutex scope mismatch')
+    with r2_shared_lock.hold() as lock:
+        upload = r2_upload()
+        def guarded_upload(record, package):
+            lock.verify()
+            evidence = upload(record, package)
+            lock.verify()
+            return evidence
+        class GuardedGitHub(GitHub):
+            def commit(self, *args):
+                lock.verify()
+                return super().commit(*args)
+        result = transaction(Path(args.root), args.branch,
+            GuardedGitHub(args.repository, os.environ['GITHUB_TOKEN']), guarded_upload)
+        lock.verify()
     Path(args.output).write_bytes(c.encoded(result))
     print(json.dumps(result, sort_keys=True))
 

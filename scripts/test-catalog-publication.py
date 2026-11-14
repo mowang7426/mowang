@@ -146,7 +146,7 @@ class Pipeline(unittest.TestCase):
         self.git('add','packages','catalog-state')
         self.git('-c','user.name=Test','-c','user.email=test@example.invalid','commit','-qm','fixture')
         self.head=self.git('rev-parse','HEAD')
-    def run_pipeline(self,failure=None):
+    def run_pipeline(self,failure=None,run_id='123'):
         records,_=c.load_catalog('.')
         Path('_site/Packages').write_bytes(c.render(records));Path('_site/Release').write_bytes(b'fixture release')
         def public(base,key):
@@ -158,7 +158,7 @@ class Pipeline(unittest.TestCase):
             calls[0]+=1
             if failure=='race' and calls[0]>=3:raise RuntimeError('main advanced')
         env={'R2_PUBLIC_BASE_URL':BASE,'R2_BUCKET':'bucket','R2_ACCOUNT_ID':'account',
-             'GITHUB_REF':'refs/heads/main','GITHUB_RUN_ID':'123','GITHUB_RUN_ATTEMPT':'1'}
+             'GITHUB_REF':'refs/heads/main','GITHUB_RUN_ID':run_id,'GITHUB_RUN_ATTEMPT':'1'}
         with contextlib.ExitStack() as stack:
             stack.enter_context(patch.dict(os.environ,env))
             for obj,name,value in [(p,'ScopedS3',lambda s:s),(p,'audit_prefix',lambda *a:None),
