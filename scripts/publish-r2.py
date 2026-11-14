@@ -47,7 +47,12 @@ def read(s3,bucket,key):
         raise
 
 def public(base,key):
-    return subprocess.check_output(['curl','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',catalog_publication.read_base(base).rstrip('/')+'/'+key])
+    # The short-domain Worker intentionally exposes only APT/client routes.
+    # Audit snapshots, receipts and zstd are public on the canonical R2 origin,
+    # but absent from its allowlist. Keep bulk DEB GETs on the short domain.
+    audit_route = key.startswith(('snapshots/', 'receipts/')) or key == 'Packages.zst'
+    read_base = base if audit_route else catalog_publication.read_base(base)
+    return subprocess.check_output(['curl','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',read_base.rstrip('/')+'/'+key])
 
 def validate(m,base):
     if not isinstance(m,dict) or m.get('schema')!=1 or m.get('base')!=base or not m.get('objects'):

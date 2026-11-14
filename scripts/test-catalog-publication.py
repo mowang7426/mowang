@@ -105,6 +105,20 @@ class Objects(unittest.TestCase):
     def test_short_domain_preserves_index_base(self):
         self.assertEqual(m.read_base(m.PRODUCTION_BASE),m.PUBLIC_READ_BASE)
         self.assertEqual(m.read_base(BASE),BASE)
+    def test_public_audit_routes_use_canonical_origin(self):
+        for key in ('snapshots/'+'a'*40+'/Packages', 'receipts/'+'a'*40+'/123-1.json', 'Packages.zst'):
+            with patch.object(p.subprocess,'check_output',return_value=b'verified') as get:
+                self.assertEqual(p.public(m.PRODUCTION_BASE,key),b'verified')
+                self.assertEqual(get.call_args.args[0][-1],m.PRODUCTION_BASE+'/'+key)
+    def test_public_client_routes_keep_short_domain(self):
+        for key in ('Packages','Packages.xz','Release','managed-manifest.json','debs/'+'a'*64+'.deb'):
+            with patch.object(p.subprocess,'check_output',return_value=b'verified') as get:
+                p.public(m.PRODUCTION_BASE,key)
+                self.assertEqual(get.call_args.args[0][-1],m.PUBLIC_READ_BASE+'/'+key)
+    def test_public_isolated_origin_unchanged(self):
+        with patch.object(p.subprocess,'check_output',return_value=b'verified') as get:
+            p.public(BASE,'receipts/'+'a'*40+'/123-1.json')
+            self.assertEqual(get.call_args.args[0][-1],BASE+'/receipts/'+'a'*40+'/123-1.json')
     def test_digest_limit(self):
         with self.assertRaises(ValueError):m.digest(io.BytesIO(b'abcd'),3)
     def test_gate_failure_refuses(self):
