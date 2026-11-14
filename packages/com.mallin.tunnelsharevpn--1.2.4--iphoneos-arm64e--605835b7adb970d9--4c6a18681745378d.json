@@ -1,0 +1,18 @@
+{
+  "id": "com.mallin.tunnelsharevpn--1.2.4--iphoneos-arm64e--605835b7adb970d9--4c6a18681745378d",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mallin.tunnelsharevpn",
+    "version": "1.2.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1hbGxpbi50dW5uZWxzaGFyZXZwbgpWZXJzaW9uOiAxLjIuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNYWxsaW4KUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCAoPj0gMC45KQpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCksIG1vYmlsZXN1YnN0cmF0ZSB8IHN1YnN0aXR1dGUgfCBsaWJob29rZXIgfCBlbGxla2l0LCBjb20ub3BhMzM0LmNjc3VwcG9ydCwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9UdW5uZWxTaGFyZVZQTl8xLjIuNF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDE0NTkyMApNRDVzdW06IDBlOGM4ZDIxZmYzZWVjM2FlNTMzYjFlNWRiMTM3N2JhClNIQTE6IDdlZmFjZDllZmI4M2NlZGYyMTY1ZWY5NjBlYTliZGNhYzRhM2YwZjEKU0hBMjU2OiA2MDU4MzViN2FkYjk3MGQ5OGNmNzg0ODc0Y2JhZWRhNDBkMmMzY2ViOGJhMGNiNzEzODZjZDU5ZjkwYWE5MTcxClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog6K+l5o+S5Lu26IO95aSf5a6e546w6K+l5omL5py655qE56eR5a2m5LiK572R5Yqf6IO955u05o6l6YCa6L+H54Ot54K55b2i5byP5YiG5Lqr57uZ5YW25LuW6K6+5aSH77yM5Zyo4oCc6K6+572uLeaOp+WItuS4reW/g+KAnea3u+WKoOW/q+aNt+mUru+8jOWNs+WPr+WunueOsOS4gOmUruaTjeS9nO+8jOebruWJjea1i+ivleS9v+eUqFNoYWRvd3JvY2tldOenkeWtpuS4iue9ke+8jOWPqueUqOS6juenkeeglOS4juafpemYheWklue9kei1hOaWme+8gQpBdXRob3I6IE1hbGxpbgpJY29uOiBodHRwczovL21hbGxpbnJlcG8ucGFnZXMuZGV2L2RlcGljdGlvbnMvdHVubmVsc2hhcmV2cG4vaWNvbi5wbmcKTmFtZTogVHVubmVsU2hhcmVWUE4=",
+  "metadata_sha256": "0a5112d3ef7539c5d8a166d9a81a67a3b1fb6f48218ddbed93bc06640efc4267",
+  "object_key": "debs/605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171.deb",
+  "schema": 1,
+  "sha256": "605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171",
+  "size": 145920,
+  "source": {
+    "filename_b64": "ZGVicy9UdW5uZWxTaGFyZVZQTl8xLjIuNF9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "a23f091c5d0e5406cd8e383c7a962ad868cd0a49"
+  }
+}

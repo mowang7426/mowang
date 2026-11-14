@@ -1,0 +1,18 @@
+{
+  "id": "danmutool--2.0.0--iphoneos-arm64e--24a7216aecca2fdc--ce9e38e51d531765",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "danmutool",
+    "version": "2.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogZGFubXV0b29sClZlcnNpb246IDIuMC4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEp1bmhvbmcgPG1haWxAbWpoLmltPgpJbnN0YWxsZWQtU2l6ZTogOTY4CkRlcGVuZHM6IGZpcm13YXJlICg+PTE1LjApLCBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKQpGaWxlbmFtZTogZGVicy9fX19fX19fX19fX19fMi4wLjBfaXBob25lb3MtYXJtNjRlX2Y2YmI5MDUyOGQ3Y2QzN2QuZGViClNpemU6IDMxMjM3NgpNRDVzdW06IDJhYTJhMzI4ZjFhNjQyZjZmOWY0YmNhNzJmNTgzMTI4ClNIQTE6IGMzMmZmZTNiN2M4YWQ0MGRjMmYxNGEwYzliNTJiYmNkMmE1ZTk2MWQKU0hBMjU2OiAyNGE3MjE2YWVjY2EyZmRjMmNjYzZlMzliOWUyYzgyM2I4MjM5MDM4NzY1MGYyMjY1MzE5ZTg4ZWJhZWQyNDU5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5pSv5oyB5oqW6Z+zL+Wwj+e6ouS5pi/lv6vmiYsv6KeG6aKR5Y+355u05pKt5by55bmV5b+r5o235Y+R6YCBCkF1dGhvcjogSnVuaG9uZwpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2Rhbm11dG9vbC5qcGcKTmFtZTog5by55bmV5Yqp5omL",
+  "metadata_sha256": "3b0af98827a8f4eadd273c79a2a3c12aa3fa0d70516fd29fd3423a337ae44768",
+  "object_key": "debs/24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459.deb",
+  "schema": 1,
+  "sha256": "24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459",
+  "size": 312376,
+  "source": {
+    "filename_b64": "ZGVicy9fX19fX19fX19fX19fMi4wLjBfaXBob25lb3MtYXJtNjRlX2Y2YmI5MDUyOGQ3Y2QzN2QuZGVi",
+    "git_blob": "99168fad6521affbcdf4dae709c97c3ab23dc36b"
+  }
+}

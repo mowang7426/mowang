@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.486--iphoneos-arm64e--2943ac0f61984bb1--1add012b187bc893",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.486"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjQ4NgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBxcTM5MTE2MApJbnN0YWxsZWQtU2l6ZTogNDY2OApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCkKQ29uZmxpY3RzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKUmVwbGFjZXM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpGaWxlbmFtZTogZGVicy9DUFXmmbrog73muKnmjqcoaU9TMTZfMTcpLTIuMC40ODYtaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA3Mjc3NjAKTUQ1c3VtOiBmNjRjZGUyMGI2MmIyNTYwYzg5ZjU4MmM2Zjg3NGIzOApTSEExOiAyOWZhNTE5ODMyMWFlM2IzZDRiNTRmMjIzMmY4ZDAxNDQ5NzViYjQyClNIQTI1NjogMjk0M2FjMGY2MTk4NGJiMTgzYTczMDI0ZDI4NGFhOWQyZmRiZTk0NGM3NjM2YzcxZTY5MTY4ZDg2ZTUyMTdmYgpTZWN0aW9uOiBUd2Vha3MKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiDkuInnp43mqKHlvI/kuIDplK7liIfmjaLnmoTmmbrog73muKnmjqfnrqHnkIbjgIIg5pm66IO977ya5ri45oiP6auY5oCn6IO944CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybIOS9juWKn+iAl++8muWFqOWxgOecgeeUte+8jOWPr+aUvuihjOS4quWIq+W6lOeUqO+8myDmgKfog73mqKHlvI/vvJrlhajlsYDpq5jmgKfog73vvIzlj6/ljZXni6zljovkvY7mjIflrprlupTnlKjvvJsg5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CCCkF1dGhvcjogcXEzOTExNjAKSWNvbjogaHR0cHM6Ly9xcTM5MTE2MC5naXRodWIuaW8vcmVwby9pY29ucy90aGVybWFsLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcoaU9TMTYvMTcp",
+  "metadata_sha256": "29617582802e89129e6f5a4087f8d6b47ed16952c4ed96dcfa08cba1d66c0392",
+  "object_key": "debs/2943ac0f61984bb183a73024d284aa9d2fdbe944c7636c71e69168d86e5217fb.deb",
+  "schema": 1,
+  "sha256": "2943ac0f61984bb183a73024d284aa9d2fdbe944c7636c71e69168d86e5217fb",
+  "size": 727760,
+  "source": {
+    "filename_b64": "ZGVicy9DUFXmmbrog73muKnmjqcoaU9TMTZfMTcpLTIuMC40ODYtaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "9843bafca36b7d8c7010f91724cf16b6786cfb4e"
+  }
+}

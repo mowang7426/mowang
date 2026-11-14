@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.89--iphoneos-arm64--730f0217496e391d--259876799ae19d2a",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.89"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjg5CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogcXEzOTExNjAKSW5zdGFsbGVkLVNpemU6IDM0OTYKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApCkNvbmZsaWN0czogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5ClJlcGxhY2VzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKRmlsZW5hbWU6IGRlYnMvY29tLnFxMzkxMTYwLmNwdWNvcmVfMi4wLjg5X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA1MjczNzQKTUQ1c3VtOiAxMDk0ODZmOWZiMDk4NGU0MTIwNjE3OWVkNTdkYTExNgpTSEExOiA5ZjQyYzYxMDcwMGRkNDdiMjBjOWUyOWYyYzM3NTMwMDNkNDA2MTU5ClNIQTI1NjogNzMwZjAyMTc0OTZlMzkxZDQ0MGI1MWZiYzMzZjE0MjlkNDVlN2I2ZGUyNWVlYjFkODI4ZmE1NmZmZDhkMGQ1NQpTZWN0aW9uOiBUd2Vha3MKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiDkuInnp43mqKHlvI/kuIDplK7liIfmjaLnmoTmmbrog73muKnmjqfnrqHnkIbjgIIg5pm66IO977ya5ri45oiP6auY5oCn6IO944CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybIOS9juWKn+iAl++8muWFqOWxgOecgeeUte+8jOWPr+aUvuihjOS4quWIq+W6lOeUqO+8myDmgKfog73mqKHlvI/vvJrlhajlsYDpq5jmgKfog73vvIzlj6/ljZXni6zljovkvY7mjIflrprlupTnlKjvvJsg5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CCCkF1dGhvcjogcXEzOTExNjAKSWNvbjogaHR0cHM6Ly9xcTM5MTE2MC5naXRodWIuaW8vcmVwby9pY29ucy90aGVybWFsLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcoaU9TMTYvMTcp",
+  "metadata_sha256": "3be1fbddffa0639102ee700c684ce11c0767c0762792477583380e61314920cc",
+  "object_key": "debs/730f0217496e391d440b51fbc33f1429d45e7b6de25eeb1d828fa56ffd8d0d55.deb",
+  "schema": 1,
+  "sha256": "730f0217496e391d440b51fbc33f1429d45e7b6de25eeb1d828fa56ffd8d0d55",
+  "size": 527374,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuODlfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "6265abaef7833f6205ce42e9a7aea37c50f3d7fb"
+  }
+}

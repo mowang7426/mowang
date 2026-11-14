@@ -1,0 +1,18 @@
+{
+  "id": "com.wcmoments.plugin--0.6.49--iphoneos-arm64--442dfb444119a3fc--7b5c04d54978f621",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.wcmoments.plugin",
+    "version": "0.6.49"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLndjbW9tZW50cy5wbHVnaW4KVmVyc2lvbjogMC42LjQ5CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogTG9jYWwgUGFja2FnZQpGaWxlbmFtZTogZGVicy9jb20ud2Ntb21lbnRzLnBsdWdpbl8wLjYuNDlfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDM1Mjc0NApNRDVzdW06IDg4OGJkYmJmM2I3M2VjZTNlNDFhNjczZmMyZmFlNWFlClNIQTE6IDQxYTUxYzc1ZGUxYTBkY2E4NDZmMDNiMDMyZjU0NmJjYjZjZmRiOGEKU0hBMjU2OiA0NDJkZmI0NDQxMTlhM2ZjYjhiNzJjNjBmYzAyZGJjNDkxYTRlZTcwMzJmZjdjMGE5NmJhMDMwYjg0MThiYjg1ClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IFdDTW9tZW50cyBqYWlsYnJlYWsgdHdlYWsKTmFtZTogV0NNb21lbnRz",
+  "metadata_sha256": "c24bef37ee199786fa9e1c104da23863f55df6aadb024c5d8f59078448ae89d9",
+  "object_key": "debs/442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85.deb",
+  "schema": 1,
+  "sha256": "442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85",
+  "size": 352744,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ud2Ntb21lbnRzLnBsdWdpbl8wLjYuNDlfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "14d5fad0b10b39dc48844ab8be2dabc448c75f15"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "scope": "read-only initial catalog verification, NOT a production publication receipt",
+  "workflow_run": 43537235893,
+  "workflow_url": "https://github.com/mowang7426/mowang/actions/runs/43537235893",
+  "job": 132269073506,
+  "head_commit": "706948e836b909be3057d8040a3ea814a47f5eed",
+  "checked_out_pr_merge_commit": "e1a667f8865252f882007809a296a1ac80432220",
+  "artifact_id": 14090695846,
+  "conclusion": "success",
+  "all_source_records": 1439,
+  "all_full_get_objects": 1407,
+  "full_get_sha256_and_trusted_git_blob_sha1": true,
+  "source_metadata_bytes_except_filename_equal": true,
+  "cleanup_authorized": false,
+  "production_ready": false
+}

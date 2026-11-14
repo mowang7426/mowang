@@ -1,0 +1,18 @@
+{
+  "id": "com.mlgm.clippa--1.1--iphoneos-arm64--12a4d113c4b95e6d--ea09484ac1bc5456",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.mlgm.clippa",
+    "version": "1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1sZ20uY2xpcHBhClZlcnNpb246IDEuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IG1sZ20KSW5zdGFsbGVkLVNpemU6IDM2NzMyCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBjb20ub3BhMzM0LmNjc3VwcG9ydApGaWxlbmFtZTogZGVicy9jb20ubWxnbS5jbGlwcGFfMS4xX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAzMTE4ODQ0MApNRDVzdW06IDE2Y2QyNDJlM2Q5MDdiMmFhNDYwYjM2MDhiYzYyOGVlClNIQTE6IGZhZDVmMWNjMTU4ODQ3YTliYjVkZWU2ZGJhZTlhOTMwMWNiNTc1NTYKU0hBMjU2OiAxMmE0ZDExM2M0Yjk1ZTZkY2MyNDdjNzczNTdkOTJhMWJmMmM1YzBmMDUzZWYzZWI4MTgzZWFiZTRmOTY3MGNkClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOaIquWbvuS4juaCrOa1rui0tOWbvuW3peWFt+OAggpBdXRob3I6IG1sZ20KSWNvbjogaHR0cHM6Ly9tbGdtNjYuZ2l0aHViLmlvL2ljb24vY2xpcHBhLnBuZwpOYW1lOiBDbGlwcGE=",
+  "metadata_sha256": "ee9b559006d5fcb0d817a953f8aafaf8d5812b3827f7478077fb074a7b7a7f2f",
+  "object_key": "debs/12a4d113c4b95e6dcc247c77357d92a1bf2c5c0f053ef3eb8183eabe4f9670cd.deb",
+  "schema": 1,
+  "sha256": "12a4d113c4b95e6dcc247c77357d92a1bf2c5c0f053ef3eb8183eabe4f9670cd",
+  "size": 31188440,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubWxnbS5jbGlwcGFfMS4xX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "be5323caec409452c5950f9091cc10c1d1827649"
+  }
+}

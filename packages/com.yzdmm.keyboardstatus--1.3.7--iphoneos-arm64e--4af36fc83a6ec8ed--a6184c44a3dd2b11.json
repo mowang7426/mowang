@@ -1,0 +1,18 @@
+{
+  "id": "com.yzdmm.keyboardstatus--1.3.7--iphoneos-arm64e--4af36fc83a6ec8ed--a6184c44a3dd2b11",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.yzdmm.keyboardstatus",
+    "version": "1.3.7"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnl6ZG1tLmtleWJvYXJkc3RhdHVzClZlcnNpb246IDEuMy43CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHl6ZG1tCkluc3RhbGxlZC1TaXplOiA2MTIKUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCg+PSAwLjkpCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL+mUruebmOS4i+aWueeKtuaAgS0xLjMuNy1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDc5NjY4Ck1ENXN1bTogNDJmZGI3NjA3NThkYzc5ZmM0YmY0OWMzYmI5OWNiYTQKU0hBMTogZWRhNWE3M2RkMWM4YmRmZjhhMTUyODcyM2UxNTZiMTA4ZDkyNGZlMQpTSEEyNTY6IDRhZjM2ZmM4M2E2ZWM4ZWQ4N2I5YmE3ZGQ5YjhiOTA2YTZiN2Y5YjQ1MjcxMjg4MmE3OThmZDFhZTlhZjk3ZTIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDns7vnu5/plK7nm5jlupXmoI/liqDlip/og73mjInpkq7vvIjlhajpgIkv5Ymq5YiHL+eymOi0tC/lhYnmoIfnp7vliqgv5Ymq6LS05p2/5Y6G5Y+yL+W/q+aNt+efreivrS/mlLbotbfplK7nm5jvvIkrIOWPr+mAieeKtuaAgeadoeOAgnJvb3RsZXNzIOmAgumFje+8jOmAkOWKn+iDveWPr+WFs++8jOWuieWFqOS4jeW0qeOAggpBdXRob3I6IHl6ZG1tCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24va2IuanBnCk5hbWU6IOmUruebmOS4i+aWueeKtuaAgQ==",
+  "metadata_sha256": "caf2e669aba57a924392fca8bffba1d1418b43e6dea8e58db541c89c99019bf8",
+  "object_key": "debs/4af36fc83a6ec8ed87b9ba7dd9b8b906a6b7f9b452712882a798fd1ae9af97e2.deb",
+  "schema": 1,
+  "sha256": "4af36fc83a6ec8ed87b9ba7dd9b8b906a6b7f9b452712882a798fd1ae9af97e2",
+  "size": 79668,
+  "source": {
+    "filename_b64": "ZGVicy/plK7nm5jkuIvmlrnnirbmgIEtMS4zLjctaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "71ae361f403e1820dc9b2997b4c13b9d135ea545"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.noads.tweka--1.3.1--iphoneos-arm64--d6ee3ffc665be31d--d9a0001ce62199f5",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.noads.tweka",
+    "version": "1.3.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm5vYWRzLnR3ZWthClZlcnNpb246IDEuMy4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjog5Y2K55Sf5bm05Y2OCkluc3RhbGxlZC1TaXplOiAyNjE2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9Ob0Fkc1gtMS4zLjEtaXBob25lb3MtYXJtNjQuZGViClNpemU6IDc2Nzk1MgpNRDVzdW06IDgyZDg1ZDRlNGJkNjdlZWI0MGY3MjFlMWVhNWVlNzBjClNIQTE6IDBkYmVjZTZiYWE3ODI1YWYwNzE0NTU3N2NmOWNkMDcyZDNkMTZhNTMKU0hBMjU2OiBkNmVlM2ZmYzY2NWJlMzFkNTJlMDVkM2M2NjdiZDk5MzBlZTQ5MTQwZDE5Njg1MzU0NmFkNGRjNDQyZDUzNGVmClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Y676Zmk5bm/5ZGK44CCCkF1dGhvcjog5Y2K55Sf5bm05Y2OCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vTm9BZHNAMngucG5nCk5hbWU6IE5vQWRzWA==",
+  "metadata_sha256": "8515a25842010312659e1b99673d71fc6ccf8849d235664d4b51ddb115d3f6fe",
+  "object_key": "debs/d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef.deb",
+  "schema": 1,
+  "sha256": "d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef",
+  "size": 767952,
+  "source": {
+    "filename_b64": "ZGVicy9Ob0Fkc1gtMS4zLjEtaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "2268fee5008fbff275cdc38e70075e389108b168"
+  }
+}

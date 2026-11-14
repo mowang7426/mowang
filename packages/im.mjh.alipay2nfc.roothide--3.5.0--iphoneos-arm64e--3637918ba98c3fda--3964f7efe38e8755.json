@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.alipay2nfc.roothide--3.5.0--iphoneos-arm64e--3637918ba98c3fda--3964f7efe38e8755",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "im.mjh.alipay2nfc.roothide",
+    "version": "3.5.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLmFsaXBheTJuZmMucm9vdGhpZGUKVmVyc2lvbjogMy41LjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogSnVuaG9uZwpJbnN0YWxsZWQtU2l6ZTogMzY0CkRlcGVuZHM6IGZpcm13YXJlICg+PTE0LjApLCBwcmVmZXJlbmNlbG9hZGVyCkNvbmZsaWN0czogY29tLnlvdXJuYW1lLmFsaXBheW5mY3JlZGlyZWN0ClJlcGxhY2VzOiBjb20ueW91cm5hbWUuYWxpcGF5bmZjcmVkaXJlY3QKRmlsZW5hbWU6IGRlYnMvQWxpcGF5Mk5GQyDCtyDnorDkuIDnorDovazmjqUgKFJvb3RoaWRlKV8zLjUuMF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDIyODgwCk1ENXN1bTogYmIzNjAzOTVjYzc1ZGZkYmFjNzc4MTQ1OTAyYmY3ZmMKU0hBMTogNTZiNTNlOWU1ZmY1NWYyZTgzZDAzMDU4MDc0YzNiZmQ3N2Y3Y2ZiZQpTSEEyNTY6IDM2Mzc5MThiYTk4YzNmZGFkZGM0Y2Q3ZWM5ZjYxNDQzNTIyZjBmYTIxMGM1YWExNjI5NWZiYThjMDJlZGNkNjIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDorqnmlK/ku5jlrp3jgIznorDkuIDnorDjgI3llKTotbfkvaDmjIflrprnmoTnrKzkuozkuKrmlK/ku5jlrp3lrqLmiLfnq68g4oCUIOWkmuW8gOi0puWPt+S5n+iDveeUqCBORkMg5LuY5qy+44CC5byA5rqQ77yaaHR0cHM6Ly9naXRodWIuY29tLzVodXgxbi9BbGlwYXkyTkZDCkF1dGhvcjogSnVuaG9uZwpOYW1lOiBBbGlwYXkyTkZDIMK3IOeisOS4gOeisOi9rOaOpSAoUm9vdGhpZGUp",
+  "metadata_sha256": "540aa9fcd333b62a5697f0cc931f079c95f722aeaaafacbbcd9ba87871ecb692",
+  "object_key": "debs/3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62.deb",
+  "schema": 1,
+  "sha256": "3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62",
+  "size": 22880,
+  "source": {
+    "filename_b64": "ZGVicy9BbGlwYXkyTkZDIMK3IOeisOS4gOeisOi9rOaOpSAoUm9vdGhpZGUpXzMuNS4wX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "4278ca7c3e1efdcc846460510dccca7e85fa53c5"
+  }
+}

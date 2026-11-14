@@ -1,0 +1,18 @@
+{
+  "id": "uuhelper.roothide--1.0.3--iphoneos-arm64e--fb3825a2d7ae2d29--832bb8ee98fa44b4",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "uuhelper.roothide",
+    "version": "1.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogdXVoZWxwZXIucm9vdGhpZGUKVmVyc2lvbjogMS4wLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjoganVuaG9uZwpJbnN0YWxsZWQtU2l6ZTogMzYwCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKQpDb25mbGljdHM6IGltLm1qaC51dXNjcmVlbnN3aXRjaCwgaW0ubWpoLnV1c2NyZWVuc3dpdGNoLnJvb3RoaWRlClJlcGxhY2VzOiBpbS5tamgudXVzY3JlZW5zd2l0Y2gsIGltLm1qaC51dXNjcmVlbnN3aXRjaC5yb290aGlkZQpGaWxlbmFtZTogZGVicy91dSDov5zmjqflop7lvLogKFJvb3RoaWRlKV8xLjAuM19pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDU4Nzc2Ck1ENXN1bTogNzI0NTIzMWRkOTU5ZDdkY2E3Y2EzZGM1MjU0YjEyZjcKU0hBMTogMjVhNTk2ZjlhNjMzYmRkMjZjM2Y1NDZkNjM4M2M0ZGJmNWU2MGI5MgpTSEEyNTY6IGZiMzgyNWEyZDdhZTJkMjk5ODE1ZWU3OWU4NDVkMGY5YTkxNTEwYWY2ZmM1MGEyYzcxMjQ1NDkxZjVmZWIzYjAKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBVVSDov5zmjqflv6vmjbfplK7jgIHlnIbnm5jmu5rova7jgIHlv6vmjbfliIflsY/kuI7op4bop5LorrDlv4bvvIzmlK/mjIEgQXBwIOWGheeLrOeri+W8gOWFs+OAggpBdXRob3I6IGp1bmhvbmcKTmFtZTogdXUg6L+c5o6n5aKe5by6IChSb290aGlkZSk=",
+  "metadata_sha256": "d54d5b9b84eba946f9196a5cdd2ee90020633a46f9c2209b79b68ed6fc66395f",
+  "object_key": "debs/fb3825a2d7ae2d299815ee79e845d0f9a91510af6fc50a2c71245491f5feb3b0.deb",
+  "schema": 1,
+  "sha256": "fb3825a2d7ae2d299815ee79e845d0f9a91510af6fc50a2c71245491f5feb3b0",
+  "size": 58776,
+  "source": {
+    "filename_b64": "ZGVicy91dSDov5zmjqflop7lvLogKFJvb3RoaWRlKV8xLjAuM19pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "5d1219b72c1780d36e1e8704a6f46b099f5abf51"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.ccsim--2.1--iphoneos-arm64--d0805d517a452e89--c1bb01833599a153",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.huayuarc.ccsim",
+    "version": "2.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNjc2ltClZlcnNpb246IDIuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEh1YXl1YXJjCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlLCBjb20ub3BhMzM0LmNjc3VwcG9ydApDb25mbGljdHM6IGNvbS5uZXRza2FvLmNjc2ltLnBybywgY29tLm5ldHNrYW8uY2NzaW0sIGNvbS5odWF5dWFyYy5jY3NpbWZpeApSZXBsYWNlczogY29tLm5ldHNrYW8uY2NzaW0ucHJvLCBjb20ubmV0c2thby5jY3NpbSwgY29tLmh1YXl1YXJjLmNjc2ltZml4CkZpbGVuYW1lOiBkZWJzL0NDU0lNXzIuMV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNjYxNDAKTUQ1c3VtOiA5YjA3YjU1ZTdkMWFiZjJkYThlMGQwNzkwZDBkZGU1ZQpTSEExOiBkMjZlODdiMDBjNzgzNzMzNGY3YzAyZDYzMDQ4YTY2ZGM4YjJiZWZjClNIQTI1NjogZDA4MDVkNTE3YTQ1MmU4OTdkMDJmMWFhN2UwM2Q3MTBlNzY2YTU3NGI5ZjRmN2YwOTY2N2MxNjA3NDZiMDY5OQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOaOp+WItuS4reW/gyBTSU0g5Y2h566h55CG77ya5Y2V5Ye75oiW6ZW/5oyJ5Z2H5bGV5byA5ZCM5LiAIFNJTSDnrqHnkIbpnaLmnb/vvIzngrnljaHljbPlj6/lkK/nlKggLyDlhbPpl63jgIIKQXV0aG9yOiBIdWF5dWFyYwpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2Njc2ltLmpwZwpOYW1lOiBDQ1NJTQ==",
+  "metadata_sha256": "759e4a8efdbaaa63e91680f0dc5b4aeb979540c7f06331d555a78362fdf0e9e8",
+  "object_key": "debs/d0805d517a452e897d02f1aa7e03d710e766a574b9f4f7f09667c160746b0699.deb",
+  "schema": 1,
+  "sha256": "d0805d517a452e897d02f1aa7e03d710e766a574b9f4f7f09667c160746b0699",
+  "size": 66140,
+  "source": {
+    "filename_b64": "ZGVicy9DQ1NJTV8yLjFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "0abde20b2bc4ddacec312f01ce82f4d8b61ccaa1"
+  }
+}

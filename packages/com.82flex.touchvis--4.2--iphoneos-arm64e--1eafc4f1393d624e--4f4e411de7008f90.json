@@ -1,0 +1,18 @@
+{
+  "id": "com.82flex.touchvis--4.2--iphoneos-arm64e--1eafc4f1393d624e--4f4e411de7008f90",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.82flex.touchvis",
+    "version": "4.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLjgyZmxleC50b3VjaHZpcwpWZXJzaW9uOiA0LjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogTGVzc2ljYSA8ODJmbGV4QGdtYWlsLmNvbT4KSW5zdGFsbGVkLVNpemU6IDM2NDQKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvY29tLjgyZmxleC50b3VjaHZpc180LjJfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA3Mjk3OTQKTUQ1c3VtOiA2MWE5OWFlZDRhYzUwODg5MzQ4YTkwZjUzNDQ5NzNjZgpTSEExOiA5NGVhZjJmYWMyYzU3ODQ2MzU0MjAyYmM5MTUyZWViZDJmMWJjNzhkClNIQTI1NjogMWVhZmM0ZjEzOTNkNjI0ZWE3Y2Q2ODVmYzc0OWM3YjdmZDk1ZGM4MTI5MjQzM2FjNTIzZjY5NWUwZWE3OGI0NApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IERpc3BsYXkgeW91ciB0b3VjaCBpbnRlcmFjdGlvbnMhCkF1dGhvcjogTGVzc2ljYSA8ODJmbGV4QGdtYWlsLmNvbT4KTmFtZTogVG91Y2gtVml6",
+  "metadata_sha256": "49fc711eeeb907a7310a8f403dac0a43472893d01d36747a0041b9667831d9e7",
+  "object_key": "debs/1eafc4f1393d624ea7cd685fc749c7b7fd95dc81292433ac523f695e0ea78b44.deb",
+  "schema": 1,
+  "sha256": "1eafc4f1393d624ea7cd685fc749c7b7fd95dc81292433ac523f695e0ea78b44",
+  "size": 729794,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uODJmbGV4LnRvdWNodmlzXzQuMl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "d946a57a818ae1737b6ffef06ab9ffa259623ae0"
+  }
+}

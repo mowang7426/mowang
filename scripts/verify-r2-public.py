@@ -6,6 +6,22 @@ from pathlib import Path
 def records(raw):
     return [dict(line.split(': ',1) for line in block.split('\n') if ': ' in line and not line.startswith((' ','\t'))) for block in raw.decode('utf-8','surrogateescape').strip('\n').split('\n\n')]
 
+def source_names(manifest, root=Path('.')):
+    names=collections.defaultdict(list)
+    files=manifest['files']
+    if manifest.get('source_of_truth')=='packages/*.json':
+        import base64
+        records_by_name={p.name:json.loads(p.read_bytes()) for p in (root/'packages').glob('*.json')}
+        if set(records_by_name)!=set(files):raise ValueError('manifest record coverage differs from committed catalog')
+        for name,key in files.items():
+            record=records_by_name[name]
+            if record['object_key']!=key:raise ValueError('record/object mapping mismatch')
+            names[key].append(base64.b64decode(record['source']['filename_b64']).decode('utf-8','surrogateescape'))
+    else:
+        for name,key in files.items():names[key].append(name)
+    return names
+
+
 def main():
     original=Path('_original/Packages').read_bytes(); indexed=Path('_site/Packages').read_bytes()
     def without_filename(raw):
@@ -16,8 +32,7 @@ def main():
     base=manifest['base'];files=manifest['files']
     triples=collections.Counter((r['Package'],r['Version'],r['Architecture']) for r in rows)
     eligible=[r for r in rows if triples[(r['Package'],r['Version'],r['Architecture'])]==1]
-    names=collections.defaultdict(list)
-    for name,key in files.items():names[key].append(name)
+    names=source_names(manifest)
     selected={
         'small':min(eligible,key=lambda r:int(r['Size'])),
         'large':max(eligible,key=lambda r:int(r['Size'])),

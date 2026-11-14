@@ -1,0 +1,18 @@
+{
+  "id": "com.dd.adblock--1.0.0--iphoneos-arm64--0ca7465b76008d11--b3c85cad652b42af",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.dd.adblock",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRkLmFkYmxvY2sKVmVyc2lvbjogMS4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBERApJbnN0YWxsZWQtU2l6ZTogMjA0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApCkZpbGVuYW1lOiBkZWJzL2NvbS5kZC5hZGJsb2NrXzEuMC4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyODI2NApNRDVzdW06IGZiMWZlODU0NTQyMDQzNzliMzhkNzhiZDk5YTIzNzNjClNIQTE6IDY3ZjAxYTg2MGVjNGJjMzE3YTBkNmEyZjZjYjRiNGJiYjlhNTAwZGIKU0hBMjU2OiAwY2E3NDY1Yjc2MDA4ZDExMjRmYTAxZDQyZGYzYWM2NmQ5MzdiNmZlMTA4MTJmNjY1YWM0NWQxOTYxYzA2NjdlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogRETlvq7kv6Hlub/lkYrlsY/olL3vvIjmj5Dlj5YgZHlpbGIg55So5beo6a2U5rOo5YWl5Zmo5rOo5YWl5Yiw5b6u5L+h5Y2z5Y+v77yJCkF1dGhvcjogREQKTmFtZTogRETlub/lkYrliqnmiYs=",
+  "metadata_sha256": "7351a6ebac7d095f5d081ca7fd52b409472da4b900c2b05d117d9aa5700dcec5",
+  "object_key": "debs/0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e.deb",
+  "schema": 1,
+  "sha256": "0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e",
+  "size": 28264,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uZGQuYWRibG9ja18xLjAuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "fa8edf5befdb57e99eb6775ca0d153608f21440f"
+  }
+}

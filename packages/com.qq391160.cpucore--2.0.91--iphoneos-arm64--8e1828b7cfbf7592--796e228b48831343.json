@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.91--iphoneos-arm64--8e1828b7cfbf7592--796e228b48831343",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.91"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjkxCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogcXEzOTExNjAKSW5zdGFsbGVkLVNpemU6IDM3MzYKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApCkNvbmZsaWN0czogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5ClJlcGxhY2VzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKRmlsZW5hbWU6IGRlYnMvY29tLnFxMzkxMTYwLmNwdWNvcmVfMi4wLjkxX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA1NDYwNTIKTUQ1c3VtOiAxMDM4NWFhNzg2NGJjMzhjOWY5OWI1YTViNzg2ODRkMApTSEExOiA4ZGY0NzJjMTMwZTFiOWE3OGFmOGU2MDJjNzZmNDVkY2JkOGEzMjhmClNIQTI1NjogOGUxODI4YjdjZmJmNzU5MmQ1MWY1NTYyYTg3OWM5YjFjMTkzZmFlOTI0Yjg5YmMwZTE4OTZhZTI2OTNmMGIxYgpTZWN0aW9uOiBUd2Vha3MKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiDkuInnp43mqKHlvI/kuIDplK7liIfmjaLnmoTmmbrog73muKnmjqfnrqHnkIbjgIIg5pm66IO977ya5ri45oiP6auY5oCn6IO944CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybIOS9juWKn+iAl++8muWFqOWxgOecgeeUte+8jOWPr+aUvuihjOS4quWIq+W6lOeUqO+8myDmgKfog73mqKHlvI/vvJrlhajlsYDpq5jmgKfog73vvIzlj6/ljZXni6zljovkvY7mjIflrprlupTnlKjvvJsg5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CCCkF1dGhvcjogcXEzOTExNjAKSWNvbjogaHR0cHM6Ly9xcTM5MTE2MC5naXRodWIuaW8vcmVwby9pY29ucy90aGVybWFsLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcoaU9TMTYvMTcp",
+  "metadata_sha256": "fb21c4828632f720b7ce3851a52c3463a498b3fa889ad6e3b55c6c98d049b432",
+  "object_key": "debs/8e1828b7cfbf7592d51f5562a879c9b1c193fae924b89bc0e1896ae2693f0b1b.deb",
+  "schema": 1,
+  "sha256": "8e1828b7cfbf7592d51f5562a879c9b1c193fae924b89bc0e1896ae2693f0b1b",
+  "size": 546052,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuOTFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "d26be98565c02f6b5a8b5b9cdc382109331f3734"
+  }
+}

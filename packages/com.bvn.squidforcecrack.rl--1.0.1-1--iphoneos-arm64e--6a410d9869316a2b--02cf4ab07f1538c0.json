@@ -1,0 +1,18 @@
+{
+  "id": "com.bvn.squidforcecrack.rl--1.0.1-1--iphoneos-arm64e--6a410d9869316a2b--02cf4ab07f1538c0",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.bvn.squidforcecrack.rl",
+    "version": "1.0.1-1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJ2bi5zcXVpZGZvcmNlY3JhY2sucmwKVmVyc2lvbjogMS4wLjEtMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBCVk4KSW5zdGFsbGVkLVNpemU6IDMyOApQcmUtRGVwZW5kczogcm9vdGxlc3MtY29tcGF0KD49IDAuOSkKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvY29tLmJ2bi5zcXVpZGZvcmNlY3JhY2sucmxfMS4wLjEtMV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDM2OTM2Ck1ENXN1bTogM2E4MTdiYWJmMDIzMWRhMjk2YmU0ZDlhZTc2YjY1NzMKU0hBMTogNTUzZDAxYjNhNjViNTM4MjFiOTA4OGQ5YmYxOTdmNzQ0NTU2NWQ4MgpTSEEyNTY6IDZhNDEwZDk4NjkzMTZhMmIxNDFlNWRmZjlkNjU2ZjcxZjYwY2IyMjFlMTQ3NjJiZjUzYzE2MjdlNzE0YzM5MGIKU2VjdGlvbjog5bel5YW3CkRlc2NyaXB0aW9uOiDkuYzotLzns7vliJdWSVDop6PplIHml6DlvLnnqpfvvIhDb3B5VmF1bHTvvIjlhY3mjojmnYPvvInkvp3otZbljIXvvIkKQXV0aG9yOiBCVk4KSWNvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vaWNvbi9zcXVpZGZvcmNlY3JhY2suanBnCk5hbWU6IFNxdWlkRm9yY2UgVklQ",
+  "metadata_sha256": "f6d3d262ecd26e825b61244dfeb1c0be826f4cc7b408bc28ecf0022cdb10ac2f",
+  "object_key": "debs/6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b.deb",
+  "schema": 1,
+  "sha256": "6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b",
+  "size": 36936,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYnZuLnNxdWlkZm9yY2VjcmFjay5ybF8xLjAuMS0xX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "29ec78b2f2a9c45ef728d0dba432655644876e44"
+  }
+}

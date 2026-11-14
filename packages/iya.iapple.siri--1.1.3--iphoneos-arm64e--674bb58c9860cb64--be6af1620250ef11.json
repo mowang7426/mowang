@@ -1,0 +1,18 @@
+{
+  "id": "iya.iapple.siri--1.1.3--iphoneos-arm64e--674bb58c9860cb64--be6af1620250ef11",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.iapple.siri",
+    "version": "1.1.3"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmlhcHBsZS5zaXJpClZlcnNpb246IDEuMS4zCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IFRoaWpzIG11c3NpZwpJbnN0YWxsZWQtU2l6ZTogMjI1MgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKQ29uZmxpY3RzOiBjb20ueW91cmNvbXBhbnkubGlxdWlkc2lyaQpSZXBsYWNlczogY29tLnlvdXJjb21wYW55LmxpcXVpZHNpcmkKRmlsZW5hbWU6IGRlYnMvTGlxdWlkU2lyaV8xLjEuM19pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDk4NDE1NApNRDVzdW06IGM1YzBjMjRhMmEzYWY4NGMyNzRkNGY3MDdmOWExZjJhClNIQTE6IDliM2ZlZmFkZGNlZjYxYWIxMjRjMjIyOWRkNjI4NjhhZjc1ZmExODQKU0hBMjU2OiA2NzRiYjU4Yzk4NjBjYjY0M2E5NmJlMWI2YjBlMzY1ZTI5ZjdmYjBkMmMyMjc2YTA0NDY1NzY0MzFkNjc2NDVlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQ3VzdG9taXplIFNpcmkgd2l0aCBOZXdTaXJpIGVkZ2UgbGlnaHRpbmcgb3IgdGhlIFNpcmlBSSBnbGFzcyBpbnRlcmZhY2UuCkF1dGhvcjogVGhpanMgbXVzc2lnLCBCYW5hbmEKTmFtZTogTGlxdWlkU2lyaQ==",
+  "metadata_sha256": "c5b6b3ab2324a73615ef6dedaea2bde24632575e13544d523d06aa6878e28354",
+  "object_key": "debs/674bb58c9860cb643a96be1b6b0e365e29f7fb0d2c2276a0446576431d67645e.deb",
+  "schema": 1,
+  "sha256": "674bb58c9860cb643a96be1b6b0e365e29f7fb0d2c2276a0446576431d67645e",
+  "size": 984154,
+  "source": {
+    "filename_b64": "ZGVicy9MaXF1aWRTaXJpXzEuMS4zX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "8a2eb26a4924aece79acd749c8b41da422f74b48"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.opa334.trollstorelite--2.1.1--iphoneos-arm64--264b4944df34d28e--ae2816d47a2b96a0",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.opa334.trollstorelite",
+    "version": "2.1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm9wYTMzNC50cm9sbHN0b3JlbGl0ZQpWZXJzaW9uOiAyLjEuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IG9wYTMzNApJbnN0YWxsZWQtU2l6ZTogMTE0MjQKRmlsZW5hbWU6IGRlYnMvVHJvbGxTdG9yZUxpdGVfMi4xLjFfcm9vdGxlc3NfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDM2ODQ5NzYKTUQ1c3VtOiA0NGI5ZTBhNDE4NzU3Y2NmMGMyZjViYjMwYWJiODQ0MgpTSEExOiBiZDljMGJiMjcwYjY4YWY4MjdiZjExMTM2ZGNjM2QxNDExNTNmOTY4ClNIQTI1NjogMjY0YjQ5NDRkZjM0ZDI4ZTU2MmI5NjZmMjY0YTc4MTkwNzM5YzVhMWQzNTA3NGNlOTE2Yzk0MGViMGVlODVhMQpTZWN0aW9uOiBBcHBsaWNhdGlvbnMKRGVzY3JpcHRpb246IEEgbW9kaWZpZWQgVHJvbGxTdG9yZSBieSBpb3NkdW1wIGZvciBqYWlsYnJva2VuIGlPUwpBdXRob3I6IG9wYTMzNCZpb3NkdW1wCk5hbWU6IFRyb2xsU3RvcmUgTGl0ZQ==",
+  "metadata_sha256": "90f5926ba316d5635438816d7db758be12901689bac6341fd8019fa595eb8384",
+  "object_key": "debs/264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1.deb",
+  "schema": 1,
+  "sha256": "264b4944df34d28e562b966f264a78190739c5a1d35074ce916c940eb0ee85a1",
+  "size": 3684976,
+  "source": {
+    "filename_b64": "ZGVicy9Ucm9sbFN0b3JlTGl0ZV8yLjEuMV9yb290bGVzc19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "0443eb6a194a159357a822ad6ecf44229ec668e6"
+  }
+}

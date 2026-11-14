@@ -1,0 +1,18 @@
+{
+  "id": "com.bolilita.free--2.0.3--iphoneos-arm64--bf92c950379c32a5--889e56f8c3dd11e5",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.bolilita.free",
+    "version": "2.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJvbGlsaXRhLmZyZWUKVmVyc2lvbjogMi4wLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBwZXJzb25hbApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTQuMCksIG1vYmlsZXN1YnN0cmF0ZSB8IG9yZy5jb29sc3Rhci5saWJob29rZXIgfCBlbGxla2l0CkZpbGVuYW1lOiBkZWJzL2NvbS5ib2xpbGl0YS5mcmVlXzIuMC4zX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxMzE2NzI0Ck1ENXN1bTogZTViY2Q4YjJjZDcxNTNjNGQ0MTE4MzBhZjVjNmFmOTEKU0hBMTogMmJlNDdiNDg3NjI2NGI3MDljOTkxYjg5MWQ2ZTIyNWFmYmRhNmViMQpTSEEyNTY6IGJmOTJjOTUwMzc5YzMyYTViNzU4OTIxMGI2ZjE4NzE3M2VmY2ZkMzc0NzNhNTllNzI0OTc0ZWIwYTA1ZDM4ODAKU2VjdGlvbjog57O757uf576O5YyWCkRlc2NyaXB0aW9uOiDlvq7kv6HmtrLmgIHnjrvnkoPvvIjlhY3mjojmnYPvvInjgILlhoXnva4gRUNEU0Eg5YWs6ZKl56a757q/5o6I5p2D5qCh6aqM77yM5peg6IGU572R56uv54K577yM5LuF6Ieq55So44CCCkF1dGhvcjogcGVyc29uYWwKTmFtZTog546755KD5ray5oCB77yI5YWN5o6I5p2D77yJ",
+  "metadata_sha256": "70c25a74be78971945c220a374a5fb0275154a1942a420e9d028ba09483356ef",
+  "object_key": "debs/bf92c950379c32a5b7589210b6f187173efcfd37473a59e724974eb0a05d3880.deb",
+  "schema": 1,
+  "sha256": "bf92c950379c32a5b7589210b6f187173efcfd37473a59e724974eb0a05d3880",
+  "size": 1316724,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYm9saWxpdGEuZnJlZV8yLjAuM19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "c3edc3e1c4a47d7daaa92060de11563dc1f76737"
+  }
+}

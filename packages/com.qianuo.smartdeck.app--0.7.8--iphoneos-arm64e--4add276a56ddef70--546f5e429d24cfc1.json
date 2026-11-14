@@ -1,0 +1,18 @@
+{
+  "id": "com.qianuo.smartdeck.app--0.7.8--iphoneos-arm64e--4add276a56ddef70--546f5e429d24cfc1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qianuo.smartdeck.app",
+    "version": "0.7.8"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFpYW51by5zbWFydGRlY2suYXBwClZlcnNpb246IDAuNy44CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IFFpYW51bwpJbnN0YWxsZWQtU2l6ZTogMTA4MApEZXBlbmRzOiB1aWtpdHRvb2xzLCBtb2JpbGVzdWJzdHJhdGUsIGZpcm13YXJlICg+PSAxNi4wKSwgZmlybXdhcmUgKDw8IDE3LjMuMikKQ29uZmxpY3RzOiBjb20ucWlhbnVvLnNtYXJ0ZGVjawpGaWxlbmFtZTogZGVicy9TbWFydERlY2tfV2luZG93X0V4cGVyaW1lbnRhbF8wLjcuOF9yb290aGlkZS5kZWIKU2l6ZTogMzM0ODMwCk1ENXN1bTogYmUxZDA5NmU0M2MwOTcxMjdlZjlhMDVjNDk0MjE2NzQKU0hBMTogMjg0ODQ5MzU1NGZhYWJkNGQxMzg3Y2MzYzNlMWQwNDIzYjBkNGZlMwpTSEEyNTY6IDRhZGQyNzZhNTZkZGVmNzAzZmRhZTg5MWVmYjkzYTBjMDFmZTZmY2VlNjc4NWRiMTIxNTBhMzMxODQ3ZjhkNjgKU2VjdGlvbjogQXBwbGljYXRpb25zCkRlc2NyaXB0aW9uOiBFeHBlcmltZW50YWwgc3RhbmRhbG9uZSBkZXNrdG9wIHdpdGggYSBTcHJpbmdCb2FyZCBzY2VuZS1ob3N0aW5nIGNvbXBhbmlvbi4gRG9lcyBub3QgcmVwbGFjZSB0aGUgbmF0aXZlIEhvbWUgc2NyZWVuLiBEZXZpY2UgdmFsaWRhdGlvbiByZXF1aXJlZC4KQXV0aG9yOiBRaWFudW8KTmFtZTogU21hcnREZWNrIEFwcA==",
+  "metadata_sha256": "dc62b24f0be67786d271880de2e4e92f1373517a4c105e260288c65cdcb4389d",
+  "object_key": "debs/4add276a56ddef703fdae891efb93a0c01fe6fcee6785db12150a331847f8d68.deb",
+  "schema": 1,
+  "sha256": "4add276a56ddef703fdae891efb93a0c01fe6fcee6785db12150a331847f8d68",
+  "size": 334830,
+  "source": {
+    "filename_b64": "ZGVicy9TbWFydERlY2tfV2luZG93X0V4cGVyaW1lbnRhbF8wLjcuOF9yb290aGlkZS5kZWI=",
+    "git_blob": "191c919e641f11d59b52378b7a2dd1c90d224e1b"
+  }
+}

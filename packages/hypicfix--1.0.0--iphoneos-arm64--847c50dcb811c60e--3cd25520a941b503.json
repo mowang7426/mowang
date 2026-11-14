@@ -1,0 +1,18 @@
+{
+  "id": "hypicfix--1.0.0--iphoneos-arm64--847c50dcb811c60e--3cd25520a941b503",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "hypicfix",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaHlwaWNmaXgKVmVyc2lvbjogMS4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBKdW5ob25nCkluc3RhbGxlZC1TaXplOiAyMDQKRGVwZW5kczogZmlybXdhcmUgKD49MTUuMCksIG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy/phpLlm77lm73pmYXniYjkv67lpI3lt6XlhbdfMS4wLjBfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDE3MzYyCk1ENXN1bTogMDhhMTEzNTc2YjQ5ODdhYzNlZjEwN2Q4OGY0YThmZjAKU0hBMTogMTE2Yjk4ODZiM2E0NDQ5MDMxNmMyMTg2YWJhOWE3NDU1YzRmNWY4ZQpTSEEyNTY6IDg0N2M1MGRjYjgxMWM2MGU1OTY1NGM0ODEyZjQ5ODVjZjFiNmI3MDZkMThmMzMyODdlN2NhZTcyY2M3MjJjNTUKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkv67lpI3phpLlm77lm73pmYXniYggSHlwaWMg6LaK54ux546v5aKD5LiL55qE5by556qX6Zeu6aKY77yM5LiN5YaN5o+Q56S66Z2e5a6Y5pa554mI77yM5L+u5aSN5qih5p2/5peg5rOV5ouJ5Y+W55qE6Zeu6aKY44CCCkF1dGhvcjogSnVuaG9uZwpOYW1lOiDphpLlm77lm73pmYXniYjkv67lpI3lt6Xlhbc=",
+  "metadata_sha256": "8047eeace6d16c4b4fa276a16c0bb7fde41634da39af66b32e79fe291ddb8adf",
+  "object_key": "debs/847c50dcb811c60e59654c4812f4985cf1b6b706d18f33287e7cae72cc722c55.deb",
+  "schema": 1,
+  "sha256": "847c50dcb811c60e59654c4812f4985cf1b6b706d18f33287e7cae72cc722c55",
+  "size": 17362,
+  "source": {
+    "filename_b64": "ZGVicy/phpLlm77lm73pmYXniYjkv67lpI3lt6XlhbdfMS4wLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "a9c762b3052c5526fc37335257905c33a3ccc5da"
+  }
+}

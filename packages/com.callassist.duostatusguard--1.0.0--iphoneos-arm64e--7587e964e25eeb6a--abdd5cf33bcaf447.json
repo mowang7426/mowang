@@ -1,0 +1,18 @@
+{
+  "id": "com.callassist.duostatusguard--1.0.0--iphoneos-arm64e--7587e964e25eeb6a--abdd5cf33bcaf447",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.callassist.duostatusguard",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNhbGxhc3Npc3QuZHVvc3RhdHVzZ3VhcmQKVmVyc2lvbjogMS4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQ2FsbEFzc2lzdApJbnN0YWxsZWQtU2l6ZTogMTY4ClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQgKD49IDAuOSkKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCBlbGxla2l0CkZpbGVuYW1lOiBkZWJzL2NvbS5jYWxsYXNzaXN0LmR1b3N0YXR1c2d1YXJkXzEuMC4wX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogOTYwCk1ENXN1bTogNGZhZDQwYWVlOWY4NzRmZWM5ODU1OTEzYzk3ZmRiZjIKU0hBMTogNjY3N2RiMDhiZGFhNTdiYTZhY2I1MTE4Y2VkM2Q3YzIxZjFlZDRlNgpTSEEyNTY6IDc1ODdlOTY0ZTI1ZWViNmFiNTE2N2RjOWExNDExOTljODdkNTZjMGQ3MzkyMjNhYjU2OGY1ZmU1MjVjYmU0NzYKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBEdW9TdGF0dXMg5ZCv5Yqo5L+d5oqk5Zmo77ya5oum5oiqIFNwcmluZ0JvYXJkIOWQr+WKqOaXqeacn+eahCBzZXRCYXR0ZXJ5TW9uaXRvcmluZ0VuYWJsZWQ6IOiwg+eUqO+8jOino+WGsyBpT1MgMTcg5LiKIHJlc3ByaW5nIOWuieWFqOaooeW8j++8iEVYQ19CUkVBS1BPSU5U77yJ44CC6ZyA5LiOIER1b1N0YXR1cyDlkIzml7blronoo4XjgIIKQXV0aG9yOiBDYWxsQXNzaXN0Ck5hbWU6IER1b1N0YXR1c0d1YXJk",
+  "metadata_sha256": "eb29f2536c08a25c1778e1e23be27b6af0066ff46319898ab5bcf69356ecf8bf",
+  "object_key": "debs/7587e964e25eeb6ab5167dc9a141199c87d56c0d739223ab568f5fe525cbe476.deb",
+  "schema": 1,
+  "sha256": "7587e964e25eeb6ab5167dc9a141199c87d56c0d739223ab568f5fe525cbe476",
+  "size": 960,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uY2FsbGFzc2lzdC5kdW9zdGF0dXNndWFyZF8xLjAuMF9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "14d9141e83d6e2baf0efa28e95e70030d6f1ae0a"
+  }
+}

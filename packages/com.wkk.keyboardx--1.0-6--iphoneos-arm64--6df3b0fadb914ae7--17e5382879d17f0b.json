@@ -1,0 +1,18 @@
+{
+  "id": "com.wkk.keyboardx--1.0-6--iphoneos-arm64--6df3b0fadb914ae7--17e5382879d17f0b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.wkk.keyboardx",
+    "version": "1.0-6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLndray5rZXlib2FyZHgKVmVyc2lvbjogMS4wLTYKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiB3a2sKSW5zdGFsbGVkLVNpemU6IDUxNgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9jb20ud2trLmtleWJvYXJkeF8xLjAtNl9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNjQxNDAKTUQ1c3VtOiAwODRmOTZhNDc4MmViZjIwYWY1Yzg2MjYzMDVkYzY2OApTSEExOiAxZDVkMjc1NDJmYmI4NTI0M2QwMjdjY2E5MWE3NmY2N2I4YTQyODE0ClNIQTI1NjogNmRmM2IwZmFkYjkxNGFlN2E4OWYyZTRiYmIyNzVjZTgxNjNmYmRhZWQyMGM3YzBlMGIxMmY4NTllNWViMmFjNApTZWN0aW9uOiDmiYvlir/plK7nm5gKRGVzY3JpcHRpb246IOmUruebmOiwg+aVtOOAggpBdXRob3I6IHdrawpJY29uOiBodHRwczovL3MxLmltYWdlaHViLmNjL2ltYWdlcy8yMDI1LzEyLzI2LzI5ZmRhM2U1MmFjNzhjNjk1OGVjZjNiNWRhYzE4NjczLnBuZwpOYW1lOiBrZXlib2FyZFjvvIh3a2vvvIk=",
+  "metadata_sha256": "16607448e6c7f3d6516bb8e2eac67442a6218233b82df3cd4be9678b97fc5a92",
+  "object_key": "debs/6df3b0fadb914ae7a89f2e4bbb275ce8163fbdaed20c7c0e0b12f859e5eb2ac4.deb",
+  "schema": 1,
+  "sha256": "6df3b0fadb914ae7a89f2e4bbb275ce8163fbdaed20c7c0e0b12f859e5eb2ac4",
+  "size": 64140,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ud2trLmtleWJvYXJkeF8xLjAtNl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "406a6d9d30e464b5b8408bd14759a23639dab326"
+  }
+}

@@ -17,6 +17,15 @@ if ! git diff --cached --quiet; then
   exit 1
 fi
 
+# Catalog production owns import + reload + build + publication in one job.
+# A second bot index commit would invalidate its freshness gate and cannot emit
+# another workflow with GITHUB_TOKEN. Preserve the legacy race guard below only
+# for repositories without permanent catalog history.
+if [[ -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+  echo 'SKIP: catalog indexes are published by the serialized import/publish job; no Git writeback.'
+  exit 0
+fi
+
 read_remote() {
   # Fetch is read-only for the checkout: never pull, merge or rebase indexes.
   git fetch --no-tags origin refs/heads/main

@@ -1,0 +1,18 @@
+{
+  "id": "com.mlgm.watchfix--2.1--iphoneos-arm64e--c2a0ae21e6d1edca--35ae472ea19f0d8c",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mlgm.watchfix",
+    "version": "2.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1sZ20ud2F0Y2hmaXgKVmVyc2lvbjogMi4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IG1sZ20KSW5zdGFsbGVkLVNpemU6IDUyNTIKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvV2F0Y2hGaXhfMi4xX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogODE5NDQwCk1ENXN1bTogYzU1ZDhlMzk4NDUyNzI3YmEyYmRhYjBhOWI0NDZmMjUKU0hBMTogMWJkNzdjNTkxYWQ3Y2UwMDg4ZThjZjkwYjg2NDg4M2NiZjgzMzBmNQpTSEEyNTY6IGMyYTBhZTIxZTZkMWVkY2E4YmJlNDBiNmRmM2UxYmNiMTlmZWE2Y2YwZDFlYzcxNjgxMWFjNzMwMjI1MzU0MGEKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDop6PlhrMgQXBwbGUgV2F0Y2gg6L+e5o6l6Zeu6aKYCkF1dGhvcjogNTc3RktKCkljb246IGh0dHBzOi8vbWxnbTY2LmdpdGh1Yi5pby9pY29uL3dhdGNoZml4LnBuZwpOYW1lOiBXYXRjaEZpeA==",
+  "metadata_sha256": "e95f08d0c8f8ebf1e30f47165612b7dc34bfe5ef96783f99d24b1c57b9dc79aa",
+  "object_key": "debs/c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a.deb",
+  "schema": 1,
+  "sha256": "c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a",
+  "size": 819440,
+  "source": {
+    "filename_b64": "ZGVicy9XYXRjaEZpeF8yLjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "af6e1f42bb224b038af1dbd082cba277d3e91fc1"
+  }
+}

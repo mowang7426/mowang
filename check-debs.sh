@@ -3,6 +3,9 @@
 # 用法：./check-debs.sh   （有坏包时返回非 0 并列出文件名）
 set -uo pipefail
 cd "$(dirname "$0")"
+if [[ "${CATALOG_FULL_ARCHIVE_AUDIT:-false}" != true && -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+  exec python3 scripts/catalog-build.py check
+fi
 broken=0
 for f in debs/*.deb; do
   [ -e "$f" ] || continue
@@ -12,6 +15,10 @@ for f in debs/*.deb; do
     exit(!defined($control) || $control !~ /\n\z/);
   '; then
     echo "[坏包] $f（control 解包失败或缺少末尾换行）"
+    broken=1
+  fi
+  if [[ "${CATALOG_FULL_ARCHIVE_AUDIT:-false}" == true ]] && ! dpkg-deb --fsys-tarfile "$f" >/dev/null; then
+    echo "[坏包] $f（data 归档校验失败）"
     broken=1
   fi
 done

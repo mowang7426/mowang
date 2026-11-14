@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.springboardaction--1.0.0--iphoneos-arm64e--acc4af51acec414f--457cc2b54dcf87b1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.springboardaction",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5zcHJpbmdib2FyZGFjdGlvbgpWZXJzaW9uOiAxLjAuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBCYW5hbmEKSW5zdGFsbGVkLVNpemU6IDU4OApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE2LjApLCBmaXJtd2FyZSAoPDwgMTkuMCkKQ29uZmxpY3RzOiBjb20uY2FtZXJvbmthdHJpLnF1aWNrYWN0aW9ucwpGaWxlbmFtZTogZGVicy9TcHJpbmdCb2FyZEFjdGlvbi0xLjAuMC1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDc4NTE2Ck1ENXN1bTogOWJjNDEyYmVlYmRlMzEzOTlhMjY1NzUwZjE4Nzg1MWEKU0hBMTogODNhZjZkOGQ0YWVmZjQ0ZjM2N2JmNTUyNGY4ZjdlMzg1NGVlYWM5NgpTSEEyNTY6IGFjYzRhZjUxYWNlYzQxNGZmN2MyYTg0NDI0MDk1NTVhYjQxOThiZmU0MGY1YTg0MDkwNzRmZDU4MTNlNTk2MWQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDpgILnlKjkuo5pT1MgMTYtMTjnmoToh6rlrprkuYnplIHlrprlsY/luZXlv6vpgJ/mk43kvZzjgIHlupTnlKjnqIvluo/lkozlv6vmjbfmlrnlvI/jgIJDdXN0b20gbG9jayBzY3JlZW4gcXVpY2sgYWN0aW9ucywgYXBwcywgYW5kIHNob3J0Y3V0cyBmb3IgaU9TIDE2LTE4LgpBdXRob3I6IEJhbmFuYQpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL3NwcmluZ2JvYXJkYWN0aW9uLnBuZwpOYW1lOiBTcHJpbmdCb2FyZEFjdGlvbg==",
+  "metadata_sha256": "4815d4b116890469286e94e492ca9ab20a4b7cb5f0832ce8f4645902c061fa08",
+  "object_key": "debs/acc4af51acec414ff7c2a8442409555ab4198bfe40f5a8409074fd5813e5961d.deb",
+  "schema": 1,
+  "sha256": "acc4af51acec414ff7c2a8442409555ab4198bfe40f5a8409074fd5813e5961d",
+  "size": 78516,
+  "source": {
+    "filename_b64": "ZGVicy9TcHJpbmdCb2FyZEFjdGlvbi0xLjAuMC1pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "1e9bb2e3d5b13384edf12b636205d29841e87198"
+  }
+}

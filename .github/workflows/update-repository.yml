@@ -3,9 +3,9 @@ name: Publish complete R2 APT repository
 on:
   push:
     branches: [main]
-    paths: ['debs/**', 'depictions/**', 'assets/**', 'scripts/**', '.github/workflows/update-repository.yml', 'CydiaIcon.png', 'index.html', 'sileo-featured.json']
+    paths: ['debs/**', 'packages/**', 'catalog-state/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'depictions/**', 'assets/**', 'scripts/**', '.github/workflows/update-repository.yml', 'CydiaIcon.png', 'index.html', 'sileo-featured.json']
   pull_request:
-    paths: ['debs/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
+    paths: ['debs/**', 'packages/**', 'catalog-state/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
   workflow_dispatch:
     inputs:
       prepublish:
@@ -20,17 +20,26 @@ permissions:
 
 # Same group for all production publishers; no cancellation in the critical section.
 concurrency:
-  group: r2-production-publication
+  group: ${{ startsWith(github.ref, 'refs/heads/catalog-e2e/') && github.ref || 'r2-production-publication' }}
   cancel-in-progress: false
 
 jobs:
+  # Explicit workflow_dispatch on the draft branch is necessary when a token
+  # push does not emit workflow events. This job is read-only and gets no secrets.
+  catalog_readonly:
+    if: github.ref == 'refs/heads/feat/catalog-inbox-phase1'
+    uses: ./.github/workflows/catalog-foundation.yml
+    permissions:
+      contents: read
   regression:
+    if: "!startsWith(github.ref, 'refs/heads/catalog-e2e/')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Protect all original DEBs against latest main
+        if: github.head_ref == 'feat/catalog-inbox-phase1' || github.ref == 'refs/heads/feat/catalog-inbox-phase1'
         run: |
           git fetch origin main
           test "$(git rev-parse HEAD:debs)" = "$(git rev-parse origin/main:debs)"
@@ -43,6 +52,18 @@ jobs:
           python3 scripts/test-publish-indexes.py
           python3 scripts/test-r2-migration.py
           python3 scripts/test-r2-production.py
+          python3 scripts/test-catalog.py
+          python3 scripts/test-catalog-bootstrap.py
+          python3 scripts/test-catalog-publication.py
+          python3 scripts/test-catalog-import.py
+          python3 scripts/test-catalog-integration.py
+      - name: Read-only pending archive validation and prospective catalog (no credentials)
+        run: |
+          if python3 scripts/catalog-build.py mode; then
+            python3 scripts/catalog-build.py prospective --output "$RUNNER_TEMP/prospective.Packages"
+          fi
+      - name: Full original inbox archive/control/data validation gate
+        run: CATALOG_FULL_ARCHIVE_AUDIT=true bash check-debs.sh
       - name: Original full repository build and validation
         run: bash build.sh && bash validate-repo.sh
       - name: Build complete relative R2 indexes without credentials
@@ -63,8 +84,44 @@ jobs:
           path: _site
           include-hidden-files: true
 
+  isolated_e2e:
+    if: github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/catalog-e2e/')
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_TEST_BRANCH: ${{ github.ref_name }}
+      R2_TEST_PREFIX: ${{ github.ref_name }}/
+      R2_IMPORT_PREFIX: ${{ github.ref_name }}/
+      R2_TEST_OWNER: mowang7426/mowang-catalog-e2e
+      R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - name: Real production CAS and publisher, empty inbox and unlist with stale upload
+        run: python3 scripts/catalog-e2e.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: catalog-isolated-e2e
+          path: e2e-*.json
+          if-no-files-found: error
+
   publish:
     needs: regression
+    permissions:
+      contents: write
     # PRs never receive credentials. Only main or explicit trusted branch dispatch.
     if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/r2-deb-publish' && inputs.prepublish))
     runs-on: ubuntu-latest
@@ -79,25 +136,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
       - run: git fetch origin main
       - run: python3 -m pip install 'boto3>=1.36,<2'
-      - uses: actions/download-artifact@v4
-        with:
-          name: verified-r2-indexes
-          path: _site
-      - uses: actions/download-artifact@v4
-        with:
-          name: verified-original-packages
-          path: _original
-      - run: sudo apt-get update && sudo apt-get install -y apt-utils
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils
+      - name: Verify new archives, immutable R2 GETs, then non-force import CAS
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          export R2_PUBLIC_BASE_URL="${R2_PUBLIC_BASE_URL%/}/repo"
+          if python3 scripts/catalog-build.py mode; then
+            python3 scripts/import-catalog.py --branch "$GITHUB_REF_NAME"
+          else
+            python3 -c 'import json,subprocess; json.dump({"commit":subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip(),"legacy":True},open("catalog-import-result.json","w"))'
+          fi
+      - name: Reload successful import commit explicitly; token pushes emit no workflow
+        run: |
+          imported=$(python3 -c 'import json; print(json.load(open("catalog-import-result.json"))["commit"])')
+          git fetch --no-tags origin "$imported"
+          git checkout --detach "$imported"
+          test "$(git rev-parse HEAD)" = "$imported"
+      - name: Rebuild the successfully committed catalog, never pre-import artifacts
+        run: |
+          export R2_PUBLIC_BASE_URL="${R2_PUBLIC_BASE_URL%/}/repo"
+          bash build.sh
+          bash validate-repo.sh
+          mkdir -p _original
+          cp Packages _original/Packages
+          bash scripts/update-repository.sh
       - name: Immutable DEBs and complete source; Release last; physical GC DISABLED
         run: |
           export R2_PUBLIC_BASE_URL="${R2_PUBLIC_BASE_URL%/}/repo"
           python3 scripts/publish-r2.py
       - name: Public isolated APT small large RootHide Unicode and original metadata bytes
         run: python3 scripts/verify-r2-public.py
+      - name: Advisory exact inbox plan only; no deletion implementation
+        run: |
+          if python3 scripts/catalog-build.py mode; then
+            python3 scripts/catalog.py plan --output cleanup-plan.json
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: r2-publication-receipt
-          path: r2-publication-result.json
+          if-no-files-found: error
+          path: |
+            r2-publication-receipt.json
+            r2-publication-result.json
+            catalog-import-result.json
+            cleanup-plan.json

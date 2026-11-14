@@ -1,0 +1,18 @@
+{
+  "id": "com.yunx.app.ios--0.1.1-14--iphoneos-arm64--7eceeb1b51e31f3a--04eed4a48ce54200",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.yunx.app.ios",
+    "version": "0.1.1-14"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnl1bnguYXBwLmlvcwpWZXJzaW9uOiAwLjEuMS0xNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IG11emlrZWppCkluc3RhbGxlZC1TaXplOiA3NjgzNgpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvY29tLnl1bnguYXBwLmlvc18wLjEuMS0xNF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMjA5OTAwNTAKTUQ1c3VtOiAyMWExYTVmMjQ3OWIzMzM0YmY4NGY3OTQzMjllN2YyZQpTSEExOiA0MThiNzJlYjI4ZDE3Y2NlNzY0MzEzMTA1MjI3ODlmMDYyYWZlN2MyClNIQTI1NjogN2VjZWViMWI1MWUzMWYzYTQxYzQzYTdhNzA1ZmM0ZjE3OGE1NzVhZWI3ZTA5YzM0NzhiNzg1OWQyNWI4MDE2ZApTZWN0aW9uOiBBcHBsaWNhdGlvbnMKRGVzY3JpcHRpb246IOS6keaekCBZdW5YIOKAlOKAlCDlpLjlhYsvVUMv6L+F6Zu3L+eZvuW6pi8xMzkvMTIzIOetiee9keebmOWIhuS6q+mTvuaOpeino+aekOS4jiBSYW5nZSDliIbniYflubblj5HkuIvovb3vvIhpT1Mg56e75qSN54mI6LaK54ux5YyF77yJCkF1dGhvcjogY2MxNDc3IChpT1Mg56e75qSNKSwgQ1lRYXdhICjkuIrmuLgpCkljb246IGh0dHBzOi8vbXV6aWtlamkuZ2l0aHViLmlvL3NpbGVvL2ljb25zL2NvbS55dW54LmFwcC5pb3MucG5nCk5hbWU6IFl1blgg5LqR5p6Q",
+  "metadata_sha256": "1b054a8d7ede6d5e4472ae41ddd902fabc6d5781bc3f712d0a6b76c9e76a1d34",
+  "object_key": "debs/7eceeb1b51e31f3a41c43a7a705fc4f178a575aeb7e09c3478b7859d25b8016d.deb",
+  "schema": 1,
+  "sha256": "7eceeb1b51e31f3a41c43a7a705fc4f178a575aeb7e09c3478b7859d25b8016d",
+  "size": 20990050,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ueXVueC5hcHAuaW9zXzAuMS4xLTE0X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "f87d53dded9c4f5e7a34ebbca2b6c9fd2bdfc22c"
+  }
+}

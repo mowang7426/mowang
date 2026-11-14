@@ -1,0 +1,18 @@
+{
+  "id": "com.wkk.systembox--1.4-7--iphoneos-arm64--6d03a689be4241fd--1a369f1428d5d65e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.wkk.systembox",
+    "version": "1.4-7"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLndray5zeXN0ZW1ib3gKVmVyc2lvbjogMS40LTcKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiB3a2sKSW5zdGFsbGVkLVNpemU6IDE1NzIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS53a2suc3lzdGVtYm94XzEuNC03X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAzMTYzNDIKTUQ1c3VtOiA1YzQzMzZmNzIzOWRkODU5NjY0N2Q4M2FiMWEzYTM5MApTSEExOiBhZTVlZWQ2MGI2NjY3Y2MwMDgxZjI5ODg4MmI4ZGM0ZDgwOTFiODg1ClNIQTI1NjogNmQwM2E2ODliZTQyNDFmZGQ0ZTA3MTQxZTVhZTAxMjBjZTY5OWE1NzE2ODRiZmVkMmRmNDU3YTMyZmRkZmEwZApTZWN0aW9uOiDns7vnu5/nvo7ljJYKRGVzY3JpcHRpb246IGNvb2wKQXV0aG9yOiB3a2sKSWNvbjogaHR0cHM6Ly9zMS5pbWFnZWh1Yi5jYy9pbWFnZXMvMjAyNS8xMi8yNi8yOWZkYTNlNTJhYzc4YzY5NThlY2YzYjVkYWMxODY3My5wbmcKTmFtZTogU3lzdGVtWO+8iHdra++8iQ==",
+  "metadata_sha256": "dfb10e5ef00cf3a04355477cde5d9414609a70e9f626523828f46c37e124b901",
+  "object_key": "debs/6d03a689be4241fdd4e07141e5ae0120ce699a571684bfed2df457a32fddfa0d.deb",
+  "schema": 1,
+  "sha256": "6d03a689be4241fdd4e07141e5ae0120ce699a571684bfed2df457a32fddfa0d",
+  "size": 316342,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ud2trLnN5c3RlbWJveF8xLjQtN19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "b672c3309d735eb0b2e030054be4fd2a9c7d29c7"
+  }
+}

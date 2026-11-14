@@ -1,0 +1,18 @@
+{
+  "id": "com.iyaway.frameviewer--0.1.6--iphoneos-arm64e--5594e4e40827c907--3b8655e84b47e8ab",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.iyaway.frameviewer",
+    "version": "0.1.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLml5YXdheS5mcmFtZXZpZXdlcgpWZXJzaW9uOiAwLjEuNgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBpeWF3YXkKSW5zdGFsbGVkLVNpemU6IDQyOApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIsIGZpcm13YXJlICg+PSAxOC4wKQpGaWxlbmFtZTogZGVicy9GcmFtZVZpZXdlcl8wLjEuNl9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDIyMTM4Ck1ENXN1bTogMzJjODBlMjhkMjFkOWExYzEyODhhYWMzZGMyZjA2YjMKU0hBMTogNGVkNDI0OTQ1NzZlYjg1NWE0OGFhNjgwOWMyYzcyZGI5MmVkNzczOApTSEEyNTY6IDU1OTRlNGU0MDgyN2M5MDc0NjZjYWIxY2IxZmUyNzMxNzA3NWU3OGRjMzE3Nzc2YjViZmMwYTEzNThiNGQxMmIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBBIGZpbG1zdHJpcCB2aWRlbyBzY3J1YmJlciBpbiB0aGUgUGhvdG9zIHBsYXliYWNrIGludGVyZmFjZS4KQXV0aG9yOiBpeWF3YXkKTmFtZTogRnJhbWVWaWV3ZXI=",
+  "metadata_sha256": "b49d681623d9bf1ef210fc5ac39c9684018c81a8ab9559a58c9deefa2624085b",
+  "object_key": "debs/5594e4e40827c907466cab1cb1fe27317075e78dc317776b5bfc0a1358b4d12b.deb",
+  "schema": 1,
+  "sha256": "5594e4e40827c907466cab1cb1fe27317075e78dc317776b5bfc0a1358b4d12b",
+  "size": 22138,
+  "source": {
+    "filename_b64": "ZGVicy9GcmFtZVZpZXdlcl8wLjEuNl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "f7e14144acff3af9ee35a361d23256c27ea9a8ab"
+  }
+}

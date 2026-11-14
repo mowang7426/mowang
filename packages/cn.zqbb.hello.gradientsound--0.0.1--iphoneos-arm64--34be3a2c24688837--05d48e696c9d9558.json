@@ -1,0 +1,18 @@
+{
+  "id": "cn.zqbb.hello.gradientsound--0.0.1--iphoneos-arm64--34be3a2c24688837--05d48e696c9d9558",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "cn.zqbb.hello.gradientsound",
+    "version": "0.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY24uenFiYi5oZWxsby5ncmFkaWVudHNvdW5kClZlcnNpb246IDAuMC4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogenFiYgpJbnN0YWxsZWQtU2l6ZTogNzYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCkKRmlsZW5hbWU6IGRlYnMvSGVsbG8gR3JhZGllbnRTb3VuZC0wLjAuMS1pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNTk2NApNRDVzdW06IGJiMDc5NDk2Y2NlYjk5Nzg1YWIwOTdjN2Q5YWZlMjZiClNIQTE6IDZiZTVhODU3ZDM0NjJhZmVmZGJmMzRkOGU5YjQ3MTJlNmJmM2MzZjcKU0hBMjU2OiAzNGJlM2EyYzI0Njg4ODM3ZjVhMmJjZmU3MGMxMmYyZGNkNTMyMmIzNTAyY2EwMzhjNDliNWJmZTdmNzlmNmEyClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Li65pe26ZKfIEFwcCDnmoTorqHml7blmajlk43pk4Plkozpk4Plo7Dor5XlkKzmt7vliqDlubPmu5HmuJDlvLrmlYjmnpzvvIzku47kvY7pn7Pph4/lvIDlp4vvvIzlnKjpk4Plo7DliY3ljYrmrrXpgJDmuJDmj5DljYfoh7PmraPluLjpn7Pph4/jgIIKQXV0aG9yOiB6cWJiCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vZ3JhZGllbnRzb3VuZC5qcGcKTmFtZTogSGVsbG8gR3JhZGllbnRTb3VuZA==",
+  "metadata_sha256": "96c094545e25b726ce00180253861f7ef5a79c91ebd462fc92a38b7ee35b59b1",
+  "object_key": "debs/34be3a2c24688837f5a2bcfe70c12f2dcd5322b3502ca038c49b5bfe7f79f6a2.deb",
+  "schema": 1,
+  "sha256": "34be3a2c24688837f5a2bcfe70c12f2dcd5322b3502ca038c49b5bfe7f79f6a2",
+  "size": 5964,
+  "source": {
+    "filename_b64": "ZGVicy9IZWxsbyBHcmFkaWVudFNvdW5kLTAuMC4xLWlwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "d98a0d968e9748666bf6ca4196f4ac2e8ad12f87"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.hierarch.dykiller--0.6.6--iphoneos-arm64--71ec23d014f4d49b--8fde3e53873e6a09",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.hierarch.dykiller",
+    "version": "0.6.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmhpZXJhcmNoLmR5a2lsbGVyClZlcnNpb246IDAuNi42CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogaGllcmFyY2gKSW5zdGFsbGVkLVNpemU6IDM4MjAKRGVwZW5kczogZmlybXdhcmUgKD49IDE0LjApLCBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvRFlLaWxsZXJfMC42LjZfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDkyMjcyNApNRDVzdW06IDc5YzE0NjJiYWMwMTdlMjViZjRlZmUxODIxYjk0NzA1ClNIQTE6IDEwMjUwN2MwNGJmZDliNWUzZjVkYjdhMTdhZDA3ZjFlZTI4ZmYyM2MKU0hBMjU2OiA3MWVjMjNkMDE0ZjRkNDliNTA5OTBhYTlhNzI2MjA0ZWRmMTczZjJhYjI3MmE4ODk1ZjkwODkzOWMxMTBkOTJkClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOaKlumfsyBVSSDlop7lvLrmj5Lku7bvvIjmqKHlnZfljJYgaG9vayDmoYbmnrbvvIkKQXV0aG9yOiBoaWVyYXJjaApJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2RvdXlpbi5qcGcKTmFtZTogRFlLaWxsZXI=",
+  "metadata_sha256": "f2288dbfba9520a3b6a033a54620f9ca4a332f591aa5d24c0594933ed8c6334d",
+  "object_key": "debs/71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d.deb",
+  "schema": 1,
+  "sha256": "71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d",
+  "size": 922724,
+  "source": {
+    "filename_b64": "ZGVicy9EWUtpbGxlcl8wLjYuNl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "3471bf382784b08f6bce861480781e4834800953"
+  }
+}

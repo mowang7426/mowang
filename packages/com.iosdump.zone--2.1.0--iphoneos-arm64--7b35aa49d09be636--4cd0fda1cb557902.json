@@ -1,0 +1,18 @@
+{
+  "id": "com.iosdump.zone--2.1.0--iphoneos-arm64--7b35aa49d09be636--4cd0fda1cb557902",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.iosdump.zone",
+    "version": "2.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlvc2R1bXAuem9uZQpWZXJzaW9uOiAyLjEuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGlvc2R1bXAKSW5zdGFsbGVkLVNpemU6IDExNjQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCB1bnppcCwgY29tLm9wYTMzNC5jY3N1cHBvcnQKRmlsZW5hbWU6IGRlYnMvWm9uZS0yLjEuMC1pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMjEwODkyCk1ENXN1bTogMmFjYTFmNWRhN2QwYTI2ODNmN2FlZWY4YTZlZWY4NWMKU0hBMTogZjM4N2VlYzJmZTYxMjFjZmNkMzE4MzU0MjUyM2VlNWU2YTU2ZDRjMApTSEEyNTY6IDdiMzVhYTQ5ZDA5YmU2MzYxZWQ1ZGI4YjA2NGU3MTc4YTdhMWNhMmQyZjI3M2VlMmE2ZDU0ZjgzM2Q0NDFjY2EKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBab25lIOaPkuS7tueUqOS6juiuvue9ri50ZW5kaWVz5Lqk5LqS5aOB57q4L+inhumikeWjgee6uCDmlK/mjIFpT1MxNC0xNwpBdXRob3I6IGlvc2R1bXAKTmFtZTogWm9uZQ==",
+  "metadata_sha256": "8de7db4998785f975894bf5611a163355c56b0908d7d43ad2141a3d0a2b9a95b",
+  "object_key": "debs/7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca.deb",
+  "schema": 1,
+  "sha256": "7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca",
+  "size": 210892,
+  "source": {
+    "filename_b64": "ZGVicy9ab25lLTIuMS4wLWlwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "1a96782046cbe43dcae287be816194be5e4f1efe"
+  }
+}

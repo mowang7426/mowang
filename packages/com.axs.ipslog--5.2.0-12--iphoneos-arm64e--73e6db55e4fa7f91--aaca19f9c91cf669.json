@@ -1,0 +1,18 @@
+{
+  "id": "com.axs.ipslog--5.2.0-12--iphoneos-arm64e--73e6db55e4fa7f91--aaca19f9c91cf669",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.axs.ipslog",
+    "version": "5.2.0-12"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmF4cy5pcHNsb2cKVmVyc2lvbjogNS4yLjAtMTIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQXhzIDxxaWFvemhhbmkwMDBAMTYzLmNvbT4KSW5zdGFsbGVkLVNpemU6IDY4MApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvY29tLmF4cy5pcHNsb2dfNS4yLjAtMTJfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA5MTA5NgpNRDVzdW06IGE0NjFhYzBmNjAyMmE3OGNkZTM2ODkxNjJiYjVmNWRkClNIQTE6IDUxYjI1ZDlhNTBlNmYyZDA4YTdmYWEwNGM3Nzg1ZmQwY2QxNzA0ODYKU0hBMjU2OiA3M2U2ZGI1NWU0ZmE3ZjkxZjllNmRkNDYyMjc4NDdjYjg2YTYyNzk5OWVlNzViYjJhYjIyMDI2NmFjM2RhNjg0ClNlY3Rpb246IEF4cy1Ud2Vha3MKRGVzY3JpcHRpb246IOiuvue9ruWGheS4gOmUruafpeeci+S4juWIhuaekOiuvuWkh+S4iueahCAuaXBzIOW0qea6g+aXpeW/l++8jOW/q+mAn+WumuS9jeW0qea6g+WOn+WboOOAggogKiDltKnmuoPml6Xlv5fmn6XnnIvlmajvvJrmjInov5vnqIvogZrlkIjjgIHmjInml7bpl7TlgJLluo/jgIHlhbPplK7lrZfmkJzntKLjgIHlj6/nrZvpgInliIbnsbvjgIHlj6/kuIDplK7muIXnqbrml6Xlv5cKICog6Kej5p6Q5byC5bi457G75Z6LIC8g5byC5bi456CBIC8g6Kem5Y+R57q/56iLIC8g5bSp5rqD5aCG5qCIIC8g5LqM6L+b5Yi25pig5YOPCiAqIOaUr+aMgeafpeeci+WujOaVtOWOn+aWh+OAgeWkjeWItuS7u+aEj+Wtl+auteOAgeWIhuS6q+WvvOWHuuOAgeWIoOmZpOWNleadoeS4jua4heepugogKiDmlrDltKnmuoPmnKror7vmlbDop5LmoIfmj5DphpLvvIjlj6/lhbPpl63vvIkKQXV0aG9yOiBBeHMgPHFpYW96aGFuaTAwMEAxNjMuY29tPgpJY29uOiBodHRwczovL2F4czY2LmdpdGh1Yi5pby9wcm8vaWNvbi9pcHMucG5nCk5hbWU6IElQU0xvZwpTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly9heHM2Ni5naXRodWIuaW8vcHJvL3NpbGVvZGVwaWN0aW9uL2lwc2xvZy9qcy5qc29u",
+  "metadata_sha256": "bdaa216799b84456dd3049524addbb0c7f0e3569c738d391a9cb5859fec22b44",
+  "object_key": "debs/73e6db55e4fa7f91f9e6dd46227847cb86a627999ee75bb2ab220266ac3da684.deb",
+  "schema": 1,
+  "sha256": "73e6db55e4fa7f91f9e6dd46227847cb86a627999ee75bb2ab220266ac3da684",
+  "size": 91096,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYXhzLmlwc2xvZ181LjIuMC0xMl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "e54272e1c5ba2cd795913c6b3362c234d3a40f7f"
+  }
+}

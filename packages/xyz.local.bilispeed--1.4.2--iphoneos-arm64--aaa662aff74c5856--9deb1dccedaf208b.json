@@ -1,0 +1,18 @@
+{
+  "id": "xyz.local.bilispeed--1.4.2--iphoneos-arm64--aaa662aff74c5856--9deb1dccedaf208b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "xyz.local.bilispeed",
+    "version": "1.4.2"
+  },
+  "metadata_b64": "UGFja2FnZTogeHl6LmxvY2FsLmJpbGlzcGVlZApWZXJzaW9uOiAxLjQuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGxvY2FsCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy9CaWxpU3BlZWQgQuermSAz5YCN6YCfXzEuNC4yX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxNDU4NApNRDVzdW06IDliZWEyMDRjNDI0YjRjMmQ3ZDZhZGMxZjFkN2FhZmNkClNIQTE6IDU3NjdjYjAyZDhiYzFhYjk5ODg3NjkzY2JjZjRjOTkyMzBiMmFlMDkKU0hBMjU2OiBhYWE2NjJhZmY3NGM1ODU2YzNlZjc3ZWNlOGNkZjBjMGI0OWI2MmQyOGFlOTkwOGM3MGUzNWRiMmEzODEzMjQ5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQuermSAz5YCN6YCfQmlsaVNwZWVkIOazqOWFpe+8mnR2LmRhbm1ha3UuYmlsaWFuaW1lIE5hdGl2ZSBwb3J0cmFpdCBhbmQgbGFuZHNjYXBlIDMuMCBwbGF5YmFjayByYXRlIGZvciBCaWxpYmlsaSA4Ljk5LgpBdXRob3I6IGxvY2FsCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vYmlsaXNwZWVkLmpwZwpOYW1lOiBCaWxpU3BlZWQgQuermSAz5YCN6YCf",
+  "metadata_sha256": "06f9e1b4a2dcfe51bd3b8b16cf8e924bade5dc77caa7bc21ea93ff02d0e73165",
+  "object_key": "debs/aaa662aff74c5856c3ef77ece8cdf0c0b49b62d28ae9908c70e35db2a3813249.deb",
+  "schema": 1,
+  "sha256": "aaa662aff74c5856c3ef77ece8cdf0c0b49b62d28ae9908c70e35db2a3813249",
+  "size": 14584,
+  "source": {
+    "filename_b64": "ZGVicy9CaWxpU3BlZWQgQuermSAz5YCN6YCfXzEuNC4yX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "8ab44eb2f3c1bd6bfabfd43c8b35896c95666f09"
+  }
+}

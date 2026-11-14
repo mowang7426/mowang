@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.audioservice--1.0.2--iphoneos-arm64e--9a215445523b0411--582ffdf047c07b59",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.audioservice",
+    "version": "1.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5hdWRpb3NlcnZpY2UKVmVyc2lvbjogMS4wLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQmFuYW5hCkluc3RhbGxlZC1TaXplOiA3MTIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvQmFuYW5hIEF1ZGlvIFNlcnZpY2VfMS4wLjJfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA0ODQ5NgpNRDVzdW06IGRlZGZjOTlhNjJjM2Q3OTZjMjY4MDI3MWFjZWMwM2VkClNIQTE6IDRmNzRmZDNhZDcwMjdhOGY5MmZjYTc4ZjRmZWI1MzJiMjk2YmUxODMKU0hBMjU2OiA5YTIxNTQ0NTUyM2IwNDExOThmYjMyOTFmNDAzZjJjNTQ5NjcwMDdjZWFhZTJjNmVhNTRmMTVmNDNhYmFjMzQ5ClNlY3Rpb246IERldmVsb3BtZW50CkRlc2NyaXB0aW9uOiBTaGFyZWQgbG9jYWwgd2F2ZWZvcm0gYW5kIHNwZWN0cnVtIGZlYXR1cmUgc2VydmljZSBmb3IgamFpbGJyZWFrIHR3ZWFrcy4KQXV0aG9yOiBCYW5hbmEKTmFtZTogQmFuYW5hIEF1ZGlvIFNlcnZpY2U=",
+  "metadata_sha256": "7198c57617abbbee214d34ae24ac7ff5ca8589577c4038c5fc5aecc8505d30dc",
+  "object_key": "debs/9a215445523b041198fb3291f403f2c54967007ceaae2c6ea54f15f43abac349.deb",
+  "schema": 1,
+  "sha256": "9a215445523b041198fb3291f403f2c54967007ceaae2c6ea54f15f43abac349",
+  "size": 48496,
+  "source": {
+    "filename_b64": "ZGVicy9CYW5hbmEgQXVkaW8gU2VydmljZV8xLjAuMl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "0737c6a4c0edca243dc3c69d84e685d37874c29c"
+  }
+}

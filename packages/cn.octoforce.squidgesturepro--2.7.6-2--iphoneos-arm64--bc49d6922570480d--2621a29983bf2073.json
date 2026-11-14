@@ -1,0 +1,18 @@
+{
+  "id": "cn.octoforce.squidgesturepro--2.7.6-2--iphoneos-arm64--bc49d6922570480d--2621a29983bf2073",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "cn.octoforce.squidgesturepro",
+    "version": "2.7.6-2"
+  },
+  "metadata_b64": "UGFja2FnZTogY24ub2N0b2ZvcmNlLnNxdWlkZ2VzdHVyZXBybwpWZXJzaW9uOiAyLjcuNi0yCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogU3F1aWRGb3JjZSwgQmFja3VwCkluc3RhbGxlZC1TaXplOiA3MzQ3CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE0LjApCkNvbmZsaWN0czogY29tLmxjbHJjLnNxdWlkZ2VzdHVyZSwgY29tLmxjbHJjLnNxdWlkZ2VzdHVyZXBybwpGaWxlbmFtZTogZGVicy9jbi5vY3RvZm9yY2Uuc3F1aWRnZXN0dXJlcHJvXzIuNy42LTJfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDE5MzAzNDYKTUQ1c3VtOiBiNDJhNGFjYWMzZGFlZDQ1NjVhMWYzM2I3MGY3MDg1OQpTSEExOiBjMjk0ZWJiMjE0MjY4M2RkYTYwMmFmNzdkOGIzYTYyNDg4Mzg0OTQ4ClNIQTI1NjogYmM0OWQ2OTIyNTcwNDgwZGIwMWI1MjY4YjBlN2Q2OWYyYmIzM2RkZTA2M2VjNzRhYWI3OTFlMzg5NzRkYjViNwpTZWN0aW9uOiDmiYvlir/plK7nm5gKRGVzY3JpcHRpb246IOWGhee9riBEQ3JhY2sg56a757q/5o6I5p2D77yI5pys5Zyw55Sf5oiQ44CB57uR5a6a6K6+5aSH44CB5peg6ZyA5r+A5rS75pyN5Yqh5Zmo77yJ44CCCkF1dGhvcjogU3F1aWRGb3JjZSwgQmFja3VwCk5hbWU6IOS5jOi0vOaJi+WKv+aXoOague+8iOWFjeaOiOadg++8iQpTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly9sY2xyYy5naXRodWIuaW8vcmVwby9kZXBpY3Rpb25zL25hdGl2ZS9jbi5vY3RvZm9yY2Uuc3F1aWRnZXN0dXJlcHJvL2RlcGljdGlvbi5qc29u",
+  "metadata_sha256": "980f21f91709ca4686019fee265f85a94998c9a7c1df4bddce159e064289391f",
+  "object_key": "debs/bc49d6922570480db01b5268b0e7d69f2bb33dde063ec74aab791e38974db5b7.deb",
+  "schema": 1,
+  "sha256": "bc49d6922570480db01b5268b0e7d69f2bb33dde063ec74aab791e38974db5b7",
+  "size": 1930346,
+  "source": {
+    "filename_b64": "ZGVicy9jbi5vY3RvZm9yY2Uuc3F1aWRnZXN0dXJlcHJvXzIuNy42LTJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "be94ffa0682bbcd47c2023581c0061da8ad030fb"
+  }
+}

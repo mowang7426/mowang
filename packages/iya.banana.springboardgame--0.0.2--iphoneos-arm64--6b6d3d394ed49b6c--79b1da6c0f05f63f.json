@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.springboardgame--0.0.2--iphoneos-arm64--6b6d3d394ed49b6c--79b1da6c0f05f63f",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.springboardgame",
+    "version": "0.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5zcHJpbmdib2FyZGdhbWUKVmVyc2lvbjogMC4wLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBoeGhsYgpJbnN0YWxsZWQtU2l6ZTogNzE2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpDb25mbGljdHM6IGl5YS5iYW5hbmEuaWNvbnNuYWtlLCBpeWEuYmFuYW5hLmljb250ZXRyaXMKUmVwbGFjZXM6IGl5YS5iYW5hbmEuaWNvbnNuYWtlLCBpeWEuYmFuYW5hLmljb250ZXRyaXMKRmlsZW5hbWU6IGRlYnMvU3ByaW5nQm9hcmRHYW1lXzAuMC4yX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxMTg3MzYKTUQ1c3VtOiAyOGQ2YWIyZDU5MDg5NDUyMDgzMjNjOGU1ZjVlNjQxZgpTSEExOiA2ZjcwZmNmNzk2MWI3MjhlZjQxNmRmODU1MTkzNmFiYmY0NTk0OGUzClNIQTI1NjogNmI2ZDNkMzk0ZWQ0OWI2Y2JkMDNhMDBmNTI1MTcwYzlkMzQ5NzViMjgzNWRjOTQxY2RiMGU1NDg4YWRjZjlmNgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IFBsYXkgU25ha2UsIFRldHJpcywgQmFza2V0YmFsbCwgQnJlYWtvdXQsIFNvY2NlciwgYW5kIFRhbmsgd2l0aCBpbnN0YWxsZWQgYXBwIGljb25zIGRpcmVjdGx5IG9uIHRoZSBIb21lIFNjcmVlbi4gLyDnm7TmjqXlnKjkuLvlsY/luZXkuIrkvb/nlKjlt7Llronoo4UgQXBwIOWbvuagh+a4uOeOqei0quWQg+ibh+OAgeS/hOe9l+aWr+aWueWdl+OAgeevrueQg+OAgeaJk+egluWdl+OAgei2s+eQg+WSjOWdpuWFi+OAggpBdXRob3I6IGh4aGxiCk5hbWU6IFNwcmluZ0JvYXJkR2FtZQ==",
+  "metadata_sha256": "071950c0b1a748dc542d1f96978eee89eb1a47efa1bf37e32902938c53dbe83b",
+  "object_key": "debs/6b6d3d394ed49b6cbd03a00f525170c9d34975b2835dc941cdb0e5488adcf9f6.deb",
+  "schema": 1,
+  "sha256": "6b6d3d394ed49b6cbd03a00f525170c9d34975b2835dc941cdb0e5488adcf9f6",
+  "size": 118736,
+  "source": {
+    "filename_b64": "ZGVicy9TcHJpbmdCb2FyZEdhbWVfMC4wLjJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "6572d959380e4d571a79caaa2f3005046b3a0fe7"
+  }
+}

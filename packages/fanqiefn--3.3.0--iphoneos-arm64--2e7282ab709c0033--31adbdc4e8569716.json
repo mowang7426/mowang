@@ -1,0 +1,18 @@
+{
+  "id": "fanqiefn--3.3.0--iphoneos-arm64--2e7282ab709c0033--31adbdc4e8569716",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "fanqiefn",
+    "version": "3.3.0"
+  },
+  "metadata_b64": "UGFja2FnZTogZmFucWllZm4KVmVyc2lvbjogMy4zLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBqdW5ob25nCkluc3RhbGxlZC1TaXplOiAzNDEyCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlCkZpbGVuYW1lOiBkZWJzL2ZhbnFpZWZuXzMuMy4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNjYzNzM0Ck1ENXN1bTogNjVjZGVmZDU1YzViYWU0NGYzYzg2OTg4OWFmMTYwMDMKU0hBMTogMDZiZWUwMGRlYTcwYjg2OTNjYjM5NDlmNGVjOTE3OTE1MWRlMmRlOApTSEEyNTY6IDJlNzI4MmFiNzA5YzAwMzM4ODI0ZGNmOTIwODkxZTQxM2FhMTA0NDhlNDg5ZjViODVlMTE3MzBiMDg4ZjIwZjQKU2VjdGlvbjogVHdlYWtzCkhvbWVwYWdlOiBodHRwczovL2ZhbnFpZS5nb2Zvcml0LnNpCkRlc2NyaXB0aW9uOiDnlarojITlsI/or7TpgJrnn6Uv5bCP57uE5Lu25Lyq6KOF44CB6ZiF6K+75Y+K5ZCs5Lmm5bm/5ZGK5YeA5YyW44CB5YWz6Zet56ug5pyr5ZyI5a2Q44CB6K+E5Lu36YKA6K+35ZKM5ZCs6K+76LWa6ZKx5oyC5Lu244CB5Lya5ZGY54q25oCB5Lyq6KOF5LiO5Y6f55Sf6K6+572u5byA5YWz77yM5L+d55WZ5YKs5pu05LiO5pu05paw5Y6G5Y+yIOKAoiDmlrDlop7kuabln47pobbpg6jliJfooajoh6rlrprkuYnpmpDol48KIOKAoiDvu7/kvJjljJbnn63nr4fljrvlub/lkYoKIO+7vyDigKIg5LyY5YyW55+t56+H6Ieq5Yqo6Kej6ZSB5bm25bGV5byA5YWo5paHCiDigKIg77u/5paw5aKe5bGP6JS957O757uf6YCa55+l57qi54K55o+Q6YaSCiDvu78g4oCiIOaWsOWinuWxj+iUveWGheWuueWwj+e7hOS7tua3u+WKoOaPkOmGkgpBdXRob3I6IGp1bmhvbmcKTmFtZTog55Wq6IyE5YeA5YyW",
+  "metadata_sha256": "de8a01b7a7405b71c411fb2dbe9d224e2549f8c281031704fe11e5240cf333fb",
+  "object_key": "debs/2e7282ab709c00338824dcf920891e413aa10448e489f5b85e11730b088f20f4.deb",
+  "schema": 1,
+  "sha256": "2e7282ab709c00338824dcf920891e413aa10448e489f5b85e11730b088f20f4",
+  "size": 2663734,
+  "source": {
+    "filename_b64": "ZGVicy9mYW5xaWVmbl8zLjMuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "a8095ea721c6387f1624cdd87a2c588d2f67bdd7"
+  }
+}

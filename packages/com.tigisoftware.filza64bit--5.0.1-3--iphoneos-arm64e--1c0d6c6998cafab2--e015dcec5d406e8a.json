@@ -1,0 +1,18 @@
+{
+  "id": "com.tigisoftware.filza64bit--5.0.1-3--iphoneos-arm64e--1c0d6c6998cafab2--e015dcec5d406e8a",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.tigisoftware.filza64bit",
+    "version": "5.0.1-3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnRpZ2lzb2Z0d2FyZS5maWx6YTY0Yml0ClZlcnNpb246IDUuMC4xLTMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogVElHSSBTb2Z0d2FyZQpJbnN0YWxsZWQtU2l6ZTogMjg2MTYKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBjb20ubWxnbS5maWx6YXBhdGNoICg+PSAxLjAuMikKUmVjb21tZW5kczogemlwLCB0YXIKQ29uZmxpY3RzOiBjb20udGlnaXNvZnR3YXJlLmZpbHphLCBjb20udGlnaXNvZnR3YXJlLmZpbHphMzkKRmlsZW5hbWU6IGRlYnMvRmlsemEgRmlsZSBNYW5hZ2VyIDY0LWJpdF81LjAuMS0zX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMTI0MzM0NTYKTUQ1c3VtOiA4ODczZGIzMmFjYzBmZmMzODYyNjljMmUyNThmMmFhMwpTSEExOiBiYTYzMjRmZGE3ZDNmNzAyZTgyNjc0OTZjNmI2YzhjN2M0ZjQ5MmIyClNIQTI1NjogMWMwZDZjNjk5OGNhZmFiMjI2NWI5YTlhZjE3ZGNiYjY3MzhkM2U1ZWIyZDYxNmQ3ZGMyMWM4MTRkYWFkYjc0MwpTZWN0aW9uOiBVdGlsaXRpZXMKRGVzY3JpcHRpb246IEZpbGUgTWFuYWdlciBmb3IgaVBob25lLCBpUGFkLCBpUG9kIFRvdWNoLiBTdXBwb3J0cyBpT1MgMTUrLiBUaGlzIHZlcnNpb24gb25seSBzdXBwb3J0cyA2NC1iaXQgZGV2aWNlcwpBdXRob3I6IFRJR0kgU29mdHdhcmUKTmFtZTogRmlsemEgRmlsZSBNYW5hZ2VyIDY0LWJpdA==",
+  "metadata_sha256": "5652d22d0e9b3de2c2c969fb5db111a0bf17468fa85e767a32609ef268df9baa",
+  "object_key": "debs/1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743.deb",
+  "schema": 1,
+  "sha256": "1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743",
+  "size": 12433456,
+  "source": {
+    "filename_b64": "ZGVicy9GaWx6YSBGaWxlIE1hbmFnZXIgNjQtYml0XzUuMC4xLTNfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "ea6a60f910d4d492e6b156d0664263f2c2764a8c"
+  }
+}

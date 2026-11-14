@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.hide2less.compat--0.1.0--iphoneos-arm64--315cd37b903cd7a9--8e796a3c84ad3345",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.hide2less.compat",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5oaWRlMmxlc3MuY29tcGF0ClZlcnNpb246IDAuMS4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogQmFuYW5hCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9IaWRlMkxlc3MgQ29tcGF0aWJpbGl0eS0wLjEuMC1pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMzEzMTQKTUQ1c3VtOiBhY2VjMzhmY2ZhNmI2MzQ3NDUwNzY2MmViOGVkYmZlNgpTSEExOiA0ZDhhYTFjODIwMjNlM2M2Njc0YzZhMjg2YjQ4NTIwNThkYWIxMmZhClNIQTI1NjogMzE1Y2QzN2I5MDNjZDdhOTBmZmY4OTBkNmI5NTU1NWY2MzY4ZDI4NTkxNDJiYTg2OGJmZjRjY2ZjYjgwNGNhOApTZWN0aW9uOiBTeXN0ZW0KRGVzY3JpcHRpb246IFNoYXJlZCBwYXRoIEFQSSBjb21wYXRpYmlsaXR5IGZvciBwYWNrYWdlcyBjb252ZXJ0ZWQgYnkgSGlkZTJMZXNzLgpBdXRob3I6IEJhbmFuYQpOYW1lOiBIaWRlMkxlc3MgQ29tcGF0aWJpbGl0eQ==",
+  "metadata_sha256": "38a4fcc081689ce662050a89874e1092217101ba9fe098082bb3de7fb74c262f",
+  "object_key": "debs/315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8.deb",
+  "schema": 1,
+  "sha256": "315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8",
+  "size": 31314,
+  "source": {
+    "filename_b64": "ZGVicy9IaWRlMkxlc3MgQ29tcGF0aWJpbGl0eS0wLjEuMC1pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "22c76671e8b28d46dee81ac59fc4751581d7db32"
+  }
+}

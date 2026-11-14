@@ -1,0 +1,18 @@
+{
+  "id": "com.muzi.mutool--2.2.88--iphoneos-arm64--8c70555aef0e4803--b4dd94db4068c074",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.muzi.mutool",
+    "version": "2.2.88"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm11emkubXV0b29sClZlcnNpb246IDIuMi44OApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE11emkKSW5zdGFsbGVkLVNpemU6IDU5ODQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTUuMCkKQ29uZmxpY3RzOiBjb20ubXV6aS5tdXRvb2xsaXRlCkZpbGVuYW1lOiBkZWJzL01VdG9vbF8yLjIuODhfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDk0NzY5NgpNRDVzdW06IGYwNWE1ZTViMGQxMDBjZTg5NTA2OWJiZDU5OWRlMmE1ClNIQTE6IDUwOWJmNTc2MWFlZDgwYmQwZGUwYWQ1ZDI1NDA5ODk3ZjI4MWVjYTYKU0hBMjU2OiA4YzcwNTU1YWVmMGU0ODAzZjZhOWQxM2IzMGI4NDY3NjRjNDQyYTU2ZmQwYWFiYTcwNDA2OWU1ZjVjY2QwNjBlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogTVV0b29sIOWkmuWKn+iDveW3peWFt+mbhu+8mueBteWKqOWym+eUteaxoOiDtuWbiu+8iOmVv+aMieeKtuaAgeagj+eUteaxoOW8ueWHuuWujOaVtOeUteaxoOS/oeaBr+OAgemUgeWxj+WFheeUteWkp+Wtl+W4uOmpu+S4jueUtea6kOiPnOWNle+8ie+8m+WumuaXtuS7u+WKoe+8m+iHquWKqOemgeeUqCBTSU3jgIHljaHmp73nrqHnkIbkuI4gSVBDQyDov5DokKXllYbphY3nva7vvJtXaUZpIOawuOi/nu+8m+WFheeUteaPkOekuumfs+S4jiBNYWdTYWZlIOWKqOeUu++8m+aWh+S7tuWkueS4u+mimO+8iOmFjeiJsuOAgeavm+eOu+eSg+OAgeWkp+aWh+S7tuWkueOAgee9keagvOWkp+Wwj+S4juWbvuagh+e8qeaUvu+8ie+8m+a4qeaOp++8iOmYu+atoumZjemikeOAgUNQVSDlip/njofplIHlrprjgIHmqKHmi5/pmY3popHvvInkuI7plIHlrpogMTIwSHog6auY5Yi377yb57O757uf5aKe5by677yI6ZSB5bGP5aKe5by644CB5Li75bGP5bmV5aKe5by644CB5qGM6Z2i5aKe5by65LiOIGlQYWQg6aOO5qC85rWu5YqoIERvY2vvvInvvJvlvZXliLblop7lvLrvvIjpgJror53oh6rliqjlvZXpn7PjgIHlvZXlsY/ljrsgRFJNIOmdmemfs+OAgemUgeWxj+e7p+e7reW9leWItuS4jui9qOi/ueinpueCue+8ie+8m+e+juWMlu+8iOeKtuaAgeagj+WJjeaZr+iJsuOAgemakOiXj+aXtumXtOOAgeW8uuWItua1hea3seiJsu+8ie+8m+ahjOmdouaCrOa1ruS/oeaBr+iNr+S4uO+8iOWkmuaCrOa1rueql+eLrOeri+mFjee9rue9kemAny9DUFUv5YaF5a2YL+aXtumXtC/lhpzljoYv5aSp5rCU77yMTGlxdWlkIEdsYXNzIOmjjuagvO+8ie+8m+eUteaxoOWBpeW6t+S4jua3seW6puS/oeaBr+OAguWFqOmDqOWKn+iDveWPl+a/gOa0u+eKtuaAgemXqOaOp+OAggpBdXRob3I6IE11emkKSWNvbjogaHR0cHM6Ly9tdXppa2VqaS5naXRodWIuaW8vc2lsZW8vaWNvbnMvbXV0b29sLnBuZwpOYW1lOiBNVXRvb2wKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vbXV6aWtlamkuZ2l0aHViLmlvL3NpbGVvL2RlcGljdGlvbnMvY29tLm11emkubXV0b29sLmpzb24=",
+  "metadata_sha256": "bf0a6e8a66d25c20ca20f4f2b3329fec109ec9a47c8498180583264bed2db983",
+  "object_key": "debs/8c70555aef0e4803f6a9d13b30b846764c442a56fd0aaba704069e5f5ccd060e.deb",
+  "schema": 1,
+  "sha256": "8c70555aef0e4803f6a9d13b30b846764c442a56fd0aaba704069e5f5ccd060e",
+  "size": 947696,
+  "source": {
+    "filename_b64": "ZGVicy9NVXRvb2xfMi4yLjg4X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "d75a20b8b04698036c99597541e598adf2b6ffce"
+  }
+}

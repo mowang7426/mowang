@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.103--iphoneos-arm64--5a1cd78abcbadc54--84b391257b008b85",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.103"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjEwMwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IHFxMzkxMTYwCkluc3RhbGxlZC1TaXplOiAzOTYwCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNi4wKQpDb25mbGljdHM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpSZXBsYWNlczogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5CkZpbGVuYW1lOiBkZWJzL2NvbS5xcTM5MTE2MC5jcHVjb3JlXzIuMC4xMDNfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDU2NzYxMgpNRDVzdW06IDNjNjA2ZDI4NWVmZTZkZTc1MWNmNGNhMjg0OTU2MzNkClNIQTE6IGVmZDY5YWVkM2ZkMWY1YTUxYmE4NTNiNjFjNmY5NjUxMGYwMmFlMzQKU0hBMjU2OiA1YTFjZDc4YWJjYmFkYzU0NzU2NzQ1NjgwOGYxY2ZjZGMxNzQ4N2M1ZTQ1ZDVmNjk2YmU3MjAyNzYwYzJhZThlClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAgiDmmbrog73vvJrmuLjmiI/pq5jmgKfog73jgIHlupTnlKjkvY7popHnjofjgIHmoYzpnaLljp/nlJ/jgIHmu5Hliqjmj5DpgJ/jgIHnhoTlsY/nnIHnlLXvvJsg5L2O5Yqf6ICX77ya5YWo5bGA55yB55S177yM5Y+v5pS+6KGM5Liq5Yir5bqU55So77ybIOaAp+iDveaooeW8j++8muWFqOWxgOmrmOaAp+iDve+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8myDmr4/kuKrlupTnlKjlj6/ljZXni6zorr7nva7moaPkvY3jgIIKQXV0aG9yOiBxcTM5MTE2MApJY29uOiBodHRwczovL3FxMzkxMTYwLmdpdGh1Yi5pby9yZXBvL2ljb25zL3RoZXJtYWwucG5nCk5hbWU6IENQVeaZuuiDvea4qeaOpyhpT1MxNi8xNyk=",
+  "metadata_sha256": "9f9066e2b6aff42b0aa2f1851a84b275aa40c4c4466b32df05a016c02d915a71",
+  "object_key": "debs/5a1cd78abcbadc547567456808f1cfcdc17487c5e45d5f696be7202760c2ae8e.deb",
+  "schema": 1,
+  "sha256": "5a1cd78abcbadc547567456808f1cfcdc17487c5e45d5f696be7202760c2ae8e",
+  "size": 567612,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuMTAzX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "6ae67cab7d9320429098b89e6818a6a737dd9430"
+  }
+}

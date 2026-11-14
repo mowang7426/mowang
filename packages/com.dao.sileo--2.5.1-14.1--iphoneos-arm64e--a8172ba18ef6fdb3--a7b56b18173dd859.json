@@ -1,0 +1,18 @@
+{
+  "id": "com.dao.sileo--2.5.1-14.1--iphoneos-arm64e--a8172ba18ef6fdb3--a7b56b18173dd859",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.dao.sileo",
+    "version": "2.5.1-14.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRhby5zaWxlbwpWZXJzaW9uOiAyLjUuMS0xNC4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IOWIgOWIgApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTEuMCksIGZpcm13YXJlKD49MTIuMikgfCBvcmcuc3dpZnQubGlic3dpZnQgKD49NS4wKSwgY29yZXV0aWxzICg+PSA4LjMwLTEpLCBkcGtnICg+PSAxLjE5LjQtMSksIGFwdCAoPj0gMS44LjIpLCBsaWJ6c3RkMQpSZXBsYWNlczogb3JnLmNvb2xzdGFyLnNpbGVvCkZpbGVuYW1lOiBkZWJzL1NpbGVvKFJvb3RIaWRlKV8yLjUuMS0xNC4xX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMzAwNzE0OApNRDVzdW06IDk0MTFiOGU2N2EyZDE5MzViZjE5MTRlZDFlYTE3YjZjClNIQTE6IDhjZmIzY2ExZDUxYzEyNmU3YTk1YTgzMWQyMjVkZjJhNmY5M2Y1YzQKU0hBMjU2OiBhODE3MmJhMThlZjZmZGIzNTUxZjExYzI0OTg1NzBmNDMwNmMyMjhiOWIxMjMzMzI4MWQxZWU2MTA4YjFlMjM3ClNlY3Rpb246IOWXqC3ns7vnu58KRGVzY3JpcHRpb246IOWIgOWIgOihpeWFheaxieWMlu+8jOW5tuWcqOaPkuS7tuWIl+ihqOW3puS+p+WinuWKoOaetuaehOaMh+ekuuWZqChhcm02NGUg4oaSIOe7v+iJsuOAgWFybTY0IOKGkiDok53oibLjgIFhcm0g4oaSIOapmeiJsuOAgWFsbCDihpIg54Gw6ImyKe+8jOWPr+ivhuWIq+WIgOWIgOa6kOWGheeahCBSb290SGlkZVBhdGNoZXIg5Lit5paH54mI77yM5Lmf6K+G5YirIFVtYnJhUGF0Y2hlcu+8jOi9rOaNouaPkuS7tuS4gOadoem+meOAggpBdXRob3I6IEFteSBXaGlsZQpOYW1lOiBTaWxlbyhSb290SGlkZSk=",
+  "metadata_sha256": "7034d64008e8198b850a458b6acdac8fbe8f3a29562d0931ea85fb5576288c42",
+  "object_key": "debs/a8172ba18ef6fdb3551f11c2498570f4306c228b9b12333281d1ee6108b1e237.deb",
+  "schema": 1,
+  "sha256": "a8172ba18ef6fdb3551f11c2498570f4306c228b9b12333281d1ee6108b1e237",
+  "size": 3007148,
+  "source": {
+    "filename_b64": "ZGVicy9TaWxlbyhSb290SGlkZSlfMi41LjEtMTQuMV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "6f9dea0b7dd96073f56d185ab4baf102670aa07d"
+  }
+}

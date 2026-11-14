@@ -1,0 +1,18 @@
+{
+  "id": "com.sini.filzaswipeselect--0.0.2--iphoneos-arm64--bb35b028584d8070--e803698755c5cbf7",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sini.filzaswipeselect",
+    "version": "0.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNpbmkuZmlsemFzd2lwZXNlbGVjdApWZXJzaW9uOiAwLjAuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGtvcmJveSA8a29yYm95YmVhdHNAZ21haWwuY29tPgpJbnN0YWxsZWQtU2l6ZTogMTg0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApCkZpbGVuYW1lOiBkZWJzL0ZpbHphU3dpcGVTZWxlY3QtVW5rbm93bi11bmtub3duLmRlYgpTaXplOiA4NzE2Ck1ENXN1bTogN2JjYmQyNWRlMmE2YmJjM2JmNjk4OWQ4YWVhZmY3ODkKU0hBMTogODhiMGRjMzE5NTkzOTBmMTQ2ZmU0MDhkZDA1Mjc3M2YxNjQ1NjUwMgpTSEEyNTY6IGJiMzViMDI4NTg0ZDgwNzA0NjUzZWFjMTE4ZGNkOGEzNDBjZjFiNDk1M2IyOWQ2MWQyMjQxZjA2MmQ3YThjYzAKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBGaWx6YeeahOa7keWKqOWkmumAieWKn+iDveOAguS4jeWGjeWNleeLrOeCueWHu+avj+S4quaWh+S7tui/m+ihjOmAieaLqeOAggpBdXRob3I6IGtvcmJveSA8a29yYm95YmVhdHNAZ21haWwuY29tPgpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL0ZpbHphLmpwZwpOYW1lOiBGaWx6YVN3aXBlU2VsZWN0ClNpbGVvZGVwaWN0aW9uOiBodHRwczovL3Npbmk5MjEuZ2l0aHViLmlvL3JlcG8vc2lsZW9kZXBpY3Rpb24vZmlsemFzd2lwZXNlbGVjdC9qcy5qc29u",
+  "metadata_sha256": "01db7157d5ac1aba6387946c5bef6eff446c4747f5191978bf3a8de53e614c3c",
+  "object_key": "debs/bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0.deb",
+  "schema": 1,
+  "sha256": "bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0",
+  "size": 8716,
+  "source": {
+    "filename_b64": "ZGVicy9GaWx6YVN3aXBlU2VsZWN0LVVua25vd24tdW5rbm93bi5kZWI=",
+    "git_blob": "4a0c06ccef9205d9a0e1fb6b2ff220b9fec63c76"
+  }
+}

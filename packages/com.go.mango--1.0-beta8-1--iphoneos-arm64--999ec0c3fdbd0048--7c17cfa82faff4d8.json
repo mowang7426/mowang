@@ -1,0 +1,18 @@
+{
+  "id": "com.go.mango--1.0-beta8-1--iphoneos-arm64--999ec0c3fdbd0048--7c17cfa82faff4d8",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.go.mango",
+    "version": "1.0-Beta8-1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmdvLm1hbmdvClZlcnNpb246IDEuMC1CZXRhOC0xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogZ28KSW5zdGFsbGVkLVNpemU6IDM2MTkyCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy9jb20uZ28ubWFuZ29fMS4wLUJldGE4LTFfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDE2NzExNTcyCk1ENXN1bTogYjMyZTE3OTdiMjRjYmNkNjVlZDU5YmM2ODY2Nzk3OTcKU0hBMTogMmQ5MWUzOTRmYzA3NTk3OTQ4YmMzYThjOWJmZTlkNTViMDAwM2QzNQpTSEEyNTY6IDk5OWVjMGMzZmRiZDAwNDg5ZDY0ZTg4ODIzNDczZWQzZDFhNThlM2ExOWIyOGY2MTRiNWU2N2E1ZWIyNTE1ZWIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBNYW5nb+WIhuWxj++8jOWwj+a2suW+ruS/oea2suaAgee+juWMlu+8jOezu+e7n+e6p+ecn+a2suaAgeeOu+eSg++8jOWFqOWxgOi/lOWbnuWwj+iKku+8jOinhumikeWjgee6uOetieS4gOS6m+WunueUqOWKn+iDveOAggpBdXRob3I6IGdvCk5hbWU6IG1hbmdv",
+  "metadata_sha256": "b13be088acae847889ff90ade77d4c5a5f3a940950958565fcd94613b6553db7",
+  "object_key": "debs/999ec0c3fdbd00489d64e88823473ed3d1a58e3a19b28f614b5e67a5eb2515eb.deb",
+  "schema": 1,
+  "sha256": "999ec0c3fdbd00489d64e88823473ed3d1a58e3a19b28f614b5e67a5eb2515eb",
+  "size": 16711572,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uZ28ubWFuZ29fMS4wLUJldGE4LTFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "14672e39463abe85a99aec073234835a87c85ef1"
+  }
+}

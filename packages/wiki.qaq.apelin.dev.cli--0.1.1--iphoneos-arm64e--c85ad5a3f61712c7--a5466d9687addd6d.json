@@ -1,0 +1,18 @@
+{
+  "id": "wiki.qaq.apelin.dev.cli--0.1.1--iphoneos-arm64e--c85ad5a3f61712c7--a5466d9687addd6d",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "wiki.qaq.apelin.dev.cli",
+    "version": "0.1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogd2lraS5xYXEuYXBlbGluLmRldi5jbGkKVmVyc2lvbjogMC4xLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogT3duR29hbCBTdHVkaW8gPG5vdC1nb25uYS1yZXBseUBvd25nb2FsLmRldj4KSW5zdGFsbGVkLVNpemU6IDM2CkRlcGVuZHM6IHdpa2kucWFxLmFwZWxpbiAoPj0gMC4xLjApCkVuaGFuY2VzOiB3aWtpLnFhcS5hcGVsaW4KRmlsZW5hbWU6IGRlYnMvQXBlbGluIENvbW1hbmQtTGluZSBUb29sIERldmVsb3BtZW50XzAuMS4xX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNTg5NgpNRDVzdW06IDIzZWUwYzM5N2UwMzAxZWYzNWIzMjNkOGQxZTUyZjIxClNIQTE6IGZiMzU0ZjEzZTIxZWU4ODQyNTFkNjAzMWFiMDA1YTYzZWRkNmI0OWMKU0hBMjU2OiBjODVhZDVhM2Y2MTcxMmM3YmM1ZDExYzkwOGQ0NDU3ODdhMWYzZDMyYmM3YjIxODE2Y2ViOTNmMWY1NGVlNTNhClNlY3Rpb246IERldmVsb3BtZW50ClByaW9yaXR5OiBvcHRpb25hbApEZXNjcmlwdGlvbjogQ29tbWFuZC1saW5lIHRvb2wgdGVtcGxhdGVzIGZvciBBcGVsaW4sIGZvciByb290aGlkZSBqYWlsYnJlYWtzCiBMZXRzIEFwZWxpbiBjcmVhdGUsIGJ1aWxkIGFuZCBwYWNrYWdlIEMgYW5kIE9iamVjdGl2ZS1DIGNvbW1hbmQtbGluZSB0b29scwogb24gdGhlIGRldmljZSwgaW5zdGFsbGVkIGludG8gdGhlIGJvb3RzdHJhcCdzIC91c3IvYmluLgpBdXRob3I6IE93bkdvYWwgU3R1ZGlvIDxub3QtZ29ubmEtcmVwbHlAb3duZ29hbC5kZXY+CkRlcGljdGlvbjogaHR0cHM6Ly9vd25nb2FsLWRldi5naXRodWIuaW8vQXBlbGluLwpJY29uOiBodHRwczovL293bmdvYWwtZGV2LmdpdGh1Yi5pby9BcGVsaW4vaWNvbnMvd2lraS5xYXEuYXBlbGluLmRldi5jbGkucG5nCk5hbWU6IEFwZWxpbiBDb21tYW5kLUxpbmUgVG9vbCBEZXZlbG9wbWVudA==",
+  "metadata_sha256": "78ccb1f8aab6a8ad1894f8651bace7042ca3e9d2036b00590a20091a10d383a1",
+  "object_key": "debs/c85ad5a3f61712c7bc5d11c908d445787a1f3d32bc7b21816ceb93f1f54ee53a.deb",
+  "schema": 1,
+  "sha256": "c85ad5a3f61712c7bc5d11c908d445787a1f3d32bc7b21816ceb93f1f54ee53a",
+  "size": 5896,
+  "source": {
+    "filename_b64": "ZGVicy9BcGVsaW4gQ29tbWFuZC1MaW5lIFRvb2wgRGV2ZWxvcG1lbnRfMC4xLjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "54e9f79a1ca4e73e0e95a802a826047cb83ff2a9"
+  }
+}

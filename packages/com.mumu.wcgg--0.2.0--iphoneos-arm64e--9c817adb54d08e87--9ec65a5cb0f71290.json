@@ -1,0 +1,18 @@
+{
+  "id": "com.mumu.wcgg--0.2.0--iphoneos-arm64e--9c817adb54d08e87--9ec65a5cb0f71290",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mumu.wcgg",
+    "version": "0.2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm11bXUud2NnZwpWZXJzaW9uOiAwLjIuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBtdW11Ckluc3RhbGxlZC1TaXplOiAxMDU2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApCkZpbGVuYW1lOiBkZWJzL1dDR0dfMC4yLjBfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAyODk3NDQKTUQ1c3VtOiA0ZGRlNWNjMDI2Y2E5YWE0NzM0NzhiZmI4ODk0NzBmMQpTSEExOiBiMGI3Zjc2NDRjMDRiZDMzOWQxZTcxM2JlYzRmY2M3M2E0ZTI0OThiClNIQTI1NjogOWM4MTdhZGI1NGQwOGU4N2EzNWU3NzJjZDhiOWNmZWY0NDM0ZGEwNThhMTQwZGI0NjJhZWVhZGU0NzBiNWY2ZgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IFdlQ2hhdCBjdXN0b20gYmFkZ2UgcGx1Z2luCkF1dGhvcjogbXVtdQpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL1dlQ2hhdC5qcGcKTmFtZTogV0NHRw==",
+  "metadata_sha256": "482878857c43712d29f85367980c0ced34597e684385b5ecd0f1be13b4eda653",
+  "object_key": "debs/9c817adb54d08e87a35e772cd8b9cfef4434da058a140db462aeeade470b5f6f.deb",
+  "schema": 1,
+  "sha256": "9c817adb54d08e87a35e772cd8b9cfef4434da058a140db462aeeade470b5f6f",
+  "size": 289744,
+  "source": {
+    "filename_b64": "ZGVicy9XQ0dHXzAuMi4wX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "c6c87b0bb73cfc47a53463794dae29be9a60171d"
+  }
+}

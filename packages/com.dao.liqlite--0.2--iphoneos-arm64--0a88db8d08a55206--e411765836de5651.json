@@ -1,0 +1,18 @@
+{
+  "id": "com.dao.liqlite--0.2--iphoneos-arm64--0a88db8d08a55206--e411765836de5651",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.dao.liqlite",
+    "version": "0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRhby5saXFsaXRlClZlcnNpb246IDAuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGRhb2RhbwpJbnN0YWxsZWQtU2l6ZTogNTI0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTQuMCksIGZpcm13YXJlICg8PCAyNi4wKQpGaWxlbmFtZTogZGVicy9MaXFMaXRlKHJvb3RsZXNzKV8wLjJfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDc2NDgyCk1ENXN1bTogNTk5YmFhYmQ5MmFjYTRlNDBmNTBkYTY0OTQyZDBiMTcKU0hBMTogZjQ4YWJkNGFjZGEyZGVlZjUzNThmZDFmYWQwZGM5YzY1ZWM5NTY3MQpTSEEyNTY6IDBhODhkYjhkMDhhNTUyMDYzOTZiZmQyNWJmYjhiYmE5MzQzODUzZWY0ZTMwMzBhN2UwNWE3ZDdlNjIzMTc0NTIKU2VjdGlvbjog5ZeoLeW3peWFtwpEZXNjcmlwdGlvbjog5Z+65LqOZHlsdi9saXF1aWRhc3Ppobnnm67vvIznqIvluo/lnZ7lkozmlofku7blpLnlm77moIflkK/nlKjmtrLmgIHnjrvnkoPmlYjmnpzjgIIKQXV0aG9yOiBkYW9kYW8KTmFtZTogTGlxTGl0ZShyb290bGVzcykKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8veGlhbmdmZWlkZXhpYW9odW8uZ2l0aHViLmlvL3NpbGVvZGVwaWN0aW9uL2xpcWxpdGUvanMuanNvbg==",
+  "metadata_sha256": "9663170d508c368b7dc9f3486118104738e9ff3bff1bc8d445ea79416aa15aa1",
+  "object_key": "debs/0a88db8d08a55206396bfd25bfb8bba9343853ef4e3030a7e05a7d7e62317452.deb",
+  "schema": 1,
+  "sha256": "0a88db8d08a55206396bfd25bfb8bba9343853ef4e3030a7e05a7d7e62317452",
+  "size": 76482,
+  "source": {
+    "filename_b64": "ZGVicy9MaXFMaXRlKHJvb3RsZXNzKV8wLjJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "b0669c22b59fa11792b8896db646341cafacb483"
+  }
+}

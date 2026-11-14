@@ -1,0 +1,18 @@
+{
+  "id": "netskao.picsartcrack--1.1-5--iphoneos-arm64e--460898ed815a9c37--5b42f851423b5fce",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "netskao.picsartcrack",
+    "version": "1.1-5"
+  },
+  "metadata_b64": "UGFja2FnZTogbmV0c2thby5waWNzYXJ0Y3JhY2sKVmVyc2lvbjogMS4xLTUKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogTmV0cwpJbnN0YWxsZWQtU2l6ZTogMzc2ClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQoPj0gMC45KQpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCksIG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy9QaWNzQXJ0IENyYWNrXzEuMS01X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogODk0NDAKTUQ1c3VtOiBlNjk0YzQ0NzBmMGIxMTBmZDFkMTdhZWFmMTUwZDczYgpTSEExOiA0NTM0OWI4MjQzZGJjMjAxZGRmNmE5NzQxZDIzMzU3ZTc3N2U3ZTBlClNIQTI1NjogNDYwODk4ZWQ4MTVhOWMzNzI5MzMxNzYyOWIwOTY1NjczN2NkNDRjNTc0MWY3NzVhYzJmZDRlYTE2Y2Y0ZjczNwpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IFBpY3NBcnTnvo7mmJPop6PplIHlhajlip/og73vvIzku4XmlK/mjIHkuK3lm73ljLoyMC43Ljnlj4rku6XkuIrniYjmnKwKQXV0aG9yOiBOZXRza2FvCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vcGljc2FydGNyYWNrLmpwZwpOYW1lOiBQaWNzQXJ0IENyYWNr",
+  "metadata_sha256": "0ead9ad3cffb4798cb3b7beed2eae51aae205dba7f192fffac6a3077af8a6dbf",
+  "object_key": "debs/460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737.deb",
+  "schema": 1,
+  "sha256": "460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737",
+  "size": 89440,
+  "source": {
+    "filename_b64": "ZGVicy9QaWNzQXJ0IENyYWNrXzEuMS01X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "401d1fa38c962057c579565edcc786259dcab999"
+  }
+}

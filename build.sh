@@ -40,7 +40,10 @@ fi
 # 2. 清理旧索引
 rm -f Packages Packages.gz Packages.bz2 Packages.xz Packages.zst Release
 
-# 3. 生成 Packages
+# 3. Permanent catalog is authoritative once present; debs/ is only an inbox.
+if [[ -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+    python3 scripts/catalog-build.py render --output Packages
+else
 # -m 保留同一 Package 的多个版本；不同架构的同版本包也会分别保留。
 dpkg-scanpackages -m debs > Packages
 
@@ -109,6 +112,7 @@ if duplicate_keys:
         print("  - " + " / ".join(key))
     print("  提示：真正的降级版本必须使用不同的 Version 字段；-m 已保留多版本。")
 PY
+fi
 
 # 5. 生成压缩索引
 # Sileo/APT 常用 gzip/xz；bz2/zstd 一并保留以兼容不同客户端。

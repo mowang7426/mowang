@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.5--iphoneos-arm64--5693e34911073c0e--9df7b0025bab075a",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjUKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBxcTM5MTE2MApJbnN0YWxsZWQtU2l6ZTogMzExMgpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMC4wKQpDb25mbGljdHM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpSZXBsYWNlczogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5CkZpbGVuYW1lOiBkZWJzL2NvbS5xcTM5MTE2MC5jcHVjb3JlXzIuMC41X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA0NjIxNTIKTUQ1c3VtOiA2OTcyZjgzYjIzMTZjZWUyMDlkNGJmZmRiZTdjOTRkZQpTSEExOiA5NDgwOTY2MDhhNzg3ZjYyOTViZGVkZWNhYTVmNWNiNjJiODJhZTc3ClNIQTI1NjogNTY5M2UzNDkxMTA3M2MwZTBjOTk2NWI0YzNkZDNiYzE2ZWY0MjJkYzI0NDYxZWFjZjJmMjM4ZmU0MWM1NjI4YQpTZWN0aW9uOiBUd2Vha3MKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiDkuInnp43mqKHlvI/kuIDplK7liIfmjaLnmoTmmbrog73muKnmjqfnrqHnkIbjgIIg5pm66IO977ya5ri45oiP6auY5oCn6IO944CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybIOS9juWKn+iAl++8muWFqOWxgOecgeeUte+8jOWPr+aUvuihjOS4quWIq+W6lOeUqO+8myDmgKfog73mqKHlvI/vvJrlhajlsYDpq5jmgKfog73vvIzlj6/ljZXni6zljovkvY7mjIflrprlupTnlKjvvJsg5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CCCkF1dGhvcjogcXEzOTExNjAKSWNvbjogaHR0cHM6Ly9xcTM5MTE2MC5naXRodWIuaW8vcmVwby9pY29ucy90aGVybWFsLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcoaU9TMTYvMTcp",
+  "metadata_sha256": "da0b8e3fb404db74b86ccae5da52ac1a5e8f10582f3b9b015ec6e3627d778bee",
+  "object_key": "debs/5693e34911073c0e0c9965b4c3dd3bc16ef422dc24461eacf2f238fe41c5628a.deb",
+  "schema": 1,
+  "sha256": "5693e34911073c0e0c9965b4c3dd3bc16ef422dc24461eacf2f238fe41c5628a",
+  "size": 462152,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuNV9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "d74c2a1e7eafead8547e0732c14fa51315c41730"
+  }
+}

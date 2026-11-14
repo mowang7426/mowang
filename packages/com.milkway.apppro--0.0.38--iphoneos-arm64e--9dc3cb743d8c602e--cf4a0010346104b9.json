@@ -1,0 +1,18 @@
+{
+  "id": "com.milkway.apppro--0.0.38--iphoneos-arm64e--9dc3cb743d8c602e--cf4a0010346104b9",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.milkway.apppro",
+    "version": "0.0.38"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbGt3YXkuYXBwcHJvClZlcnNpb246IDAuMC4zOApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNaWxrd2F5Ckluc3RhbGxlZC1TaXplOiAxMDUyCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpDb25mbGljdHM6IGNvbS5mb3VhZHJhaGViLmFwcGRhdGEKRmlsZW5hbWU6IGRlYnMvY29tLm1pbGt3YXkuYXBwcHJvXzAuMC4zOF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDE5NTk4NApNRDVzdW06IDJhNmNjZmI0NTFjYzQwNjJiOTU1YjYzZjE3ZDcwZDU0ClNIQTE6IDljNGFmZDMwMmIxYTNhMDQyMTkxN2EwMTQzOGEwMzlmNDBhODcyNDQKU0hBMjU2OiA5ZGMzY2I3NDNkOGM2MDJlZGI2NzIyNDA2YWQzNmNmNzk0Yzg4MjUzOWZkOTRhOWZmMjk4ZGIxMWQyZDUwYjczClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogVmlldyAmIE1hbmFnZSBBcHBsaWNhdGlvbnMgRGF0YSBmcm9tIHlvdXIgSG9tZSBTY3JlZW4gKGlPUyAxNS0xNiBSb290SGlkZSkKQXV0aG9yOiBNaWxrd2F5Ck5hbWU6IEFwcCBQcm8=",
+  "metadata_sha256": "8e941e8678a52240e6879af134739eae13432a25363a7dccaf11f9bf9accbd91",
+  "object_key": "debs/9dc3cb743d8c602edb6722406ad36cf794c882539fd94a9ff298db11d2d50b73.deb",
+  "schema": 1,
+  "sha256": "9dc3cb743d8c602edb6722406ad36cf794c882539fd94a9ff298db11d2d50b73",
+  "size": 195984,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubWlsa3dheS5hcHBwcm9fMC4wLjM4X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "31a6975b0de6db3a04a4316f41aea1782f6bb71d"
+  }
+}

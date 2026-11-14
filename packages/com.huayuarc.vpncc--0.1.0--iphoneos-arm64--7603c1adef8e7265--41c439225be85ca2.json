@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.vpncc--0.1.0--iphoneos-arm64--7603c1adef8e7265--41c439225be85ca2",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.huayuarc.vpncc",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLnZwbmNjClZlcnNpb246IDAuMS4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogSHVheXVhcmMKSW5zdGFsbGVkLVNpemU6IDQ0MgpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCksIG1vYmlsZXN1YnN0cmF0ZSwgY29tLm9wYTMzNC5jY3N1cHBvcnQKRmlsZW5hbWU6IGRlYnMvVlBOIENDXzAuMS4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNzUxNgpNRDVzdW06IGY1YjkwMzY1MDc4NWRmMTUyNjBhNDhmNzQ1MWY2OWIzClNIQTE6IDUzZWU3N2NmNWFhNjhjNzg5OTFlOGZlODY5ZjQyOWFlNzNhMWFjOWIKU0hBMjU2OiA3NjAzYzFhZGVmOGU3MjY1ZjExNzc0NGVkMmJmZTc0MGE3MzRiZmY3NGM1YTQ5MDEwZDI2Zjk2YWFlOGEyYTdkClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5LuO5o6n5Yi25Lit5b+D5YiH5o2i5bm26YCJ5oup57O757uf5Liq5Lq6VlBO6YWN572u44CCVG9nZ2xlIGFuZCBzZWxlY3Qgc3lzdGVtIHBlcnNvbmFsIFZQTiBjb25maWd1cmF0aW9ucyBmcm9tIENvbnRyb2wgQ2VudGVyLgpBdXRob3I6IEh1YXl1YXJjCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vQ3VzdG9tVnBuSWNvbi5wbmcKTmFtZTogVlBOIEND",
+  "metadata_sha256": "c05a0190193a6c1a388108549244d8ff38bb5484a02f61c2ce30e34e20dfb78f",
+  "object_key": "debs/7603c1adef8e7265f117744ed2bfe740a734bff74c5a49010d26f96aae8a2a7d.deb",
+  "schema": 1,
+  "sha256": "7603c1adef8e7265f117744ed2bfe740a734bff74c5a49010d26f96aae8a2a7d",
+  "size": 27516,
+  "source": {
+    "filename_b64": "ZGVicy9WUE4gQ0NfMC4xLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "a036c54e544180b1d6f5d1549a2603d9f3fe5e74"
+  }
+}

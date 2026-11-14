@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.facetimeaudioenabler--1.0.6--iphoneos-arm64--d07d509e4444fcd4--938ce8aa22e6772d",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.facetimeaudioenabler",
+    "version": "1.0.6"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5mYWNldGltZWF1ZGlvZW5hYmxlcgpWZXJzaW9uOiAxLjAuNgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGh4aGxiCkluc3RhbGxlZC1TaXplOiA4MzIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvRmFjZVRpbWUgQXVkaW8gRW5hYmxlcl8xLjAuNl9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNjY5MzAKTUQ1c3VtOiAyZDU2ODhmMjllODNhZTdhZTRkYzRkODRmODAxZjZlNwpTSEExOiA2NjNkODEyNDI3OWEyMDQ1YmJiNWUzOTc1MGYzNTU3NzZiZWZlMzE1ClNIQTI1NjogZDA3ZDUwOWU0NDQ0ZmNkNGM1NzA3OGE5MTliZDFlOGQ1NDNjMGFhMGE5MjBkMDM0NGRmNTY0MDc5MTlmNzJhYQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IEVuYWJsZXMgRmFjZVRpbWUgQXVkaW8gd2l0aCBhIHNjb3BlZCBydW50aW1lIG92ZXJyaWRlIG9uIGlPUyAxNS0xNyBhbmQgYSBndWFyZGVkIE1vYmlsZUdlc3RhbHQgd29ya2Zsb3cgb24gaU9TIDE4Ky4KQXV0aG9yOiBoeGhsYgpOYW1lOiBGYWNlVGltZSBBdWRpbyBFbmFibGVy",
+  "metadata_sha256": "cb54c9ca05031e1994d29416929a69493dbdc9c817b6f14ac91964ae41bb9542",
+  "object_key": "debs/d07d509e4444fcd4c57078a919bd1e8d543c0aa0a920d0344df56407919f72aa.deb",
+  "schema": 1,
+  "sha256": "d07d509e4444fcd4c57078a919bd1e8d543c0aa0a920d0344df56407919f72aa",
+  "size": 66930,
+  "source": {
+    "filename_b64": "ZGVicy9GYWNlVGltZSBBdWRpbyBFbmFibGVyXzEuMC42X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "0bd4f6da401b0ac5bd6bb4c93eb225610fb6bb4f"
+  }
+}

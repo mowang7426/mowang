@@ -1,0 +1,18 @@
+{
+  "id": "com.axs.ahsfilter--5.2.0-3--iphoneos-arm64e--f08a861573e52c27--597853b2bd21c9c7",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.axs.ahsfilter",
+    "version": "5.2.0-3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmF4cy5haHNmaWx0ZXIKVmVyc2lvbjogNS4yLjAtMwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBBeHMgPHFpYW96aGFuaTAwMEAxNjMuY29tPgpJbnN0YWxsZWQtU2l6ZTogNzEyClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQoPj0gMC45KQpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKQpGaWxlbmFtZTogZGVicy9BaHNGaWx0ZXItNS4yLjAtMy1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDEyNDY2MApNRDVzdW06IGFlYTdiOGEyZWNiOTM2MjE5OTYwMmU0Y2M3ZTEzMGUzClNIQTE6IDZiNDAwZjEzOWE1ZWZkM2M0YjJhMDM5Mjc3NGQ2ZDk3YzYzMmNhMmEKU0hBMjU2OiBmMDhhODYxNTczZTUyYzI3MjE3ZjEyMDQzZDc5NTI0MzUwNDliMWIyMWY3YjU0Mzk0MTNjY2FhOTk2YzI5ZWM1ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog54ix5Zue5pS25Yqp5omL77ya54K55Ye75oKs5rWu55CD5Y+q5byA6Z2i5p2/44CB6ZW/5oyJ5oKs5rWu55CD5oiW54K544CM5byA5aeL54is5Y+W44CN5omN5oyJ5YWz6ZSu6K+N55u06L+e5Lil6YCJ5o6l5Y+j57+76aG15oqT5YWo77yI5LiN5L6d6LWWIEFwcCDmmK/lkKbliqDovb3ov4fliJfooajvvInjgIIKICogMS7oh6rliqjooaXlhajns7vnu5/niYjmnKwv55S15rGg5pWI546HL+WFheeUteasoeaVsOetieacuuWGte+8jOWIl+ihqOW4puW6j+WPtwogKiAyLuaMieacuuWeiy/lhoXlrZgv5oiQ6ImyL+eUteaxoC/ku7fmoLwv57O757uf54mI5pys5Yy66Ze0562b6YCJCiAqIDMu5aSN5Yi25Y2V5p2h5oiW5YWo6YOo6K+m5oOF6ZO+5o6l77yM5bm25Y+v5ZyoIEFwcCDlhoXnm7TmjqXmiZPlvIDlr7nlupTllYblk4Hor6bmg4XpobUKICogNC7mlbDmja7ku4Xkv53lrZjlnKjmnKzmnLrmspnnm5LvvIzkuI3kuIrkvKDku7vkvZXlhoXlrrkKQXV0aG9yOiBBeHMgPHFpYW96aGFuaTAwMEAxNjMuY29tPgpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2Foc2ZpbHRlci5qcGcKTmFtZTogQWhzRmlsdGVy",
+  "metadata_sha256": "d2b157a7eb6491b7258d3bec35faa56e8a7fb3bcf41a2efecb63adb21a005a17",
+  "object_key": "debs/f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5.deb",
+  "schema": 1,
+  "sha256": "f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5",
+  "size": 124660,
+  "source": {
+    "filename_b64": "ZGVicy9BaHNGaWx0ZXItNS4yLjAtMy1pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "c5421019d1cdc7183aaef2a6b2bfc3da078d6985"
+  }
+}

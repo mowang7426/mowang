@@ -1,0 +1,18 @@
+{
+  "id": "com.crctdd.pyvideo--0.0.3--iphoneos-arm64e--8f2c65c584cf8a51--1cceb3533ef7fb65",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.crctdd.pyvideo",
+    "version": "0.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNyY3RkZC5weXZpZGVvClZlcnNpb246IDAuMC4zCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IGNyY3RkZApJbnN0YWxsZWQtU2l6ZTogMjk2OApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCksIG1vYmlsZXN1YnN0cmF0ZSwgY29tLm9wYTMzNC5saWJzYW5keSAoPj0gMS4xLjYpCkZpbGVuYW1lOiBkZWJzL1B5VmlkZW9fMC4wLjNfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAxMzI1NTQ2Ck1ENXN1bTogYzY1NDBlZDU2MGRhOTIyY2Q1NTgwZWNlZGE5ZGQ5ODQKU0hBMTogZmM3Y2I3ZDI1YWFiMGU5OTg2YTRjZmQ5OTMwY2UyMDQ3N2I1YmMzYgpTSEEyNTY6IDhmMmM2NWM1ODRjZjhhNTExM2U2YjU5Njc2ZTU3ODJlMGI0ZTQ3NDVjNDQ1OGM4Y2MwMTdmMWY5MDdhYmZhMzIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDojrflj5blvZPliY3pobXpnaLnmoTop4bpopHlubbkuIvovb3vvIzku4VTYWZhcmnmtY/op4jlmajlj6/nlKjvvJvml6Dorr7nva7pobnjgILvvIjmlK/mjIFpT1MgMTUtMTfvvIlcCiBcCiDplb/mjIlTYWZhcmnlj7PkuIvop5Loj5zljZXplK4g5oiW6ICFXAog4oaT5L2/55So5Lul5LiLVVJMIFNjaGVtZeinpuWPkeKGk1wKIFwKIHB5dmlkZW86Ly92aWRlby1kb3dubG9hZGVyCkF1dGhvcjogY3JjdGRkCk5hbWU6IFB5VmlkZW8=",
+  "metadata_sha256": "732080828e472098d4b8f9572863905494890573dd63734cbe8804113ec35d0d",
+  "object_key": "debs/8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32.deb",
+  "schema": 1,
+  "sha256": "8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32",
+  "size": 1325546,
+  "source": {
+    "filename_b64": "ZGVicy9QeVZpZGVvXzAuMC4zX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "0123dc8dc426dbcabde745aafbed11dd3170494c"
+  }
+}

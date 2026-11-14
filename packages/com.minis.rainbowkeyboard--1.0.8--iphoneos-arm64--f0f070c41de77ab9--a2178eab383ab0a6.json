@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.rainbowkeyboard--1.0.8--iphoneos-arm64--f0f070c41de77ab9--a2178eab383ab0a6",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.minis.rainbowkeyboard",
+    "version": "1.0.8"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnJhaW5ib3drZXlib2FyZApWZXJzaW9uOiAxLjAuOApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1vV2FuZwpJbnN0YWxsZWQtU2l6ZTogMTcyCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9SYWluYm93S2V5Ym9hcmQtcm9vdGxlc3MtMS4wLjguZGViClNpemU6IDEyNzI0Ck1ENXN1bTogNDQ4MWRjMDcwOGU0MDI4ZjhiOGI1MTQyN2M0ZWM0MmUKU0hBMTogMjY3NTNiMDE3N2VjNWUxMzQ3ZThiNDE1MTM1OWFiNThjMDBhZmJmNgpTSEEyNTY6IGYwZjA3MGM0MWRlNzdhYjk3NmFkM2MxMGVlODI5NjJkYjBlNzE3ZDZmZTU5MjlkZDc1NzlhMWJjZGVlODYxMzkKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkuInmmJ/po47moLzlvanombnplK7nm5jlhYnmlYjvvIzmlK/mjIHljp/nlJ/plK7nm5jlkozlvq7kv6HovpPlhaXms5UKQXV0aG9yOiBNb1dhbmcKTmFtZTog5b2p6Jm56ZSu55uY5YWJ5pWI",
+  "metadata_sha256": "da6e9b287ca8a7d184a039a9cedf2cf0a7bfb11bddde7646b135d7f87e37f28d",
+  "object_key": "debs/f0f070c41de77ab976ad3c10ee82962db0e717d6fe5929dd7579a1bcdee86139.deb",
+  "schema": 1,
+  "sha256": "f0f070c41de77ab976ad3c10ee82962db0e717d6fe5929dd7579a1bcdee86139",
+  "size": 12724,
+  "source": {
+    "filename_b64": "ZGVicy9SYWluYm93S2V5Ym9hcmQtcm9vdGxlc3MtMS4wLjguZGVi",
+    "git_blob": "39c299c53a8050bc7cbc9f520f541d283089ddbb"
+  }
+}

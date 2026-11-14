@@ -1,0 +1,18 @@
+{
+  "id": "com.icli.icli--0.10.0--iphoneos-arm64--7dd20c99e9105c44--798801703cc8497f",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.icli.icli",
+    "version": "0.10.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmljbGkuaWNsaQpWZXJzaW9uOiAwLjEwLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBpY2xpCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9pY2xpXzAuMTAuMF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTEyMDQ3NgpNRDVzdW06IDFmMmJkNzUxZTliN2JlNTg2NmU0MzZjZjk5ZTQxMmM4ClNIQTE6IDA2NDY4ZDM3Y2JmYTFhN2NmMTBmZmUxODU2ODNhMTE0YzkwMWUxYmMKU0hBMjU2OiA3ZGQyMGM5OWU5MTA1YzQ0MjdjNWEwMjFlYTFmZjI1ZmIyMDM5NWQ5NjMwOWU4NmVjZmVjZTgyMDA2ZDU3YTBmClNlY3Rpb246IERldmVsb3BtZW50CkRlc2NyaXB0aW9uOiBPbi1kZXZpY2UgaU9TIGNvbnRyb2wgQ0xJCk5hbWU6IGljbGk=",
+  "metadata_sha256": "8f2d08d2f4b533528752911a55a1f8e4d1f06a07cf0c4bd30fc0865bc1e23599",
+  "object_key": "debs/7dd20c99e9105c4427c5a021ea1ff25fb20395d96309e86ecfece82006d57a0f.deb",
+  "schema": 1,
+  "sha256": "7dd20c99e9105c4427c5a021ea1ff25fb20395d96309e86ecfece82006d57a0f",
+  "size": 1120476,
+  "source": {
+    "filename_b64": "ZGVicy9pY2xpXzAuMTAuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "bf54dd5eee8fc0a31bc39afc8945bcff18e7b5cf"
+  }
+}

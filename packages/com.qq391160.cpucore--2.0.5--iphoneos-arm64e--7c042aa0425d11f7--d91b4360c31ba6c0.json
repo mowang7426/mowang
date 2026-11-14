@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.5--iphoneos-arm64e--7c042aa0425d11f7--d91b4360c31ba6c0",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjUKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogcXEzOTExNjAKSW5zdGFsbGVkLVNpemU6IDMxMTIKUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCg+PSAwLjkpCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNi4wLjApCkNvbmZsaWN0czogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5ClJlcGxhY2VzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKRmlsZW5hbWU6IGRlYnMvY29tLnFxMzkxMTYwLmNwdWNvcmVfMi4wLjVfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAxNjc0MDgyCk1ENXN1bTogMjhkZTQ1ZWM4NWJkMWIzMzM5MzQxYTk5NmFlMjg5Y2UKU0hBMTogYjJhZWMyMWVmMGZhNWY0ZTNlMTYxOTc0MjM4MmYzOGVlMWVhMGY0OApTSEEyNTY6IDdjMDQyYWEwNDI1ZDExZjcxZGJjYmQzZGE0NGVkNTMzMTQ0MGQ0NWE5NmZkOGI3ZDlhNWNkMjY0NWIwYmQzNTcKU2VjdGlvbjogVHdlYWtzClByaW9yaXR5OiBvcHRpb25hbApEZXNjcmlwdGlvbjog5LiJ56eN5qih5byP5LiA6ZSu5YiH5o2i55qE5pm66IO95rip5o6n566h55CG44CCIOaZuuiDve+8mua4uOaIj+mrmOaAp+iDveOAgeW6lOeUqOS9jumikeeOh+OAgeahjOmdouWOn+eUn+OAgea7keWKqOaPkOmAn+OAgeeGhOWxj+ecgeeUte+8myDkvY7lip/ogJfvvJrlhajlsYDnnIHnlLXvvIzlj6/mlL7ooYzkuKrliKvlupTnlKjvvJsg5oCn6IO95qih5byP77ya5YWo5bGA6auY5oCn6IO977yM5Y+v5Y2V54us5Y6L5L2O5oyH5a6a5bqU55So77ybIOavj+S4quW6lOeUqOWPr+WNleeLrOiuvue9ruaho+S9jeOAggpBdXRob3I6IHFxMzkxMTYwCkljb246IGh0dHBzOi8vcXEzOTExNjAuZ2l0aHViLmlvL3JlcG8vaWNvbnMvdGhlcm1hbC5wbmcKTmFtZTogQ1BV5pm66IO95rip5o6nKGlPUzE2LzE3KQ==",
+  "metadata_sha256": "c2b5d045e35c2e8a2deaaf3c180f5e0676e4afb4703be3c8a0cdc89776c22053",
+  "object_key": "debs/7c042aa0425d11f71dbcbd3da44ed5331440d45a96fd8b7d9a5cd2645b0bd357.deb",
+  "schema": 1,
+  "sha256": "7c042aa0425d11f71dbcbd3da44ed5331440d45a96fd8b7d9a5cd2645b0bd357",
+  "size": 1674082,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuNV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "1d2507cae77ee6621fac0013daba5bb79fef7b38"
+  }
+}

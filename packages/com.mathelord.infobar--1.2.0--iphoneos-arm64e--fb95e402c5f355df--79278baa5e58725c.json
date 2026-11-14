@@ -1,0 +1,18 @@
+{
+  "id": "com.mathelord.infobar--1.2.0--iphoneos-arm64e--fb95e402c5f355df--79278baa5e58725c",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mathelord.infobar",
+    "version": "1.2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1hdGhlbG9yZC5pbmZvYmFyClZlcnNpb246IDEuMi4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IG1hdGhlbG9yZApJbnN0YWxsZWQtU2l6ZTogNDgwCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvY29tLm1hdGhlbG9yZC5pbmZvYmFyXzEuMi4wX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNTM3MjAKTUQ1c3VtOiAyYWUwODMxYzg3OGUzOTBkY2YyM2FmYWRhMWNiZWQ1YQpTSEExOiBiNjMyN2IzYzM0ZjY5OGEzMzYyODk1MDBjZTdkOWU1ZWJmY2I1NTRjClNIQTI1NjogZmI5NWU0MDJjNWYzNTVkZmUxOGNhMWMxZmJhYjk3ZTI2M2FhOTI3Zjg3ZmNiODQyOGUwYWVmODg2NGM1MThlZApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IE1vdmFibGUgb3ZlcmxheSBzaG93aW5nIENQVSwgUkFNLCBiYXR0ZXJ5LCBuZXR3b3JrIGFuZCBzeXN0ZW0gaW5mby4gUGluIGl0IGluIHBsYWNlLCBjb2xsYXBzZSBpdCwgYW5kIGNvbmZpZ3VyZSBldmVyeXRoaW5nIGluIFNldHRpbmdzLgpBdXRob3I6IG1hdGhlbG9yZApOYW1lOiBJbmZvQmFy",
+  "metadata_sha256": "bbbe3e5968abe900f9ea5cdcc8cd8dfa6f31deef9b9ce6d3370b4775dc916512",
+  "object_key": "debs/fb95e402c5f355dfe18ca1c1fbab97e263aa927f87fcb8428e0aef8864c518ed.deb",
+  "schema": 1,
+  "sha256": "fb95e402c5f355dfe18ca1c1fbab97e263aa927f87fcb8428e0aef8864c518ed",
+  "size": 53720,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubWF0aGVsb3JkLmluZm9iYXJfMS4yLjBfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "a42b7dba26ecf0a1c36da1c02e5184313d4249d1"
+  }
+}

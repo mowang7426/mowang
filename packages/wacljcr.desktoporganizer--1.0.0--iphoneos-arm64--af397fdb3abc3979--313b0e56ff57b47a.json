@@ -1,0 +1,18 @@
+{
+  "id": "wacljcr.desktoporganizer--1.0.0--iphoneos-arm64--af397fdb3abc3979--313b0e56ff57b47a",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "wacljcr.desktoporganizer",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogd2FjbGpjci5kZXNrdG9wb3JnYW5pemVyClZlcnNpb246IDEuMC4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogd2FjbGpjcgpJbnN0YWxsZWQtU2l6ZTogNjY4CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlIHwgZWxsZWtpdCwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy/moYzpnaLmlbTnkIZfMS4wLjBfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDE3NTUxNApNRDVzdW06IGYyOWIzZjY5MzcxNGM2NTlmYjk3NzU5ZjgwYTRlNDAyClNIQTE6IDgzNzY1YThjMmY2N2E3YmIyYTJhMTczYWUyOTdiMDQwYzlmYWFjOTMKU0hBMjU2OiBhZjM5N2ZkYjNhYmMzOTc5YmQwZDM2YWY0MDUyZDQ3Zjg5MWVjODQ3ZmEwNjU0NGNlM2VhZmEyZTZkYjJjYTIyClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog57qv6Ieq5Yqo5YyW5qGM6Z2i5pW055CG77ya5oyJ5Zu65a6aIDEzIOe7hOWIhuexu+aKiuS4u+WxjyBhcHAg5pS26L+b5paH5Lu25aS577yI5oyJIGJ1bmRsZUlEIOeyvuehruWMuemFje+8iQog5omL5py66Ieq5bim77yI6ZmkIOa1j+iniOWZqC/mlofku7Yv6K6+572uL+ebuOacui/lpIflv5jlvZXvvInihpLjgIzmiYvmnLroh6rluKbjgI3vvIjkuIDkuKrmlofku7blpLnvvIzph4zpnaLnv7vpobXvvInvvJvlhbbkvZnmjInnlKjpgJTliIYgMTIg57uE77yMCiDmr4/nu4TmnIDlpJogOSDkuKrvvIgzeDMg5LiA6aG177yJ77yM6LaF6L+H5ouG5oiQ44CM57uE5ZCNIDEgLyDnu4TlkI0gMuKApuOAjeOAguaWsOijhSBhcHAg6Ieq5Yqo5b2S57G777yMOSDkuKrmu6Hkuoboh6rliqjlvIDmlrDpobXjgIIKIOeCueOAjOeri+WNs+aVtOeQhuOAjeWFiOi9rOWciOOAgeaVtOeQhuWujOiHquWKqOW8ueOAjOaVtOeQhuWujOaIkOOAjeOAggog5pSv5oyBIGlPUyAxNS4wIOKAkyAxNi42IHJvb3RsZXNz77yIRG9wYW1pbmUgLyBSZWxheGluIC8gUm9vdEhpZGXvvInjgIIKQXV0aG9yOiB3YWNsamNyCk5hbWU6IOahjOmdouaVtOeQhg==",
+  "metadata_sha256": "15d2574da36abfdba14ab414e818e339ce78afc916824370c58ebadf742d81e5",
+  "object_key": "debs/af397fdb3abc3979bd0d36af4052d47f891ec847fa06544ce3eafa2e6db2ca22.deb",
+  "schema": 1,
+  "sha256": "af397fdb3abc3979bd0d36af4052d47f891ec847fa06544ce3eafa2e6db2ca22",
+  "size": 175514,
+  "source": {
+    "filename_b64": "ZGVicy/moYzpnaLmlbTnkIZfMS4wLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "a3298179c31e9e80699facfc531f81ea67d954e2"
+  }
+}

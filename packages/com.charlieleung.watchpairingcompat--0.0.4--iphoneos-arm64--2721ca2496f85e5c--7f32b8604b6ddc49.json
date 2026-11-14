@@ -1,0 +1,18 @@
+{
+  "id": "com.charlieleung.watchpairingcompat--0.0.4--iphoneos-arm64--2721ca2496f85e5c--7f32b8604b6ddc49",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.charlieleung.watchpairingcompat",
+    "version": "0.0.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNoYXJsaWVsZXVuZy53YXRjaHBhaXJpbmdjb21wYXQKVmVyc2lvbjogMC4wLjQKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBDaGFybGllIExldW5nCkluc3RhbGxlZC1TaXplOiAzOTc2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgZmlybXdhcmUgKD49IDE1LjApCkZpbGVuYW1lOiBkZWJzL2NvbS5jaGFybGllbGV1bmcud2F0Y2hwYWlyaW5nY29tcGF0XzAuMC40X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxOTYzOTEwCk1ENXN1bTogMDZkOTVhNmFjNTg4YmRhNWU5NDAyYmE4YmJkMGViODkKU0hBMTogOWI5YzNhYTkxZmIxNjA5MTU1NTQ1YTZkYTlmMzJmYzhlY2Y2OTg2NQpTSEEyNTY6IDI3MjFjYTI0OTZmODVlNWMyOWI2MGVjMjRkNDQ1YWMxOTA0ZmRmMDAzZmQ0NzU3ZTcyNmY1NzBlODc1OTE1ZGUKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDph4fnlKggUElOIOmFjeWvueazle+8jOaJq+eggemFjeWvueaaguS4jeaUr+aMgeOAguWuieijheWQjumcgOimgemHjeWQr+eUqOaIt+epuumXtO+8jOS7heWcqCBpT1MgMTcuMOWSjCB3YXRjaE9TIDI2LjYg5LiK5rWL6K+V5oiQ5Yqf44CCCkF1dGhvcjogQ2hhcmxpZSBMZXVuZwpOYW1lOiBXYXRjaCBQYWlyaW5nIENvbXBhdA==",
+  "metadata_sha256": "32385fc9c81bede55e03b66c87db553f973ffd10dc4d29a8259b35659c18243d",
+  "object_key": "debs/2721ca2496f85e5c29b60ec24d445ac1904fdf003fd4757e726f570e875915de.deb",
+  "schema": 1,
+  "sha256": "2721ca2496f85e5c29b60ec24d445ac1904fdf003fd4757e726f570e875915de",
+  "size": 1963910,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uY2hhcmxpZWxldW5nLndhdGNocGFpcmluZ2NvbXBhdF8wLjAuNF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "3debe34f37be6488bcb14b67a51cdececda4ff8c"
+  }
+}

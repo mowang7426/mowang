@@ -1,0 +1,18 @@
+{
+  "id": "com.iosdump.shellx--6.0.0--iphoneos-arm64e--8e81fab25eb6a845--48bab149302d3ed8",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.iosdump.shellx",
+    "version": "6.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlvc2R1bXAuc2hlbGx4ClZlcnNpb246IDYuMC4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IGlvc2R1bXAKSW5zdGFsbGVkLVNpemU6IDE0NjI4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5jY3N1cHBvcnQKQ29uZmxpY3RzOiBjb20uam9udGVsYW5nLnNuYXBwZXIzLCBieWcuaW9zaW9zLm5ldC5zbmFwcGVyMywgY29tLmpvbnRlbGFuZy5zbmFwcGVyLCBjb20uam9udGVsYW5nLnNuYXBwZXIyLnBhY2tpeCwgeHl6LmN5cHduLnNuYXBwZXJmcjMzCkZpbGVuYW1lOiBkZWJzL2NvbS5pb3NkdW1wLnNoZWxseF82LjAuMF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDMyNDI4NTIKTUQ1c3VtOiBkMmM1ODRhNTMzMjZmODEwZmQ2YWNhN2NiZDBjNDkwZQpTSEExOiBhZGQ2OTY1ZjU0OWExYzVhZDFiNDNmOWYxZjQ0OGZhYjZiMDJhZDZlClNIQTI1NjogOGU4MWZhYjI1ZWI2YTg0NTQ0ZGY2ZGQ1ZDY5YjU5MWI4ZmEwY2FkMmZhMTM3OTBmOGQ5N2U0MzczNTZlY2ExYQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOaUr+aMgeW9leWxjy/miKrlm77lpZflo7PvvIzmsLTljbDku6Xlj4rljLrln5/miKrlm77jgIHplb/miKrlm77jgIFBaemXruetlOOAgeW/q+aNt+aJi+WKv+etie+8jOWFvOWuuWlPUzE0LTE35omA5pyJ6LaK54uxCkF1dGhvcjogaW9zZHVtcApOYW1lOiBTSEVMTFg=",
+  "metadata_sha256": "f09c19bafbad8ef682a2cd0f8c7e3eac861f2df81bb933aa849e4285a5677dc9",
+  "object_key": "debs/8e81fab25eb6a84544df6dd5d69b591b8fa0cad2fa13790f8d97e437356eca1a.deb",
+  "schema": 1,
+  "sha256": "8e81fab25eb6a84544df6dd5d69b591b8fa0cad2fa13790f8d97e437356eca1a",
+  "size": 3242852,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uaW9zZHVtcC5zaGVsbHhfNi4wLjBfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "7bd5dae0465c2e6c990a09a8aea7c706e343d93c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.naiwaguo.native--0.1.1--iphoneos-arm64--2be10559e151f355--25adfaff5bf5484e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.naiwaguo.native",
+    "version": "0.1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm5haXdhZ3VvLm5hdGl2ZQpWZXJzaW9uOiAwLjEuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE5haVdhCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9jb20ubmFpd2FndW8ubmF0aXZlXzAuMS4xX2lwaG9uZW9zLeaXoOaguS5kZWIKU2l6ZTogMzMzNjIyCk1ENXN1bTogMzhkOTliMDY2OTQwNzE2NDViNmI5ZTFlYmFkODk4YjAKU0hBMTogM2Y5NTI5MTQzOTRmY2QyNGFlNzM2YTlkNTg3YmE5ZGZlODFkMGIwZApTSEEyNTY6IDJiZTEwNTU5ZTE1MWYzNTUyNmJhNzIyZjNlZTFiZTllNmE4NTRkZjVkZGRhYTg0ZGZjNGU1ZTI4ZmZmMTkxMjAKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBGdWxsLWhlaWdodCB2aWRlbyBwbGF5YmFjayBhbmQgbmF0aXZlIGZsb2F0aW5nIGdsYXNzIHRhYiBiYXIgZm9yIFJlZCBGcnVpdCBTaG9ydCBEcmFtYS4KQXV0aG9yOiBOYWlXYQpOYW1lOiDlpbbom5k=",
+  "metadata_sha256": "fa23c281243288b9b29352fb83432004342c26dc20f1867d808cb35312e9604e",
+  "object_key": "debs/2be10559e151f35526ba722f3ee1be9e6a854df5dddaa84dfc4e5e28fff19120.deb",
+  "schema": 1,
+  "sha256": "2be10559e151f35526ba722f3ee1be9e6a854df5dddaa84dfc4e5e28fff19120",
+  "size": 333622,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubmFpd2FndW8ubmF0aXZlXzAuMS4xX2lwaG9uZW9zLeaXoOaguS5kZWI=",
+    "git_blob": "204cde2978495af2d33dbd7ee04dfe53386b2204"
+  }
+}

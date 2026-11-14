@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.pickerwheeldock--0.1.1-1--iphoneos-arm64--a929402193c44134--bc7b3a1a652c6e71",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.pickerwheeldock",
+    "version": "0.1.1-1"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5waWNrZXJ3aGVlbGRvY2sKVmVyc2lvbjogMC4xLjEtMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEJhbmFuYQpJbnN0YWxsZWQtU2l6ZTogNTU2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTUuMCksIGZpcm13YXJlICg8PCAxOC4wKQpGaWxlbmFtZTogZGVicy9LaW5ldGljRG9ja18wLjEuMS0xX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA2NzA1NApNRDVzdW06IGMwZmYxMWFkZTBkMmIwMTgwYmEzZjc2M2NhN2M3NTdiClNIQTE6IGJhZjRiYTVlOTdhNDk2NmRkOWMwZmJhN2RjYjA0Zjk2YmI1MjE1OGIKU0hBMjU2OiBhOTI5NDAyMTkzYzQ0MTM0NDFjODAyNGZkNDgwZmJmNzc0YmJlNDQ4NzIzNDE0MThlMjJhOTU5MmRjMDNhNjgzClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQSBtYWduaWZ5aW5nIGFuZCBzY3JvbGxpbmcgRG9jayBmb3IgaU9TIDE1LCAxNiBhbmQgMTcuCkF1dGhvcjogQmFuYW5hCk5hbWU6IEtpbmV0aWNEb2Nr",
+  "metadata_sha256": "e900c1ec22317f6f9d2fe46c5fb9f1aa8cc74a55bbf2154a4bbcdcdb466772df",
+  "object_key": "debs/a929402193c4413441c8024fd480fbf774bbe44872341418e22a9592dc03a683.deb",
+  "schema": 1,
+  "sha256": "a929402193c4413441c8024fd480fbf774bbe44872341418e22a9592dc03a683",
+  "size": 67054,
+  "source": {
+    "filename_b64": "ZGVicy9LaW5ldGljRG9ja18wLjEuMS0xX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "e9ac282d0bf9d2f5ef6b7b1de80e01512502504f"
+  }
+}

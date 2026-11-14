@@ -1,0 +1,18 @@
+{
+  "id": "com.local.activationsuppressor--1.1.5--iphoneos-arm64e--cf654ab9f0ffdb9b--cf3487f1a747277a",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.local.activationsuppressor",
+    "version": "1.1.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmxvY2FsLmFjdGl2YXRpb25zdXBwcmVzc29yClZlcnNpb246IDEuMS41CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IE1vV2FuZwpJbnN0YWxsZWQtU2l6ZTogMTY0CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgZmlybXdhcmUgKDw8IDE4LjApCkZpbGVuYW1lOiBkZWJzL2NvbS5sb2NhbC5hY3RpdmF0aW9uc3VwcHJlc3Nvcl8xLjEuNV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDg2MTQKTUQ1c3VtOiA0MmY1M2Q5OTI3YzE4YTU0MDY3ZGE1Mzc5NWQyN2ZjNwpTSEExOiA3ZDVjN2ViM2QzZTdkYzA2YzM3MmQ0NzViMDZhOGZkMjZkYThhZjc1ClNIQTI1NjogY2Y2NTRhYjlmMGZmZGI5YmY2N2EyYzc4MjJiZWE1OTI4N2FiMzYzOWZjYWZkMmViMzc3OWUyZTc2YzNkNzFmYQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOiHquWKqOWFs+mXreWNoei0tOacuuKAnOmcgOimgea/gOa0u+KAneaPkOekuu+8jOWumuWQkei3s+i/h+KAnOi9r+S7tuabtOaWsOW3suWujOaIkOKAneWRiuefpemhte+8jOaXoOmcgOiuvue9ru+8jOmdouWQkSBpT1MgMTXigJMxNyDnmoQgUm9vdEhpZGUg6ZqQ5qC5546v5aKD44CCCkF1dGhvcjogTW9XYW5nCk5hbWU6IOa/gOa0u+W8ueeql+Wxj+iUvQ==",
+  "metadata_sha256": "6a2504c18e4a8ea773a217eea91df9a6a9473f6a19e5ecc4eeb2e1c96e0eb1e3",
+  "object_key": "debs/cf654ab9f0ffdb9bf67a2c7822bea59287ab3639fcafd2eb3779e2e76c3d71fa.deb",
+  "schema": 1,
+  "sha256": "cf654ab9f0ffdb9bf67a2c7822bea59287ab3639fcafd2eb3779e2e76c3d71fa",
+  "size": 8614,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubG9jYWwuYWN0aXZhdGlvbnN1cHByZXNzb3JfMS4xLjVfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "09ae78b9affa71651d7c9b84cfcc7de1e6834739"
+  }
+}

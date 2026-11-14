@@ -1,0 +1,18 @@
+{
+  "id": "com.wcliquidglass.free--2.0.3--iphoneos-arm64e--f1375dde9d2b32cb--a35a89ece4233bd6",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.wcliquidglass.free",
+    "version": "2.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLndjbGlxdWlkZ2xhc3MuZnJlZQpWZXJzaW9uOiAyLjAuMwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBUTHp5cGp5CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSB8IG9yZy5jb29sc3Rhci5saWJob29rZXIgfCBlbGxla2l0LCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvY29tLndjbGlxdWlkZ2xhc3MuZnJlZV8yLjAuM19pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDczMTIyOApNRDVzdW06IDY1Y2EyZTk1OGJiNmZmMWY0NDA4MzlmZTQ4NjM0ZGZhClNIQTE6IGYzNWEyYmFmNzNiMDUyZDIyNDk4NGNmOTI5YTY2OGM2YzJhM2RlMjQKU0hBMjU2OiBmMTM3NWRkZTlkMmIzMmNiZDhhMzZkM2IwYzM1NTFiYzdlYmRhMTRmYTkwZjI0NmVlZGM1NTRhMjJlOTMzMjgxClNlY3Rpb246IOW+ruS/oeaPkuS7tgpEZXNjcmlwdGlvbjogNTjlvq7kv6HmtrLmgIHnjrvnkoPvvIjlhY3mjojmnYPvvInjgILlvq7kv6HnlYzpnaLmtrLmgIHnjrvnkoPpo47moLznvo7ljJbvvIxyb290bGVzcyDkuJPnlKjjgILlhoXnva7mnKzlnLDlhazpkqXpqoznrb7vvIzml6DogZTnvZHmjojmnYPvvIzku4Xoh6rnlKjjgIIKQXV0aG9yOiBUTHp5cGp5Ck5hbWU6IDU45b6u5L+h5ray5oCB546755KD77yI5YWN5o6I5p2D77yJ",
+  "metadata_sha256": "b093a9dd11a0624e2a46a93a79fe2122dcdda4620cc525e400ff1dd5afc5328b",
+  "object_key": "debs/f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281.deb",
+  "schema": 1,
+  "sha256": "f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281",
+  "size": 731228,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ud2NsaXF1aWRnbGFzcy5mcmVlXzIuMC4zX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "852f687a40a6db7a6a4ee3b95fe27440fc94676c"
+  }
+}

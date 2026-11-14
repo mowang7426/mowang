@@ -1,0 +1,18 @@
+{
+  "id": "com.touchworld.doubantweak--1.2.0--iphoneos-arm64--4d1eaa664955d4ab--c8e4fafaf92c315b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.touchWorld.doubanTweak",
+    "version": "1.2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnRvdWNoV29ybGQuZG91YmFuVHdlYWsKVmVyc2lvbjogMS4yLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBUb3VjaFdvcmxkCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApCkZpbGVuYW1lOiBkZWJzL0RvdWJhblR3ZWFrXzEuMi4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxOTk0OApNRDVzdW06IDAzZTY4NTc5MDJkY2QwNTViMDg0MmM4MmUxYjhlMGVmClNIQTE6IGUwYTcyYzBmMGE0ODU4ODM3YjNlNDBjMTI5NWVjYWQ2NzRmNTcxODAKU0hBMjU2OiA0ZDFlYWE2NjQ5NTVkNGFiMzg0YTJjNmU0OTEzNzlhNDE0NmY2Yzk0ZWNhZWU0ZTcyNzM2Nzg4ZmU1ZmUyYmUxClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOWOu+mZpOixhueTo+W5v+WRiuaPkuS7tgpBdXRob3I6IFRvdWNoV29ybGQKSWNvbjogaHR0cHM6Ly90b3VjaGZyaWVuZC5naXRodWIuaW8vZGVwaWN0aW9ucy9jb20udG91Y2hXb3JsZC5kb3ViYW5Ud2Vhay9pY29uLnBuZwpOYW1lOiBEb3ViYW5Ud2Vhaw==",
+  "metadata_sha256": "09909406f1f6e6ada6a7805dd455f2eb561622e742d724bb59dfe5d633b79099",
+  "object_key": "debs/4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1.deb",
+  "schema": 1,
+  "sha256": "4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1",
+  "size": 19948,
+  "source": {
+    "filename_b64": "ZGVicy9Eb3ViYW5Ud2Vha18xLjIuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "4e164adec7e562c9882e3ffdbc3bed6468598989"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.joshuaseltzer.sleeperx--4.0.0--iphoneos-arm64e--46516d3a484b0132--e3eaf2b22e22e1c1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.joshuaseltzer.sleeperx",
+    "version": "4.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmpvc2h1YXNlbHR6ZXIuc2xlZXBlcngKVmVyc2lvbjogNC4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogSm9zaHVhIFNlbHR6ZXIKSW5zdGFsbGVkLVNpemU6IDE3NjgKUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCg+PSAwLjkpCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBmaXJtd2FyZSAoPj0xNS4wKSwgZmlybXdhcmUgKDw8MjYuMCkKQ29uZmxpY3RzOiBvcmcudGhlYmlnYm9zcy5zbGVlcGVyLCBjb20uam9zaHVhc2VsdHplci5zbGVlcGVyCkZpbGVuYW1lOiBkZWJzL1NsZWVwZXJYXzQuMC4wX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMTM2NjU2Ck1ENXN1bTogMDY4NDM4ZTg4NDU3ZDlkMTM5MTVmMzI4NWJiMDU3OTQKU0hBMTogN2M0OWM5MTY2MzRkOGNmZjUwMGUzMWIwMDcxOGQ1NzgyMDE2ZDJiZApTSEEyNTY6IDQ2NTE2ZDNhNDg0YjAxMzI2NTU3MTJjM2Q3MzMwNjIzYjNiYjcwMTI3ZjU1NmE4YTliNTNkMTdmMDIyYjMxOTQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBTZXQgY3VzdG9tIHNub296ZSB0aW1lcywgc2tpcCBhbGFybXMsIGFuZCBtb3JlIHdpdGggU2xlZXBlclgu6Ze56ZKf5LyY5YyW6LCD5pW077yM5Y6f5Lu3MC45OeWIgO+8jOeOsOWFjei0ueS9v+eUqO+8gQpBdXRob3I6IEpvc2h1YSBTZWx0emVyCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vc2xlZXBlcnguanBnCk5hbWU6IFNsZWVwZXJYClNwb25zb3I6IEpvc2h1YSBTZWx0emVy",
+  "metadata_sha256": "cb241f2457fab53d591303affb7165781692fa81e622af43a06ce6711ded6c79",
+  "object_key": "debs/46516d3a484b0132655712c3d7330623b3bb70127f556a8a9b53d17f022b3194.deb",
+  "schema": 1,
+  "sha256": "46516d3a484b0132655712c3d7330623b3bb70127f556a8a9b53d17f022b3194",
+  "size": 136656,
+  "source": {
+    "filename_b64": "ZGVicy9TbGVlcGVyWF80LjAuMF9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "a586079fae2f1f6238e8f1762c7eb218ccdc5bb2"
+  }
+}

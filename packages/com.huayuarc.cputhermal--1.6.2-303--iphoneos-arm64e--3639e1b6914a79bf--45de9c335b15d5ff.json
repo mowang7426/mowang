@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.cputhermal--1.6.2-303--iphoneos-arm64e--3639e1b6914a79bf--45de9c335b15d5ff",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.huayuarc.cputhermal",
+    "version": "1.6.2-303"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwKVmVyc2lvbjogMS42LjItMzAzCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEh1YXl1YXJjCkluc3RhbGxlZC1TaXplOiAyMzIwClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQoPj0gMC45KQpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxfMS42LjItMzAzX2lwaG9uZW9zLWFybTY0ZS0xLmRlYgpTaXplOiA3NDg3ODYKTUQ1c3VtOiA5ZTQ3MzliNmY4MWRkY2I4NDViYTRmNjFlYWJjYTY4NgpTSEExOiA3MjljMDM1YjVkNmQ1ZjA2ODI5MzQ4MThhYWE3Y2I5MjZlNWExNTI4ClNIQTI1NjogMzYzOWUxYjY5MTRhNzliZmE5MWQxMWFlNGJkMTViNDE4YWZiZmI1N2JkYzUwZDFiMmExZWNkOGQ2ZjdlNWEwMQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAggog5pm66IO977ya5ri45oiP5ruh6aKR44CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybCiDkvY7lip/ogJfvvJrlhajlsYDnnIHnlLXvvIzlj6/mlL7ooYzkuKrliKvlupTnlKjvvJsKIOino+mZpOa4qeaOp++8muWFqOWxgOa7oemike+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8mwog5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CC6YCC6YWNIGlPUyAxNS0xN+OAggpBdXRob3I6IEh1YXl1YXJjCkljb246IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9xcTM5MTE2MC9jcHV0aGVybWFsLWFzc2V0cy9tYWluL0lNR18xMTMyLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL3NpbGVvZGVwaWN0aW9uL0NQVXRoZXJtYWwvanMuanNvbg==",
+  "metadata_sha256": "d71efc89c29fc7161d1caf464133e6240a5449d97d83a0ce3ddc3462f93adce8",
+  "object_key": "debs/3639e1b6914a79bfa91d11ae4bd15b418afbfb57bdc50d1b2a1ecd8d6f7e5a01.deb",
+  "schema": 1,
+  "sha256": "3639e1b6914a79bfa91d11ae4bd15b418afbfb57bdc50d1b2a1ecd8d6f7e5a01",
+  "size": 748786,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uaHVheXVhcmMuY3B1dGhlcm1hbF8xLjYuMi0zMDNfaXBob25lb3MtYXJtNjRlLTEuZGVi",
+    "git_blob": "f0a1d890cece2485e01798bb0581bc19a37f9536"
+  }
+}

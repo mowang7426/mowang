@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.lenticularwallpaper--0.0.9--iphoneos-arm64--02dada89d5598e8e--4f93ed443ab1cda9",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.lenticularwallpaper",
+    "version": "0.0.9"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5sZW50aWN1bGFyd2FsbHBhcGVyClZlcnNpb246IDAuMC45CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogYmFuYW5hCkluc3RhbGxlZC1TaXplOiA2MTYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIHByZWZlcmVuY2Vsb2FkZXIgKD49IDIuMi4zKQpGaWxlbmFtZTogZGVicy9MZW50aWN1bGFyIFdhbGxwYXBlcl8wLjAuOV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNzg3MDQKTUQ1c3VtOiBiNGQ2OWZlNzczMmU0YzEyYTMzMDFhZDgyMWNkYzJlMQpTSEExOiBhNzRlMDJiNDUxYzdmODdmODZiNWQ4MWYyNGU5MTNkNDlhZDE2MjY5ClNIQTI1NjogMDJkYWRhODlkNTU5OGU4ZWQ0MmU1MTFjNmQ3ZDY3NGY5ZWRmNzEzMmEwNGEyYTY1NzNjNGI2MTZmNmM0NTg3OQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOi2o+WRs+Wjgee6uO+8jOS4uiBTcHJpbmdCb2FyZCDmj5Dkvpvph43lipvmhJ/lupTnmoTlpJrlsYLjgIFBUE5H44CB6L2s5Zy65LiO5YWJ54Wn5aOB57q45pWI5p6c44CCIC8gRnVuIFdhbGxwYXBlciB3aXRoIGdyYXZpdHktZHJpdmVuIGxheWVyZWQsIEFQTkcsIHRyYW5zaXRpb24sIGFuZCBsaWdodGluZyBlZmZlY3RzIGZvciBTcHJpbmdCb2FyZC4KQXV0aG9yOiBiYW5hbmEKTmFtZTogTGVudGljdWxhciBXYWxscGFwZXI=",
+  "metadata_sha256": "6a2bc1f7f659b1fbe49a24f360f9c9674f4e82c93694cc95cad086c55c53d8be",
+  "object_key": "debs/02dada89d5598e8ed42e511c6d7d674f9edf7132a04a2a6573c4b616f6c45879.deb",
+  "schema": 1,
+  "sha256": "02dada89d5598e8ed42e511c6d7d674f9edf7132a04a2a6573c4b616f6c45879",
+  "size": 78704,
+  "source": {
+    "filename_b64": "ZGVicy9MZW50aWN1bGFyIFdhbGxwYXBlcl8wLjAuOV9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "0473a5c900df274afdce2cd3d0d1d5e31765769b"
+  }
+}

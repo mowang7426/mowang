@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.myeyeclean--0.1.0--iphoneos-arm64--f65f577ebbf868a9--4c91814f104fd39b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "im.mjh.myeyeclean",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLm15ZXllY2xlYW4KVmVyc2lvbjogMC4xLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBKdW5ob25nCkluc3RhbGxlZC1TaXplOiAxNjgKRmlsZW5hbWU6IGRlYnMv5Za155y857K+54G15Y675bm/5ZGKXzAuMS4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA3NjkwCk1ENXN1bTogNmNkYTBlNDlmNDQwZjVlZDBhMjk4ZDY1MDEyMjIwOGQKU0hBMTogODM0OWI4YTA1MzBkNGJjNWQzMjBhMTk4YWQ1MjA2NmJjOWJhNjFmYQpTSEEyNTY6IGY2NWY1NzdlYmJmODY4YTkxNzljMTY3NmE5YTYwNDU2MDQzYmVhMTYwZDgxMzM1NWZkOTU1NmJmNDg1ZTVlOWUKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDllrXnnLznsr7ngbXljrvlub/lkYrvvJrmjpDmlq3lvIDlsY8v5o+S5bGPL+S/oeaBr+a1gS9CYW5uZXIv5r+A5Yqx6KeG6aKR5Yqg6L2977yM5oum5oiq5bm/5ZGK6Lez6L2sYXBwCkF1dGhvcjogSnVuaG9uZwpOYW1lOiDllrXnnLznsr7ngbXljrvlub/lkYo=",
+  "metadata_sha256": "b8dbb44fcb0a99abb431aff75562b237b1310fdb43f177ff67c9cbe5dd9a5cfd",
+  "object_key": "debs/f65f577ebbf868a9179c1676a9a60456043bea160d813355fd9556bf485e5e9e.deb",
+  "schema": 1,
+  "sha256": "f65f577ebbf868a9179c1676a9a60456043bea160d813355fd9556bf485e5e9e",
+  "size": 7690,
+  "source": {
+    "filename_b64": "ZGVicy/llrXnnLznsr7ngbXljrvlub/lkYpfMC4xLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "ec65113b7b331434fb8a2fc04bd56cd5d0e775ed"
+  }
+}

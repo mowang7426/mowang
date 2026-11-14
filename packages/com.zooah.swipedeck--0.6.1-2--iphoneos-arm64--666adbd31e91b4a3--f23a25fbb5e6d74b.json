@@ -1,0 +1,18 @@
+{
+  "id": "com.zooah.swipedeck--0.6.1-2--iphoneos-arm64--666adbd31e91b4a3--f23a25fbb5e6d74b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.zooah.swipedeck",
+    "version": "0.6.1-2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnpvb2FoLnN3aXBlZGVjawpWZXJzaW9uOiAwLjYuMS0yCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogem9vYWgyMTIKSW5zdGFsbGVkLVNpemU6IDc5MjQKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL1N3aXBlRGVjayAtIOW/q+aNt+WKqeaJi18wLjYuMS0yX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNTY4MjA0Ck1ENXN1bTogZDBkODdmMDY1ZDg4YzYyMzQzMmM1MjI5MjVjMjZmMjMKU0hBMTogNjljYzVlYTQ2MmFmNTg1MGZjNTU3ZmJlMmZkMjVmOWVlZjMzZGMzMApTSEEyNTY6IDY2NmFkYmQzMWU5MWI0YTM5NzAwNjY4ZWVhMDgzOGFhYmJkNDgwZTkxMWFjMTlhZDM4N2U3NDViN2NiNThmN2QKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDku47lsY/luZXlj7PkuIvop5LlkJHkuIrmu5HliqjljbPlj6/orr/pl67lv6vpgJ/mk43kvZzpnaLmnb/jgIJSZXNwcmluZ+OAgeW+ruS/oeaUr+S7mOOAgeaUr+S7mOWuneOAgemUgeWxj+OAgeiuoeeul+WZqOetieeahOWPr+WumuWItuaMiemSruOAggogICogIFF1aWNrIGFjdGlvbiBwYW5lbCBhY2Nlc3NpYmxlIGJ5IHN3aXBpbmcgdXAgZnJvbSB0aGUgYm90dG9tLXJpZ2h0IGNvcm5lci4gQ3VzdG9taXphYmxlIGJ1dHRvbnMgZm9yIFJlc3ByaW5nLCBXZUNoYXQgUGF5LCBBbGlwYXksIExvY2sgU2NyZWVuLCBDYWxjdWxhdG9yLCBhbmQgbW9yZS4KQXV0aG9yOiB6b29haDIxMgpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL3N3aXBlZGVjay5wbmcKTmFtZTogU3dpcGVEZWNrIC0g5b+r5o235Yqp5omL",
+  "metadata_sha256": "0f69781e4126284e34f75069b5158526e5fe686cddbfc8c6c934c4addfddeb65",
+  "object_key": "debs/666adbd31e91b4a39700668eea0838aabbd480e911ac19ad387e745b7cb58f7d.deb",
+  "schema": 1,
+  "sha256": "666adbd31e91b4a39700668eea0838aabbd480e911ac19ad387e745b7cb58f7d",
+  "size": 2568204,
+  "source": {
+    "filename_b64": "ZGVicy9Td2lwZURlY2sgLSDlv6vmjbfliqnmiYtfMC42LjEtMl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "ccd135a3692640dba792f5d956f3601bb3149ee0"
+  }
+}

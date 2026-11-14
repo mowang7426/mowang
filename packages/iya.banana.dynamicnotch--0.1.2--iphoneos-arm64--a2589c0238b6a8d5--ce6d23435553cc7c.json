@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.dynamicnotch--0.1.2--iphoneos-arm64--a2589c0238b6a8d5--ce6d23435553cc7c",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.dynamicnotch",
+    "version": "0.1.2"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5keW5hbWljbm90Y2gKVmVyc2lvbjogMC4xLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBCYW5hbmEKSW5zdGFsbGVkLVNpemU6IDE0NTIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIHByZWZlcmVuY2Vsb2FkZXIsIGZpcm13YXJlICg+PSAxNS4wKSwgZmlybXdhcmUgKDw8IDI3LjApLCBpeWEuYmFuYW5hLmF1ZGlvc2VydmljZSAoPj0gMS4wLjQpCkNvbmZsaWN0czogY29tLmR0aC5keW5hbWljbm90Y2gsIGNvbS5kdGguZHluYW1pY25vdGNoLXJvb3RsZXNzLCBjb20uZHRoLmR5bmFtaWNub3RjaC1yb290aGlkZQpGaWxlbmFtZTogZGVicy9EeW5hbWljTm90Y2ggwrcg5Yqo5oCB5YiY5rW3XzAuMS4yX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNDI1OTQKTUQ1c3VtOiBmMDUyYzg3YzZkYWI0MzUyZWFkNGFjYzRkMDJmOGViZApTSEExOiA4OGVlNzlhMTk3YmE1NDY1Nzc3ZWQ1YzY2ODU5NjI3OTk2NTlmOWZlClNIQTI1NjogYTI1ODljMDIzOGI2YThkNWQwMGI1ZjU1MGI2MjMxYmIxMWI2MWY5MmFiOTZkZmZmNDIzOTg0YmJmMzk1NDk0NApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IE5vdGNoIGFjdGl2aXRpZXMsIG5vdGlmaWNhdGlvbnMgYW5kIGFkanVzdGFibGUgZ2xhc3MgZm9yIGlPUyAxNeKAkzI2LgpBdXRob3I6IEJhbmFuYQpOYW1lOiBEeW5hbWljTm90Y2ggwrcg5Yqo5oCB5YiY5rW3",
+  "metadata_sha256": "8ad71c1d92bae30831e9ff9aed1986f9c9997e578bf8af90561920673ab3c414",
+  "object_key": "debs/a2589c0238b6a8d5d00b5f550b6231bb11b61f92ab96dfff423984bbf3954944.deb",
+  "schema": 1,
+  "sha256": "a2589c0238b6a8d5d00b5f550b6231bb11b61f92ab96dfff423984bbf3954944",
+  "size": 242594,
+  "source": {
+    "filename_b64": "ZGVicy9EeW5hbWljTm90Y2ggwrcg5Yqo5oCB5YiY5rW3XzAuMS4yX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "6fcd7d506a81c6b66370d3265a6453ceb73ea941"
+  }
+}

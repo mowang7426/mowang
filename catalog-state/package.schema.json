@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mowang7426/mowang/blob/main/catalog-state/package.schema.json",
+  "title": "MoWang permanent package record v1",
+  "description": "Metadata only. Cross-field equality, raw Debian parsing, filename and processed-ledger membership MUST also pass scripts/catalog.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "identity", "sha256", "size", "object_key", "metadata_b64", "metadata_sha256", "source"],
+  "properties": {
+    "schema": {"const": 1, "type": "integer"},
+    "id": {"type": "string", "pattern": "^[a-z0-9.+-]{1,180}$", "maxLength": 180},
+    "identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["package", "version", "architecture"],
+      "properties": {
+        "package": {"type": "string", "minLength": 1, "maxLength": 1024},
+        "version": {"type": "string", "minLength": 1, "maxLength": 1024},
+        "architecture": {"type": "string", "minLength": 1, "maxLength": 1024}
+      }
+    },
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "size": {"type": "integer", "minimum": 1},
+    "object_key": {"type": "string", "pattern": "^debs/[0-9a-f]{64}\\.deb$"},
+    "metadata_b64": {"type": "string", "contentEncoding": "base64", "minLength": 4},
+    "metadata_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["filename_b64", "git_blob"],
+      "properties": {
+        "filename_b64": {"type": "string", "contentEncoding": "base64", "minLength": 4},
+        "git_blob": {"type": "string", "pattern": "^[0-9a-f]{40}$"}
+      }
+    }
+  }
+}

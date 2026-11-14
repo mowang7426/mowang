@@ -1,0 +1,18 @@
+{
+  "id": "com.nan.deb--0.3.0--iphoneos-arm64e--a4ab792400b7a63c--4a8deb0808708200",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.nan.deb",
+    "version": "0.3.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm5hbi5kZWIKVmVyc2lvbjogMC4zLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogemhhb25hbgpEZXBlbmRzOiBjb3JldXRpbHMsIHNlZCwgZmluZHV0aWxzCkZpbGVuYW1lOiBkZWJzL2RlYi0wLjMuMC1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDQyNjAKTUQ1c3VtOiAwMWRhNGJkNjk5MjA3NTdkOTRhZGFmMmZjZmViYzhlZQpTSEExOiBiMzk4ZDc1NDc4YTdlZjY0ZDJjMWVkNmUxOGEzYjhkOWRlNjQ5MTc1ClNIQTI1NjogYTRhYjc5MjQwMGI3YTYzYzYxOTNlYWUxNDNiMmU1MWY5YTgxYzQyMGJkYzYxN2NiYmNmN2JjYjgzMTkxMjBlOQpTZWN0aW9uOiBUZXJtaW5hbF9TdXBwb3J0CkRlc2NyaXB0aW9uOiBkZWIg5bel5YW377yM5pmu6YCa6Kej5Y6L77yM5pmu6YCa5omT5YyF77yM5om56YeP6Kej5Y6L77yM5om56YeP5omT5YyF77yM5o+Q5Y+W5bey5a6J6KOF6L2v5Lu25YyF77yMZGViIOS/oeaBr+afpeeciwpBdXRob3I6IHpoYW9uYW4KSWNvbjogaHR0cHM6Ly9pbnZhbGlkdW5pdC5naXRodWIuaW8vc2lsZW9kZXBpY3Rpb24vZGVmYXVsdC9pbWFnZV90ZXJtaW5hbC5wbmcKTmFtZTogZGViClNpbGVvZGVwaWN0aW9uOiBodHRwczovL2ludmFsaWR1bml0LmdpdGh1Yi5pby9zaWxlb2RlcGljdGlvbi9jb20ubmFuLmRlYi9qcy5qc29u",
+  "metadata_sha256": "e28d5385567070f3b79b4ab920a29d1995adf0e2dd5d6e06f5f934114ac8fc7e",
+  "object_key": "debs/a4ab792400b7a63c6193eae143b2e51f9a81c420bdc617cbbcf7bcb8319120e9.deb",
+  "schema": 1,
+  "sha256": "a4ab792400b7a63c6193eae143b2e51f9a81c420bdc617cbbcf7bcb8319120e9",
+  "size": 4260,
+  "source": {
+    "filename_b64": "ZGVicy9kZWItMC4zLjAtaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "127dba2e66ae2847ec99d3c4a59534ab21a2158f"
+  }
+}

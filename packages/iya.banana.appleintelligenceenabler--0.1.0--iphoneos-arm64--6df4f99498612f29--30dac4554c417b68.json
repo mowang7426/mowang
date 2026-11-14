@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.appleintelligenceenabler--0.1.0--iphoneos-arm64--6df4f99498612f29--30dac4554c417b68",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.appleintelligenceenabler",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5hcHBsZWludGVsbGlnZW5jZWVuYWJsZXIKVmVyc2lvbjogMC4xLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBoeGhsYgpJbnN0YWxsZWQtU2l6ZTogNDcyCkRlcGVuZHM6IHByZWZlcmVuY2Vsb2FkZXIsIGZpcm13YXJlICg+PSAxOC4xKSwgZmlybXdhcmUgKDw8IDE5LjApCkZpbGVuYW1lOiBkZWJzL0FwcGxlIEludGVsbGlnZW5jZSBFbmFibGVyXzAuMS4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA1NzM5MApNRDVzdW06IDYyYWJkYzNhMjJjMmVlNDM1MzBlMTkxOThjMGMxYmZjClNIQTE6IGE3NDI3MmUxNWI5OTcxMTBlYjc5MTlhN2FhOGE1YzQyYzI4NzhiZmMKU0hBMjU2OiA2ZGY0Zjk5NDk4NjEyZjI5NTVjMWJkN2RiNzIxZTBjZGUyZWY1ZTNhZjdkMDQxMGM2ZmRiMDU5ODMzMWE3ZjE0ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQXBwbGllcyB0aGUgaVBob25lIDE1IFBybyBNb2JpbGVHZXN0YWx0IGNvbmZpZ3VyYXRpb24gb24gaU9TIDE4LjEtMTgueCB3aXRoIHBlci12YWx1ZSBiYWNrdXAgYW5kIHJlc3RvcmUuCkF1dGhvcjogaHhobGIKTmFtZTogQXBwbGUgSW50ZWxsaWdlbmNlIEVuYWJsZXI=",
+  "metadata_sha256": "4262978d4685c900829a4dddb800b868bb8f0bfb5155be4f7f795d5838e93948",
+  "object_key": "debs/6df4f99498612f2955c1bd7db721e0cde2ef5e3af7d0410c6fdb0598331a7f14.deb",
+  "schema": 1,
+  "sha256": "6df4f99498612f2955c1bd7db721e0cde2ef5e3af7d0410c6fdb0598331a7f14",
+  "size": 57390,
+  "source": {
+    "filename_b64": "ZGVicy9BcHBsZSBJbnRlbGxpZ2VuY2UgRW5hYmxlcl8wLjEuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "ce1818498e354c1e19eac7ad20ffc44d18f13414"
+  }
+}

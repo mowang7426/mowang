@@ -1,0 +1,18 @@
+{
+  "id": "com.lindo.mubx--1.0.7--iphoneos-arm64e--d32474a3f1691914--21986812943f6853",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.lindo.mubx",
+    "version": "1.0.7"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmxpbmRvLm11YngKVmVyc2lvbjogMS4wLjcKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogbGluZG8KSW5zdGFsbGVkLVNpemU6IDQzMTYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSg+PTE1LjApCkNvbmZsaWN0czogY29tLnJlc3RpdmVjb25jaC5hY3Rpb25iYXIsY29tLnVkZXZzLmRvY2t4LGNvbS5saW5kby5kb2NreCxjb20ubXV6aS5rYXlva28sY29tLmxpbmRvLnR5cGV4CkZpbGVuYW1lOiBkZWJzL01VQlhfMS4wLjdfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAxMTAyODU2Ck1ENXN1bTogNDI3Y2I2MmEyY2Y3ZTZiM2Q5YWY5MWJjOTQ1YTNmZDEKU0hBMTogODc3N2MzMTY5Mzk5ODhhYjEyNGI2YmE2NjMyZWE5OWUyYWZjZTA0OApTSEEyNTY6IGQzMjQ3NGEzZjE2OTE5MTQxOWY3NWVlYzlhYWE4MThjNTE2OTAyODA1OWEzMTFiZTBlODY2YzEwZTU2YjI0YzcKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDlj4LogIMgVHlwZVgg5ZKMIEtheW9rbyDlrp7njrDkuKTkuKrmj5Lku7bnmoTlip/og73vvIzotoXnuqfplK7nm5jlop7lvLoKQXV0aG9yOiBsaW5kbwpEZXBpY3Rpb246IGh0dHBzOi8vdWRldnNoYXJvbGQuZ2l0aHViLmlvL3JlcG8vZGVwaWN0aW9ucy8/cD1jb20ubGluZG8ubXVieApJY29uOiBodHRwczovL3VkZXZzaGFyb2xkLmdpdGh1Yi5pby9yZXBvL2RlcGljdGlvbnMvY29tLmxpbmRvLm11YngvaWNvbi9pY29uLnBuZwpOYW1lOiBNVUJY",
+  "metadata_sha256": "9f121380f5271f5f80b460e91273f020184e0c5be4aa514bfd06ebf059bba755",
+  "object_key": "debs/d32474a3f169191419f75eec9aaa818c5169028059a311be0e866c10e56b24c7.deb",
+  "schema": 1,
+  "sha256": "d32474a3f169191419f75eec9aaa818c5169028059a311be0e866c10e56b24c7",
+  "size": 1102856,
+  "source": {
+    "filename_b64": "ZGVicy9NVUJYXzEuMC43X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "8d3dafb81451609cc8925cbe3544fb6f8a15ed2a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "spoofnotify--1.0.2--iphoneos-arm64e--bd15949bf2bdf4cc--ebaed5270157b645",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "spoofnotify",
+    "version": "1.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogc3Bvb2Zub3RpZnkKVmVyc2lvbjogMS4wLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogSnVuaG9uZwpJbnN0YWxsZWQtU2l6ZTogMzAwCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKQpDb25mbGljdHM6IGltLm1qaC52aXJ0dWFsbm90aWZ5LCBpbS5tamgudmlydHVhbG5vdGlmeS5yb290aGlkZQpSZXBsYWNlczogaW0ubWpoLnZpcnR1YWxub3RpZnksIGltLm1qaC52aXJ0dWFsbm90aWZ5LnJvb3RoaWRlCkZpbGVuYW1lOiBkZWJzL+mAmuefpeadg+mZkOS8quijhS0xLjAuMi1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDM2NjQ0Ck1ENXN1bTogMGRmNzA5OTVjMTkyYTc3YWYxZjE1MDgzYTNmMDYxMjcKU0hBMTogZTA5YjQyOWI2MGUxOGI2OGRmMTZlMzlkM2RjMDRkNDFiYjM1MGJkZQpTSEEyNTY6IGJkMTU5NDliZjJiZGY0Y2NiNjIwYmMxYTA0ZDQ2YzAyOTEwMDg5N2ZhN2Q1MWNhMjlmYjk4NDI2N2E3ODc4ODcKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDku47omZrmi5/mnYPpmZDmj5Lku7bni6znq4vlh7rmnaXnmoTpgJrnn6XmnYPpmZDkvKroo4Xmj5Lku7YKIOS9v+WFs+mXreS6humAmuefpeadg+mZkOeahCBBcHAg6K6k5Li65bey5byA5ZCv6YCa55+l77yM5LiN5YaN5Ye6546w5bu66K6u5byA5ZCv6YCa55+l5p2D6ZmQ55qE5by556qX44CCCiBBcHAg5q2j5bi45byA5ZCv6YCa55+l5p2D6ZmQ5pe25LiN5Lya6KKr5oum5oiq77yM6YCa55+l5o+Q6YaS5q2j5bi45pS+6KGM44CCCiAuCiDlhbzlrrkgaU9TIDE1IOWPiuS7peS4iueJiOacrOi2iueLse+8jOaUr+aMgSByb290bGVzc+OAgXJvb3RoaWRl44CB5beo6a2U5rOo5YWl44CB6K+B5Lmm6Ieq562+44CCCiAuCiDotorni7Hnjq/looPlronoo4XlkI7lnKjmoYzpnaLmiZPlvIDjgIzpgJrnn6XmnYPpmZDkvKroo4XjgI3ov5vooYzphY3nva7vvJvlt6jprZQv6Ieq562+546v5aKD55u05o6l5rOo5YWl55uu5qCHIEFwcAog5Y2z5Y+v55Sf5pWI77yM6buY6K6k5Lyq6KOF5bey5byA5ZCv6YCa55+l5p2D6ZmQ77yM5peg6ZyA6YWN572u44CCCkF1dGhvcjogSnVuaG9uZwpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL3Nwb29mbm90aWZ5LnBuZwpOYW1lOiDpgJrnn6XmnYPpmZDkvKroow==",
+  "metadata_sha256": "dc570f76c004e97f601f19140572d4e140cfafea81388edc440d98253d603b24",
+  "object_key": "debs/bd15949bf2bdf4ccb620bc1a04d46c029100897fa7d51ca29fb984267a787887.deb",
+  "schema": 1,
+  "sha256": "bd15949bf2bdf4ccb620bc1a04d46c029100897fa7d51ca29fb984267a787887",
+  "size": 36644,
+  "source": {
+    "filename_b64": "ZGVicy/pgJrnn6XmnYPpmZDkvKroo4UtMS4wLjItaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "ebe1f34a5b60cac9ef1fb124da4241d63ed934de"
+  }
+}

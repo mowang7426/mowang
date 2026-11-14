@@ -1,0 +1,18 @@
+{
+  "id": "com.ioskuka.kukatoolbox--1.3.3--iphoneos-arm--5567db4ca6d74935--a204787ed4562341",
+  "identity": {
+    "architecture": "iphoneos-arm",
+    "package": "com.ioskuka.kukatoolbox",
+    "version": "1.3.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlvc2t1a2Eua3VrYXRvb2xib3gKVmVyc2lvbjogMS4zLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm0KTWFpbnRhaW5lcjogaW9za3VrYQpJbnN0YWxsZWQtU2l6ZTogNDI4NApGaWxlbmFtZTogZGVicy9jb20uaW9za3VrYS5rdWthdG9vbGJveF8xLjMuM19pcGhvbmVvcy1hcm0uZGViClNpemU6IDEwMDk3NzAKTUQ1c3VtOiAyYjI3MWYwNjM2MjE1YjY3YWU1Nzc3MzZjNTAwYmM1NQpTSEExOiBkZTQ0ODk5OTYxMDg5YzEzNTcwYTkyYzEyMzNlMmU3OTJkYjIyMGRiClNIQTI1NjogNTU2N2RiNGNhNmQ3NDkzNTNiODRhZWI3OTEwMTY0Y2EwYzY1ZWM3ZmIzYWFmZTNjMDE2Y2E0NTQwNDFkMDk4NgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IEtBbGVydCA1LjcuMCBiYXNlZCBLVUtBIHRvb2xib3ggd2l0aCBjb21wYWN0IGFkYXB0aXZlIFVJLCBmdWxsLXNjcmVlbiB0b3VjaCByZWNvcmRlciwgZGV2aWNlIHRvb2xzIGFuZCBpbnRlZ3JhdGVkIEdhbWVTYXZlIHN1Ym1lbnUKQXV0aG9yOiBpb3NrdWthCk5hbWU6IEtVS0Hlt6XlhbfnrrE=",
+  "metadata_sha256": "95e76e8b7b786f191d60695054757dc0c475e22e110cc03cb4efeec1ee1de555",
+  "object_key": "debs/5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986.deb",
+  "schema": 1,
+  "sha256": "5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986",
+  "size": 1009770,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uaW9za3VrYS5rdWthdG9vbGJveF8xLjMuM19pcGhvbmVvcy1hcm0uZGVi",
+    "git_blob": "74f726ecbff934bdb206b93d93aa9c0f683eb795"
+  }
+}
