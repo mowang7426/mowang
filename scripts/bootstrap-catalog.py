@@ -5,6 +5,7 @@ No production write occurs. Output must be a fresh directory outside the reposit
 import argparse
 import collections
 import subprocess
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import catalog as c
@@ -23,7 +24,8 @@ def without_filename(block):
     return b'\n'.join(line for line in block.split(b'\n') if not line.startswith(b'Filename: '))
 
 
-def bootstrap(root, output, base, prepare_draft=False):
+def bootstrap(root, output, base, prepare_draft=False, download_base=None):
+    object_base = (download_base or base).rstrip('/')
     if output.exists():
         raise ValueError('output already exists; refuse overwrite')
     commit = git(root, 'rev-parse', 'HEAD').decode().strip()
@@ -68,12 +70,16 @@ def bootstrap(root, output, base, prepare_draft=False):
     # Public full GET also reconstructs Git's SHA1("blob SIZE\\0" + bytes).
     # Equality with the trusted Git tree proves the original blob without fetching
     # 3.45 GB into a partial clone. DEBs are streamed and never written locally.
+    failed = threading.Event()
     def verify(item):
+        if failed.is_set():
+            raise RuntimeError('another full-object verification failed; stop queued reads')
         key, (digest, size, blob) = item
         for attempt in range(3):
             try:
                 process = subprocess.Popen(['curl', '--fail', '--silent', '--show-error',
-                    '--max-time', '180', '--connect-timeout', '30', base + '/' + key], stdout=subprocess.PIPE)
+                    '--max-time', '180', '--connect-timeout', '30', '--retry', '3',
+                    '--retry-delay', '15', '--retry-max-time', '120', object_base + '/' + key], stdout=subprocess.PIPE)
                 try:
                     h = c.hashlib.sha256()
                     g = c.hashlib.sha1(b'blob ' + str(size).encode() + b'\x00')
@@ -97,12 +103,13 @@ def bootstrap(root, output, base, prepare_draft=False):
                     process.wait()
             except Exception:
                 if attempt == 2:
+                    failed.set()
                     raise
     verified = set()
     if prepare_draft:
         print('DRAFT PREPARATION ONLY: full object verification is NOT complete; publication forbidden', flush=True)
     else:
-        with ThreadPoolExecutor(max_workers=8) as pool:
+        with ThreadPoolExecutor(max_workers=2) as pool:
             futures = [pool.submit(verify, item) for item in objects.items()]
             for future in as_completed(futures):
                 verified.add(future.result())
@@ -151,5 +158,6 @@ if __name__ == '__main__':
     parser.add_argument('--output', required=True)
     parser.add_argument('--base', default='https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/repo')
     parser.add_argument('--prepare-draft', action='store_true', help='Create explicitly unverified draft inventory only; NEVER a publication receipt')
+    parser.add_argument('--download-base', help='Official read-only download frontend; does not change trusted manifest base')
     args = parser.parse_args()
-    bootstrap(Path(args.root), Path(args.output), args.base.rstrip('/'), args.prepare_draft)
+    bootstrap(Path(args.root), Path(args.output), args.base.rstrip('/'), args.prepare_draft, args.download_base)
