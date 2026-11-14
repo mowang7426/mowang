@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Exercise build.sh's actual validator; no deb installation or copied parser."""
+import base64
 import hashlib
 import json
 from pathlib import Path
@@ -66,12 +67,16 @@ class FilenameTests(unittest.TestCase):
                     self.assert_valid(entries)
 
     def test_real_snapbackup_filename_and_old_parser_failure(self):
-        paths = subprocess.check_output(
-            ['git', 'ls-tree', '-r', '-z', '--name-only', 'HEAD', '--', 'debs/'], cwd=ROOT
-        ).decode('utf-8').split('\0')
-        names = [p for p in paths if p.startswith('debs/SnapBackup ') and '\u0085' in p]
-        self.assertEqual(len(names), 1, 'Expected the unchanged SnapBackup regression filename')
-        entries = self.entries(names + [NORMAL])
+        # The inbox is disposable after verified publication. Preserve this
+        # original byte-exact filename regression from the durable catalog,
+        # not from the current Git transport directory (which may be empty).
+        record = json.loads((ROOT / 'packages' /
+            'com.axs.snapbackup--3.8.3--iphoneos-arm64--fcb3587b1a009b24--6e74775829751b25.json').read_bytes())
+        name = base64.b64decode(record['source']['filename_b64'], validate=True).decode('utf-8')
+        self.assertTrue(name.startswith('debs/SnapBackup '))
+        self.assertIn('\u0085', name)
+        self.assertEqual(record['sha256'], 'fcb3587b1a009b2442606c6e59d1cbf7adcab1d6df8c3099abdda9edd9d8d051')
+        entries = self.entries([name, NORMAL])
         self.write_index(entries)
         self.assert_valid(entries)
         self.assertIn('for line in text.split("\\n"):', VALIDATOR)
