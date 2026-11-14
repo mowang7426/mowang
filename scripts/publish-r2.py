@@ -6,6 +6,8 @@ import boto3
 from botocore.exceptions import ClientError
 SPEC=importlib.util.spec_from_file_location('sync',Path(__file__).with_name('sync-r2.py'))
 sync=importlib.util.module_from_spec(SPEC);SPEC.loader.exec_module(sync)
+CATALOG_SPEC=importlib.util.spec_from_file_location('catalog_publication',Path(__file__).with_name('catalog-publication.py'))
+catalog_publication=importlib.util.module_from_spec(CATALOG_SPEC);CATALOG_SPEC.loader.exec_module(catalog_publication)
 MANIFEST='managed-manifest.json'
 LOCK='production-publish.lock'
 OWNER='mowang7426/mowang-r2-production'
@@ -45,7 +47,7 @@ def read(s3,bucket,key):
         raise
 
 def public(base,key):
-    return subprocess.check_output(['curl','--fail','--silent','--show-error','--retry','5','--retry-all-errors',base.rstrip('/')+'/'+key])
+    return subprocess.check_output(['curl','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',catalog_publication.read_base(base).rstrip('/')+'/'+key])
 
 def validate(m,base):
     if not isinstance(m,dict) or m.get('schema')!=1 or m.get('base')!=base or not m.get('objects'):
@@ -122,6 +124,9 @@ def verify_indexes(site):
         if ('SHA256',p.name) not in seen:raise ValueError('missing Release SHA256')
 
 def main():
+    # A failed rerun must never leave an earlier local success artifact behind.
+    for artifact in ('r2-publication-result.json','r2-publication-receipt.json'):
+        Path(artifact).unlink(missing_ok=True)
     base=os.environ['R2_PUBLIC_BASE_URL'].rstrip('/')
     if not base.endswith('/repo'): raise ValueError('production public base must end /repo')
     bucket=os.environ['R2_BUCKET'];commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
@@ -141,20 +146,37 @@ def main():
         previous=validate(json.loads(prior),base) if prior is not None else None
         site=Path('_site');verify_indexes(site)
         objects={};files={};sources={}
-        for p in sorted(Path('debs').glob('*.deb')):
-            with p.open('rb') as f:size,digest=sync.digest(f)
-            key='debs/'+digest+'.deb';files[p.name]=key
-            if key not in objects:
-                sources[key]=p
-                objects[key]={'sha256':digest,'size':size,'refs':0}
-            objects[key]['refs']+=1
-        from concurrent.futures import ThreadPoolExecutor
-        def upload(item):
-            key,path=item
-            owned=previous is not None and previous['objects'].get(key,{}).get('ownership')=='managed'
-            return key,sync.sync_one(s3,bucket,path,base,owner=OWNER,previous_owned=owned)
-        with ThreadPoolExecutor(max_workers=8) as workers:
-            for key,ownership in workers.map(upload,sources.items()):objects[key]['ownership']=ownership
+        catalog_mode=(Path('packages').is_dir() or Path('catalog-state/processed.json').exists() or
+            subprocess.run(['git','cat-file','-e',commit+':catalog-state/processed.json'],
+                stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode==0)
+        records=verified=attestations=None
+        if catalog_mode:
+            # Never fall back to stale inbox blobs when permanent records exist.
+            # Pending uploads must already have passed archive validation, R2
+            # verification and the import CAS transaction in this same job.
+            records,ledger=catalog_publication.snapshot('.',commit)
+            if not re.fullmatch(r'[0-9]+',os.environ.get('GITHUB_RUN_ID','')) or not re.fullmatch(r'[0-9]+',os.environ.get('GITHUB_RUN_ATTEMPT','1')):
+                raise ValueError('catalog production receipt requires trusted numeric GitHub run/attempt')
+            if (site/'Packages').read_bytes()!=catalog_publication.c.render(records):
+                raise ValueError('site index is not the exact committed catalog rendering')
+            objects,files,verified,attestations=catalog_publication.verify_objects(
+                s3,bucket,base,records,OWNER,previous=previous,gate=gate)
+        else:
+            # Compatibility for unmigrated repositories and original regressions.
+            for p in sorted(Path('debs').glob('*.deb')):
+                with p.open('rb') as f:size,digest=sync.digest(f)
+                key='debs/'+digest+'.deb';files[p.name]=key
+                if key not in objects:
+                    sources[key]=p
+                    objects[key]={'sha256':digest,'size':size,'refs':0}
+                objects[key]['refs']+=1
+            from concurrent.futures import ThreadPoolExecutor
+            def upload(item):
+                key,path=item
+                owned=previous is not None and previous['objects'].get(key,{}).get('ownership')=='managed'
+                return key,sync.sync_one(s3,bucket,path,base,owner=OWNER,previous_owned=owned)
+            with ThreadPoolExecutor(max_workers=2) as workers:
+                for key,ownership in workers.map(upload,sources.items()):objects[key]['ownership']=ownership
         raw=(site/'Packages').read_bytes().decode('utf-8','surrogateescape')
         rows=[]
         for block in raw.strip('\n').split('\n\n'):
@@ -165,6 +187,10 @@ def main():
         current={'schema':1,'base':base,'commit':commit,'files':files,'objects':objects,'release_sha256':sha((site/'Release').read_bytes()),'published_at':datetime.datetime.now(datetime.timezone.utc).timestamp()}
         current['history']=(([{'commit':previous['commit'],'objects':list(previous['objects'])}]+previous.get('history',[]))[:3] if previous else [])
         current['physical_gc_enabled']=False
+        if catalog_mode:
+            current['source_of_truth']='packages/*.json'
+            current['catalog_sha256']=catalog_publication.c.sha(catalog_publication.c.encoded(sorted(records,key=lambda r:r['id'])))
+            current['index_sha256']=sha((site/'Packages').read_bytes())
         garbage,candidates=plan(previous,current,current['published_at']);current['garbage']=garbage
         gate()
         # Keep immutable per-version index snapshots. Root multi-object PUT is not atomic.
@@ -175,12 +201,31 @@ def main():
                 if existing is None:put_verify(s3,bucket,base,snap,p.read_bytes())
                 elif existing!=p.read_bytes():print('Snapshot already retained from earlier run: '+snap,flush=True)
         for p in sorted(site.rglob('*')):
-            if p.is_file() and p.name!='Release':put_verify(s3,bucket,base,p.relative_to(site).as_posix(),p.read_bytes())
+            if p.is_file() and p.name!='Release':
+                gate();put_verify(s3,bucket,base,p.relative_to(site).as_posix(),p.read_bytes())
         gate();put_verify(s3,bucket,base,'Release',(site/'Release').read_bytes())
         # Read all public indexes back after Release, not just PUT responses.
         for p in site.glob('Packages*'):
             if public(base,p.name)!=p.read_bytes():raise ValueError('post-Release index mismatch')
         gate();put_verify(s3,bucket,base,MANIFEST,payload(current))
+        if catalog_mode:
+            # This receipt is emitted only after all object and index checks AND
+            # the authoritative manifest have passed authenticated/public reads.
+            # Trusted consumers obtain it from this job or owned immutable key,
+            # never accept an inbox-supplied receipt as authorization.
+            gate()
+            proof=catalog_publication.receipt(records,commit,site,objects,verified,attestations,
+                base,os.environ.get('GITHUB_RUN_ID'),payload(current))
+            run=os.environ.get('GITHUB_RUN_ID','')
+            attempt=os.environ.get('GITHUB_RUN_ATTEMPT','1')
+            if not re.fullmatch(r'[0-9]+',run) or not re.fullmatch(r'[0-9]+',attempt):
+                raise ValueError('catalog production receipt requires trusted numeric GitHub run/attempt')
+            receipt_key='receipts/'+commit+'/'+run+'-'+attempt+'.json'
+            put_verify(s3,bucket,base,receipt_key,payload(proof),immutable=True)
+            gate()
+            Path('r2-publication-receipt.json').write_bytes(payload(proof))
+            print('CATALOG RECEIPT '+json.dumps({'key':receipt_key,'sha256':sha(payload(proof)),
+                'commit':commit,'records':len(records),'cleanup_enabled':False}),flush=True)
         print('CLEANUP PLAN '+json.dumps({'first_publication':previous is None,'candidates':candidates,'deferred':garbage},sort_keys=True),flush=True)
         # Advisory plan ONLY. No production DEB DELETE exists in this publisher.
         # GitHub commits cannot be atomically locked with S3; physical GC is disabled.
