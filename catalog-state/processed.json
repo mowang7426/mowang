@@ -36,6 +36,15 @@
         "git_blob": "8d90bad5cf6af9c99559ed79735caef9256e22a4"
       }
     },
+    "0149e8a42623cdca81c73ebee6f7cf50a8488f45647fabaa982ebc8d5db8b5c7": {
+      "record": "com.susudear.screencore--2.0.3+windowscheduler.--iphoneos-arm64--e8a4e3779c58ed23--0149e8a42623cdca.json",
+      "sha256": "e8a4e3779c58ed23b5a116e92322fb92ebbba354f4d10924f65588f5c34e8daf",
+      "size": 2126192,
+      "source": {
+        "filename_b64": "ZGVicy9zY3JlZW5jb3JlLeeql+WPo+iwg+W6pueJiF8yLjAuMyt3aW5kb3dzY2hlZHVsZXIuMTItNzkuZHVvMy43NF9pcGhvbmVvcy1hcm02NC5kZWI=",
+        "git_blob": "fd677faaf2e5802b5e1dbe603bce6b3459aed5fc"
+      }
+    },
     "014ec61dafb790a7395265d18b7baa144416e1eeb9ca0fe5838bad99983fce96": {
       "record": "com.muzi.mutool--2.2.42--iphoneos-arm64--f489e16d28eaae6c--014ec61dafb790a7.json",
       "sha256": "f489e16d28eaae6ce2933e264e78a595c2b8a55f2f66505706d6accec1cb617c",
@@ -1440,6 +1449,15 @@
         "git_blob": "f8894d2f5d9301721f6f45142203107e0764fc16"
       }
     },
+    "1ab462ddd517baf40c76dbdfb507bf62a69b8b5d536496df87a512ae96196e52": {
+      "record": "com.assitdev.qujiankuaima--3.5.6-1+debug--iphoneos-arm64--6cb014cde09c1de8--1ab462ddd517baf4.json",
+      "sha256": "6cb014cde09c1de8b6d2cdbe5f5d4eaebe13cc12325dc0afa67fd3b9cd01b835",
+      "size": 611910,
+      "source": {
+        "filename_b64": "ZGVicy9jb20uYXNzaXRkZXYucXVqaWFua3VhaW1hXzMuNS42LTErZGVidWdfaXBob25lb3MtYXJtNjQuZGVi",
+        "git_blob": "2ca908e8d25f375109c5857c67068bcaa2b3a87f"
+      }
+    },
     "1add012b187bc893ef0a6c4686d3ac7b7d33b1c3ae84bdfb12178cc0cc9854ca": {
       "record": "com.qq391160.cpucore--2.0.486--iphoneos-arm64e--2943ac0f61984bb1--1add012b187bc893.json",
       "sha256": "2943ac0f61984bb183a73024d284aa9d2fdbe944c7636c71e69168d86e5217fb",
@@ -1692,6 +1710,15 @@
         "git_blob": "5c5533186b940eab7ed833c77e452e13951863cf"
       }
     },
+    "1fa531540eefea1591cac5919681e010662bb4af4872e1343ea880ed1686e3b3": {
+      "record": "fanqiefn.roothide--3.5.2--iphoneos-arm64e--e5a1be84ec5d264e--1fa531540eefea15.json",
+      "sha256": "e5a1be84ec5d264ee72efa410a837302eacd1e807d69995f5a197722692551db",
+      "size": 2193756,
+      "source": {
+        "filename_b64": "ZGVicy/nlarojITlh4DljJYgKFJvb3RoaWRlKV8zLjUuMl9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "5f9c161d476707aea7bd3c7ac0d2918b5de7d428"
+      }
+    },
     "1fc03c213ca102f67ae29ed40b66ad99f41ab6f3729392cb0fce9b942df8596d": {
       "record": "com.hierarch.dykiller--0.6.7--iphoneos-arm64--019392f5c23da73e--1fc03c213ca102f6.json",
       "sha256": "019392f5c23da73eecda054057349eb20f485b988db8c3fc23e319188aaaa1da",
@@ -1933,6 +1960,15 @@
       "source": {
         "filename_b64": "ZGVicy9Ucm9sbFN0b3JlTGl0ZV8yLjEuMV9Sb290SGlkZV9pcGhvbmVvcy1hcm02NGUuZGVi",
         "git_blob": "895b69e0e339e973c7c145fb834fc5de47cdcfc8"
+      }
+    },
+    "2413f3fc37b56ed20aa8f03ea34baa404d1deb5c429226f9925c6096dfe5455f": {
+      "record": "com.assitdev.qujiankuaima--3.5.6-1+debug--iphoneos-arm64e--deebb51321e5ede7--2413f3fc37b56ed2.json",
+      "sha256": "deebb51321e5ede7a784e764ded7c2af15187740c56507aa34fb26badfb43f0a",
+      "size": 1609266,
+      "source": {
+        "filename_b64": "ZGVicy9jb20uYXNzaXRkZXYucXVqaWFua3VhaW1hXzMuNS42LTErZGVidWdfaXBob25lb3MtYXJtNjRlLmRlYg==",
+        "git_blob": "d24613ca7b8289719990737a56794757881b3bad"
       }
     },
     "24250bb2b7824bcd5c8e7e24b00572cb9779d9f4ea7e20aacf41982aab954e34": {
@@ -2185,6 +2221,15 @@
       "source": {
         "filename_b64": "ZGVicy9jb20uc2JjcHUuZmxvYXRpbmdfNS4yX2lwaG9uZW9zLWFybTY0LmRlYg==",
         "git_blob": "6baa0ae4841518ef2b1e3a446c743822aae3ab35"
+      }
+    },
+    "2811a900fdff131f8d42482abbe3e4a49945085c72f7e9f5660535def67d570b": {
+      "record": "com.muzi.mutool--2.2.89--iphoneos-arm64--71ac14f00e639a06--2811a900fdff131f.json",
+      "sha256": "71ac14f00e639a06142f82661dd4e85e3928bbadd6ff5e34e848ddaf97f96a12",
+      "size": 949866,
+      "source": {
+        "filename_b64": "ZGVicy9NVXRvb2wocm9vdGxlc3MpXzIuMi44OV9pcGhvbmVvcy1hcm02NC5kZWI=",
+        "git_blob": "d6b06bc5711c5b500056f005b562b099b4e84295"
       }
     },
     "283a9bae5608cdddd0cf3d2ae595524f6b5166cab0901a44f51822156f685cba": {
@@ -4707,6 +4752,15 @@
         "git_blob": "a79f3f8cb5bad2094c61cca749aef41586a64727"
       }
     },
+    "586958036d1540a4016a431ce2f9798b5b48a6925b99684901006a0b75a7a28a": {
+      "record": "iya.banana.dockicon--0.9.21--iphoneos-arm64--218ade1ee09b3d56--586958036d1540a4.json",
+      "sha256": "218ade1ee09b3d56b00becf45c5004222b5893617c3da7b1f1cf1401603e0803",
+      "size": 430568,
+      "source": {
+        "filename_b64": "ZGVicy9EYXJrSWNvbl8wLjkuMjFfaXBob25lb3MtYXJtNjQuZGVi",
+        "git_blob": "35a4562ef4a69c53ba1006dbe97877394b3fd2ef"
+      }
+    },
     "588150b3bca30e561984b25fbab9a133892a4024f50ab57943edcb11e8551d50": {
       "record": "com.iris.wcneo--1.2.0-4--iphoneos-arm64--bf10a3c16e3efe85--588150b3bca30e56.json",
       "sha256": "bf10a3c16e3efe85a39734bcc54935678ec7136c7ab494845b7095b075c5b1da",
@@ -6091,6 +6145,15 @@
       "source": {
         "filename_b64": "ZGVicy9Qb2RzR3JhbnRfMC41LjVfaXBob25lb3MtYXJtNjQuZGVi",
         "git_blob": "6cf7b1997719a829253dc7356b8aa920ca9b4f44"
+      }
+    },
+    "76e0cd2f30687f1528d2e0efd8b50c31e46348425a107f3808123b79d60bb038": {
+      "record": "iya.banana.dockicon--0.9.21--iphoneos-arm64e--d929fb4edb435d02--76e0cd2f30687f15.json",
+      "sha256": "d929fb4edb435d02a248a6f9cd8e868dabc13ba0674c13c4e37b83de6246a93b",
+      "size": 430418,
+      "source": {
+        "filename_b64": "ZGVicy9EYXJrSWNvbl8wLjkuMjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+        "git_blob": "4df6de76acf5b46ec8c66811082f2ba4c9ddafd6"
       }
     },
     "777b3262cdca98217b3b703ab4a00899baaac57e59ffb5dc8294164ec4383347": {
@@ -9486,6 +9549,15 @@
         "git_blob": "11bad19f635558f62244a18b729ab3d988d3be02"
       }
     },
+    "b96163b7356ed15e88ddfec244d6ac21ea536233910194cb26826c74886cce18": {
+      "record": "com.muzi.mutool--2.2.89--iphoneos-arm64e--2556b203ef1a98c3--b96163b7356ed15e.json",
+      "sha256": "2556b203ef1a98c3647530ea6c85063512b806acb316424cb98114143862505f",
+      "size": 940660,
+      "source": {
+        "filename_b64": "ZGVicy9NVXRvb2wocm9vdGhpZGUpXzIuMi44OV9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "673ee4cf0988dba3c090999d869ce39a3dc440b4"
+      }
+    },
     "b980ecb69351dec6476304c8ed7fdd268ddfa9526714e69c1f0ae88db418329e": {
       "record": "com.muzi.duostatusbar--2.9.1--iphoneos-arm64--7aa7bf827b07f5a7--b980ecb69351dec6.json",
       "sha256": "7aa7bf827b07f5a7022b463ad16613273028df4c653fe68a8c62dcacc008be69",
@@ -10492,6 +10564,15 @@
       "source": {
         "filename_b64": "ZGVicy9jb20ubWlsa3dheS5hcHBwcm9fMC4wLjM4X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
         "git_blob": "31a6975b0de6db3a04a4316f41aea1782f6bb71d"
+      }
+    },
+    "cf7c85be80c40341c114bab500f37435c514e781d35d29e76a6f920236735e68": {
+      "record": "fanqiefn--3.5.2--iphoneos-arm64--c27fb5fbd74e5ca1--cf7c85be80c40341.json",
+      "sha256": "c27fb5fbd74e5ca1b01c61a239954239dc290c35797ecafb256c5874b6088c7b",
+      "size": 2196712,
+      "source": {
+        "filename_b64": "ZGVicy/nlarojITlh4DljJZfMy41LjJfaXBob25lb3MtYXJtNjQuZGVi",
+        "git_blob": "e60e8d14cc8ae3020b6e2008aa19531949d59736"
       }
     },
     "cfb9e08d4311819fc0f251d4af6d2f0405a50acadfd3eb1651c31565f18bdd2b": {
@@ -11545,6 +11626,15 @@
       "source": {
         "filename_b64": "ZGVicy9jb20ubWluaXMud2V0eXBldmVydGljYWxzd2l0Y2hfMC40LjVfaXBob25lb3MtYXJtNjQuZGVi",
         "git_blob": "23747a0eb98acbe4ce8d2117fe35267a27976de1"
+      }
+    },
+    "e5cfc7ad722dbf4796893ab850c227122e3b33ab993fa571b0f1733ae5944f68": {
+      "record": "com.susudear.screencore--2.0.3+windowscheduler.--iphoneos-arm64e--7982032f2fc44113--e5cfc7ad722dbf47.json",
+      "sha256": "7982032f2fc441134495b300d9ac430c3a7cd025ab18f4aaab8c1296398102bd",
+      "size": 1529010,
+      "source": {
+        "filename_b64": "ZGVicy9zY3JlZW5jb3JlLeeql+WPo+iwg+W6pueJiF8yLjAuMyt3aW5kb3dzY2hlZHVsZXIuMTItNzkuZHVvMy43NF9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "142696d1030a91356a694b66f602b0647b101b67"
       }
     },
     "e608993c0dcaa6cea84a50eab555221e2612ce98b6659a80a0ab4bdfba4591fe": {
@@ -12940,6 +13030,15 @@
       "source": {
         "filename_b64": "ZGVicy9GaW9uYV8wLjNfaXBob25lb3MtYXJtNjRlLmRlYg==",
         "git_blob": "c3f01aeda1e799c50c8d7d23a1252ae38ff11715"
+      }
+    },
+    "fff1ecf711d3b3f35289669c7a2135bb4ee3b4562893447efa105858aab035a4": {
+      "record": "com.mlgm.filzapatch--1.1.2--iphoneos-arm64e--a559cb6459df110e--fff1ecf711d3b3f3.json",
+      "sha256": "a559cb6459df110e999beef726c6c305adb40adee3336e07caf3f716220b0dc5",
+      "size": 10852,
+      "source": {
+        "filename_b64": "ZGVicy9GaWx6YSBQYXRjaF8xLjEuMl9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "a7b434ec33d267c59d72f7e43517fc3ea148aa8c"
       }
     },
     "fff811b7e86a1ad58a38d4bd83683275c3eaa97476a2bd108ab2090dbd2c218c": {
