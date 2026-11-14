@@ -76,7 +76,7 @@ def seed():
         blob=api.request('POST','/git/blobs',{'content':c.b64(data),'encoding':'base64'})['sha']
         entries.append({'path':path,'mode':'100644','type':'blob','sha':blob})
     record=records[0]
-    data={'packages/'+record['id']+'.json':c.encoded(record),'catalog-state/processed.json':c.encoded({'schema':1,'processed':{c.source_token(record['source']):c.ledger_row(record)}})}
+    data={'catalog-state/inbox-cleanup-baseline.json':Path('catalog-state/inbox-cleanup-baseline.json').read_bytes(),'packages/'+record['id']+'.json':c.encoded(record),'catalog-state/processed.json':c.encoded({'schema':1,'processed':{c.source_token(record['source']):c.ledger_row(record)}})}
     for path,raw in data.items():
         blob=api.request('POST','/git/blobs',{'content':c.b64(raw),'encoding':'base64'})['sha']
         entries.append({'path':path,'mode':'100644','type':'blob','sha':blob})
@@ -98,6 +98,8 @@ Path('e2e-prospective.json').write_bytes(c.encoded({'success':True,'candidate_re
 result=imp.transaction('.',branch,api,imp.r2_upload());assert result['imported']==1
 reload(result['commit']);Path('e2e-import.json').write_bytes(c.encoded(result))
 publish('initial',2)
+if os.environ.get('CLEANUP_E2E_STAGE')=='publish':
+    raise SystemExit(0)
 rs,ledger=c.load_catalog('.')
 pending=next(r for r in rs if c.unb64(r['source']['filename_b64'])==b'debs/pending.deb')
 old=Path('debs/pending.deb').read_bytes()

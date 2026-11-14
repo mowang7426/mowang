@@ -8,6 +8,14 @@ on:
     paths: ['debs/**', 'packages/**', 'catalog-state/**', 'build.sh', 'check-debs.sh', 'validate-repo.sh', 'scripts/**', '.github/workflows/**']
   workflow_dispatch:
     inputs:
+      approved_plan_sha:
+        description: 'Historical cleanup ONLY after separate explicit approval of this exact SHA256'
+        type: string
+        default: ''
+      approved_base_head:
+        description: 'Exact main head bound to that separately approved historical cleanup plan'
+        type: string
+        default: ''
       prepublish:
         description: 'Explicit trusted branch prepublication to isolated repo/ prefix'
         type: boolean
@@ -57,6 +65,7 @@ jobs:
           python3 scripts/test-catalog-publication.py
           python3 scripts/test-catalog-import.py
           python3 scripts/test-catalog-integration.py
+          python3 scripts/test-cleanup-inbox.py
       - name: Read-only pending archive validation and prospective catalog (no credentials)
         run: |
           if python3 scripts/catalog-build.py mode; then
@@ -84,7 +93,7 @@ jobs:
           path: _site
           include-hidden-files: true
 
-  isolated_e2e:
+  isolated_publish:
     if: github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/catalog-e2e/')
     permissions:
       contents: write
@@ -101,6 +110,7 @@ jobs:
       R2_TEST_PREFIX: ${{ github.ref_name }}/
       R2_IMPORT_PREFIX: ${{ github.ref_name }}/
       R2_TEST_OWNER: mowang7426/mowang-catalog-e2e
+      CLEANUP_E2E_STAGE: publish
       R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/${{ github.ref_name }}
     steps:
       - uses: actions/checkout@v4
@@ -115,7 +125,9 @@ jobs:
         if: always()
         with:
           name: catalog-isolated-e2e
-          path: e2e-*.json
+          path: |
+            e2e-*.json
+            r2-publication-receipt.json
           if-no-files-found: error
 
   publish:
@@ -171,7 +183,7 @@ jobs:
           python3 scripts/publish-r2.py
       - name: Public isolated APT small large RootHide Unicode and original metadata bytes
         run: python3 scripts/verify-r2-public.py
-      - name: Advisory exact inbox plan only; no deletion implementation
+      - name: Exact approval plan; future-only executor runs after this job succeeds
         run: |
           if python3 scripts/catalog-build.py mode; then
             python3 scripts/catalog.py plan --output cleanup-plan.json
@@ -185,3 +197,79 @@ jobs:
             r2-publication-result.json
             catalog-import-result.json
             cleanup-plan.json
+
+  inbox_cleanup:
+    needs: [publish]
+    if: github.ref == 'refs/heads/main' && needs.publish.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      APPROVED_PLAN_SHA: ${{ inputs.approved_plan_sha }}
+      APPROVED_BASE_HEAD: ${{ inputs.approved_base_head }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: r2-publication-receipt
+          path: publication-proof
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - name: Future-only exact blob CAS; historical pairs excluded unless separately approved
+        run: python3 scripts/cleanup-inbox.py --approved-plan-sha "$APPROVED_PLAN_SHA" --approved-base-head "$APPROVED_BASE_HEAD"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: inbox-cleanup-evidence
+          path: cleanup-*.json
+          if-no-files-found: error
+
+  isolated_cleanup:
+    needs: [isolated_publish]
+    if: startsWith(github.ref, 'refs/heads/catalog-e2e/') && needs.isolated_publish.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_TEST_BRANCH: ${{ github.ref_name }}
+      R2_TEST_PREFIX: ${{ github.ref_name }}/
+      R2_IMPORT_PREFIX: ${{ github.ref_name }}/
+      R2_TEST_OWNER: mowang7426/mowang-catalog-e2e
+      R2_PUBLIC_BASE_URL: https://pub-f47a5a9b45724684be0f3f006e95e609.r2.dev/${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: catalog-isolated-e2e
+          path: publication-proof
+      - run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev bzip2 xz-utils zstd
+      - run: python3 -m pip install 'boto3>=1.36,<2'
+      - name: Real executor, non-UTF8 tree, rejected races, empty inbox, unlisting, retained R2
+        run: python3 scripts/cleanup-inbox-e2e.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: inbox-cleanup-isolated-e2e
+          path: |
+            e2e-*.json
+            cleanup-*.json
+          if-no-files-found: error
