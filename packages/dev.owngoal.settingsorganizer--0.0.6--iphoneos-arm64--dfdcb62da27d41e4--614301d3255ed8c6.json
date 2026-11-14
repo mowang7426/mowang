@@ -1,0 +1,18 @@
+{
+  "id": "dev.owngoal.settingsorganizer--0.0.6--iphoneos-arm64--dfdcb62da27d41e4--614301d3255ed8c6",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "dev.owngoal.settingsorganizer",
+    "version": "0.0.6"
+  },
+  "metadata_b64": "UGFja2FnZTogZGV2Lm93bmdvYWwuc2V0dGluZ3Nvcmdhbml6ZXIKVmVyc2lvbjogMC4wLjYKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBNb1dhbmcKSW5zdGFsbGVkLVNpemU6IDUwNQpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCksIG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9kZXYub3duZ29hbC5zZXR0aW5nc29yZ2FuaXplcl8wLjAuNl9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogODYxNzAKTUQ1c3VtOiAyZjllMWZjNzdkYWE2ODUyZTUwMTc4NWQxZTg3OTkzNApTSEExOiA1NTRkOWQyNWJhYjcyMDkwYjVlZWJlNzNmMzc2ZDg3ZjI4YjljY2ZiClNIQTI1NjogZGZkY2I2MmRhMjdkNDFlNDhjYmU2MDY0NTRkNDlmNTY1NmM2NGI5MjU5ZjNhMTgxOTBjYTI3YzAzNGZiOTZkMgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOiuvue9ruaPkuS7tuS4juW6lOeUqOWIhuexu+OAgeiHquWumuS5ieWQjeensOOAgeWFqOWxgOWjgee6uOWSjOmmlumhteaoquW5heOAggpBdXRob3I6IE1vV2FuZwpOYW1lOiDorr7nva7mj5Lku7bmlLbnurM=",
+  "metadata_sha256": "6383d62590cd97f890e346eedc2254471af63cda8e9820f9c64258b83a75090e",
+  "object_key": "debs/dfdcb62da27d41e48cbe606454d49f5656c64b9259f3a18190ca27c034fb96d2.deb",
+  "schema": 1,
+  "sha256": "dfdcb62da27d41e48cbe606454d49f5656c64b9259f3a18190ca27c034fb96d2",
+  "size": 86170,
+  "source": {
+    "filename_b64": "ZGVicy9kZXYub3duZ29hbC5zZXR0aW5nc29yZ2FuaXplcl8wLjAuNl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "4ee73a58040fa3749a7cc7fead1ccae043ead6e1"
+  }
+}

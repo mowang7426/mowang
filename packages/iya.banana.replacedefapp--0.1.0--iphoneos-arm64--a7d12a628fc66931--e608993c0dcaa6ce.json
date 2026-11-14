@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.replacedefapp--0.1.0--iphoneos-arm64--a7d12a628fc66931--e608993c0dcaa6ce",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.replacedefapp",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5yZXBsYWNlZGVmYXBwClZlcnNpb246IDAuMS4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogQmFuYW5hCkluc3RhbGxlZC1TaXplOiA5MDgKRGVwZW5kczogZmlybXdhcmUgKD49IDE3LjApLCBmaXJtd2FyZSAoPDwgMTguMCksIG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL1JlcGxhY2VEZWZBcHBfMC4xLjBfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDEwNjYyMApNRDVzdW06IDM4MDM4NTBmMTgzMGYzZGE1MmJjN2VkM2E4MmMyYmFmClNIQTE6IDVhYmE3OGNmZjY1MDc2MGM0OTFiY2JiY2YzMmQwMjY1ZTZjOWU4OTQKU0hBMjU2OiBhN2QxMmE2MjhmYzY2OTMxMDg1MThmYWI5N2RiYzBjYjI4NWE2ZDYyOTI5NDllY2EzMDlhMmZhM2FmNDRkY2NkClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogVW5pZmllZCBkZWZhdWx0LWFwcCBzZXR0aW5ncywgVVJMIHJvdXRpbmcgYW5kIHNlbGVjdGVkLXRleHQgdHJhbnNsYXRpb24gZm9yIGlPUyAxNy4KQXV0aG9yOiBCYW5hbmEKTmFtZTogUmVwbGFjZURlZkFwcA==",
+  "metadata_sha256": "93fcfe6564508bb97e0c038599b4aeeb3c76d30666722e32c95dca9eba29290b",
+  "object_key": "debs/a7d12a628fc6693108518fab97dbc0cb285a6d6292949eca309a2fa3af44dccd.deb",
+  "schema": 1,
+  "sha256": "a7d12a628fc6693108518fab97dbc0cb285a6d6292949eca309a2fa3af44dccd",
+  "size": 106620,
+  "source": {
+    "filename_b64": "ZGVicy9SZXBsYWNlRGVmQXBwXzAuMS4wX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "d31fe942e1ee0717b5adecf17259c25670d293f2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.hang.keyboardeffects--1.5--iphoneos-arm64--39ad760741d19b79--11d8b4c57d778dc6",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.hang.keyboardeffects",
+    "version": "1.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmhhbmcua2V5Ym9hcmRlZmZlY3RzClZlcnNpb246IDEuNQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IOiIqgpJbnN0YWxsZWQtU2l6ZTogNzY0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE1LjApCkZpbGVuYW1lOiBkZWJzL+mUruebmOeJueaViF8xLjVfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDEzMzA2NApNRDVzdW06IDc1OGU0ZGY4YzQ1ZGJjOGMyMjEzNjMyNTJjMjVkODExClNIQTE6IGE2YjY4MTMyNDdkNjZiY2QxNDNmNjEwOTUyZmNmOWI5YjNjNDdjZmMKU0hBMjU2OiAzOWFkNzYwNzQxZDE5Yjc5MmFlYjRiMzExYWIyY2NmZWI5YmRhM2M3NWMwYTMwNjMwN2VjM2VhYzNkMjZiMjg3ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Y6f55Sf6ZSu55uY5ZyG6KeS5LiO5rK/5ZyG6KeS6L2u5buT55qE5b2p6Imy5Y+R5YWJ54K55Ye754m55pWICkF1dGhvcjog6IiqCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24va2V5Ym9hcmRlZmZlY3RzLnBuZwpOYW1lOiDplK7nm5jnibnmlYg=",
+  "metadata_sha256": "6c851609985f101eed14229804db8b73f33d017dd9f228a1416d11f67f0211b4",
+  "object_key": "debs/39ad760741d19b792aeb4b311ab2ccfeb9bda3c75c0a306307ec3eac3d26b287.deb",
+  "schema": 1,
+  "sha256": "39ad760741d19b792aeb4b311ab2ccfeb9bda3c75c0a306307ec3eac3d26b287",
+  "size": 133064,
+  "source": {
+    "filename_b64": "ZGVicy/plK7nm5jnibnmlYhfMS41X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "b05a4d49ea9b02c5bca7caddc9e843403bcb1ef0"
+  }
+}

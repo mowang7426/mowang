@@ -1,0 +1,18 @@
+{
+  "id": "com.sini921.cylinderreborn--1.2.0-1--iphoneos-arm64e--accd814aca3db3a4--36b40c5fc5bf2192",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.sini921.cylinderreborn",
+    "version": "1.2.0-1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNpbmk5MjEuY3lsaW5kZXJyZWJvcm4KVmVyc2lvbjogMS4yLjAtMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBSeWFuIE5haXIgJiBTSU5JCkluc3RhbGxlZC1TaXplOiAxODQwCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNjAxMSksIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvQ3lsaW5kZXJSZWJvcm5fMS4yLjAtMV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDMzNzE5MgpNRDVzdW06IDZiMDIxZmE4YTFjZjRlYjc1NjJiYzk5ZjI0YzA3OGM3ClNIQTE6IGRhMzU1NzliZDc3N2VmYmE1ZDhjNzcwNmMwNjc2Y2ZjZGY2MTAyNzYKU0hBMjU2OiBhY2NkODE0YWNhM2RiM2E0NTc1N2I2ZGQyNzQxNzJjYWJkMjlkOGZlN2RlYmY2ZjBiNDNiMmM2NGVjYjQ0YWU4ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5pyJ54K55oSP5oCd55qE5qGM6Z2i5Zu+5qCH5Yqo55S777yM5Z+65LqO5byA5rqQ5LyY5YyW57yW6K+R77yM5L+u5q2j5rGJ5YyW77yM6YCC6YWN5pSv5oyBcm9vdGhpZGXjgIIKQXV0aG9yOiBSeWFuIE5haXIgJiBTSU5JCkljb246IGh0dHBzOi8vc2luaTkyMS5naXRodWIuaW8vcmVwby9zaWxlb2RlcGljdGlvbi9pY29uL2N5bGluZGVycmVib3JuLnBuZwpOYW1lOiBDeWxpbmRlclJlYm9ybg==",
+  "metadata_sha256": "1bae3038d4d0b550c06e6cdddd7a483d4d1575d874f84610b4b5ba2b87fd1c70",
+  "object_key": "debs/accd814aca3db3a45757b6dd274172cabd29d8fe7debf6f0b43b2c64ecb44ae8.deb",
+  "schema": 1,
+  "sha256": "accd814aca3db3a45757b6dd274172cabd29d8fe7debf6f0b43b2c64ecb44ae8",
+  "size": 337192,
+  "source": {
+    "filename_b64": "ZGVicy9DeWxpbmRlclJlYm9ybl8xLjIuMC0xX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "0c56c24425fb8b5a7563ad5db3bd3b320f622808"
+  }
+}

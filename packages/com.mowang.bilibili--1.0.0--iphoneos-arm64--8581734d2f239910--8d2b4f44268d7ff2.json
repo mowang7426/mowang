@@ -1,0 +1,18 @@
+{
+  "id": "com.mowang.bilibili--1.0.0--iphoneos-arm64--8581734d2f239910--8d2b4f44268d7ff2",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.mowang.bilibili",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1vd2FuZy5iaWxpYmlsaQpWZXJzaW9uOiAxLjAuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1vV2FuZwpEZXBlbmRzOiBlbGxla2l0CkZpbGVuYW1lOiBkZWJzL2NvbS5tb3dhbmcuYmlsaWJpbGlfMS4wLjBfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDIyMTQ2OApNRDVzdW06IDIzYjE0NzlkZGMxYzE5ZjViNzc4NTI0ZjVlN2RjNzljClNIQTE6IGY5Y2NmZTM5ODNjNDcyMTNmZTZlNmFkOWMzMmRmMWExZmZjZmI3MmYKU0hBMjU2OiA4NTgxNzM0ZDJmMjM5OTEwNTM2ZDBlZTczMTBlMDliOTg5NjBlNTZjY2ZhM2NiYjRhOTk5NWU0NTg4MzcwMzdkCkRlc2NyaXB0aW9uOiDpgJrov4cgZHlsaWIg5omT5YyF55qEIGRlYu+8jOWmguaenOWuieijheS4jeeUn+aViOWwseaPkOWPlumHjOmdoueahCBkeWxpYiDnlKjlt6jprZTms6jlhaXms6jlhaXliLDlk5Tlk6nlk5Tlk6kKQXV0aG9yOiBNb1dhbmcKTmFtZTog5ZOU5ZOp5ZOU5ZOp5LiL6L29",
+  "metadata_sha256": "27a536ecb5246c3f1be315159bc083c7e40ba419557a2f8b6f0996d16e8d2543",
+  "object_key": "debs/8581734d2f239910536d0ee7310e09b98960e56ccfa3cbb4a9995e458837037d.deb",
+  "schema": 1,
+  "sha256": "8581734d2f239910536d0ee7310e09b98960e56ccfa3cbb4a9995e458837037d",
+  "size": 221468,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubW93YW5nLmJpbGliaWxpXzEuMC4wX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "85da2ab4ced8a5d92bfbf694db242ddcf1b9b5e5"
+  }
+}

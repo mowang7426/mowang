@@ -1,0 +1,18 @@
+{
+  "id": "com.muzi.duostatusbar--2.9.1--iphoneos-arm64--7aa7bf827b07f5a7--b980ecb69351dec6",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.muzi.duostatusbar",
+    "version": "2.9.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm11emkuZHVvc3RhdHVzYmFyClZlcnNpb246IDIuOS4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogbXV6aWtlamkgPG11emlAbG9jYWw+Ckluc3RhbGxlZC1TaXplOiA2MDQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNzAwMCkKQ29uZmxpY3RzOiBjb20uMzQzMDYuZHVvYmFyCkZpbGVuYW1lOiBkZWJzL0R1byDnirbmgIHmoI8tMi45LjEtaXBob25lb3MtYXJtNjQuZGViClNpemU6IDExOTA4MgpNRDVzdW06IGNkMTU3NDVkZTczNTA2ZDRkMDhiMGMzZjZlYjg4OGY5ClNIQTE6IDc1Mzc5OGFkM2JmMzJkNGI4MzhhNWRiMjdmNzliMzhmMDQzYzlhNDYKU0hBMjU2OiA3YWE3YmY4MjdiMDdmNWE3MDIyYjQ2M2FkMTY2MTMyNzMwMjhkZjRjNjUzZmU2OGE4YzYyZGNhY2MwMDhiZTY5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5oqK54q25oCB5qCP55qE55S16YeP44CBV2ktRmnjgIHkv6Hlj7fkuInku7blkIjlubbkuLrkuIDkuKrnjq/lvaLlsI/nu4Tku7Ys6Ie05pWsIGlQaG9uZSBEdW8g5aSW5bGP44CCCkF1dGhvcjogbXV6aWtlamkgPG11emlAbG9jYWw+Ckljb246IGxheW91dC9MaWJyYXJ5L1ByZWZlcmVuY2VMb2FkZXIvUHJlZmVyZW5jZXMvRHVvU3RhdHVzQmFyUHJlZnMucGxpc3QKTmFtZTogRHVvIOeKtuaAgeagjwpTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly9tdXppa2VqaS5naXRodWIuaW8vc2lsZW8vZGVwaWN0aW9ucy9jb20ubXV6aS5kdW9zdGF0dXNiYXI=",
+  "metadata_sha256": "fbc9121c7eab08ddf6feeab45167931ef54e24a3df0b912c1583297bb87cfb65",
+  "object_key": "debs/7aa7bf827b07f5a7022b463ad16613273028df4c653fe68a8c62dcacc008be69.deb",
+  "schema": 1,
+  "sha256": "7aa7bf827b07f5a7022b463ad16613273028df4c653fe68a8c62dcacc008be69",
+  "size": 119082,
+  "source": {
+    "filename_b64": "ZGVicy9EdW8g54q25oCB5qCPLTIuOS4xLWlwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "3786085e5d1cb6cac09b0154fc23183740bd77ca"
+  }
+}

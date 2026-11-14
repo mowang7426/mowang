@@ -1,0 +1,18 @@
+{
+  "id": "com.mlgm.taploom--1.1.8--iphoneos-arm64e--90e630e4bca47c90--c235af96e65cd84e",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mlgm.taploom",
+    "version": "1.1.8"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1sZ20udGFwbG9vbQpWZXJzaW9uOiAxLjEuOApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBtbGdtCkluc3RhbGxlZC1TaXplOiAxMTI0CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuY2NzdXBwb3J0CkZpbGVuYW1lOiBkZWJzL1RhcGxvb21fMS4xLjhfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAxODQ2NTIKTUQ1c3VtOiAxM2EwYjg3M2M2MzRhOWU2M2ZmNjhhMmI4MDkzNTc4MgpTSEExOiA1MjQxZmRkODNmMGY4MDg4ZjZjY2E4YWRmY2IyMmRhZjU0OWEzNWVkClNIQTI1NjogOTBlNjMwZTRiY2E0N2M5MDhmNjJhZjY4NzM4ZmJhYThlMGQxYTA4ZDg4MWUxODhlOThmZTQyM2NkNjRiMmRmNgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOinpuaRuOi9qOi/ueWPr+inhuWMlgpBdXRob3I6IG1sZ20KSWNvbjogaHR0cHM6Ly9tbGdtNjYuZ2l0aHViLmlvL2ljb24vdGFwbG9vbS5wbmcKTmFtZTogVGFwbG9vbQ==",
+  "metadata_sha256": "ad193ba5de62f304032b357c5c8b85c4027760d2e2f6804028d8e50e773a08d1",
+  "object_key": "debs/90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6.deb",
+  "schema": 1,
+  "sha256": "90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6",
+  "size": 184652,
+  "source": {
+    "filename_b64": "ZGVicy9UYXBsb29tXzEuMS44X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "bccbf7294f14b96d8cc65905eca44b47c9e88197"
+  }
+}

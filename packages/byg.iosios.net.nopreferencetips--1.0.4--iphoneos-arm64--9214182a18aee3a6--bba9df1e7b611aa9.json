@@ -1,0 +1,18 @@
+{
+  "id": "byg.iosios.net.nopreferencetips--1.0.4--iphoneos-arm64--9214182a18aee3a6--bba9df1e7b611aa9",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "byg.iosios.net.nopreferencetips",
+    "version": "1.0.4"
+  },
+  "metadata_b64": "UGFja2FnZTogYnlnLmlvc2lvcy5uZXQubm9wcmVmZXJlbmNldGlwcwpWZXJzaW9uOiAxLjAuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IOaQrOi/kOW3pQpJbnN0YWxsZWQtU2l6ZTogMTY4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBmaXJtd2FyZSAoPj0gMTQuNSkKRmlsZW5hbWU6IGRlYnMvTm9QcmVmZXJlbmNlc1RpcHPnlLXmsaDmj5DphpItUm9vdGxlc3MtMS4wLjQtaXBob25lb3MtYXJtNjQuZGViClNpemU6IDU2MzAKTUQ1c3VtOiAwNTYzMGM0NWIwMmUyMDFkYWE2YTUzYTU4ZTc3NDk2NApTSEExOiBlNTc2YmRjM2VmODMyNDU4MzYzYzU2ODdlOTM0NjliMGIyN2MzNDYyClNIQTI1NjogOTIxNDE4MmExOGFlZTNhNjYzYTExMzBmZGZmODliOGIwOTYwNGNjZTExZmZmZGQ0OWVmODdjZmY0MTliMGZhNApTZWN0aW9uOiDns7vnu5/lop7lvLoKRGVzY3JpcHRpb246IOatpOaPkuS7tuWBj+WQkeS6juabtOaNoumdnuWumOaWueeUteaxoOeahOeUqOaItyjkuIDigJzku7bigJ3lhajljIUpKiDmlK/mjIEgaU9TMTUtaU9TMTYqIOenu+mZpOKAnOiuvue9ri3nlLXmsaAt55S15rGg5YGl5bq35LiO5YWF55S14oCd55qE5o+Q6YaS5bm25pi+56S65YGl5bq35YC8KiDnp7vpmaTmoYzpnaLkuIrnmoTorr7nva7op5LmoIfvvIjlj6rmmL7npLogMTUg5aSp77yJKiDnp7vpmaTigJzlhbPkuo7mnKzmnLrigJ3pobXpnaLkuK0t6YOo5Lu25ZKM5pyN5Yqh5Y6G5Y+y6K6w5b2V5LiL55qE5pyq55+l6YOo5Lu25o+Q6YaS77yI5aaC77ya55S15rGgLeacquefpemDqOS7tu+8iemdnuW4uOeahOS4jemUme+8jG5pY2XvvIEKQXV0aG9yOiDoi4/oi48KSWNvbjogaHR0cHM6Ly9jaGluZXNlYnVpbGRpbmcuY2x1Yi9waWMvY3lkaWEucG5nCk5hbWU6IE5vUHJlZmVyZW5jZXNUaXBz55S15rGg5o+Q6YaSLVJvb3RsZXNzClNwb25zb3I6IOaQrOi/kOW3pQ==",
+  "metadata_sha256": "d22540e05dc31790af843bf9d9f908de83084e0e957fc3f33b2e5aa273777f35",
+  "object_key": "debs/9214182a18aee3a663a1130fdff89b8b09604cce11fffdd49ef87cff419b0fa4.deb",
+  "schema": 1,
+  "sha256": "9214182a18aee3a663a1130fdff89b8b09604cce11fffdd49ef87cff419b0fa4",
+  "size": 5630,
+  "source": {
+    "filename_b64": "ZGVicy9Ob1ByZWZlcmVuY2VzVGlwc+eUteaxoOaPkOmGki1Sb290bGVzcy0xLjAuNC1pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "ca023ab767665a1f034da7ec67488852f8f13de3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.jumpguard--0.1.2--iphoneos-arm64e--ae21e54e432fafa7--09b014278cc472f7",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.jumpguard",
+    "version": "0.1.2"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5qdW1wZ3VhcmQKVmVyc2lvbjogMC4xLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogaGFkZXMKSW5zdGFsbGVkLVNpemU6IDU2MApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgZmlybXdhcmUgKD49IDE1LjApLCBwcmVmZXJlbmNlbG9hZGVyLCBjb20ub3BhMzM0LmFsdGxpc3QKRmlsZW5hbWU6IGRlYnMvSnVtcEd1YXJkXzAuMS4yX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNjY4OTYKTUQ1c3VtOiA4ZjI0NjE1MDVkYzljNGE2MmI0Yjg1MmZjN2QwMmZiMwpTSEExOiAxOGQxMmRlNjMxMTZhYzJhOTRlYzY3MGY1ZjVmZjIzMTY3NWRkZjM0ClNIQTI1NjogYWUyMWU1NGU0MzJmYWZhNzJkNjk5NmQ3NjQwODVlMjZiMjEyNWUxNmQ0ZGI2NWFmMzkwNGRiZTU4MjkwNDBkOQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IENvbmZpcm0gb3IgYmxvY2sgY3Jvc3MtYXBwIGxhdW5jaCByZXF1ZXN0cyBvbiBSb290SGlkZSBpT1MuCkF1dGhvcjogaGFkZXMKTmFtZTogSnVtcEd1YXJk",
+  "metadata_sha256": "b9d0179d884921fbbeffe4d6a92fb9e69d674f52418586987a9e4db19af0c6c3",
+  "object_key": "debs/ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9.deb",
+  "schema": 1,
+  "sha256": "ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9",
+  "size": 66896,
+  "source": {
+    "filename_b64": "ZGVicy9KdW1wR3VhcmRfMC4xLjJfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "7e3c09efa6a215a7fe6cdc96e030d6721c5ef3bc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cn.dao.sbtweaker--1.3.9--iphoneos-arm64--0fde199128677c79--b7f5cab04490cce9",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "cn.dao.sbtweaker",
+    "version": "1.3.9"
+  },
+  "metadata_b64": "UGFja2FnZTogY24uZGFvLnNidHdlYWtlcgpWZXJzaW9uOiAxLjMuOQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEtvbGJpY3oKSW5zdGFsbGVkLVNpemU6IDUyNApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIsIGZpcm13YXJlICg+PSAxNS4wKQpDb25mbGljdHM6IGNvbS5jaHJpc3RvcGguc2JjdXN0b21pemVyLCBjb20uY2hyaXN0b3BoLmRvdWJsZXRhcGxvY2ssIGNvbS5jaHJpc3RvcGgubm9hcHBsaWJyYXJ5LCBjei5rb2xiaS5ub3NsaWRlLCBjei5rb2xiaS5zYnR3ZWFrZXIKUmVwbGFjZXM6IGNvbS5jaHJpc3RvcGguc2JjdXN0b21pemVyLCBjb20uY2hyaXN0b3BoLmRvdWJsZXRhcGxvY2ssIGNvbS5jaHJpc3RvcGgubm9hcHBsaWJyYXJ5LCBjei5rb2xiaS5ub3NsaWRlCkZpbGVuYW1lOiBkZWJzL1NCVHdlYWtlcihyb290bGVzcylfMS4zLjlfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDc2ODI2Ck1ENXN1bTogZmYwZTIyZDJlMGRiZDVlNWZlZWVlN2U3YTlhMzhiNzkKU0hBMTogMjJlNWVhZWJkMWFiZjM5NmU2OTc3ODFlYWRmODFlMjA5ZjA4NzNiZApTSEEyNTY6IDBmZGUxOTkxMjg2NzdjNzlhYWIzNjVlMTMwZDViNTU5MjMyNWM3ZGY2YmU3ZmE1ZWQ1ODA4NjcyNGYwNzI0NjQKU2VjdGlvbjog5ZeoLeW3peWFtwpEZXNjcmlwdGlvbjogaU9TIDE1KyDotorni7HnmoQgU3ByaW5nQm9hcmQg5a6a5Yi25bel5YW377yM5pSv5oyBIERvY2vjgIHkuLvlsY/luIPlsYDjgIHlj4zlh7vplIHlsY/jgIHliqjnlLvkvJjljJbjgIFBcHAg6LWE5rqQ5bqT562J5Yqf6IO977yb5re75Yqg5Lit6Iux5paH57+76K+R77yM5YW25LuW5b6u6LCD44CCCkF1dGhvcjogS29sYmljegpOYW1lOiBTQlR3ZWFrZXIocm9vdGxlc3Mp",
+  "metadata_sha256": "756cb0f1ce79737d427afd9670f39a107beb69f28f2e99f805a44087471337be",
+  "object_key": "debs/0fde199128677c79aab365e130d5b5592325c7df6be7fa5ed58086724f072464.deb",
+  "schema": 1,
+  "sha256": "0fde199128677c79aab365e130d5b5592325c7df6be7fa5ed58086724f072464",
+  "size": 76826,
+  "source": {
+    "filename_b64": "ZGVicy9TQlR3ZWFrZXIocm9vdGxlc3MpXzEuMy45X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "259906fd99bc376cfae16bd85d2a45f0af33afd0"
+  }
+}

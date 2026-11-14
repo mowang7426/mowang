@@ -1,0 +1,18 @@
+{
+  "id": "com.muzi.mupill--1.0.3--iphoneos-arm64--78444d39f0d12f6d--78445b26c38c522e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.muzi.mupill",
+    "version": "1.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm11emkubXVwaWxsClZlcnNpb246IDEuMC4zCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogTXV6aQpJbnN0YWxsZWQtU2l6ZTogMTI3NgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIsIGZpcm13YXJlICg+PSAxNS4wKQpDb25mbGljdHM6IGNvbS5tdXppLm11dG9vbApGaWxlbmFtZTogZGVicy/mgqzmta7oja/kuLjni6znq4vniYgocm9vdGxlc3MpLTEuMC4zLWlwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNTk0MDIKTUQ1c3VtOiBmYjUwM2YxMWNmOTRkYmUzNDg4OGM0MGU3NjAxM2NkMQpTSEExOiBmNjkzNTAxMzZjZTlmODQwOTZkNjQxOWU0YmM3ODMzZjI2OTRiZGY2ClNIQTI1NjogNzg0NDRkMzlmMGQxMmY2ZDU5ZGU3NjY4YTg3ZmQ5NTNiYWZlZDIxMjkwODhmNzNlZjM1OWY2YTgzNGQ2MmU2YQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOahjOmdouaCrOa1ruS/oeaBr+iNr+S4uOeLrOeri+eJiO+8muWunuaXtue9kemAnyAvIENQVSAvIOWGheWtmCAvIOaXtumXtCAvIOWGnOWOhiAvIOWFrOWOhiAvIOWRqOWHoCAvIOeUteaxoOeUtemHj++8jExpcXVpZCBHbGFzcyDpo47moLzvvIzpgI/mmI7luqbkuI7lrZflj7flj6/osIPvvIzmi5bliqjmjIHkuYXljJbvvIzplIHlsY/oh6rliqjpmpDol4/vvIzmiKrlm77lvZXlsY/oh6rliqjpmpDol48KQXV0aG9yOiBNdXppCk5hbWU6IOaCrOa1ruiNr+S4uOeLrOeri+eJiChyb290bGVzcyk=",
+  "metadata_sha256": "af537c6df66cabc2633ceda6e4c3269ab15e5cf3e54f668d19eb2a1e386cd98c",
+  "object_key": "debs/78444d39f0d12f6d59de7668a87fd953bafed2129088f73ef359f6a834d62e6a.deb",
+  "schema": 1,
+  "sha256": "78444d39f0d12f6d59de7668a87fd953bafed2129088f73ef359f6a834d62e6a",
+  "size": 259402,
+  "source": {
+    "filename_b64": "ZGVicy/mgqzmta7oja/kuLjni6znq4vniYgocm9vdGxlc3MpLTEuMC4zLWlwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "b60a693d74bd8d68b1661a6a1411afbb8fd735c2"
+  }
+}

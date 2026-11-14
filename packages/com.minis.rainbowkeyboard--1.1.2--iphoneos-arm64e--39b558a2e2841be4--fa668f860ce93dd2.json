@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.rainbowkeyboard--1.1.2--iphoneos-arm64e--39b558a2e2841be4--fa668f860ce93dd2",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.minis.rainbowkeyboard",
+    "version": "1.1.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnJhaW5ib3drZXlib2FyZApWZXJzaW9uOiAxLjEuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNb1dhbmcKSW5zdGFsbGVkLVNpemU6IDkwMApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvUmFpbmJvd0tleWJvYXJkLXJvb3RoaWRlLTEuMS4yLmRlYgpTaXplOiA1ODQxMDIKTUQ1c3VtOiA3NWY2NGUwYzgyYWE0ODRmNTE3NTYzN2RiMWY0N2QwNApTSEExOiAxMDg4ODg3NTU2NjhhNWMyN2M5YTA1YmNlM2ZlNzc2NmZiYmNlM2Y5ClNIQTI1NjogMzliNTU4YTJlMjg0MWJlNDk2YmEwOGJkZjgxMzY1YmQ3NzM1NDJmZGVmMzgzMzY1MDYyNWNhYThiYWRmZDdhYgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOS4ieaYn+mjjuagvOe6r+m7kemUruW4vSArIOmck+iZueaJqeaVo+mUruebmOWFieaViO+8jOaUr+aMgeWOn+eUn+mUruebmOWSjOW+ruS/oei+k+WFpeazleOAggog44CQ5qC45b+D5Yqf6IO944CRCiAgLSDnuq/pu5HplK7luL3mkK3phY3pnJPombnmianmlaPvvIzoh6rlrprkuYnplK7nm5jlupXoibLjgIHplK7luL3popzoibLjgIHpnJPombnkuq7luqbkuI7mtZPmt6EKICAtIOeyl+W9qeiJsumUruahhuOAgemUrue8neiDjOWFieOAgeWAmemAieivjea4kOWPmO+8jOWdh+WPr+eLrOeri+W8gOWFswogIC0g6LeoIEFwcCDphY3oibLlkIzmraXvvIzmr4/kuKrmu5HmnaHpg73pmYTkvZznlKjkuI7osIPoioLor7TmmI4KICAtIOiuvue9ruWGhee9ruemu+e6v+aViOaenOmihOiniO+8jOWunuaXtuafpeeci+iwg+aVtOaViOaenAog44CQ5L2/55So6K+05piO44CRCiAgLSDlronoo4XlkI7or7cgUmVzcHJpbmcg5LiA5qyhCiAgLSDorr7nva7ot6/lvoTvvJrorr7nva4g4oaSIOW9qeiZuemUruebmOWFieaViAogIC0g5pys5YyF5Li6IFJvb3RIaWRl77yIYXJtNjRl77yJ54mICkF1dGhvcjogTW9XYW5nCk5hbWU6IOW9qeiZuemUruebmOWFieaViA==",
+  "metadata_sha256": "93f1ca83ae05131e87de4197e2b7eb323b077ca501d7d795b3173aaf61208713",
+  "object_key": "debs/39b558a2e2841be496ba08bdf81365bd773542fdef3833650625caa8badfd7ab.deb",
+  "schema": 1,
+  "sha256": "39b558a2e2841be496ba08bdf81365bd773542fdef3833650625caa8badfd7ab",
+  "size": 584102,
+  "source": {
+    "filename_b64": "ZGVicy9SYWluYm93S2V5Ym9hcmQtcm9vdGhpZGUtMS4xLjIuZGVi",
+    "git_blob": "ed50750445755094737a90790f26cd200a3e24af"
+  }
+}

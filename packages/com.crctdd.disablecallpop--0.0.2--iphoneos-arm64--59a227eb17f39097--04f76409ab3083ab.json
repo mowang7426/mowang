@@ -1,0 +1,18 @@
+{
+  "id": "com.crctdd.disablecallpop--0.0.2--iphoneos-arm64--59a227eb17f39097--04f76409ab3083ab",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.crctdd.disablecallpop",
+    "version": "0.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNyY3RkZC5kaXNhYmxlY2FsbHBvcApWZXJzaW9uOiAwLjAuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGNyY3RkZApJbnN0YWxsZWQtU2l6ZTogMjAwCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgZmlybXdhcmUgKD49IDE1LjApLCBmaXJtd2FyZSAoPDwgMTguMCkKRmlsZW5hbWU6IGRlYnMvRGlzYWJsZSBDYWxsUG9QLTAuMC4yLWlwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA1MDk4Ck1ENXN1bTogMTFjOWI2NTNiZTExNzBjNzk2NmZmZWMyNWE2N2U0MDcKU0hBMTogZjkwNjZlMDcyOTYxNDdlYmE1YjAwMWMyODRjNTBkNGVlNDExODYyNgpTSEEyNTY6IDU5YTIyN2ViMTdmMzkwOTdjN2Q5MjFjYTg2OTM2ZDk0NjI5ZWIwNDQzOGIyNmJmOTUyMTY4ZjAxMzEyNzUxZTgKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDnpoHnlKjpl6rkv6HlvLnnqpfpgJrnn6XvvJvml6Dorr7nva7pobnjgIIo5pSv5oyBaU9TIDE1LTE3KQpBdXRob3I6IGNyY3RkZApOYW1lOiBEaXNhYmxlIENhbGxQb1A=",
+  "metadata_sha256": "97b5cd3103dc3245780f7b87c5eb17e732684d1ef58ab51cf84eda748c96e344",
+  "object_key": "debs/59a227eb17f39097c7d921ca86936d94629eb04438b26bf952168f01312751e8.deb",
+  "schema": 1,
+  "sha256": "59a227eb17f39097c7d921ca86936d94629eb04438b26bf952168f01312751e8",
+  "size": 5098,
+  "source": {
+    "filename_b64": "ZGVicy9EaXNhYmxlIENhbGxQb1AtMC4wLjItaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "7543b8c4bfc83e8af61445caad9c904fce6f749a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.mowang.crashanalyzer--1.1.5--iphoneos-arm64e--12faff1e16619734--9c1c6648c9ef2862",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mowang.crashanalyzer",
+    "version": "1.1.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1vd2FuZy5jcmFzaGFuYWx5emVyClZlcnNpb246IDEuMS41CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IE1vV2FuZwpJbnN0YWxsZWQtU2l6ZTogMjQwCkRlcGVuZHM6IHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvY29tLm1vd2FuZy5jcmFzaGFuYWx5emVyXzEuMS41X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMTA5MjE4Ck1ENXN1bTogMGIzNjI3MzQ0ZGZiMzQ5Mzg3MTA1NmNhZTk2N2FiODIKU0hBMTogZWUyYjg3OTdhMThmNTRmZDM3MjQ2YmQ4ZDAzZTJjYjgyODNhNWEzZQpTSEEyNTY6IDEyZmFmZjFlMTY2MTk3MzRmYWI0MmIyNmVmYWE2YWFjYjhiZDM0OWVkODY3MGU0NTkwN2RlMjExYTUwZjhlOGQKU2VjdGlvbjogVXRpbGl0aWVzCkRlc2NyaXB0aW9uOiDoh6rliqjmiavmj4/jgIHliIbnsbvlkozliIbmnpAgaU9TIC5pcHMg5pel5b+XCkF1dGhvcjogTW9XYW5nCk5hbWU6IEFJIOaXpeW/l+WIhuaekA==",
+  "metadata_sha256": "b20235b25c9bf9c9afaf08649437e696215787dffd3dfbf3c6cb85e76eb79fbf",
+  "object_key": "debs/12faff1e16619734fab42b26efaa6aacb8bd349ed8670e45907de211a50f8e8d.deb",
+  "schema": 1,
+  "sha256": "12faff1e16619734fab42b26efaa6aacb8bd349ed8670e45907de211a50f8e8d",
+  "size": 109218,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubW93YW5nLmNyYXNoYW5hbHl6ZXJfMS4xLjVfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "ec7eb370b2e367d29e9e061df980ee080ec61571"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.cracklock.7513--1.0.4--iphoneos-arm64e--88b656cdabc40c36--db35f1d71f205cb3",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.cracklock.7513",
+    "version": "1.0.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNyYWNrbG9jay43NTEzClZlcnNpb246IDEuMC40CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IDc1MTMKSW5zdGFsbGVkLVNpemU6IDE3NzYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIHByZWZlcmVuY2Vsb2FkZXIKUmVwbGFjZXM6IGNvbS5jcmFja2xvY2suc2hhdHRlcgpQcm92aWRlczogY29tLmNyYWNrbG9jay5zaGF0dGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5jcmFja2xvY2suNzUxM18xLjAuNF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDEyNDY4NzIKTUQ1c3VtOiBiM2JjMzc4ZDZiZTFhYmQ3NzZmNmQzOGIxZDBkN2IzNApTSEExOiBmNWZjYzM1OGZiYmUyMWE2YzhlNzQ5OTRjZDYxZWM1ZTY1MDhlMzYyClNIQTI1NjogODhiNjU2Y2RhYmM0MGMzNjY1ZDhjZTlmZTAyNzM5ZGMwMTY5YWZkNWI4NTJhOWVmZDMxZThlYjljZjA2ZWVmZApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOeGhOWxj+W5u+acr++8iEZhZGVDcmFmdO+8ieKAlOKAlCDljYHlha3np43nhoTlsY/liqjnlLvvvIjnoo7lsY8gLyDlg4/ntKDmtojmlaMgLyDnmb7lj7bnqpcgLyDkv6Hlj7fmlYXpmpwgLyBDUlQg5YWz5py6IC8g56uW5p2h57+754mMIC8g5peL5rah5ZC45YWlIC8g54Gw54Os5Y2H6IW+IC8g6aOO5rKZ5ZC55pWjIC8g5p2h5bim5Z6C6JC9IC8g5rOi57q55omt5puyIC8g5pa55Z2X5pWj5byAIC8g6J665peL55Sp5Ye6IC8g5ryG55qu5Yml6JC9IC8g54Gv566h54aE54GtIC8g54Of5bCY6aOY5pWj77yJ77yM5q+P56eN5Y+v5Y2V54us6LCD5Y+C44CCCkF1dGhvcjogNzUxMwpOYW1lOiDnhoTlsY/lubvmnK8=",
+  "metadata_sha256": "8803772cd8ed491f593a1671e28924206b821056a3c88584ab94cd31aaaa7310",
+  "object_key": "debs/88b656cdabc40c3665d8ce9fe02739dc0169afd5b852a9efd31e8eb9cf06eefd.deb",
+  "schema": 1,
+  "sha256": "88b656cdabc40c3665d8ce9fe02739dc0169afd5b852a9efd31e8eb9cf06eefd",
+  "size": 1246872,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uY3JhY2tsb2NrLjc1MTNfMS4wLjRfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "0c0aa5cde70177730d8c2d84cd476c2f21599aab"
+  }
+}

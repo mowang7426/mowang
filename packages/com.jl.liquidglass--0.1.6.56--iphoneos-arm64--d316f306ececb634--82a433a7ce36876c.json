@@ -1,0 +1,18 @@
+{
+  "id": "com.jl.liquidglass--0.1.6.56--iphoneos-arm64--d316f306ececb634--82a433a7ce36876c",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.jl.liquidglass",
+    "version": "0.1.6.56"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmpsLmxpcXVpZGdsYXNzClZlcnNpb246IDAuMS42LjU2CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogamwKSW5zdGFsbGVkLVNpemU6IDU5MzYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIGZpcm13YXJlICg+PSAxNC4wKSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9jb20uamwubGlxdWlkZ2xhc3NfMC4xLjYuNTZfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDMzMDkxNTYKTUQ1c3VtOiAzNzJiMjk2NGFjMTYzOTg4MTA3MzI4NzY4NzEzNTAzMwpTSEExOiA3YzRkZGE5MzM4NjE2MzE3ZjI3ZGQyZDVjODc0YjVkMDIyNzQ5NmM1ClNIQTI1NjogZDMxNmYzMDZlY2VjYjYzNGNjNzc4YzFjZjAzZjE2ZmUyYzVjODk1Y2E2NGM5OGY2MTBhZGUyNTA2NWUyODcxMQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOS7v2lPUzI25ray5oCB546755KD5pWI5p6c77yM5pSv5oyB6ZSB5bGP44CB5o6n5Yi25Lit5b+D44CB6YCa55+l5Lit5b+D44CB5qCH562+5qCP44CBMOiAl+eUte+8iOWQrOivtOaViOaenOi/mOS4jemUme+8jOayoeeUqOi/h++8iQpBdXRob3I6IGpsCkljb246IGh0dHBzOi8vd2luYXZpYXRpb24uZ2l0aHViLmlvL3JlcG8vZGVwaWN0aW9ucy9qbC5saXF1aWRhc3MvaWNvbi5wbmcKTmFtZTogNTgg5ray5oCB546755KD",
+  "metadata_sha256": "bc9a6513992911396a69dc18a71bddc41e629f563b6e282c15bc79ab9c5f417a",
+  "object_key": "debs/d316f306ececb634cc778c1cf03f16fe2c5c895ca64c98f610ade25065e28711.deb",
+  "schema": 1,
+  "sha256": "d316f306ececb634cc778c1cf03f16fe2c5c895ca64c98f610ade25065e28711",
+  "size": 3309156,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uamwubGlxdWlkZ2xhc3NfMC4xLjYuNTZfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "60753e37e88c8dceb738c21825377ffd2e5df2d7"
+  }
+}

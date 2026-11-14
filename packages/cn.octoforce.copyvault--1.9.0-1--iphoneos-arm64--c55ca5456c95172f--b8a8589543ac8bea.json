@@ -1,0 +1,18 @@
+{
+  "id": "cn.octoforce.copyvault--1.9.0-1--iphoneos-arm64--c55ca5456c95172f--b8a8589543ac8bea",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "cn.octoforce.copyvault",
+    "version": "1.9.0-1"
+  },
+  "metadata_b64": "UGFja2FnZTogY24ub2N0b2ZvcmNlLmNvcHl2YXVsdApWZXJzaW9uOiAxLjkuMC0xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogU3F1aWRGb3JjZSwgQmFja3VwCkluc3RhbGxlZC1TaXplOiA2ODY4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5hbHRsaXN0CkNvbmZsaWN0czogY29tLnNxdWlkZm9yY2UuY29weXZhdWx0CkZpbGVuYW1lOiBkZWJzL2NuLm9jdG9mb3JjZS5jb3B5dmF1bHRfMS45LjAtMV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTg1Mjc4MApNRDVzdW06IGEzNGIyMzM2MjIyOWYzYjVkMjhiN2RkNGMzMzRhNWNiClNIQTE6IDNmNTkzMjI2NGI0MzgwMWVkYzI4MWViZTJhZWY0YWYzNWIyNDFkZmMKU0hBMjU2OiBjNTVjYTU0NTZjOTUxNzJmM2RlYTk2YmNhMDc1NDc5MzQyYmQ4NTljYjY4MDg4MWM3NzQ3Mjg2YmYyNDE4YjJiClNlY3Rpb246IOW3peWFtwpEZXNjcmlwdGlvbjog5q2j54mI5LmM6LS85Ymq6LS05p2/CkF1dGhvcjogU3F1aWRGb3JjZSwgQmFja3VwCk5hbWU6IENvcHlWYXVsdCjmv4DmtLvnoIHniYgpClNpbGVvZGVwaWN0aW9uOiBodHRwczovL2xjbHJjLmdpdGh1Yi5pby9yZXBvL2RlcGljdGlvbnMvbmF0aXZlL2NuLm9jdG9mb3JjZS5jb3B5dmF1bHQvZGVwaWN0aW9uLmpzb24=",
+  "metadata_sha256": "163bc72075420fafc79a78b98bd34e8a60c5207e278c368f0f7fcd79b4085d6e",
+  "object_key": "debs/c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b.deb",
+  "schema": 1,
+  "sha256": "c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b",
+  "size": 1852780,
+  "source": {
+    "filename_b64": "ZGVicy9jbi5vY3RvZm9yY2UuY29weXZhdWx0XzEuOS4wLTFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "b97b8ca7c8825dc2cf429b3f6f48acfb5ed2722c"
+  }
+}

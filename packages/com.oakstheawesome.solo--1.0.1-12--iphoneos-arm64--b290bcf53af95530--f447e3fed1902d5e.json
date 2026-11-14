@@ -1,0 +1,18 @@
+{
+  "id": "com.oakstheawesome.solo--1.0.1-12--iphoneos-arm64--b290bcf53af95530--f447e3fed1902d5e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.oakstheawesome.solo",
+    "version": "1.0.1-12"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm9ha3N0aGVhd2Vzb21lLnNvbG8KVmVyc2lvbjogMS4wLjEtMTIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBrYW51bwpJbnN0YWxsZWQtU2l6ZTogMjQ2MApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCksIGVsbGVraXQgfCBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvc29sby3ljaHor7rkuK3mlofniYhfMS4wLjEtMTJfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDU2NDYyMgpNRDVzdW06IGUyYmIyYTI4MTFhZGQ5NjM1NDI5NGRiZWM1ZjQ0MjQ5ClNIQTE6IGQ3NmYwNGRlZGE2NjdiZDRiMmQ5MTU3NWRiMWI1MGU0M2NlOGE5YTMKU0hBMjU2OiBiMjkwYmNmNTNhZjk1NTMwOWFhMjE3NDFkNjM2ODJlN2I0NTk5YzIzMmQ1NTNlOTIzZTcwMGY4OWJiY2FjNjMzClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogU29sbyDkuLvlsY/luZXova7mkq3lop7lvLrniYjvvIjljaHor7rkuK3mlofniYjvvInvvIzmlK/mjIHlv6vmjbfmoIfnrb7jgIHlhbHkuqvlupXmnb/jgIHkvqfovrnmoI/pmpDol4/kuI4gQXBwIOaJk+W8gOaWueW8j+OAggpUYWc6IHB1cnBvc2U6OmV4dGVuc2lvbiwgY29tcGF0aWJsZTo6aW9zMTUvMTYvMTcvMTgKQXV0aG9yOiBrYW51bwpJY29uOiBodHRwczovL2ppbWthbnVvLmdpdGh1Yi5pby9hcHQtcmVwby9kZXBpY3Rpb25zL3NvbG8vaWNvbi5wbmcKTmFtZTogc29sby3ljaHor7rkuK3mlofniYgKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vamlta2FudW8uZ2l0aHViLmlvL2FwdC1yZXBvL2RlcGljdGlvbnMvY29tLm9ha3N0aGVhd2Vzb21lLnNvbG8uanNvbg==",
+  "metadata_sha256": "15b4535cc2de0b23e359f9d81d7a812823c16a5ff4aa5526ab33dfca7ba10912",
+  "object_key": "debs/b290bcf53af955309aa21741d63682e7b4599c232d553e923e700f89bbcac633.deb",
+  "schema": 1,
+  "sha256": "b290bcf53af955309aa21741d63682e7b4599c232d553e923e700f89bbcac633",
+  "size": 564622,
+  "source": {
+    "filename_b64": "ZGVicy9zb2xvLeWNoeivuuS4reaWh+eJiF8xLjAuMS0xMl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "65af386e4c8428deb02381e1a92ccf073e52e8fa"
+  }
+}

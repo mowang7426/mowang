@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.cputhermal--1.6.2-242--iphoneos-arm64--925ef256f9e1e3f8--6523205f8bac603c",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.huayuarc.cputhermal",
+    "version": "1.6.2-242"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwKVmVyc2lvbjogMS42LjItMjQyCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogSHVheXVhcmMKSW5zdGFsbGVkLVNpemU6IDE5NDAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5odWF5dWFyYy5jcHV0aGVybWFsXzEuNi4yLTI0Ml9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTc3MDcyCk1ENXN1bTogMzlhOTBiMDQ0NTRjZWY3YjVkOGM3YWVmMmVkMWYyYjMKU0hBMTogMTliZDJhMjY1NjA3NTI4NmI1ZjdhY2RjZjFhY2RkY2ZiYmNkYzA2NwpTSEEyNTY6IDkyNWVmMjU2ZjllMWUzZjhlMGI1NzQ0YTA3OTc2MTUzNzIxYmU5MjUzZThmNTQ4MmFhYTlkZDg5YmRjZDBlODIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDpgILphY0gaU9TIDE1LTE3IOS4juS4jeWQjCBpUGhvbmUvaVBhZCDmnLrlnovnmoTmuKnmjqfnrqHnkIbmj5Lku7bjgILms6jlhaUgdGhlcm1hbG1vbml0b3Jk77yM5pSv5oyB6Kej6Zmk5rip5o6n44CB5L2O5Yqf6ICX44CBQ1BVL0dQVSDlip/njofnrZbnlaXlj4ogL1N5c3RlbS9MaWJyYXJ5L1RoZXJtYWxNb25pdG9yIOi/kOihjOaXtumFjee9ruihpeS4geOAggpBdXRob3I6IEh1YXl1YXJjCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vY3B1dGhlcm1hbC5wbmcKTmFtZTogQ1BVIOino+mZpOa4qeaOpwpTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vc2lsZW9kZXBpY3Rpb24vQ1BVdGhlcm1hbC9qcy5qc29u",
+  "metadata_sha256": "920c88dda390233a62a8988cb58d6df8e33cce4dae459d64c5ecf164074193cb",
+  "object_key": "debs/925ef256f9e1e3f8e0b5744a07976153721be9253e8f5482aaa9dd89bdcd0e82.deb",
+  "schema": 1,
+  "sha256": "925ef256f9e1e3f8e0b5744a07976153721be9253e8f5482aaa9dd89bdcd0e82",
+  "size": 177072,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uaHVheXVhcmMuY3B1dGhlcm1hbF8xLjYuMi0yNDJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "bd356b3a7cd15eef4a53d81640a54c332af2e925"
+  }
+}

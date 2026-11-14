@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.45--iphoneos-arm64--b34ffdd0d1f96dc4--19844f20f7ae9989",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.45"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjQ1CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogcXEzOTExNjAKSW5zdGFsbGVkLVNpemU6IDMyMjQKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApCkNvbmZsaWN0czogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5ClJlcGxhY2VzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKRmlsZW5hbWU6IGRlYnMvY29tLnFxMzkxMTYwLmNwdWNvcmVfMi4wLjQ1X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA0ODczOTIKTUQ1c3VtOiAxZGQxZTk1NGExNTBkOTFiMDFkODY4NDM4Mjg0YzcwZQpTSEExOiA5OWJkMjJlMzg1N2I5YmEwOTNlMTkxMTUxYzU5OWI2OTM2YTFlMTI3ClNIQTI1NjogYjM0ZmZkZDBkMWY5NmRjNGY2YTgxNjc0MDAzNDRkZmFiN2E0YzNlZTI1NjM0MzA1MzE2NDQyM2M4YmM3ODdhZApTZWN0aW9uOiBUd2Vha3MKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiDkuInnp43mqKHlvI/kuIDplK7liIfmjaLnmoTmmbrog73muKnmjqfnrqHnkIbjgIIg5pm66IO977ya5ri45oiP6auY5oCn6IO944CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybIOS9juWKn+iAl++8muWFqOWxgOecgeeUte+8jOWPr+aUvuihjOS4quWIq+W6lOeUqO+8myDmgKfog73mqKHlvI/vvJrlhajlsYDpq5jmgKfog73vvIzlj6/ljZXni6zljovkvY7mjIflrprlupTnlKjvvJsg5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CCCkF1dGhvcjogcXEzOTExNjAKSWNvbjogaHR0cHM6Ly9xcTM5MTE2MC5naXRodWIuaW8vcmVwby9pY29ucy90aGVybWFsLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcoaU9TMTYvMTcp",
+  "metadata_sha256": "33a6b3781cf2d34a74f55d2261e6b44935565cfd644c1463b7236a243d6b24a0",
+  "object_key": "debs/b34ffdd0d1f96dc4f6a8167400344dfab7a4c3ee256343053164423c8bc787ad.deb",
+  "schema": 1,
+  "sha256": "b34ffdd0d1f96dc4f6a8167400344dfab7a4c3ee256343053164423c8bc787ad",
+  "size": 487392,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuNDVfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "dbaeb1181362be84151a187038310fc92b4c7ef7"
+  }
+}

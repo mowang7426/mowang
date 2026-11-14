@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.billie.ambientbadge--0.1.16--iphoneos-arm64--6c81b554db241579--8809dbed0367e8e2",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.billie.ambientbadge",
+    "version": "0.1.16"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5iaWxsaWUuYW1iaWVudGJhZGdlClZlcnNpb246IDAuMS4xNgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEJhbmFuYQpJbnN0YWxsZWQtU2l6ZTogNzQ4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE1LjApCkZpbGVuYW1lOiBkZWJzL0FtYmllbnRCYWRnZV8wLjEuMTZfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDExNTM0NgpNRDVzdW06IGM2ZTBiNWQ4NWExNDcyNjk5MjJjNmNkYzljZWQ5NTVkClNIQTE6IGFjNGIxMmY0NzE5OTk4NjgwMWIxZGU3OTIzYmY4ZGZkNWFlY2ZhMjUKU0hBMjU2OiA2YzgxYjU1NGRiMjQxNTc5YTZmMTkzMTFmODUwNGZkNTQ3MGU4ZDIxYWM3ODliZjY1YTMwZDkyNTNlMmI5ZThmClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQ3VzdG9tIG5vdGlmaWNhdGlvbiBiYWRnZSBzdHlsZXMgd2l0aCBhZGFwdGl2ZSBhbWJpZW50IGdsb3cuIEZvciBCaWxsaWUuCkF1dGhvcjogQmFuYW5hCk5hbWU6IEFtYmllbnRCYWRnZQ==",
+  "metadata_sha256": "26da00cbde60c56f4084d5cddaa2639711ef6777c5c0a5266260634c60c7c74e",
+  "object_key": "debs/6c81b554db241579a6f19311f8504fd5470e8d21ac789bf65a30d9253e2b9e8f.deb",
+  "schema": 1,
+  "sha256": "6c81b554db241579a6f19311f8504fd5470e8d21ac789bf65a30d9253e2b9e8f",
+  "size": 115346,
+  "source": {
+    "filename_b64": "ZGVicy9BbWJpZW50QmFkZ2VfMC4xLjE2X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "9acad9ad8db975a1ec0e26a4de4e0a2809e79f9a"
+  }
+}

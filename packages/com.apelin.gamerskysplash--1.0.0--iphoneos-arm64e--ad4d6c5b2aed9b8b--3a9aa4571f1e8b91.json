@@ -1,0 +1,18 @@
+{
+  "id": "com.apelin.gamerskysplash--1.0.0--iphoneos-arm64e--ad4d6c5b2aed9b8b--3a9aa4571f1e8b91",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.apelin.gamerskysplash",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmFwZWxpbi5nYW1lcnNreXNwbGFzaApWZXJzaW9uOiAxLjAuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBBcGVsaW4KRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApCkZpbGVuYW1lOiBkZWJzL+a4uOawkeaYn+epuuWOu+W8gOWxj+W5v+WRil8xLjAuMF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDEwMDcyCk1ENXN1bTogMWI2NjIyOTdhMmE1YmFmMTlmMGM4ZDU5M2JjZGMxY2YKU0hBMTogMzhkNGI5ZDZlNTQwZTJiMTE3ZDgzZDViNzMzMmVhYzZjZDIwNThmYwpTSEEyNTY6IGFkNGQ2YzViMmFlZDliOGI3ODcwNWIwZTZmNTg3ZjRiMzFhMWNkNmIyZTU2YTMxMDBlYzJlMzU3NmZmZTY0ZTcKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkuIDkuKrkuJPpl6jms6jlhaXmuLjmsJHmmJ/nqbrvvIhjb20uZ2FtZXJza3kuZ2FtZXJza3nvvInnmoTmj5Lku7bvvIzljrvpmaTlkK/liqjlvIDlsY/lub/lkYrvvIjoh6rmnIkgTGF1bmNoQWQg5LiOIFRvcE9uIOesrOS4ieaWueW8gOWxj++8ieOAggpBdXRob3I6IEFwZWxpbgpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2dhbWVyc2t5c3BsYXNoLmpwZwpOYW1lOiDmuLjmsJHmmJ/nqbrljrvlvIDlsY/lub/lkYo=",
+  "metadata_sha256": "de960a1ecf6c1b8bcbf9ad3063e9de7a62d8c38d619227e6498845517e5ca676",
+  "object_key": "debs/ad4d6c5b2aed9b8b78705b0e6f587f4b31a1cd6b2e56a3100ec2e3576ffe64e7.deb",
+  "schema": 1,
+  "sha256": "ad4d6c5b2aed9b8b78705b0e6f587f4b31a1cd6b2e56a3100ec2e3576ffe64e7",
+  "size": 10072,
+  "source": {
+    "filename_b64": "ZGVicy/muLjmsJHmmJ/nqbrljrvlvIDlsY/lub/lkYpfMS4wLjBfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "19b4dbe013e04ad17a4469e111fcae08be46f67a"
+  }
+}

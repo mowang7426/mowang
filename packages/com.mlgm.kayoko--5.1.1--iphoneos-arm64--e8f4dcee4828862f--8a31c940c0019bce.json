@@ -1,0 +1,18 @@
+{
+  "id": "com.mlgm.kayoko--5.1.1--iphoneos-arm64--e8f4dcee4828862f--8a31c940c0019bce",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.mlgm.kayoko",
+    "version": "5.1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1sZ20ua2F5b2tvClZlcnNpb246IDUuMS4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogbWxnbQpJbnN0YWxsZWQtU2l6ZTogMzg5NgpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTQuMCksIG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5hbHRsaXN0CkNvbmZsaWN0czogY29kZXMuYXVyb3JhLmtheW9rbywgZGV2LnRyYXVyaWdlLmtheW9rbywgY29tLjgyZmxleC5rYXlva28sIGNvbS5za3lwYWluLmtheW9rbywgY29tLmRhby5rYXlva28sIHh5ei5jeXB3bi5rYXlva28KUmVwbGFjZXM6IGNvZGVzLmF1cm9yYS5rYXlva28sIGRldi50cmF1cmlnZS5rYXlva28sIGNvbS44MmZsZXgua2F5b2tvLCBjb20uc2t5cGFpbi5rYXlva28sIGNvbS5kYW8ua2F5b2tvLCB4eXouY3lwd24ua2F5b2tvCkZpbGVuYW1lOiBkZWJzL0theW9rb181LjEuMV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogODI0NzQ2Ck1ENXN1bTogYjcxN2JiNTRiMWFlZWU2MWFiMTMyNGEzZGMxN2ExNTUKU0hBMTogZWI0YzkwYmUzZDEwZDMyZTdjNWIwYjJiNzdkOTEzYzQyODJkZjQ3YQpTSEEyNTY6IGU4ZjRkY2VlNDgyODg2MmY5NWZiZjcyZDZhNjgwYzAxYTJiNDRlZWUwZmUwNjIwN2Y4OTVhN2Y0M2ViMDZkNjQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDlip/og73kuLDlr4znmoTliarliIfmnb/nrqHnkIblmajvvIzln7rkuo4gS2F5b2tvICjkuYzpvpnniYjmnKwpIOi/m+ihjOS/ruaUuQpBdXRob3I6IG1sZ20KSWNvbjogaHR0cHM6Ly9tbGdtNjYuZ2l0aHViLmlvL2ljb24va2F5b2tvLnBuZwpOYW1lOiBLYXlva28KU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vbWxnbTY2LmdpdGh1Yi5pby9kZXBpY3Rpb25zL2NvbS5tbGdtLmtheW9rby9kZXBpY3Rpb24uanNvbg==",
+  "metadata_sha256": "d6bf3fda3d09cb52ed90c2478ee0e33bb86a4e370f28dbb0e00627376c0d0efd",
+  "object_key": "debs/e8f4dcee4828862f95fbf72d6a680c01a2b44eee0fe06207f895a7f43eb06d64.deb",
+  "schema": 1,
+  "sha256": "e8f4dcee4828862f95fbf72d6a680c01a2b44eee0fe06207f895a7f43eb06d64",
+  "size": 824746,
+  "source": {
+    "filename_b64": "ZGVicy9LYXlva29fNS4xLjFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "bcf68c34c8f7beb5417f5c2fcae398c6c5db0346"
+  }
+}

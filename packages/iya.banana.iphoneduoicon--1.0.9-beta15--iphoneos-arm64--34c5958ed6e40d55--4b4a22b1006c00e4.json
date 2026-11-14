@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.iphoneduoicon--1.0.9-beta15--iphoneos-arm64--34c5958ed6e40d55--4b4a22b1006c00e4",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.iphoneduoicon",
+    "version": "1.0.9~beta15"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5pcGhvbmVkdW9pY29uClZlcnNpb246IDEuMC45fmJldGExNQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEJhbmFuYQpJbnN0YWxsZWQtU2l6ZTogNDU0MApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCksIGZpcm13YXJlICg8PCAyNy4wKSwgbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyClN1Z2dlc3RzOiBpeWEuYmFuYW5hLmF1ZGlvc2VydmljZSAoPj0gMS4wLjQpCkNvbmZsaWN0czogY29tLjgyZmxleC5zaW5nbGV2cG4KRmlsZW5hbWU6IGRlYnMvaXlhLmJhbmFuYS5pcGhvbmVkdW9pY29uXzEuMC45fmJldGExNV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogODAyNDEwCk1ENXN1bTogMzVlY2ZjNmMzMmYyZjY2MDUxOGRjZDU2MDczMDgwMjAKU0hBMTogZWJhMjlkNzllODg2YmJlNTAzYjQ4Y2M2ZTNkYTVjNDQ0ZGYzNjU5OQpTSEEyNTY6IDM0YzU5NThlZDZlNDBkNTVlOTI5N2RiZjAyNjczNjk0ZWNkMDIxZjcyMjU4NTI0MzRjNzAwMzEyNGY4Y2U5NjcKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBDdXN0b21pemFibGUgZ2xhc3Mgc3RhdHVzIGJhciBjYXBzdWxlcyB3aXRoIHdlYXRoZXIsIG1lZGlhLCBub3RpZmljYXRpb25zIGFuZCBtaW5pIERvY2suCkF1dGhvcjogQmFuYW5hCk5hbWU6IEx1bm9yYQ==",
+  "metadata_sha256": "d274ed8533b52b6b404f63aa83f53bccf668e03fccae4e4a66bf501ce837a144",
+  "object_key": "debs/34c5958ed6e40d55e9297dbf02673694ecd021f7225852434c7003124f8ce967.deb",
+  "schema": 1,
+  "sha256": "34c5958ed6e40d55e9297dbf02673694ecd021f7225852434c7003124f8ce967",
+  "size": 802410,
+  "source": {
+    "filename_b64": "ZGVicy9peWEuYmFuYW5hLmlwaG9uZWR1b2ljb25fMS4wLjl+YmV0YTE1X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "609083fec764f869642e6164eb54362c49a81891"
+  }
+}

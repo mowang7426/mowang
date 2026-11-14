@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.cputhermal--1.6.2-306--iphoneos-arm64e--c1012c3122a14c68--a307a5b1cbbb01fd",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.huayuarc.cputhermal",
+    "version": "1.6.2-306"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwKVmVyc2lvbjogMS42LjItMzA2CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEh1YXl1YXJjCkluc3RhbGxlZC1TaXplOiAyMzQwClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQoPj0gMC45KQpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxfMS42LjItMzA2X2lwaG9uZW9zLWFybTY0ZS0xLmRlYgpTaXplOiA3NTE4MzIKTUQ1c3VtOiAwNjg0OWFkYTQyMWVkMTIyYjM3ZWViMDMzNjUzM2Y1ZApTSEExOiBmMDIyMTllZmRjMGEzNDEyODc0NmY1ZjI0ODBhMzQxZGJjNmQ3NzhiClNIQTI1NjogYzEwMTJjMzEyMmExNGM2ODk3YTJhODY2ZjllNDQ1M2JhMTdmNjE5YTQwZjI1MTgxYzhiMTk0NDY5MDk4MGQ3OApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAggog5pm66IO977ya5ri45oiP5ruh6aKR44CB5bqU55So5L2O6aKR546H44CB5qGM6Z2i5Y6f55Sf44CB5ruR5Yqo5o+Q6YCf44CB54aE5bGP55yB55S177ybCiDkvY7lip/ogJfvvJrlhajlsYDnnIHnlLXvvIzlj6/mlL7ooYzkuKrliKvlupTnlKjvvJsKIOino+mZpOa4qeaOp++8muWFqOWxgOa7oemike+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8mwog5q+P5Liq5bqU55So5Y+v5Y2V54us6K6+572u5qGj5L2N44CC6YCC6YWNIGlPUyAxNS0xN+OAggpBdXRob3I6IEh1YXl1YXJjCkljb246IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9xcTM5MTE2MC9jcHV0aGVybWFsLWFzc2V0cy9tYWluL0lNR18xMTMyLnBuZwpOYW1lOiBDUFXmmbrog73muKnmjqcKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL3NpbGVvZGVwaWN0aW9uL0NQVXRoZXJtYWwvanMuanNvbg==",
+  "metadata_sha256": "9dd4aad08bcad5c4544956142ba7a29852bba75d7ac807a03949174617c746a3",
+  "object_key": "debs/c1012c3122a14c6897a2a866f9e4453ba17f619a40f25181c8b1944690980d78.deb",
+  "schema": 1,
+  "sha256": "c1012c3122a14c6897a2a866f9e4453ba17f619a40f25181c8b1944690980d78",
+  "size": 751832,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uaHVheXVhcmMuY3B1dGhlcm1hbF8xLjYuMi0zMDZfaXBob25lb3MtYXJtNjRlLTEuZGVi",
+    "git_blob": "73896c59e14d2bd8055a70230bb98e9a072be62b"
+  }
+}

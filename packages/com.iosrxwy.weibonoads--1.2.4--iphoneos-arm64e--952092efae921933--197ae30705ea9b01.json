@@ -1,0 +1,18 @@
+{
+  "id": "com.iosrxwy.weibonoads--1.2.4--iphoneos-arm64e--952092efae921933--197ae30705ea9b01",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.iosrxwy.weibonoads",
+    "version": "1.2.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlvc3J4d3kud2VpYm9ub2FkcwpWZXJzaW9uOiAxLjIuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBpb3NyeHd5Ckluc3RhbGxlZC1TaXplOiA0MzIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlCkZpbGVuYW1lOiBkZWJzL19fX19fX19Ob0Fkc18xLjIuNF9pcGhvbmVvcy1hcm02NGVfYTk2NWIwZTU0YjFmOTE2NC5kZWIKU2l6ZTogMTA3MDQ0Ck1ENXN1bTogZmVmYTIwMWE3OThjODk1NzM5NWUzMzhhYzNhZTdiNzkKU0hBMTogZDFhNWMzNzI1ZWFhZjkzNDY5ZmU2OGE5M2VjYzllZDhmM2EyNWRkZApTSEEyNTY6IDk1MjA5MmVmYWU5MjE5MzNmMDQwYWRhNjBhMTExYjVmMTYyN2MwZWJhMGQ2NmYxNDUyMzllMGQ2YWY0NmZjZTYKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDlvq7ljZrljrvlub/lkYrjgILlub/lkYrkvY3pu5jorqTlvIDlkK/vvIzmkJzntKLlub/lnLrlkozkuIvmi4nliLfmlrDlp4vnu4jljrvmjonjgILlj6/pmpDol4/ku7vliqHkuK3lv4PjgIHkuLrkvaDmjqjojZDjgIHkvaDlj6/og73mhJ/lhbTotqPjgIHor4TorrrmqbHnqpfjgIHliIbkuqvmqKHlnZflkozlupXmoI/op4bpopHjgIHmtojmga/jgILlj6/oh6rliqjnrb7liLDlt7LlhbPms6jotoXor53vvIzmlK/mjIHmnLrlnovkvKroo4XkuI7lvLrliLYgMTIwSHrjgILpl6rpgIDlkI7vvIzkuIvmrKHmiZPlvIDkvJrmj5DnpLrlubblj6/ku6Xlr7zlh7rml6Xlv5fjgILkuInmjIflj4zlh7vmiZPlvIDorr7nva7vvIzplb/mjInlupXmoI/jgIzmiJHjgI3lvIDlhbPorr7nva4KQXV0aG9yOiBpb3NyeHd5Ckljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vd2VpYm9ub2Fkcy5qcGcKTmFtZTog5b6u5Y2aIE5vQWRz",
+  "metadata_sha256": "5c5fe724163319fcc94c7e07e73ac66b699fc075b49de836a1f270cfc487b0d9",
+  "object_key": "debs/952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6.deb",
+  "schema": 1,
+  "sha256": "952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6",
+  "size": 107044,
+  "source": {
+    "filename_b64": "ZGVicy9fX19fX19fTm9BZHNfMS4yLjRfaXBob25lb3MtYXJtNjRlX2E5NjViMGU1NGIxZjkxNjQuZGVi",
+    "git_blob": "9807eb56d354ee99d317a6888946a907c2f77678"
+  }
+}

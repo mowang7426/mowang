@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.119--iphoneos-arm64e--5ff2b7dd8a292941--d35cac0d55fc4f7e",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.119"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjExOQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBxcTM5MTE2MApJbnN0YWxsZWQtU2l6ZTogNDQwMApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCkKQ29uZmxpY3RzOiBjb20uaHVheXVhcmMuY3B1dGhlcm1hbCwgY29tLmh1YXl1YXJjLmNwdXRoZXJtYWxwcm8sIGNvbS5xcTM5MTE2MC5jcHVzZW50cnkKUmVwbGFjZXM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpGaWxlbmFtZTogZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuMTE5X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNjY3ODg2Ck1ENXN1bTogZmIwNWVmMjIyODNmNzM2NjkwMGViNjc4YzA3OGFiZjQKU0hBMTogZjg0MDEzMWMxZWNlNzBjYzI5ZmI4MWNkM2NlNTc2MTliYjdmODFmMwpTSEEyNTY6IDVmZjJiN2RkOGEyOTI5NDE4YmIxMjBmMGMxNmI2NTRmOWU2ODc5M2ZmMWFmYmFjNDg3N2Q0ODQ4ZTVkOWE3NDMKU2VjdGlvbjogVHdlYWtzClByaW9yaXR5OiBvcHRpb25hbApEZXNjcmlwdGlvbjog5LiJ56eN5qih5byP5LiA6ZSu5YiH5o2i55qE5pm66IO95rip5o6n566h55CG44CCIOaZuuiDve+8mua4uOaIj+mrmOaAp+iDveOAgeW6lOeUqOS9jumikeeOh+OAgeahjOmdouWOn+eUn+OAgea7keWKqOaPkOmAn+OAgeeGhOWxj+ecgeeUte+8myDkvY7lip/ogJfvvJrlhajlsYDnnIHnlLXvvIzlj6/mlL7ooYzkuKrliKvlupTnlKjvvJsg5oCn6IO95qih5byP77ya5YWo5bGA6auY5oCn6IO977yM5Y+v5Y2V54us5Y6L5L2O5oyH5a6a5bqU55So77ybIOavj+S4quW6lOeUqOWPr+WNleeLrOiuvue9ruaho+S9jeOAggpBdXRob3I6IHFxMzkxMTYwCkljb246IGh0dHBzOi8vcXEzOTExNjAuZ2l0aHViLmlvL3JlcG8vaWNvbnMvdGhlcm1hbC5wbmcKTmFtZTogQ1BV5pm66IO95rip5o6nKGlPUzE2LzE3KQ==",
+  "metadata_sha256": "241285b481a923a475ba1cf748c2ab64d012a74f36f3621486f5f9d3d7e868bb",
+  "object_key": "debs/5ff2b7dd8a2929418bb120f0c16b654f9e68793ff1afbac4877d4848e5d9a743.deb",
+  "schema": 1,
+  "sha256": "5ff2b7dd8a2929418bb120f0c16b654f9e68793ff1afbac4877d4848e5d9a743",
+  "size": 667886,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuMTE5X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "27d63da0bd260069053dc5786d075b41c6857f95"
+  }
+}

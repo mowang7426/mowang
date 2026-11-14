@@ -1,0 +1,18 @@
+{
+  "id": "wacljcr.batteryanalyzer--1.6.7--iphoneos-arm64--018ddd507d4d764c--83459f57796af4d0",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "wacljcr.batteryanalyzer",
+    "version": "1.6.7"
+  },
+  "metadata_b64": "UGFja2FnZTogd2FjbGpjci5iYXR0ZXJ5YW5hbHl6ZXIKVmVyc2lvbjogMS42LjcKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiB5emRtbTIwMjQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMv55S15rGg6ICX55S15YiG5p6QXzEuNi43X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxMjYyNDAKTUQ1c3VtOiBmYTVlZmU2Y2I0NjU4NDMwZTM5N2I4OTMxODNjOGViMQpTSEExOiBjYzk3Y2U5N2MxZDcwZGMwYzZkMmU2Nzc5NmYwMzJlMGJmZmRkMGIzClNIQTI1NjogMDE4ZGRkNTA3ZDRkNzY0Y2YzYzRmMTJkZjIwZjU0YWE0YjZkMDkxY2NkZDg2YzNlOTkwZTlkMmU0OTA0OGUwYQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOeUteaxoOiAl+eUteWIhuaekO+8mue7n+iuoeWQhCBBcHAg5YmN5Y+wL+WQjuWPsOi/kOihjOaXtumVv+S4jueUtemHj+WPmOWMlu+8jOS8sOeul+iAl+eUteWNoOavlO+8jOWxleekuueUtemHj+WOhuWPsuS4juWFheaUvueUtee7n+iuoeOAguazqO+8muiAl+eUteS4uuS8sOeul+WAvO+8jOS7heS+m+WPguiAg++8jOmdnueyvuehrua1i+mHj+OAggpBdXRob3I6IHl6ZG1tMjAyNApOYW1lOiDnlLXmsaDogJfnlLXliIbmnpA=",
+  "metadata_sha256": "4515134d35c90a531289296391799e6755eb03aba87c4f6e996fdbf173f05195",
+  "object_key": "debs/018ddd507d4d764cf3c4f12df20f54aa4b6d091ccdd86c3e990e9d2e49048e0a.deb",
+  "schema": 1,
+  "sha256": "018ddd507d4d764cf3c4f12df20f54aa4b6d091ccdd86c3e990e9d2e49048e0a",
+  "size": 126240,
+  "source": {
+    "filename_b64": "ZGVicy/nlLXmsaDogJfnlLXliIbmnpBfMS42LjdfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "4b1903fa43b38d593ea4d7cc220f688728a96a36"
+  }
+}

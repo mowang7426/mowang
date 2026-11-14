@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.rainbowkeyboard--1.2.4--iphoneos-arm64e--84b2bceb17a862a8--88665685622a72f1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.minis.rainbowkeyboard",
+    "version": "1.2.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnJhaW5ib3drZXlib2FyZApWZXJzaW9uOiAxLjIuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNb1dhbmcKSW5zdGFsbGVkLVNpemU6IDEwMzIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5taW5pcy5yYWluYm93a2V5Ym9hcmRfMS4yLjRfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA3MzE1NTAKTUQ1c3VtOiAxOGQ5MDI1YzczYTFiNzA2NWE4NmQ4MWZhMzJkMTViMwpTSEExOiBmNTA1MTA0OWNjMThhNGU3Y2UyNWU2YjQ5M2E5MWEyNzk5ZjMxMmJkClNIQTI1NjogODRiMmJjZWIxN2E4NjJhODQxYzU5NTU4MTg4YjVlMjNiMjdhN2ViMTRiMmY0OTk2MmRjNTY4M2E5MjhmNTU4OApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOe6r+m7kemUruW4veS4jumck+iZueaJqeaVo++8jOaUr+aMgeWOn+eUn+mUruebmOWSjOW+ruS/oei+k+WFpeazlQog6Ieq5a6a5LmJ6ZSu55uY5bqV6Imy44CB6ZSu5bi96aKc6Imy44CB6ZyT6Jm55Lqu5bqm5LiO5rWT5reh44CCCiDmlK/mjIHnspflvanoibLplK7moYbjgIHplK7nvJ3og4zlhYnjgIHlgJnpgInor43muJDlj5jlj4rni6znq4vlvIDlhbPjgIIKIOiuvue9ruWGheWQq+emu+e6v+ivpuaDheS4juaViOaenOmihOiniOOAggog5pSv5oyB6LeoIEFwcCDphY3oibLlkIzmraXvvIzmr4/kuKrmu5HmnaHpmYTmnInkvZznlKjkuI7osIPoioLor7TmmI7jgIIKIOmck+iZuemUruW4vee6r+iJsui9u+W8ue+8muWNleiJsuiHqumAieaIlumAkOasoeaNouiJsu+8jOeLrOeri+iwg+iKguaal+WFieiHs+W8uuWFie+8jOaXoOmUruWGhea3t+iJsuOAggog5LyY5YyW6YWN572u6YeN5aSN6K+75Y+W5LiO6ZSu55uY6YeN5Yi377yM5aKe5YqgIFFRIOa1heiJsumUruebmOmFjeiJsuWFvOWuueOAggog5LyY5YyW6L6T5YWl5LqL5Lu26Lev5b6E77yM5YeP5bCR5beo6a2UL+i2iueLsSBBcHAg5omT5a2X5pe255qE5Li757q/56iL5omr5o+P5LiO5pW06ZSu55uY6YeN57uY44CCCiDmm7TmlrDvvJrmlrDlop7ml6Xpl7TmqKHlvI/mt7HlpJzmqKHlvI/oh6rliqjliIfmjaLlhYnmlYjvvIzmlrDlop7ljp/nlJ/plK7nm5jkuLvpopjplK7luL0KQXV0aG9yOiBNb1dhbmcKTmFtZTog5b2p6Jm56ZSu55uY5YWJ5pWI",
+  "metadata_sha256": "6cad93e7cbbd2050b73a1f1780436a2a5aa898da4a81d29677feb00044b2a469",
+  "object_key": "debs/84b2bceb17a862a841c59558188b5e23b27a7eb14b2f49962dc5683a928f5588.deb",
+  "schema": 1,
+  "sha256": "84b2bceb17a862a841c59558188b5e23b27a7eb14b2f49962dc5683a928f5588",
+  "size": 731550,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubWluaXMucmFpbmJvd2tleWJvYXJkXzEuMi40X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "8114ccfee213d81689f1c2946e645c95387407f8"
+  }
+}

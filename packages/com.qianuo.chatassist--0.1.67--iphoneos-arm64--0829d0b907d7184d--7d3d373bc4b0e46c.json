@@ -1,0 +1,18 @@
+{
+  "id": "com.qianuo.chatassist--0.1.67--iphoneos-arm64--0829d0b907d7184d--7d3d373bc4b0e46c",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.qianuo.chatassist",
+    "version": "0.1.67"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFpYW51by5jaGF0YXNzaXN0ClZlcnNpb246IDAuMS42NwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGthbnVvCkluc3RhbGxlZC1TaXplOiAzMjI4CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgcHJlZmVyZW5jZWxvYWRlciwgdWlraXR0b29scwpGaWxlbmFtZTogZGVicy9DaGF0QXNzaXN0XzAuMS42N19pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNTk5NTEyCk1ENXN1bTogNDk3ODgwMTZhN2Y0NjY4ZWVjYjhlMTk3NzMyNGExNjUKU0hBMTogMjk2MjlmNjdkMWFiNmNhNTNmM2RhNjIyZDhhN2NlOTBkMzE5NmZiZgpTSEEyNTY6IDA4MjlkMGI5MDdkNzE4NGQxY2NhMmVmZmQ5NDA0NmViMzllOWU1ZGM5ZDM1ODUzMTZlZDBmZWM0YTUxODc5OGQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBSZWdpb24gT0NSIGFuZCBBSSByZXBseSBhc3Npc3RhbnQuIEV4cGVyaW1lbnRhbCBpT1MgMTUrIHJvb3RoaWRlIGJ1aWxkLgpBdXRob3I6IGthbnVvCkljb246IGh0dHBzOi8vamlta2FudW8uZ2l0aHViLmlvL2FwdC1yZXBvL2RlcGljdGlvbi9jaGF0YXNzaXN0L2ljb24ucG5nCk5hbWU6IENoYXRBc3Npc3QKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vamlta2FudW8uZ2l0aHViLmlvL2FwdC1yZXBvL2RlcGljdGlvbi9jb20ucWlhbnVvLmNoYXRhc3Npc3QuanNvbg==",
+  "metadata_sha256": "4250854c66a375157c3228a87439cf1bbaf471075f9daaed1e66bdb0037f3c54",
+  "object_key": "debs/0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d.deb",
+  "schema": 1,
+  "sha256": "0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d",
+  "size": 599512,
+  "source": {
+    "filename_b64": "ZGVicy9DaGF0QXNzaXN0XzAuMS42N19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "9a924e28837ec266a10b4ca2e2c7a88d705b0469"
+  }
+}

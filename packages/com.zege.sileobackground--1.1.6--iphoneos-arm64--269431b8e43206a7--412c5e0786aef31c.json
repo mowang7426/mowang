@@ -1,0 +1,18 @@
+{
+  "id": "com.zege.sileobackground--1.1.6--iphoneos-arm64--269431b8e43206a7--412c5e0786aef31c",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.zege.sileobackground",
+    "version": "1.1.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnplZ2Uuc2lsZW9iYWNrZ3JvdW5kClZlcnNpb246IDEuMS42CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjog5rO95ZOlCkluc3RhbGxlZC1TaXplOiAyNjAKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvU2lsZW8g6IOM5pmv5Zu+XzEuMS42X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNjIyNApNRDVzdW06IGI4ZTI2YzE5NTMwNDk2MTQ0NGRjZGE5NTg0OGM3ZGExClNIQTE6IDJmOWY3YzQ1ZGE0NzY0ODE5YTI0MmE4NjI0ODFmYjU0OTM1M2M5YzYKU0hBMjU2OiAyNjk0MzFiOGU0MzIwNmE3ODczNGRlZjAwMWI1OWE0MjJmN2Y4ZDIwOGVhNjc0NGM2N2I2N2ZjNzliZjVjODU2ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog57uZIFNpbGVvIOWKoOaVtOmhteiHquWumuS5ieiDjOaZr+Wbvu+8iOS4ieaMh+WPjOWHu+ebuOWGjOWvvOWFpe+8ieOAgjEuMS4277ya5bqV6YOo5oKs5rWu5qCP5ray5oCB546755KD5L+d55WZ77yb5pel5pyf5bCP5qCH6aKYL+WIhue7hOWktOeBsOWdl+e7p+e7remAj+aYjuWMluOAggpBdXRob3I6IOazveWTpQpJY29uOiBodHRwczovL01yU3V1dS5naXRodWIuaW8vU2lsZW8vZGVwaWN0aW9ucy9pY29uLXNpbGVvYmFja2dyb3VuZC5wbmcKTmFtZTogU2lsZW8g6IOM5pmv5Zu+",
+  "metadata_sha256": "ac258e5064b52a546c2fd304c6e8e93e99e2c4da6bab4e92d2c61be360057e2e",
+  "object_key": "debs/269431b8e43206a78734def001b59a422f7f8d208ea6744c67b67fc79bf5c856.deb",
+  "schema": 1,
+  "sha256": "269431b8e43206a78734def001b59a422f7f8d208ea6744c67b67fc79bf5c856",
+  "size": 26224,
+  "source": {
+    "filename_b64": "ZGVicy9TaWxlbyDog4zmma/lm75fMS4xLjZfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "2c8eb137594e00056e924890f9e28d1495fb8584"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.rainbowkeyboard--1.1.2--iphoneos-arm64--533e6984abff339b--cb4c5b5bbdcfd3a9",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.minis.rainbowkeyboard",
+    "version": "1.1.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnJhaW5ib3drZXlib2FyZApWZXJzaW9uOiAxLjEuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1vV2FuZwpJbnN0YWxsZWQtU2l6ZTogOTA0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9SYWluYm93S2V5Ym9hcmQtcm9vdGxlc3MtMS4xLjIuZGViClNpemU6IDU4Mzc3MApNRDVzdW06IGE4NWExN2ExOTM3YzY5OGFmOTg0NTJmM2RlNmM2ZTA5ClNIQTE6IDFmNmNmMzA5N2QwMDhkMDM5OGIxMTQyODlhNTVlODdkY2EzY2EzM2UKU0hBMjU2OiA1MzNlNjk4NGFiZmYzMzliZWE0OTMxYmQ1ZDRkMDlkZTYyYzU5NjhmMzM4OGRjODQ0NDNiZWNlZDNlNjIwZDBjClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5LiJ5pif6aOO5qC857qv6buR6ZSu5bi9ICsg6ZyT6Jm55omp5pWj6ZSu55uY5YWJ5pWI77yM5pSv5oyB5Y6f55Sf6ZSu55uY5ZKM5b6u5L+h6L6T5YWl5rOV44CCCiDjgJDmoLjlv4Plip/og73jgJEKICAtIOe6r+m7kemUruW4veaQremFjemck+iZueaJqeaVo++8jOiHquWumuS5iemUruebmOW6leiJsuOAgemUruW4veminOiJsuOAgemck+iZueS6ruW6puS4jua1k+a3oQogIC0g57KX5b2p6Imy6ZSu5qGG44CB6ZSu57yd6IOM5YWJ44CB5YCZ6YCJ6K+N5riQ5Y+Y77yM5Z2H5Y+v54us56uL5byA5YWzCiAgLSDot6ggQXBwIOmFjeiJsuWQjOatpe+8jOavj+S4qua7keadoemDvemZhOS9nOeUqOS4juiwg+iKguivtOaYjgogIC0g6K6+572u5YaF572u56a757q/5pWI5p6c6aKE6KeI77yM5a6e5pe25p+l55yL6LCD5pW05pWI5p6cCiDjgJDkvb/nlKjor7TmmI7jgJEKICAtIOWuieijheWQjuivtyBSZXNwcmluZyDkuIDmrKEKICAtIOiuvue9rui3r+W+hO+8muiuvue9riDihpIg5b2p6Jm56ZSu55uY5YWJ5pWICiAgLSDmnKzljIXkuLogUm9vdGxlc3PvvIhhcm02NO+8ieeJiApBdXRob3I6IE1vV2FuZwpOYW1lOiDlvanombnplK7nm5jlhYnmlYg=",
+  "metadata_sha256": "c816c85cf265081ce26cfffbf3d0d37b02221909447ed49aa31f9275a3aec882",
+  "object_key": "debs/533e6984abff339bea4931bd5d4d09de62c5968f3388dc84443beced3e620d0c.deb",
+  "schema": 1,
+  "sha256": "533e6984abff339bea4931bd5d4d09de62c5968f3388dc84443beced3e620d0c",
+  "size": 583770,
+  "source": {
+    "filename_b64": "ZGVicy9SYWluYm93S2V5Ym9hcmQtcm9vdGxlc3MtMS4xLjIuZGVi",
+    "git_blob": "d90efda3e297b3d842c6fd5d8e328af7e9d05c65"
+  }
+}

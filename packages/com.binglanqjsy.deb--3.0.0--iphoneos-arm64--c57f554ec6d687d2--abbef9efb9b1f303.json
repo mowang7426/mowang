@@ -1,0 +1,18 @@
+{
+  "id": "com.binglanqjsy.deb--3.0.0--iphoneos-arm64--c57f554ec6d687d2--abbef9efb9b1f303",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.binglanqjsy.deb",
+    "version": "3.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJpbmdsYW5xanN5LmRlYgpWZXJzaW9uOiAzLjAuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IOWGsOiTnQpJbnN0YWxsZWQtU2l6ZTogOTA4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgd3MuaGJhbmcuY29tbW9uICg+PSAxLjE2KQpGaWxlbmFtZTogZGVicy9jb20uYmluZ2xhbnFqc3kuZGViXzMuMC4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxNjQ3MDAKTUQ1c3VtOiA3YjhjNThjYjhhNzJiZTI2MTlkMjQyMDYxNTBlYzE5NQpTSEExOiA5MDZmNDQ1MmZlY2M3Yjk3YzA4OGE0ZGFiNWJhZGRlNTQ2MzVhZTc1ClNIQTI1NjogYzU3ZjU1NGVjNmQ2ODdkMjIxNGZjOWIzOWQ1MmEyMGFhN2JlOGQ5YWUyYWRjNThjMmYyYmU2NjQ1ZjZlMTZjZQpTZWN0aW9uOiDns7vnu5/nvo7ljJYKRGVzY3JpcHRpb246IOa3u+WKoOWFqOWxgOawtOWNsOebuOWFs+WKn+iDve+8jOaUr+aMgeaIquWbvuawtOWNsO+8jOW9leWxj+awtOWNsO+8jOWll+Wjs+aIquWbvu+8jOWll+Wjs+W9leWxj+OAggpBdXRob3I6IOWGsOiTnQpOYW1lOiDlhrDok53lhajlsYDmsLTljbDlpZflo7PvvIjlhY3mjojmnYPvvIk=",
+  "metadata_sha256": "4c1686398ef29706c365caf8e732afdd73bc1c8f66b66b3d6525e38165819c62",
+  "object_key": "debs/c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce.deb",
+  "schema": 1,
+  "sha256": "c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce",
+  "size": 164700,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYmluZ2xhbnFqc3kuZGViXzMuMC4wX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "f80cabbe727281cbee2883c6920b6e52a502d240"
+  }
+}

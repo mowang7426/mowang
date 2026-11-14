@@ -1,0 +1,18 @@
+{
+  "id": "com.qianuo.morrorlyrics--0.8.31--iphoneos-arm64e--bf5de47885bc5e8d--4cddc90ddf608fa1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qianuo.morrorlyrics",
+    "version": "0.8.31"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFpYW51by5tb3Jyb3JseXJpY3MKVmVyc2lvbjogMC44LjMxCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHFpYW51bwpJbnN0YWxsZWQtU2l6ZTogMTg3MgpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCksIG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9jb20ucWlhbnVvLm1vcnJvcmx5cmljc18wLjguMzFfaXBob25lb3MtYXJtNjRlICgxKS5kZWIKU2l6ZTogMzUxODM4Ck1ENXN1bTogZWEzMTI5OTI0OWIyZGFhNWNhYmU0N2YzY2M2YzQyMGUKU0hBMTogMDZjMDY2NTE5OTdhYzg1MWE0ZjUwNzZhMzVhYjczMTUzODI5YzA0OApTSEEyNTY6IGJmNWRlNDc4ODViYzVlOGQxMzNlZmExZTEyZTE2NjIxZGEzZmUxNjg2YzNjNWFmODc4NjM4N2E0MDAzM2U4MDYKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBJc29sYXRlZCBtdXNpYyBseXJpY3MsIHBsYXliYWNrIGNsb2NrLCBhcnR3b3JrIGFuZCBhdWRpbyBzcGVjdHJ1bSBicmlkZ2UsIHdpdGggaW5kZXBlbmRlbnQgbmF0aXZlIGxvdy1wb3dlciBtaW5pIGlzbGFuZCBhbmQgU2V0dGluZ3Mgc291cmNlIHNlbGVjdG9yLgpBdXRob3I6IHFpYW51bwpOYW1lOiBNb3Jyb3JMeXJpY3MgRGF0YSBCcmlkZ2U=",
+  "metadata_sha256": "496849ccad5fbd84469040b86645f26fc49821b8cb6f92fb20f9d8d39ca383ea",
+  "object_key": "debs/bf5de47885bc5e8d133efa1e12e16621da3fe1686c3c5af8786387a40033e806.deb",
+  "schema": 1,
+  "sha256": "bf5de47885bc5e8d133efa1e12e16621da3fe1686c3c5af8786387a40033e806",
+  "size": 351838,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucWlhbnVvLm1vcnJvcmx5cmljc18wLjguMzFfaXBob25lb3MtYXJtNjRlICgxKS5kZWI=",
+    "git_blob": "5be41be1ecb18f26cc2a8721bf28608cd95f761c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "local.amap.twotabs--1.1--iphoneos-arm64--15a5227e37787b50--04b15f551cf7b2df",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "local.amap.twotabs",
+    "version": "1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogbG9jYWwuYW1hcC50d290YWJzClZlcnNpb246IDEuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IOelgeWOhemVvwpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMv5Lq65rCR55qE6auY5b63XzEuMV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTQ1NjY0Ck1ENXN1bTogOWEyNGUxNGJiYjkxNTUyZThiNWRiYTk4YjU5MWY3NjYKU0hBMTogYjZkMGM1NjFiMjM1OWEwZTU4MDlkYzVmZGU3YWQ3OTYzODc2NTIzMwpTSEEyNTY6IDE1YTUyMjdlMzc3ODdiNTBhNDVmMzVjM2I4ZjE1NDI2MGFlYmY4MDkxY2RkYzhkZjc0YTIxMTBlODgwNmNmNTcKU2VjdGlvbjog5L2g55qEaVBob25l5LiN5q2i5LqO5q2kCkRlc2NyaXB0aW9uOiDkurrmsJHnmoTpq5jlvrfvvIzkuI3lv5jliJ3lv4PnoKXnoLrliY3ooYwKQXV0aG9yOiDnpYHljoXplb8KSWNvbjogaHR0cHM6Ly9xaS10aW5nLXpoYW5nLmdpdGh1Yi5pby9zaWxlby9pbWFnZXMvaWNvbi9ybWRnZC5wbmcKTmFtZTog5Lq65rCR55qE6auY5b63ClNpbGVvZGVwaWN0aW9uOiBodHRwczovL3FpLXRpbmctemhhbmcuZ2l0aHViLmlvL3NpbGVvL3NpbGVvZGVwaWN0aW9uL3JtZGdkLmpzb24=",
+  "metadata_sha256": "ce7b1cc9c492301d685f897b10d65296757e3093f554f881190580aeb63d3c1a",
+  "object_key": "debs/15a5227e37787b50a45f35c3b8f154260aebf8091cddc8df74a2110e8806cf57.deb",
+  "schema": 1,
+  "sha256": "15a5227e37787b50a45f35c3b8f154260aebf8091cddc8df74a2110e8806cf57",
+  "size": 145664,
+  "source": {
+    "filename_b64": "ZGVicy/kurrmsJHnmoTpq5jlvrdfMS4xX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "547a3b2c454dc3b19493bfd23217de17650c1851"
+  }
+}

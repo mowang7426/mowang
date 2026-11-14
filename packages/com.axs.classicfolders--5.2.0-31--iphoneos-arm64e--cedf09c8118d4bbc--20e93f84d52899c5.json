@@ -1,0 +1,18 @@
+{
+  "id": "com.axs.classicfolders--5.2.0-31--iphoneos-arm64e--cedf09c8118d4bbc--20e93f84d52899c5",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.axs.classicfolders",
+    "version": "5.2.0-31"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmF4cy5jbGFzc2ljZm9sZGVycwpWZXJzaW9uOiA1LjIuMC0zMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBBeHMKSW5zdGFsbGVkLVNpemU6IDYwOApQcmUtRGVwZW5kczogcm9vdGxlc3MtY29tcGF0KD49IDAuOSkKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSg+PTE1LjApCkZpbGVuYW1lOiBkZWJzL2NvbS5heHMuY2xhc3NpY2ZvbGRlcnNfNS4yLjAtMzFfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAxMDU1MTgKTUQ1c3VtOiA1NmE2MTFmZTg0NTQwMGUxNjhhNTk4OWQ3NTMyMDhkYgpTSEExOiBiM2ExYzlhN2M2MGNjNDZkMzE0Mjk2YjkzNzU0NmRkNmUxMTg3ZjYxClNIQTI1NjogY2VkZjA5YzgxMThkNGJiYzA2ZmUwZTg2YWI0ZjUxN2FjODkxNDRkMDkwMDUxZGQ4MGNlN2IzMTdmMTcwZDM1YgpTZWN0aW9uOiBBeHMtVHdlYWtzCkRlc2NyaXB0aW9uOiDorqkgaU9TIDE1KyDnmoTmoYzpnaLmlofku7blpLnmjInnu4/lhbggbWFjT1Mg6aOO5qC85Y6f5L2N5bGV5byA44CCCiAqIDEuIOeCueW8gOaWh+S7tuWkueaXtuWcqOWbvuagh+WOn+S9jeW8ueWHuuWNiumAj+aYjueOu+eSg+mdouadv++8jOahjOmdouWbvuagh+maj+mdouadv+mHjeaOkuOAgea3oeWHugogKiAyLiDmlK/mjIHph43lkb3lkI3jgIHovbvngrnnqbrnmb3lhbPpl63jgIHlkK/liqjlupTnlKjoh6rliqjmlLbotbcKICogMy4g5pSv5oyB5a+85YWl5Zu+54mH44CBR0lG44CB6Z2Z6Z+z6KeG6aKR5L2c5Li65paH5Lu25aS56Z2i5p2/6IOM5pmvCkF1dGhvcjogQXhzCkljb246IGh0dHBzOi8vYXhzNjYuZ2l0aHViLmlvL3Byby9pY29uL0NsYXNzaWNGb2xkZXJzMy5wbmcKTmFtZTogQ2xhc3NpY0ZvbGRlcnMKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vYXhzNjYuZ2l0aHViLmlvL3Byby9zaWxlb2RlcGljdGlvbi9jbGFzc2ljZm9sZGVycy9qcy5qc29u",
+  "metadata_sha256": "92573f6bf401aad3ae8e072599fca34fa6efb95c5ef6f56384f5af6a2b88ef81",
+  "object_key": "debs/cedf09c8118d4bbc06fe0e86ab4f517ac89144d090051dd80ce7b317f170d35b.deb",
+  "schema": 1,
+  "sha256": "cedf09c8118d4bbc06fe0e86ab4f517ac89144d090051dd80ce7b317f170d35b",
+  "size": 105518,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYXhzLmNsYXNzaWNmb2xkZXJzXzUuMi4wLTMxX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "7f0d810fdf20dcdfe6ed9079cb5d676f68041020"
+  }
+}

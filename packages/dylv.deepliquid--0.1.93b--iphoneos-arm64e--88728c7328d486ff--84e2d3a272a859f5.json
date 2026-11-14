@@ -1,0 +1,18 @@
+{
+  "id": "dylv.deepliquid--0.1.93b--iphoneos-arm64e--88728c7328d486ff--84e2d3a272a859f5",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "dylv.deepliquid",
+    "version": "0.1.93b"
+  },
+  "metadata_b64": "UGFja2FnZTogZHlsdi5kZWVwbGlxdWlkClZlcnNpb246IDAuMS45M2IKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQWkKSW5zdGFsbGVkLVNpemU6IDUzMjAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIGZpcm13YXJlICg+PSAxNC4wKSwgZmlybXdhcmUgKDw8IDI2LjApLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL0Fp5ray5oCB546755KDXzAuMS45M2Jhcm02NGUuZGViClNpemU6IDE3NTM1MDIKTUQ1c3VtOiAxMGY0YjA2ZmU0MThhMjkxYmVkZGEwYTEyYTFjYTMwZApTSEExOiBhMWU4YjAyYTViMmJmMmRkZjE3ZDE4MTJmZjM5YjVlODY0M2U0M2QzClNIQTI1NjogODg3MjhjNzMyOGQ0ODZmZmY0ZTNkODZkMjcyODA3MzIzZWU2ZGNkNTBhMTY1Y2Y3N2MxNzlmZGE5N2ZjMTk3MwpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOa3seW6puS8mOWMlueahOa2suaAgeeOu+eSg+aViOaenO+8jOaZuuiDveW4p+eOh+aOp+WItiArIOWFqOWxgOaVsOmHj+mihOeul++8jOWRiuWIq+WPkeeDqwpBdXRob3I6IEFpCkljb246IGh0dHBzOi8vd2luYXZpYXRpb24uZ2l0aHViLmlvL3JlcG8vZGVwaWN0aW9ucy9keWx2LkRlZXBsaXF1aWQvaWNvbi5wbmcKTmFtZTogQWnmtrLmgIHnjrvnkoM=",
+  "metadata_sha256": "43bb3d891c5e51df41d8bc622c5e57991bf71cfeeed76ad72dcac1b011fc2189",
+  "object_key": "debs/88728c7328d486fff4e3d86d272807323ee6dcd50a165cf77c179fda97fc1973.deb",
+  "schema": 1,
+  "sha256": "88728c7328d486fff4e3d86d272807323ee6dcd50a165cf77c179fda97fc1973",
+  "size": 1753502,
+  "source": {
+    "filename_b64": "ZGVicy9Baea2suaAgeeOu+eSg18wLjEuOTNiYXJtNjRlLmRlYg==",
+    "git_blob": "6ab37791851952b39d8464eca92b05ab90a446b4"
+  }
+}

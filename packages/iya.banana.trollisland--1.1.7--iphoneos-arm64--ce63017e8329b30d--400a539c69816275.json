@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.trollisland--1.1.7--iphoneos-arm64--ce63017e8329b30d--400a539c69816275",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.trollisland",
+    "version": "1.1.7"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS50cm9sbGlzbGFuZApWZXJzaW9uOiAxLjEuNwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEJhbmFuYQpJbnN0YWxsZWQtU2l6ZTogNDYwCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyLCBmaXJtd2FyZSAoPj0gMTYuMCksIGZpcm13YXJlICg8PCAxOS4wKQpGaWxlbmFtZTogZGVicy9Ucm9sbElzbGFuZF8xLjEuN19pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNTUwMDQKTUQ1c3VtOiA0ZmY2ZTUxMTM4MTNiYzExZDZmZGI4MWRjZjIxMjA2ZgpTSEExOiBkMzA4ZjNiODYwZWU3YmMyYTk0YWVhMjcxNzRlY2M3YWQ2ZThkNWFjClNIQTI1NjogY2U2MzAxN2U4MzI5YjMwZGJkMDBhYWJlZWQyODJmZDY5NmI4MmRlMjVhNGQ3ZmQ1MGQyZTY2MTJhMjllZjhhNwpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IEVuYWJsZSBhbmQgcmVwb3NpdGlvbiB0aGUgbmF0aXZlIER5bmFtaWMgSXNsYW5kIHdpdGhvdXQgcGVyc2lzdGVudCBNb2JpbGVHZXN0YWx0IGNoYW5nZXMuCkF1dGhvcjogQmFuYW5hCk5hbWU6IFRyb2xsSXNsYW5k",
+  "metadata_sha256": "7c218576f46e23f49ede65fd57a9d84d591cad2457b375cd420749e9c0fcd825",
+  "object_key": "debs/ce63017e8329b30dbd00aabeed282fd696b82de25a4d7fd50d2e6612a29ef8a7.deb",
+  "schema": 1,
+  "sha256": "ce63017e8329b30dbd00aabeed282fd696b82de25a4d7fd50d2e6612a29ef8a7",
+  "size": 55004,
+  "source": {
+    "filename_b64": "ZGVicy9Ucm9sbElzbGFuZF8xLjEuN19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "404f7aa009f5065c8c03bc59a64475947a506dd6"
+  }
+}

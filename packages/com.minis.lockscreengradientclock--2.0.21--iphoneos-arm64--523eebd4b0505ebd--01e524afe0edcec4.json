@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.lockscreengradientclock--2.0.21--iphoneos-arm64--523eebd4b0505ebd--01e524afe0edcec4",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.minis.lockscreengradientclock",
+    "version": "2.0.21"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLmxvY2tzY3JlZW5ncmFkaWVudGNsb2NrClZlcnNpb246IDIuMC4yMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1vV2FuZwpJbnN0YWxsZWQtU2l6ZTogOTkyCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9jb20ubWluaXMubG9ja3NjcmVlbmdyYWRpZW50Y2xvY2tfMi4wLjIxX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA0NjIwMzIKTUQ1c3VtOiA4ZTYwOTgyZjg2YzJhZjhlNmZiODI0MjhiMjNhN2U5NApTSEExOiBiZDcxZDQ0NWQ1MDVlNDcwNGNlOTM0NDZhNjgzNmU4N2VkZGVkMjg2ClNIQTI1NjogNTIzZWViZDRiMDUwNWViZGU1MjQ0YmUxYjYwNjY5MWY1YWEyYjdmNDNkMWMyZjY0MTYxODZkZmQwODBjODUwYgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOaWsOWinumakOiXj+WOn+eUn+aXpeacn+WSjOWGnOWOhgpBdXRob3I6IE1vV2FuZwpOYW1lOiDni6znq4vplIHlsY/ml7bpl7TmuJDlj5g=",
+  "metadata_sha256": "703810261f9de471ed6d9fa1dd921d66c595e753450639068a433098941c2eac",
+  "object_key": "debs/523eebd4b0505ebde5244be1b606691f5aa2b7f43d1c2f6416186dfd080c850b.deb",
+  "schema": 1,
+  "sha256": "523eebd4b0505ebde5244be1b606691f5aa2b7f43d1c2f6416186dfd080c850b",
+  "size": 462032,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubWluaXMubG9ja3NjcmVlbmdyYWRpZW50Y2xvY2tfMi4wLjIxX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "66effb14d1848b80abb5ee9129103dfadd502a64"
+  }
+}

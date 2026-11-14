@@ -1,0 +1,18 @@
+{
+  "id": "dylv.sbliquidglass--1.8--iphoneos-arm64e--ced0f46d9749fc45--0edab2a467b02b2d",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "dylv.sbliquidglass",
+    "version": "1.8"
+  },
+  "metadata_b64": "UGFja2FnZTogZHlsdi5zYmxpcXVpZGdsYXNzClZlcnNpb246IDEuOApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNb1dhbmcKSW5zdGFsbGVkLVNpemU6IDQxMDAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCksIGZpcm13YXJlICg+PSAxNC4wKSwgZmlybXdhcmUgKDw8IDI2LjApLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL1NCTGlxdWlkR2xhc3MtMS44LXJvb3RoaWRlLmRlYgpTaXplOiAxMzk1MjU0Ck1ENXN1bTogM2Q0NDBmMjMyODI1N2NiODUzNGY1NWY4MjY5YTMwNGEKU0hBMTogZTMyOTVlNDk3MDgxZGFjMDMzYWMwZDRkNGI4OWMwOTE0M2NmMjgxYgpTSEEyNTY6IGNlZDBmNDZkOTc0OWZjNDUyYjcwMTJhODQyNDEyZDE1MDJkMGU5MmU1ZWVmM2ViMDg3ZTgwOTcwNmNjYzYxMmIKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBpT1MgMjYg6aOO5qC844CM5ray5oCB546755KD44CN57O757ufIFVJIOe+juWMluaPkuS7tu+8muWIhumYtuautea4suafk+eahOa2suaAgeeOu+eSg+adkOi0qO+8jOWuieWFqOihqOWxguaetuaehO+8jOWFqOWxgOeUn+aViOOAggog44CQ5qC45b+D5Yqf6IO944CRCiAgLSDns7vnu5/mtrLmgIHnjrvnkoPvvJrkuLrpgJrnn6XkuK3lv4PjgIHmjqfliLbkuK3lv4PjgIFEb2Nr44CB54q25oCB5qCP562J57O757uf55WM6Z2i5aWX55SoIGlPUyAyNiDpo47moLzpgI/mmI7mipjlsITnjrvnkoPmnZDotKgKICAtIOWuieWFqOihqOWxguaetuaehO+8muWIhuWxgua4suafk++8jOmZjeS9jueZveWxjy/ph43lkK/po47pmanvvIznqLPlrprov5DooYwKICAtIOWkmui/m+eoi+azqOWFpe+8muimhuebliBCYWNrYm9hcmRk44CBRG9jayDnrYnlpJrkuKrns7vnu5/ov5vnqIvvvIzmlYjmnpzlhajlsYDnu5/kuIAKIOOAkOS9v+eUqOivtOaYjuOAkQogIC0g5a6J6KOF5ZCO6K+3IFJlc3ByaW5nIOS4gOasoe+8iOW7uuiuruazqOmUgOWQjuinguWvn+aYr+WQpueos+Wumu+8iQogIC0g6K6+572u6Lev5b6E77ya6K6+572uIOKGkiBTQkxpcXVpZEdsYXNzCiAgLSDmnKzljIXkuLogUm9vdEhpZGXvvIhhcm02NGXvvInniYgKQXV0aG9yOiBNb1dhbmcKTmFtZTogU0JMaXF1aWRHbGFzcw==",
+  "metadata_sha256": "9052352e0efe037f40857afc7df07a59cc051e04c8f5b41a39b4f6ba0734e25c",
+  "object_key": "debs/ced0f46d9749fc452b7012a842412d1502d0e92e5eef3eb087e809706ccc612b.deb",
+  "schema": 1,
+  "sha256": "ced0f46d9749fc452b7012a842412d1502d0e92e5eef3eb087e809706ccc612b",
+  "size": 1395254,
+  "source": {
+    "filename_b64": "ZGVicy9TQkxpcXVpZEdsYXNzLTEuOC1yb290aGlkZS5kZWI=",
+    "git_blob": "c30599d88fbac2dd7ff6ddbcf4d38c1b063f50e8"
+  }
+}

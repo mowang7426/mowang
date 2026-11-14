@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.uuscreenswitch.roothide--1.0.3--iphoneos-arm64e--63f3735d789caea4--651af694b04c148f",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "im.mjh.uuscreenswitch.roothide",
+    "version": "1.0.3"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLnV1c2NyZWVuc3dpdGNoLnJvb3RoaWRlClZlcnNpb246IDEuMC4zCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IGp1bmhvbmcKSW5zdGFsbGVkLVNpemU6IDI0MApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvVVXov5zmjqfliIflsY8gKFJvb3RoaWRlKV8xLjAuM19pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDI2MDIwCk1ENXN1bTogNzc2MTY5NzA4NWY1NTNmZDZhMTM3N2MxODNlZmU5OGMKU0hBMTogZDZlODI0NmE2NjNiMzk5YWQyOGRkZjc1YTFiZWQzOTEyZjkyMjMzMgpTSEEyNTY6IDYzZjM3MzVkNzg5Y2FlYTQ4ZDU3YzFjMTY3YWQyYWNjZjFlYjE0YTBlZGI2MjRiODY1MTNhNGFhNmFmMzRkZjkKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDmiorpu5jorqTmjqfliLboj5zljZXph4znmoTlsZXlvIDlhajpg6jnqpflj6PlkozmmL7npLrmoYzpnaLmm7/mjaLkuLrnm7TmjqXliIfmjaLmmL7npLrlmajvvIzpgILlkIjlj4zmmL7npLrlmajnlKjmiLfjgIIKQXV0aG9yOiBqdW5ob25nCk5hbWU6IFVV6L+c5o6n5YiH5bGPIChSb290aGlkZSk=",
+  "metadata_sha256": "aecc64f8bb855e1ba849d25129c460a2935409c0357efd85b7cfbe746a8ce0bf",
+  "object_key": "debs/63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9.deb",
+  "schema": 1,
+  "sha256": "63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9",
+  "size": 26020,
+  "source": {
+    "filename_b64": "ZGVicy9VVei/nOaOp+WIh+WxjyAoUm9vdGhpZGUpXzEuMC4zX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "b59402d50545a2b9f2b748b59c95f2ae7826d495"
+  }
+}

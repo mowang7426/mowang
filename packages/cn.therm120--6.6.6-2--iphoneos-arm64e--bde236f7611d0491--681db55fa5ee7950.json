@@ -1,0 +1,18 @@
+{
+  "id": "cn.therm120--6.6.6-2--iphoneos-arm64e--bde236f7611d0491--681db55fa5ee7950",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "cn.therm120",
+    "version": "6.6.6-2"
+  },
+  "metadata_b64": "UGFja2FnZTogY24udGhlcm0xMjAKVmVyc2lvbjogNi42LjYtMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBoYW9nZQpJbnN0YWxsZWQtU2l6ZTogMzE2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBmaXJtd2FyZSAoPj0gMTUuMCksIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuYWx0bGlzdApDb25mbGljdHM6IGNuLnpxYmIuZml4MTIwaHosIGNuLnpxYmIuZml4MTIwaHoxNSwgY29tLnpxYmIuZml4MTIwaHosIGNvbS56cWJiLmR5bmFtaWMxMjBoegpSZXBsYWNlczogY24uenFiYi5maXgxMjBoegpQcm92aWRlczogY24uenFiYi5maXgxMjBoegpGaWxlbmFtZTogZGVicy9jbi50aGVybTEyMF82LjYuNi0yX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNjk4NDAKTUQ1c3VtOiBmMmE5N2FjNWUwMjZmZDAyMGVmNjcyYTMxODJlMmJhMQpTSEExOiA3MjhkNWI3MDJlYWI2ZTc3YmMzODBlYmEyODI0ZThlZjc4ODA1NWNmClNIQTI1NjogYmRlMjM2Zjc2MTFkMDQ5MTIxYTkyZTc5Y2IwMWFjMDc2OGU1ZTNlNTc3OTU1ZDYxNDkxNjYyYTY2NDY0YTBjZgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IFVubG9jayBkeW5hbWljIHJlZnJlc2ggcmF0ZSBmcm9tIDgwSHogdG8gMTIwSHouCkF1dGhvcjogaGFvZ2UKSWNvbjogZmlsZTovLy9MaWJyYXJ5L1ByZWZlcmVuY2VCdW5kbGVzL3RoZXJtMTIwaHouYnVuZGxlL2ljb25AM3gucG5nCk5hbWU6IOeos+W4p+a4qeaOpzEyMA==",
+  "metadata_sha256": "7ad2c4f3c5daa9fa83702213ef45bce62c9f89c20b3d252c3fc8a3a98a385b48",
+  "object_key": "debs/bde236f7611d049121a92e79cb01ac0768e5e3e577955d61491662a66464a0cf.deb",
+  "schema": 1,
+  "sha256": "bde236f7611d049121a92e79cb01ac0768e5e3e577955d61491662a66464a0cf",
+  "size": 69840,
+  "source": {
+    "filename_b64": "ZGVicy9jbi50aGVybTEyMF82LjYuNi0yX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "eadc1d3e972117aa4b7014157c61bdf1629fc4c3"
+  }
+}

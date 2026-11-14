@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.xianyuadblock--3.2.1--iphoneos-arm64--d59e53da8f22846f--bce98783003a1e22",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "im.mjh.xianyuadblock",
+    "version": "3.2.1"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLnhpYW55dWFkYmxvY2sKVmVyc2lvbjogMy4yLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBqdW5ob25nCkluc3RhbGxlZC1TaXplOiAxNTgwCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgZmlybXdhcmUgKD49IDE0LjApCkNvbmZsaWN0czogaW0ubWpoLnhpYW55dWhlbHBlciwgaW0ubWpoLnhpYW55dWhlbHBlci5yb290aGlkZQpSZXBsYWNlczogaW0ubWpoLnhpYW55dWhlbHBlciwgaW0ubWpoLnhpYW55dWhlbHBlci5yb290aGlkZQpGaWxlbmFtZTogZGVicy/pl7LpsbzliqnmiYtfMy4yLjFfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDU3MjkxOApNRDVzdW06IGQ2MDg1OGJkMzkwZmU5OGExODhlMWU3Y2UxMGNjM2EzClNIQTE6IDFhMzk4NTMzMjAyNDYxOTI1MmUxYzlkOWYwZDY3ZDE0YmUzYmY5ZDkKU0hBMjU2OiBkNTllNTNkYThmMjI4NDZmZDVjMDU4NjU0NDllY2NkYTNhNmU0ZWI3ZTE0OTVmZGQ1ZDdhMjM4YTVmNzNhNDc3ClNlY3Rpb246IFR3ZWFrcwpIb21lcGFnZTogaHR0cHM6Ly94aWFueXUuZ29mb3JpdC5zaQpEZXNjcmlwdGlvbjog6Zey6bG85bm/5ZGK5LiO6aG16Z2i5YeA5YyW44CB5ZCO5Y+w5Y6f5qC357yW6L6R5ZWG5ZOB44CB5Lya5ZGY57uP6aqM6aKG5Y+W44CB5Lu75Yqh5o6n5Yi25Y+K6YCQ5Lu26L+Q6KGM6K6w5b2V44CCCkF1dGhvcjoganVuaG9uZwpJY29uOiBodHRwczovL2FwdC5tamguaW0vYXNzZXRzL2ltLm1qaC54aWFueXVhZGJsb2NrL2ljb24ucG5nCk5hbWU6IOmXsumxvOWKqeaJiw==",
+  "metadata_sha256": "dd6a816a3cd895f2fa126c4913e73b6c5fd2b751b5758b0d70ab5c99f3c263d4",
+  "object_key": "debs/d59e53da8f22846fd5c05865449eccda3a6e4eb7e1495fdd5d7a238a5f73a477.deb",
+  "schema": 1,
+  "sha256": "d59e53da8f22846fd5c05865449eccda3a6e4eb7e1495fdd5d7a238a5f73a477",
+  "size": 572918,
+  "source": {
+    "filename_b64": "ZGVicy/pl7LpsbzliqnmiYtfMy4yLjFfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "dcdd1b5ea142dc0b5bcf49e8a39b070fc6852f19"
+  }
+}

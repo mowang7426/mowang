@@ -1,0 +1,18 @@
+{
+  "id": "com.ngkhoi.26home--1.3.15-settings-native--iphoneos-arm64e--b1f435645f8c50f7--4f106389bee0d024",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.ngkhoi.26home",
+    "version": "1.3.15-settings-native-icons-fix-zh-roothide"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm5na2hvaS4yNmhvbWUKVmVyc2lvbjogMS4zLjE1LXNldHRpbmdzLW5hdGl2ZS1pY29ucy1maXgtemgtcm9vdGhpZGUKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogbmdraG9pCkluc3RhbGxlZC1TaXplOiAyOTQ0MApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgfCBlbGxla2l0LCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5uZ2tob2kuMjZob21lXzEuMy4xNS1zZXR0aW5ncy1uYXRpdmUtaWNvbnMtZml4LXpoLXJvb3RoaWRlX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMjAwNzIxNTYKTUQ1c3VtOiA0MGIwYzBhMDVmMGRjN2QzOTNkMjMxZGMzZjI3MGFkNQpTSEExOiBjYjAwYjg2NTFhZTUxYjFhMjQ0NTNkNDg3MzM3NGY0ZmIwOWU2NTU3ClNIQTI1NjogYjFmNDM1NjQ1ZjhjNTBmNzkxNjdmMmVmMWZjOGQwODZmMTdmYzUzMTNjYjU5M2Y4NzUxNTlkZDU3MDc2ZDcxZgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IDI2SG9tZSBDaGluZXNlIFJvb3RIaWRlIGJ1aWxkIHdpdGggcGVyLWFwcCBjdXRvdXQgY29udHJvbHMgYW5kIGN1c3RvbSBpY29uIHNvdXJjZXMuCkF1dGhvcjogbmdraG9pCk5hbWU6IDI2SG9tZQ==",
+  "metadata_sha256": "e9ee8c95a116e913f22cc3aa69c10a9edaceefe116873392f00a1e7f2e1ecade",
+  "object_key": "debs/b1f435645f8c50f79167f2ef1fc8d086f17fc5313cb593f875159dd57076d71f.deb",
+  "schema": 1,
+  "sha256": "b1f435645f8c50f79167f2ef1fc8d086f17fc5313cb593f875159dd57076d71f",
+  "size": 20072156,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubmdraG9pLjI2aG9tZV8xLjMuMTUtc2V0dGluZ3MtbmF0aXZlLWljb25zLWZpeC16aC1yb290aGlkZV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "57dfda04ed8401f950631f9d93cfbe9fd063d6af"
+  }
+}

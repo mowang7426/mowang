@@ -1,0 +1,18 @@
+{
+  "id": "com.yaowell.cellbell--1.1--iphoneos-arm64e--2e15b110ca074a1b--303e7d098a255c52",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.yaowell.cellbell",
+    "version": "1.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnlhb3dlbGwuY2VsbGJlbGwKVmVyc2lvbjogMS4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHlhb3dlbGwKSW5zdGFsbGVkLVNpemU6IDE2OApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvQ2VsbEJlbGxfMS4xX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNzg0NApNRDVzdW06IDkwMGU4ZTYzZjYyZDY1NmFmZjlkMGQ0YWY2YmMxOWU1ClNIQTE6IDk2YzhlNTAzYTJmNzYzMGNkMTk5YzJiYjk2ZmZiYzEzZmY1NWIxOGYKU0hBMjU2OiAyZTE1YjExMGNhMDc0YTFiM2FmNjQxMzgxYmI3ZjEwODBjNWI0MjhkY2FmZjVmYjRkNTAzNDM1YzcyYjZjOTM4ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5YWz6Zet55S15rGg55m+5YiG5q+U5pe25ZCv55SoIGlPUyAyNyDpo47moLznlLXmsaDlm77moIfjgIIoRW5hYmxlcyBhbiBpT1MgMjctc3R5bGUgYmF0dGVyeSBpY29uIHdoZW4gYmF0dGVyeSBwZXJjZW50YWdlIGlzIG9mZi4pCkF1dGhvcjogeWFvd2VsbCAmIOWNiueUn+W5tOWNjgpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2NlbGxiZWxsLmpwZwpOYW1lOiBDZWxsQmVsbA==",
+  "metadata_sha256": "079c1499dfba28e581b2745ec3cb3936d5b38b1f99b5d231bfc461e96c536cd7",
+  "object_key": "debs/2e15b110ca074a1b3af641381bb7f1080c5b428dcaff5fb4d503435c72b6c938.deb",
+  "schema": 1,
+  "sha256": "2e15b110ca074a1b3af641381bb7f1080c5b428dcaff5fb4d503435c72b6c938",
+  "size": 7844,
+  "source": {
+    "filename_b64": "ZGVicy9DZWxsQmVsbF8xLjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "d93b1750ad590266ada12730cd564953335d7356"
+  }
+}

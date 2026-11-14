@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.rainbowkeyboard--1.1.4--iphoneos-arm64e--8ce5e791f50df027--8d6905bc41a5d461",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.minis.rainbowkeyboard",
+    "version": "1.1.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnJhaW5ib3drZXlib2FyZApWZXJzaW9uOiAxLjEuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBNb1dhbmcKSW5zdGFsbGVkLVNpemU6IDM4NApEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvcmFpbmJvd2tleWJvYXJkLVYxLjEuNC1yb290aGlkZS5kZWIKU2l6ZTogOTMwODQKTUQ1c3VtOiAwZGIwNTgyODA3YTE4YTY3M2E1NzI4NjYyNDg5NzU5YQpTSEExOiAyOWM5YTlkY2E0MDA2OWNlYjk4NzFmMTk3ZWVhNGE2YmRlYTY0NjBmClNIQTI1NjogOGNlNWU3OTFmNTBkZjAyN2NlZWI4MjZjNDA1Y2FhMDlhOTg0MzQ0ZmRlMzZjZTQ0YzIzOTFlOWZhM2NlMjEyNApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOWbuuWumumck+iZuemihOiuvuS4jumUruebmOmFjeiJsu+8jOaUr+aMgeWOn+eUn+mUruebmOWSjOW+ruS/oei+k+WFpeazlQog5Zub56eN5Zu65a6a6aKE6K6+44CB5LiJ5pif6aOO5qC85omp5pWj5LiO6ZyT6Jm55ZyG546v5Lik56eN5qC35byP44CCCiDoh6rlrprkuYnplK7nm5jlupXoibLlkozplK7luL3popzoibLvvIzkv53nlZnmjInkuIvmgIHlj4rot6ggQXBwIOmFjeiJsuWFvOWuueOAggog6ZSu55uY6YWN6Imy5LiO5pCc57Si6K+N6aKc6Imy5YiG5Yir5byA5YWz77yM5pSv5oyB5pCc57Si6K+N5Y2V6Imy5oiW5Y+M6Imy5riQ5Y+Y44CB6Ieq5a6a5LmJ6aKc6Imy44CCCiDkuZ3lrqvmoLzlj4rlhajplK7nm5jliIfmjaLlrp7ml7bliLfmlrDnspfpnJPombnovrnmoYbvvIzlj6/mjIflrprlvq7kv6HovpPlhaXms5XmiJbljp/nlJ/plK7nm5jkvJjlhYjlvLnlh7rjgIIKIOacgOWkmuWkjeeUqOS4pOe7hOWFieaViO+8jOm7mOiupOW/q+mAn+eCueWHu+mihOiuvu+8jOS9jueUtemHj+aIlumrmOa4qeaXtumZjeS9juWFieaViOmikeeOh+OAggog56e76Zmk6ZSu5bi95by56Lez44CB6LCD6IqC5ruR5p2h44CB6K+K5pat5YaZ55uY5ZKM5YaF572u5aSn6aKE6KeI5Zu+44CCCkF1dGhvcjogTW9XYW5nCk5hbWU6IOW9qeiZuemUruebmCDCtyDovbvph4/niYg=",
+  "metadata_sha256": "c50772dad1f97427349b9761567aeb142bacd7b4ec4ea202d098bf79ab230dc1",
+  "object_key": "debs/8ce5e791f50df027ceeb826c405caa09a984344fde36ce44c2391e9fa3ce2124.deb",
+  "schema": 1,
+  "sha256": "8ce5e791f50df027ceeb826c405caa09a984344fde36ce44c2391e9fa3ce2124",
+  "size": 93084,
+  "source": {
+    "filename_b64": "ZGVicy9yYWluYm93a2V5Ym9hcmQtVjEuMS40LXJvb3RoaWRlLmRlYg==",
+    "git_blob": "ad83ab392c24447d8ad766c820e4b24036de1b3a"
+  }
+}

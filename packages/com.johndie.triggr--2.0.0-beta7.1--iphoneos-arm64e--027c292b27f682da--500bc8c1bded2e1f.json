@@ -1,0 +1,18 @@
+{
+  "id": "com.johndie.triggr--2.0.0-beta7.1--iphoneos-arm64e--027c292b27f682da--500bc8c1bded2e1f",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.johndie.triggr",
+    "version": "2.0.0~beta7.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmpvaG5kaWUudHJpZ2dyClZlcnNpb246IDIuMC4wfmJldGE3LjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogSm9obiBkX2llCkluc3RhbGxlZC1TaXplOiAxOTY0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5hbHRsaXN0LCB1aWtpdHRvb2xzLCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMvVHJpZ2dyXzIuMC4wfmJldGE3LjFfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAyMjcyNDAKTUQ1c3VtOiBiODA0ZmQ0OTQ3NWZiNDdhZTk5NTlhZjM1ZDU0ZWMwYwpTSEExOiA5OTQ1ODZiNDBkMDE3NzZjYWUwYTc3OGY4Y2UyMGI0NTgwMWZlNzY4ClNIQTI1NjogMDI3YzI5MmIyN2Y2ODJkYWZiMTBhMThiN2I5NGRiMTg3ODYxNTYzZWQ1NWYyMzRkOWE4NDAxNmExNDA2ZmEwZQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOmdouWQkSByb290bGVzcyBEb3BhbWluZSDnmoQgQWN0aXZhdG9yIOeyvueugOeJiO+8muaKiuaTjeS9nOWIhumFjee7meS4u+Wxj+W5leOAgemUgeWxj+WSjOmfs+mHj+aMiemSruOAgeinpuaOpyBJROOAgemdmemfs+W8gOWFs+OAgeeKtuaAgeagj+eCueaMieOAgeWbvuagh+a7keWKqOOAgeaRh+WKqO+8jOS7peWPiuWFheeUteWZqOOAgVdpLUZp44CB55S15rGg55S16YeP5oiW5a6a5pe2562J5LqL5Lu244CC5pSv5oyBIEExMiDlj4rmm7TmlrDmnLrlnovvvIhhcm02NGXvvInjgIJBY3RpdmF0b3ItbGl0ZSBmb3Igcm9vdGxlc3MgRG9wYW1pbmU6IGFzc2lnbiBhY3Rpb25zIHRvIHRoZSBob21lLCBsb2NrIGFuZCB2b2x1bWUgYnV0dG9ucywgVG91Y2ggSUQsIHRoZSBtdXRlIHN3aXRjaCwgc3RhdHVzIGJhciB0YXBzLCBpY29uIGZsaWNrcywgc2hha2luZywgYW5kIGV2ZW50cyBsaWtlIGNoYXJnZXIsIFdpLUZpLCBiYXR0ZXJ5IGxldmVsIG9yIGEgdGltZSBvZiBkYXkuIFN1cHBvcnRzIEExMiBhbmQgbmV3ZXIgKGFybTY0ZSkuCkF1dGhvcjogSm9obiBkX2llCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vdHJpZ2dyLnBuZwpOYW1lOiBUcmlnZ3I=",
+  "metadata_sha256": "f9a85a9a267d2f14f2b5db6e791588944accded3efc1ccff8859c41070cfde84",
+  "object_key": "debs/027c292b27f682dafb10a18b7b94db187861563ed55f234d9a84016a1406fa0e.deb",
+  "schema": 1,
+  "sha256": "027c292b27f682dafb10a18b7b94db187861563ed55f234d9a84016a1406fa0e",
+  "size": 227240,
+  "source": {
+    "filename_b64": "ZGVicy9UcmlnZ3JfMi4wLjB+YmV0YTcuMV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "411c5ea9a5c435ecfa9c013438f2b416ff5bfd6c"
+  }
+}

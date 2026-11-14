@@ -1,0 +1,18 @@
+{
+  "id": "org.shallowdream.dockpages--1.0.1--iphoneos-arm64e--42f45eaf66243152--4bb327387e251b0e",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "org.shallowdream.dockpages",
+    "version": "1.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogb3JnLnNoYWxsb3dkcmVhbS5kb2NrcGFnZXMKVmVyc2lvbjogMS4wLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogTW9XYW5nCkluc3RhbGxlZC1TaXplOiAxMDkKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCBtb2JpbGVzdWJzdHJhdGUKUmVwbGFjZXM6IGxvY2FsLmFwZWxpbi5kb2NrcGFnZXMKRmlsZW5hbWU6IGRlYnMvb3JnLnNoYWxsb3dkcmVhbS5kb2NrcGFnZXNfMS4wLjFfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAyMDA3MgpNRDVzdW06IDE1MTBhOWU0ZGIzY2FlYzM3ZTY5N2IyNTk3NmNlYTFlClNIQTE6IDgxNWM3MDQ4ODVhNzRhOGFlMThhYTdjOWJjZjVmZmRjNmI0N2IzOTIKU0hBMjU2OiA0MmY0NWVhZjY2MjQzMTUyYWRmOWE2YWUwMzAwNGVjZWVlNGQwZThkMjg3MzgzMDM0M2ViYmUwOGRjNTYyNWJmClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogRG9jayDlt6blj7PlkITlop7liqDkuIDpobXvvIzmr4/pobXlm5vkuKrlm77moIfvvIzmlK/mjIHlt6blj7Pmu5HliqjliIfmjaLjgIIKQXV0aG9yOiBNb1dhbmcKTmFtZTog5LiJ6aG1IERvY2s=",
+  "metadata_sha256": "2e3c925809d88444f0fa636e055bdc65a7406107f07c7c0039616cd0523d47cf",
+  "object_key": "debs/42f45eaf66243152adf9a6ae03004eceee4d0e8d2873830343ebbe08dc5625bf.deb",
+  "schema": 1,
+  "sha256": "42f45eaf66243152adf9a6ae03004eceee4d0e8d2873830343ebbe08dc5625bf",
+  "size": 20072,
+  "source": {
+    "filename_b64": "ZGVicy9vcmcuc2hhbGxvd2RyZWFtLmRvY2twYWdlc18xLjAuMV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "125aed89606e74ddf02fed49d5e2bc923e20a0a3"
+  }
+}

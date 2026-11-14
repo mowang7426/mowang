@@ -1,0 +1,18 @@
+{
+  "id": "com.jumping.thermaldetect--1.0.32-2--iphoneos-arm64e--56a61576b012aebc--4bebda86e8e04852",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.jumping.thermaldetect",
+    "version": "1.0.32-2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmp1bXBpbmcudGhlcm1hbGRldGVjdApWZXJzaW9uOiAxLjAuMzItMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBqdW1waW5nOApQcmUtRGVwZW5kczogcm9vdGxlc3MtY29tcGF0KD49IDAuOSkKRGVwZW5kczogb3JnLmNvb2xzdGFyLmVsbGVraXQgfCBtb2JpbGVzdWJzdHJhdGUgfCBjb20uZXguc3Vic3RpdHV0ZQpGaWxlbmFtZTogZGVicy9jb20uanVtcGluZy50aGVybWFsZGV0ZWN0XzEuMC4zMi0yX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMjQ4NTY2Ck1ENXN1bTogMzQ4NDYxYmIzNTBlODYyOGJmZWZiOTUwYjM0YmQ1NjIKU0hBMTogZjFhMmIxODYyODgyYTFhNDdjZmUyNDhlZGFlOTA5N2Y1YmJmY2M3MgpTSEEyNTY6IDU2YTYxNTc2YjAxMmFlYmNkNmQyY2ZiZDkyODc0Yzg1MDk0NzJlNDc3OTY2YzJiNjA1M2YyMGM2OTA1NmNlZGYKU2VjdGlvbjogVXRpbGl0aWVzCkRlc2NyaXB0aW9uOiDlrprkvY3lk6rkuKrmj5Lku7bogJfnlLXlj5Hng63mjpLooYzmppzvvIzku4UxNi4y57O757uf55yf5py677yM5YW25LuW57O757uf6KaB5a6J6KOF6Ieq6KGM6LSf6LSj44CCCkF1dGhvcjoganVtcGluZzgKSWNvbjogZmlsZTovLy92YXIvamIvTGlicmFyeS9QcmVmZXJlbmNlQnVuZGxlcy9jb20uanVtcGluZy50aGVybWFsZGV0ZWN0LmJ1bmRsZS9JY29uLnBuZwpOYW1lOiDogJfnlLXlj5Hng63mjpLooYzmppw=",
+  "metadata_sha256": "e5fdad4e1184812347a1b5dc7e35ac31b0e1df637e2ad661fd160bfb29ae1d7d",
+  "object_key": "debs/56a61576b012aebcd6d2cfbd92874c8509472e477966c2b6053f20c69056cedf.deb",
+  "schema": 1,
+  "sha256": "56a61576b012aebcd6d2cfbd92874c8509472e477966c2b6053f20c69056cedf",
+  "size": 248566,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uanVtcGluZy50aGVybWFsZGV0ZWN0XzEuMC4zMi0yX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "bdff45b019549b6df761fa12cc5df262a1df85f1"
+  }
+}

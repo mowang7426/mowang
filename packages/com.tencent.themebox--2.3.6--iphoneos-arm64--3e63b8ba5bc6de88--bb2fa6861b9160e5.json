@@ -1,0 +1,18 @@
+{
+  "id": "com.tencent.themebox--2.3.6--iphoneos-arm64--3e63b8ba5bc6de88--bb2fa6861b9160e5",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.tencent.themebox",
+    "version": "2.3.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnRlbmNlbnQudGhlbWVib3gKVmVyc2lvbjogMi4zLjYKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBhZG1pbkAyNW1hby5jb20KRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCkKRmlsZW5hbWU6IGRlYnMvY29tLnRlbmNlbnQudGhlbWVib3hfMi4zLjZfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDc4MDM1MDIKTUQ1c3VtOiBkZDEwNzAzYmMxNDU2ZTA2NTMxMTJlNzUyMjgyMzU0NgpTSEExOiAxNWE2ZDMyYTc1ZjNlMmQ3NmQxNzkwMjRmNmM0M2Y2M2I0ZmZlOTMxClNIQTI1NjogM2U2M2I4YmE1YmM2ZGU4OGI0MjA0NmU0NjBhZGNhODA5YzJkZmQ1NTBlYTcwNjAzMTVmYzdiNWFlMzMxNzllZApTZWN0aW9uOiDlvq7kv6Hmj5Lku7YKRGVzY3JpcHRpb246IOW+ruS/oeS4u+mimOebkuWtkApBdXRob3I6IE1hbwpOYW1lOiDkuLvpopjnm5LlrZDvvIjlhY3mjojmnYPvvIk=",
+  "metadata_sha256": "8468021f603e5cdf6537664e2d5b1d73f03c324101195872c205359c1176afc6",
+  "object_key": "debs/3e63b8ba5bc6de88b42046e460adca809c2dfd550ea7060315fc7b5ae33179ed.deb",
+  "schema": 1,
+  "sha256": "3e63b8ba5bc6de88b42046e460adca809c2dfd550ea7060315fc7b5ae33179ed",
+  "size": 7803502,
+  "source": {
+    "filename_b64": "ZGVicy9jb20udGVuY2VudC50aGVtZWJveF8yLjMuNl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "78661a71befda489dc33b421572006a15b403cd2"
+  }
+}

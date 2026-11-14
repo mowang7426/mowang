@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.tweak.loader--0.4.3--iphoneos-arm64--b537b211dbfb1216--f8997dbfced0e28e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.tweak.loader",
+    "version": "0.4.3"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS50d2Vhay5sb2FkZXIKVmVyc2lvbjogMC40LjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBCYW5hbmEKSW5zdGFsbGVkLVNpemU6IDIzNDAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBmaXJtd2FyZSAoPj0gMTguMCkKRmlsZW5hbWU6IGRlYnMvVHdlYWsgTG9hZGVyXzAuNC4zX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA4NzM1MjYKTUQ1c3VtOiAyMTFiY2NkNTRjYWUwM2U2ODkzMjdlMTgwM2RjYzU3MwpTSEExOiAyYzZjZTU3ZTI0OThjYTYwNmQyMjY5M2VmNzI4ZmRkNmNmNDM1M2JiClNIQTI1NjogYjUzN2IyMTFkYmZiMTIxNmZkYzFhOGIzYjQyNDU2YzBiOTFlOTcwZTAxMDQxN2I4MWI0ZGUzZWNlYTMwY2UzMgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IGlPUyAxOCBTZXR0aW5ncyBob21lIOKAlCB0d2Vha3MgbGlzdCwgc3RhdHVzIGdyb3VwLCBwYXNzd29yZApBdXRob3I6IEJhbmFuYQpOYW1lOiBUd2VhayBMb2FkZXI=",
+  "metadata_sha256": "742ff89358495581c77e4222dd31801ddd310f44fd84b40d0fb667dbc458155b",
+  "object_key": "debs/b537b211dbfb1216fdc1a8b3b42456c0b91e970e010417b81b4de3ecea30ce32.deb",
+  "schema": 1,
+  "sha256": "b537b211dbfb1216fdc1a8b3b42456c0b91e970e010417b81b4de3ecea30ce32",
+  "size": 873526,
+  "source": {
+    "filename_b64": "ZGVicy9Ud2VhayBMb2FkZXJfMC40LjNfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "03997a0bfc1e566904b289df94582cc4d963a03d"
+  }
+}

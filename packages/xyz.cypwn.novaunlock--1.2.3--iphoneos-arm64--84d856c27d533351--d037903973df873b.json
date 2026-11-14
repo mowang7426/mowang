@@ -1,0 +1,18 @@
+{
+  "id": "xyz.cypwn.novaunlock--1.2.3--iphoneos-arm64--84d856c27d533351--d037903973df873b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "xyz.cypwn.novaunlock",
+    "version": "1.2.3"
+  },
+  "metadata_b64": "UGFja2FnZTogeHl6LmN5cHduLm5vdmF1bmxvY2sKVmVyc2lvbjogMS4yLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBDeVB3bgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIGZpcm13YXJlICg+PSAxNy4wKSwgcHJlZmVyZW5jZWxvYWRlcgpDb25mbGljdHM6IGNvbS5zYW5kZXJ6ZW4udW5sb2NrMjYKUmVwbGFjZXM6IGNvbS5zYW5kZXJ6ZW4udW5sb2NrMjYKRmlsZW5hbWU6IGRlYnMveHl6LmN5cHduLm5vdmF1bmxvY2tfMS4yLjNfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDIyNjE4OApNRDVzdW06IDc0ZDQ3YjkyMzBhYTI5NjJmOWU3NjI2NzcxZTdkNzUxClNIQTE6IGE0NmI2NDMxNjBjOTBjMDk5ZTJiYTQyZjM0YzFjZWRlYjc1ODkzMTAKU0hBMjU2OiA4NGQ4NTZjMjdkNTMzMzUxNWUwMjA1YjIzYTY5ZDM5M2EwNjgyYjI0NDYyNDdjYzI1OWQxOGIwNjBhMWNmN2M1ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogaU9TIDI2IHN0eWxlIHVubG9jayBhbmQgbG9jayBhbmltYXRpb25zIGZvciBpT1MgMTYgYW5kIDE3LiBpT1MxNuWSjDE355qEaU9TMjbpo47moLzop6PplIHlkozplIHlrprliqjnlLvjgIIKQXV0aG9yOiBTYW5kZXJ6ZW4KSWNvbjogaHR0cHM6Ly9yZXBvLmN5cHduLnh5ei9wYWNrYWdlcy9Ob3ZhVW5sb2NrLVJvb3RsZXNzL2ljb24ucG5nCk5hbWU6IE5vdmFVbmxvY2s=",
+  "metadata_sha256": "8422009a68321fa59f8b5c08736424399786e2d0c365afcd143eeaa7cc49125b",
+  "object_key": "debs/84d856c27d5333515e0205b23a69d393a0682b2446247cc259d18b060a1cf7c5.deb",
+  "schema": 1,
+  "sha256": "84d856c27d5333515e0205b23a69d393a0682b2446247cc259d18b060a1cf7c5",
+  "size": 226188,
+  "source": {
+    "filename_b64": "ZGVicy94eXouY3lwd24ubm92YXVubG9ja18xLjIuM19pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "1c5bc796979bd21e7ac25eb6a2a643ca68c17591"
+  }
+}

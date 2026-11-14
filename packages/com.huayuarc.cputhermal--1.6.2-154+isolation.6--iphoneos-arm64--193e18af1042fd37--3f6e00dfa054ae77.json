@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.cputhermal--1.6.2-154+isolation.6--iphoneos-arm64--193e18af1042fd37--3f6e00dfa054ae77",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.huayuarc.cputhermal",
+    "version": "1.6.2-154+isolation.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwKVmVyc2lvbjogMS42LjItMTU0K2lzb2xhdGlvbi42CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogSHVheXVhcmMKSW5zdGFsbGVkLVNpemU6IDE4NDQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL0NQVSDop6PpmaTmuKnmjqctMS42LjItMTU0K2lzb2xhdGlvbi42LWlwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAxMjU3MTYKTUQ1c3VtOiBlMDQ0OWVjZWFmNTlkZTFlNjYzMjc5YjgyZmMzYzMwOApTSEExOiA3ZjlhY2RjMzM3ZTJiNTFhMzk2NmRkYzg3ZmVjOWJiYTkxZTYzMDdlClNIQTI1NjogMTkzZTE4YWYxMDQyZmQzNzIxNmNiNmE2YmZmOTU1Y2NhZDdjMmYyY2UwNTZjMjYzMDMwYzc5MTk0OTA3MDY1MApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOmAgumFjSBpT1MgMTXigJMxNyDnmoTmuKnmjqfnrZbnlaXjgILnqLPlrprpq5jmgKfog73mqKHlvI/pmLvmraLnlKjmiLfmgIHng63nvJPop6Plubbkv53mjIHljp/nlJ8gQ1BVIOiwg+W6pu+8m+S9juWKn+iAl+aooeW8j+S7heS4i+WPkSBDUFUg5LiT55So6aKE566X5LiO6aKR546H562W55Wl77yM5LiN5pS55Y+Y5Lqu5bqm44CC5pi+56S65Lqu5bqm5L+d5oqk54us56uL5bel5L2c77yb5L+d55WZ5YWF55S16ZmQ5Yi244CB6ZSB5bGP44CB55S15rGg6aG16Z2i5L+u5aSN5ZKM5o6n5Yi25Lit5b+D44CC5LiN6IO957uV6L+H5Zu65Lu25oiW56Gs5Lu257Sn5oCl5L+d5oqk44CCCkF1dGhvcjogSHVheXVhcmMKSWNvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vaWNvbi9jcHV0aGVybWFsLnBuZwpOYW1lOiBDUFUg6Kej6Zmk5rip5o6nClNpbGVvZGVwaWN0aW9uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9zaWxlb2RlcGljdGlvbi9DUFV0aGVybWFsL2pzLmpzb24=",
+  "metadata_sha256": "0ddae6bcf191a9fc98aa2bdaf2d8dddabcb00c551a6677717671657eed007e97",
+  "object_key": "debs/193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650.deb",
+  "schema": 1,
+  "sha256": "193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650",
+  "size": 125716,
+  "source": {
+    "filename_b64": "ZGVicy9DUFUg6Kej6Zmk5rip5o6nLTEuNi4yLTE1NCtpc29sYXRpb24uNi1pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "a82f9b46c83b2ead0eb02956b88d92d9743a1f02"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.spatialscene--1.1.16--iphoneos-arm64--ba83b821353ea780--b0fd834f25c43f45",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.spatialscene",
+    "version": "1.1.16"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5zcGF0aWFsc2NlbmUKVmVyc2lvbjogMS4xLjE2CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogQmFuYW5hCkluc3RhbGxlZC1TaXplOiAxMzM5NgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgcHJlZmVyZW5jZWxvYWRlciAoPj0gMi4yLjMpCkZpbGVuYW1lOiBkZWJzL1NwYXRpYWxTY2VuZV8xLjEuMTZfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDYzOTYwNTQKTUQ1c3VtOiA0Zjc3OWM1NWRmMjQyZDRjMDc2MGNmYjBiNmExMGZhOQpTSEExOiBjNDZmOWJlY2VkNjQ5OWI2YjU3YTVhZmNkZTFkMjJhYzMyNGQwMDkyClNIQTI1NjogYmE4M2I4MjEzNTNlYTc4MDA0OWE1MzU0MmIzNTk3MzY5MmQ0YjExNDhiYzUyYTI2ODQxMjk4MmY3OTRmYWE0YwpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOepuumXtOWcuuaZr+mUgeWxj+Wjgee6uO+8jOeUsSBTcGF0aWFsU2NlbmUgQXBwIOWvvOWFpeOAgemihOiniOS4jueuoeeQhuOAgiAvIFNwYXRpYWwgbG9jay1zY3JlZW4gc2NlbmVzIGltcG9ydGVkLCBwcmV2aWV3ZWQsIGFuZCBtYW5hZ2VkIGJ5IHRoZSBTcGF0aWFsU2NlbmUgYXBwLgpBdXRob3I6IEJhbmFuYQpOYW1lOiBTcGF0aWFsU2NlbmU=",
+  "metadata_sha256": "479e02bfa4124fa3a03cacff912318e97891a1de316b46f7b2ad006955de60bd",
+  "object_key": "debs/ba83b821353ea780049a53542b35973692d4b1148bc52a268412982f794faa4c.deb",
+  "schema": 1,
+  "sha256": "ba83b821353ea780049a53542b35973692d4b1148bc52a268412982f794faa4c",
+  "size": 6396054,
+  "source": {
+    "filename_b64": "ZGVicy9TcGF0aWFsU2NlbmVfMS4xLjE2X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "3054e7c6252d635cce9ca9432f802a6ef93032c3"
+  }
+}

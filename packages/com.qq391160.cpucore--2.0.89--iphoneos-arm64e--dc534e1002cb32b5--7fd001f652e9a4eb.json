@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.89--iphoneos-arm64e--dc534e1002cb32b5--7fd001f652e9a4eb",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.89"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjg5CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHFxMzkxMTYwCkluc3RhbGxlZC1TaXplOiAzNzI0CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNi4wKQpDb25mbGljdHM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpSZXBsYWNlczogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5CkZpbGVuYW1lOiBkZWJzL2NvbS5xcTM5MTE2MC5jcHVjb3JlXzIuMC44OV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDU2MjYzNgpNRDVzdW06IGJlNjRiODgwYzc4NTY2OWE5MmM2MmUxMjM2ZmI5ODMzClNIQTE6IGNjMjJiZDc0ZWY3YzNmYWRlMGQ5ZjIwMDFlOWUwZGM2ZWViMzljNTYKU0hBMjU2OiBkYzUzNGUxMDAyY2IzMmI1NWM5ZDgyNzU2MzM1ODY2Zjg5NTkwYmJkMTU4ZTU0YmI5ZWM3MzI0NWQ3YzI2Njg1ClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAgiDmmbrog73vvJrmuLjmiI/pq5jmgKfog73jgIHlupTnlKjkvY7popHnjofjgIHmoYzpnaLljp/nlJ/jgIHmu5Hliqjmj5DpgJ/jgIHnhoTlsY/nnIHnlLXvvJsg5L2O5Yqf6ICX77ya5YWo5bGA55yB55S177yM5Y+v5pS+6KGM5Liq5Yir5bqU55So77ybIOaAp+iDveaooeW8j++8muWFqOWxgOmrmOaAp+iDve+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8myDmr4/kuKrlupTnlKjlj6/ljZXni6zorr7nva7moaPkvY3jgIIKQXV0aG9yOiBxcTM5MTE2MApJY29uOiBodHRwczovL3FxMzkxMTYwLmdpdGh1Yi5pby9yZXBvL2ljb25zL3RoZXJtYWwucG5nCk5hbWU6IENQVeaZuuiDvea4qeaOpyhpT1MxNi8xNyk=",
+  "metadata_sha256": "6d12d4a55f7bf71e04413a9506d9e0acb22dcdacc9bd9872ec50ad735d7026ea",
+  "object_key": "debs/dc534e1002cb32b55c9d82756335866f89590bbd158e54bb9ec73245d7c26685.deb",
+  "schema": 1,
+  "sha256": "dc534e1002cb32b55c9d82756335866f89590bbd158e54bb9ec73245d7c26685",
+  "size": 562636,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuODlfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "6d3da1bb77a8241444d62681de1af16ce435f64b"
+  }
+}

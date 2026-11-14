@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.45--iphoneos-arm64e--0d5cd71edef0fcd8--085be54b983de071",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.45"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjQ1CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHFxMzkxMTYwCkluc3RhbGxlZC1TaXplOiAzMzUyCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNi4wKQpDb25mbGljdHM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpSZXBsYWNlczogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5CkZpbGVuYW1lOiBkZWJzL2NvbS5xcTM5MTE2MC5jcHVjb3JlXzIuMC40NV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDUxMzA4OApNRDVzdW06IDFkZGY1NDQ5MjdkN2ZiYWFhMDFjOTkxZWQ1OWU0OTBkClNIQTE6IGMyOGMzNzI1OTcyMTI3YzVjMWQ0OWI1OWY2ZTM3MTY4YWYwYjg4NjkKU0hBMjU2OiAwZDVjZDcxZWRlZjBmY2Q4MDM1NWViNDc1MmFmYzczOTFkOTcxZGMyMWYyZGE2ZDM1ZGVkZmM5ZGI1NmU5Y2QwClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAgiDmmbrog73vvJrmuLjmiI/pq5jmgKfog73jgIHlupTnlKjkvY7popHnjofjgIHmoYzpnaLljp/nlJ/jgIHmu5Hliqjmj5DpgJ/jgIHnhoTlsY/nnIHnlLXvvJsg5L2O5Yqf6ICX77ya5YWo5bGA55yB55S177yM5Y+v5pS+6KGM5Liq5Yir5bqU55So77ybIOaAp+iDveaooeW8j++8muWFqOWxgOmrmOaAp+iDve+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8myDmr4/kuKrlupTnlKjlj6/ljZXni6zorr7nva7moaPkvY3jgIIKQXV0aG9yOiBxcTM5MTE2MApJY29uOiBodHRwczovL3FxMzkxMTYwLmdpdGh1Yi5pby9yZXBvL2ljb25zL3RoZXJtYWwucG5nCk5hbWU6IENQVeaZuuiDvea4qeaOpyhpT1MxNi8xNyk=",
+  "metadata_sha256": "93c5a233d9a6c2467b1ca571cdae140de6d5ac252efce79ebd1d637585187810",
+  "object_key": "debs/0d5cd71edef0fcd80355eb4752afc7391d971dc21f2da6d35dedfc9db56e9cd0.deb",
+  "schema": 1,
+  "sha256": "0d5cd71edef0fcd80355eb4752afc7391d971dc21f2da6d35dedfc9db56e9cd0",
+  "size": 513088,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuNDVfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "b535a474ba19c5dcbefb36c265562b49c8959b96"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.rain.rainback--1.6.4-4+debug--iphoneos-arm64--41f296fca74e09df--242945c88f87171b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.rain.rainback",
+    "version": "1.6.4-4+debug"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnJhaW4ucmFpbmJhY2sKVmVyc2lvbjogMS42LjQtNCtkZWJ1ZwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IHJhaW4KSW5zdGFsbGVkLVNpemU6IDExMjQKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBmaXJtd2FyZSAoPj0gMTQuMCksIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuYWx0bGlzdApGaWxlbmFtZTogZGVicy9SYWluQmFja18xLjYuNC00X3VubG9ja2VkX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAzMTQyMDQKTUQ1c3VtOiBlZWM2YmVhN2MzYzFmMzFmOTA3NDZlODcxMDVjYjM3YwpTSEExOiBkMGNlZmViZDg4ZTc2YTA0ODI1ZjVkMmVlZmE3YTQxMjhiYmRhYWNmClNIQTI1NjogNDFmMjk2ZmNhNzRlMDlkZjNiOTUyYjI3MjI1MmU3N2Q3OWVmZTg0OTMwNTdkODdmZjA5NTBhYjM2YzEwZDVhZQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOS7juWxj+W5lei+uee8mOaIluS7u+aEj+S9jee9rua7keWKqOi/lOWbnuS4iuS4gOmhtemdou+8jOaUr+aMgeeBteaVj+W6puiwg+iKguOAgeWFqOWxj+aJi+WKv+OAgeWiqOawtOaJqeaVo+OAgeWFieWJkeWIh+WJsuOAgeWKqOaAgeinpuinieOAgeiHquWumuS5iemfs+aViOOAgem7keeZveWQjeWNleOAggpUYWc6IHJvbGU6OmhhY2tlciwgcHVycG9zZTo6ZXh0ZW5zaW9uCkF1dGhvcjogcmFpbgpOYW1lOiByYWlu55qE6L+U5Zue",
+  "metadata_sha256": "891c4f06c0c830436a526800880c60c1f58282af91840c019436ba7fe6c2136a",
+  "object_key": "debs/41f296fca74e09df3b952b272252e77d79efe8493057d87ff0950ab36c10d5ae.deb",
+  "schema": 1,
+  "sha256": "41f296fca74e09df3b952b272252e77d79efe8493057d87ff0950ab36c10d5ae",
+  "size": 314204,
+  "source": {
+    "filename_b64": "ZGVicy9SYWluQmFja18xLjYuNC00X3VubG9ja2VkX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "14bd63c1b3918ece7d6a40c217e8e4c59699df48"
+  }
+}

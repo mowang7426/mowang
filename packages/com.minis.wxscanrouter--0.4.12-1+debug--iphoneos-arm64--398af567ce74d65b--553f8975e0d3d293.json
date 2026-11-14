@@ -1,0 +1,18 @@
+{
+  "id": "com.minis.wxscanrouter--0.4.12-1+debug--iphoneos-arm64--398af567ce74d65b--553f8975e0d3d293",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.minis.wxscanrouter",
+    "version": "0.4.12-1+debug"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1pbmlzLnd4c2NhbnJvdXRlcgpWZXJzaW9uOiAwLjQuMTItMStkZWJ1ZwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1pbmlzCkluc3RhbGxlZC1TaXplOiAzMTIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCkKRmlsZW5hbWU6IGRlYnMv5b6u5L+h5omr5o+P55u06L6+XzAuNC4xMi0xK2RlYnVnX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA1ODc4NApNRDVzdW06IGU2OWJmNDc3NDZhYTEwZDkzZGFhYTg3OTc1YzQzNWVhClNIQTE6IGFhMmMyNjdhN2QwZTFhOTE3YWEyMGM4YTM5YmJhZWFkMDdiZjljYWQKU0hBMjU2OiAzOThhZjU2N2NlNzRkNjViODdiY2JlNTVmMDBjYTQ1ZjIxNDBlZmQ1YWE3ZjJkYTQyM2IzNThmNWFjNGM4YjRkClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5b6u5L+h5LiA6ZSu5omr5o+P55u06L6+V2VDaGF0IFFSIGRpcmVjdCByb3V0aW5nIHByb3RvdHlwZSBmb3IgUm9vdEhpZGUvUmVsYXhpbgpBdXRob3I6IE1pbmlzCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vV2VDaGF0LmpwZwpOYW1lOiDlvq7kv6Hmiavmj4/nm7Tovr4=",
+  "metadata_sha256": "c1fb9d1f463dd98d9c56b7f8ef4b5c997585fff551ed8a6d032ac9b06940bc6c",
+  "object_key": "debs/398af567ce74d65b87bcbe55f00ca45f2140efd5aa7f2da423b358f5ac4c8b4d.deb",
+  "schema": 1,
+  "sha256": "398af567ce74d65b87bcbe55f00ca45f2140efd5aa7f2da423b358f5ac4c8b4d",
+  "size": 58784,
+  "source": {
+    "filename_b64": "ZGVicy/lvq7kv6Hmiavmj4/nm7Tovr5fMC40LjEyLTErZGVidWdfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "45b35cd6ffbe1d96fe590693a2b1099590711a67"
+  }
+}

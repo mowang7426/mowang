@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.ios27animation--1.0.1--iphoneos-arm64e--2618af67315c9e1c--bba9f81ccb2fc067",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.ios27animation",
+    "version": "1.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5pb3MyN2FuaW1hdGlvbgpWZXJzaW9uOiAxLjAuMQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBCYW5hbmEKSW5zdGFsbGVkLVNpemU6IDM0NDgKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBmaXJtd2FyZSAoPDwgMTkuMCksIG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9pT1MyNyBBbmltYXRpb25fMS4wLjFfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA4Mjg1MzYKTUQ1c3VtOiA3MzA1MTVjN2M3NTU2MWU2YTI2OTUwOGVkYTdlZTc4MgpTSEExOiA3MGI0YzhjY2U0ODNkZWY2YjU1MTFhNzU2YzUzYjBjYjUxZWRjMDhkClNIQTI1NjogMjYxOGFmNjczMTVjOWUxYzdhZTAyMDE0NGU0ZTE2MjljMDlmZWFmZDFhZDAwZjU1ZGJkYTY4Y2M1Y2I0ZTllNApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IGlPUzI3LWluc3BpcmVkIHN5c3RlbSBhbmltYXRpb25zIGZvciBpT1MxNS0xOC4gUHVyY2hhc2UgYW5kIGRldmljZSBhY3RpdmF0aW9uIHJlcXVpcmVkLgpBdXRob3I6IEJhbmFuYQpOYW1lOiBpT1MyNyBBbmltYXRpb24=",
+  "metadata_sha256": "ea930a6df150f831530cef6d9eb92ae6f11ade3541c60b43c334bf7f1086eaa8",
+  "object_key": "debs/2618af67315c9e1c7ae020144e4e1629c09feafd1ad00f55dbda68cc5cb4e9e4.deb",
+  "schema": 1,
+  "sha256": "2618af67315c9e1c7ae020144e4e1629c09feafd1ad00f55dbda68cc5cb4e9e4",
+  "size": 828536,
+  "source": {
+    "filename_b64": "ZGVicy9pT1MyNyBBbmltYXRpb25fMS4wLjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "9a391b42df4fa4ffa6afffa9f55da5dc6f450bba"
+  }
+}

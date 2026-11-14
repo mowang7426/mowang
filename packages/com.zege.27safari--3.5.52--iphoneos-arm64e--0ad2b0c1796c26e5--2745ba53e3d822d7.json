@@ -1,0 +1,18 @@
+{
+  "id": "com.zege.27safari--3.5.52--iphoneos-arm64e--0ad2b0c1796c26e5--2745ba53e3d822d7",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.zege.27safari",
+    "version": "3.5.52"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnplZ2UuMjdzYWZhcmkKVmVyc2lvbjogMy41LjUyCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IOazveWTpQpJbnN0YWxsZWQtU2l6ZTogNjQ4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZQpDb25mbGljdHM6IGNvbS5zZWtvYW5kbGlvbmVsLjI2c2FmYXJpLCBjb20ucmVpbi4yNnNhZmFyaQpSZXBsYWNlczogY29tLnNla29hbmRsaW9uZWwuMjZzYWZhcmksIGNvbS5yZWluLjI2c2FmYXJpCkZpbGVuYW1lOiBkZWJzLzI3U2FmYXJpXzMuNS41Ml9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDY0MDQ0Ck1ENXN1bTogN2I3YmMzODY3ZjJhMDI1NmU5ZmYwYTc4ZTAyNDdhYzEKU0hBMTogZmY2YzVkNDI0NTUzNDFjZDRkN2MwYzYyNGM2NTM2YzRhOWVjYTY4ZQpTSEEyNTY6IDBhZDJiMGMxNzk2YzI2ZTViM2VjNmVmOGU4OWI1MDgyM2VjODY2ZGQ1NjU3NmE4OWYwMTQ3OGY5MGNlNzQ5YTgKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDnu5lTYWZhcmnmt7vliqBpT1MyN+a2suaAgeeOu+eSg+aViOaenOOAggpBdXRob3I6IOazveWTpQpOYW1lOiAyN1NhZmFyaQ==",
+  "metadata_sha256": "954f448582079da8b925934dfbaa090e16c45943eed97bc603c5556a556020a6",
+  "object_key": "debs/0ad2b0c1796c26e5b3ec6ef8e89b50823ec866dd56576a89f01478f90ce749a8.deb",
+  "schema": 1,
+  "sha256": "0ad2b0c1796c26e5b3ec6ef8e89b50823ec866dd56576a89f01478f90ce749a8",
+  "size": 64044,
+  "source": {
+    "filename_b64": "ZGVicy8yN1NhZmFyaV8zLjUuNTJfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "9e4dbe165d2700ca3b360e9a5ed875e82cb5efaa"
+  }
+}

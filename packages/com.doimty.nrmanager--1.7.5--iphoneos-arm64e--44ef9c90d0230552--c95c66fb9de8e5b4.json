@@ -1,0 +1,18 @@
+{
+  "id": "com.doimty.nrmanager--1.7.5--iphoneos-arm64e--44ef9c90d0230552--c95c66fb9de8e5b4",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.doimty.nrmanager",
+    "version": "1.7.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRvaW10eS5ucm1hbmFnZXIKVmVyc2lvbjogMS43LjUKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogZG9pbXR5Ckluc3RhbGxlZC1TaXplOiAxNjg4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgY29tLm9wYTMzNC5jY3N1cHBvcnQKRmlsZW5hbWU6IGRlYnMvTlIgTWFuYWdlcl8xLjcuNV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDI3NDcxMApNRDVzdW06IDYxN2IyMGVkZjgwMDZhNjIyNTI0NDRmYTQwN2JkZDVhClNIQTE6IDA2Y2FkYTY0MTAzNDViYmYyZmI2NjU4YWZlNGM4ZDIzOTllY2E4MTYKU0hBMjU2OiA0NGVmOWM5MGQwMjMwNTUyZWVhMjIyNTI3MzQ4MjkyZTUxZWQyZmMyM2YxMTE5YmNmYmQ1OGY2NzJlOTE5Mjg5ClNlY3Rpb246IENvbnRyb2wgQ2VudGVyIChNb2R1bGVzKQpEZXNjcmlwdGlvbjogU2VsZWN0IE5SIGJhbmRzIGFuZCB2aWV3IGxpdmUgc2VydmluZyBzdGF0dXMgaW4gQ29udHJvbCBDZW50ZXIKQXV0aG9yOiBkb2ltdHkKTmFtZTogTlIgTWFuYWdlcg==",
+  "metadata_sha256": "db3cdc88192735797380d2bb54d9288bd5029381fcdfe4f68486bf1640f00dc3",
+  "object_key": "debs/44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289.deb",
+  "schema": 1,
+  "sha256": "44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289",
+  "size": 274710,
+  "source": {
+    "filename_b64": "ZGVicy9OUiBNYW5hZ2VyXzEuNy41X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "0f92b44dff8c135210de5853424a06b5bbdf3ac4"
+  }
+}

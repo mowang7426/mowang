@@ -1,0 +1,18 @@
+{
+  "id": "com.charlieleung.liquidify.roothide--1.3.7-4--iphoneos-arm64e--0d1170f8ae5bdc98--e681adda86904232",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.charlieleung.liquidify.roothide",
+    "version": "1.3.7-4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmNoYXJsaWVsZXVuZy5saXF1aWRpZnkucm9vdGhpZGUKVmVyc2lvbjogMS4zLjctNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiDkuIDliIAKSW5zdGFsbGVkLVNpemU6IDQwOTY3ClByZS1EZXBlbmRzOiByb290bGVzcy1jb21wYXQoPj0gMC45KQpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKQpGaWxlbmFtZTogZGVicy9jb20uY2hhcmxpZWxldW5nLmxpcXVpZGlmeS5yb290aGlkZV8xLjMuNy00X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogMTU0MjEwMDIKTUQ1c3VtOiA2YTg3M2E2MDk0MzRiNWIzNzczYmNhYTgxNzFjOWM4MQpTSEExOiA4MDZmZTRkMzVjODM3YTRiN2Y2Y2YzYjc3NTIyOTQyYWM5NTAyMTg4ClNIQTI1NjogMGQxMTcwZjhhZTViZGM5ODJhYTZjM2I5YjUwNGFlMjFmYTk1MWRmODM1MTUxN2IyMjZiZDlmYmEwNjk1NjZkYwpTZWN0aW9uOiDns7vnu5/nvo7ljJYKRGVzY3JpcHRpb246IDg45ray5oCB546755KD6ZqQ5qC554mI77yI5YWN5o6I5p2D77yJ44CC5L+u5aSN6ZSu55uY5qih57OK44CC5ray5oCB546755KD576O5YyW77yMUm9vdEhpZGUg6ZqQ5qC55YW85a6544CC5YaF572u5pys5Zyw56Wo5o2u6aqM6K+B77yM5peg6IGU572R77yM5LuF6Ieq55So44CCCkF1dGhvcjog5LiA5YiACk5hbWU6IDg45ray5oCB546755KD6ZqQ5qC554mI77yI5YWN5o6I5p2D77yJ",
+  "metadata_sha256": "33669a0ea1da5c7c6848d6924397d387ce5f4c66aaf2fd07dc1f71aea3be6f7e",
+  "object_key": "debs/0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc.deb",
+  "schema": 1,
+  "sha256": "0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc",
+  "size": 15421002,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uY2hhcmxpZWxldW5nLmxpcXVpZGlmeS5yb290aGlkZV8xLjMuNy00X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "2aea64d78b1fbbd09355fc2464653ef1a674bcd4"
+  }
+}

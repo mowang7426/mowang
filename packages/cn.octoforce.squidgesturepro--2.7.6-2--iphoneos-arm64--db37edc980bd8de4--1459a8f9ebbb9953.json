@@ -1,0 +1,18 @@
+{
+  "id": "cn.octoforce.squidgesturepro--2.7.6-2--iphoneos-arm64--db37edc980bd8de4--1459a8f9ebbb9953",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "cn.octoforce.squidgesturepro",
+    "version": "2.7.6-2"
+  },
+  "metadata_b64": "UGFja2FnZTogY24ub2N0b2ZvcmNlLnNxdWlkZ2VzdHVyZXBybwpWZXJzaW9uOiAyLjcuNi0yCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogU3F1aWRGb3JjZSwgQmFja3VwCkluc3RhbGxlZC1TaXplOiA3MzQ3CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE0LjApCkNvbmZsaWN0czogY29tLmxjbHJjLnNxdWlkZ2VzdHVyZSwgY29tLmxjbHJjLnNxdWlkZ2VzdHVyZXBybwpGaWxlbmFtZTogZGVicy/kuYzotLzmiYvlir8tMi43LjYtMuaXoOagueegtOinoy5kZWIKU2l6ZTogMTkzMDM3MgpNRDVzdW06IDU3YzU0ZGIwNjgzZWUyY2M3OGVmMmEzMmZkNjgzODg1ClNIQTE6IDlhMGJmNGNhNDhjNThmODU0MGYyZTU5OWNjODdiNTc4NjhjN2U1YTkKU0hBMjU2OiBkYjM3ZWRjOTgwYmQ4ZGU0MjY4NzgxNTAzNzQ3ODZiM2ZhYWM1OGMwYjUzNDQzOWY2MGFjY2MwZTZlNGJiNmVhClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5YaF572uIERDcmFjayDnprvnur/mjojmnYPvvIjmnKzlnLDnlJ/miJDjgIHnu5Hlrprorr7lpIfjgIHml6DpnIDmv4DmtLvmnI3liqHlmajvvInjgIIKQXV0aG9yOiBTcXVpZEZvcmNlLCBCYWNrdXAKTmFtZTogU3F1aWRHZXN0dXJlUHJvKOa/gOa0u+eggSkKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vbGNscmMuZ2l0aHViLmlvL3JlcG8vZGVwaWN0aW9ucy9uYXRpdmUvY24ub2N0b2ZvcmNlLnNxdWlkZ2VzdHVyZXByby9kZXBpY3Rpb24uanNvbg==",
+  "metadata_sha256": "6d92b296fe52ef78d385d3b59e481cf16a2e01a63fb9772e2f32281b55cf27bd",
+  "object_key": "debs/db37edc980bd8de426878150374786b3faac58c0b534439f60accc0e6e4bb6ea.deb",
+  "schema": 1,
+  "sha256": "db37edc980bd8de426878150374786b3faac58c0b534439f60accc0e6e4bb6ea",
+  "size": 1930372,
+  "source": {
+    "filename_b64": "ZGVicy/kuYzotLzmiYvlir8tMi43LjYtMuaXoOagueegtOinoy5kZWI=",
+    "git_blob": "9dfba827061192984e297a44e656257c4a1d7bf2"
+  }
+}

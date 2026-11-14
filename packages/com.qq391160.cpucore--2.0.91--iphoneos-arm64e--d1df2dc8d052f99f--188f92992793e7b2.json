@@ -1,0 +1,18 @@
+{
+  "id": "com.qq391160.cpucore--2.0.91--iphoneos-arm64e--d1df2dc8d052f99f--188f92992793e7b2",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.qq391160.cpucore",
+    "version": "2.0.91"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnFxMzkxMTYwLmNwdWNvcmUKVmVyc2lvbjogMi4wLjkxCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHFxMzkxMTYwCkluc3RhbGxlZC1TaXplOiAzOTY0CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNi4wKQpDb25mbGljdHM6IGNvbS5odWF5dWFyYy5jcHV0aGVybWFsLCBjb20uaHVheXVhcmMuY3B1dGhlcm1hbHBybywgY29tLnFxMzkxMTYwLmNwdXNlbnRyeQpSZXBsYWNlczogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwsIGNvbS5odWF5dWFyYy5jcHV0aGVybWFscHJvLCBjb20ucXEzOTExNjAuY3B1c2VudHJ5CkZpbGVuYW1lOiBkZWJzL2NvbS5xcTM5MTE2MC5jcHVjb3JlXzIuMC45MV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDU4MjEzOApNRDVzdW06IGEzNGEzMDRlMTNiZDczY2M4ZDBkODk2ZjRlYTc5ZGRlClNIQTE6IDA2YjNkYjcwYmFhMmUxMTBiMWM5OTQ1ODQyZTUzZmQ2ZjRhNjVlYTQKU0hBMjU2OiBkMWRmMmRjOGQwNTJmOTlmM2ZmYmU5YjE3ZjlmMjQ4Y2Y2ZjQ3N2U3N2E3ZTU2ZjI3MzQ2Zjk3ZWE5NjRiMWQ2ClNlY3Rpb246IFR3ZWFrcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOS4ieenjeaooeW8j+S4gOmUruWIh+aNoueahOaZuuiDvea4qeaOp+euoeeQhuOAgiDmmbrog73vvJrmuLjmiI/pq5jmgKfog73jgIHlupTnlKjkvY7popHnjofjgIHmoYzpnaLljp/nlJ/jgIHmu5Hliqjmj5DpgJ/jgIHnhoTlsY/nnIHnlLXvvJsg5L2O5Yqf6ICX77ya5YWo5bGA55yB55S177yM5Y+v5pS+6KGM5Liq5Yir5bqU55So77ybIOaAp+iDveaooeW8j++8muWFqOWxgOmrmOaAp+iDve+8jOWPr+WNleeLrOWOi+S9juaMh+WumuW6lOeUqO+8myDmr4/kuKrlupTnlKjlj6/ljZXni6zorr7nva7moaPkvY3jgIIKQXV0aG9yOiBxcTM5MTE2MApJY29uOiBodHRwczovL3FxMzkxMTYwLmdpdGh1Yi5pby9yZXBvL2ljb25zL3RoZXJtYWwucG5nCk5hbWU6IENQVeaZuuiDvea4qeaOpyhpT1MxNi8xNyk=",
+  "metadata_sha256": "8e9539b519be9bb6fab736ab3a2f4fd473a82e6193722cd35d3f9c16d6c81f20",
+  "object_key": "debs/d1df2dc8d052f99f3ffbe9b17f9f248cf6f477e77a7e56f27346f97ea964b1d6.deb",
+  "schema": 1,
+  "sha256": "d1df2dc8d052f99f3ffbe9b17f9f248cf6f477e77a7e56f27346f97ea964b1d6",
+  "size": 582138,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ucXEzOTExNjAuY3B1Y29yZV8yLjAuOTFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "5ddfb46fb0f88b784117a0bda387af9121125737"
+  }
+}

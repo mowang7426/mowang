@@ -1,0 +1,18 @@
+{
+  "id": "com.ning.simcontrol--1.0.4--iphoneos-arm64--e6f53ad20a3dd6d5--ed87a32ae10d6f0d",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.ning.simcontrol",
+    "version": "1.0.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm5pbmcuc2ltY29udHJvbApWZXJzaW9uOiAxLjAuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE5pbmcKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCBmaXJtd2FyZSAoPDwgMTguMCksIGNvbS5vcGEzMzQuY2NzdXBwb3J0CkZpbGVuYW1lOiBkZWJzL1NJTeWNoeWIh+aNol8xLjAuNF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTI0NTYwCk1ENXN1bTogYzAxMjI1MzFjMjRlMDY0ODc4YWRkZGZiYTYwMWIwZDcKU0hBMTogZTk0MTEwMjMxNDM0Zjk4ODI5YWVmYjNhMTQxZTQyNmNiZjVhNjMyMwpTSEEyNTY6IGU2ZjUzYWQyMGEzZGQ2ZDVmNjhlMjIzZWExZTMxM2RjZTgxOTliNjE3MjcxODEwODUzMjcyMTgyN2NlZTA5N2YKU2VjdGlvbjogVHdlYWtzClByaW9yaXR5OiBvcHRpb25hbApEZXNjcmlwdGlvbjogTmF0aXZlIFNJTSBzd2l0Y2hlcyBmb3IgdGhlIHN5c3RlbSBDb250cm9sIENlbnRlciAocm9vdGxlc3MpLgpBdXRob3I6IE5pbmcKSWNvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vaWNvbi9zaW1jb250cm9sLnBuZwpOYW1lOiBTSU3ljaHliIfmjaI=",
+  "metadata_sha256": "2d91ba8388253b58c077ba1c833b8fb3065dd50f64347e7d3f9bfc2a145d9be4",
+  "object_key": "debs/e6f53ad20a3dd6d5f68e223ea1e313dce8199b6172718108532721827cee097f.deb",
+  "schema": 1,
+  "sha256": "e6f53ad20a3dd6d5f68e223ea1e313dce8199b6172718108532721827cee097f",
+  "size": 124560,
+  "source": {
+    "filename_b64": "ZGVicy9TSU3ljaHliIfmjaJfMS4wLjRfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "d2c3389ef3f7cd93cfe06757b90267db544ba3d4"
+  }
+}

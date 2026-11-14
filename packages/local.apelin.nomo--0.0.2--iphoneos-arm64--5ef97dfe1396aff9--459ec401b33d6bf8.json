@@ -1,0 +1,18 @@
+{
+  "id": "local.apelin.nomo--0.0.2--iphoneos-arm64--5ef97dfe1396aff9--459ec401b33d6bf8",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "local.apelin.nomo",
+    "version": "0.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogbG9jYWwuYXBlbGluLm5vbW8KVmVyc2lvbjogMC4wLjIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiB5cWNyYWNrCkluc3RhbGxlZC1TaXplOiAyMzkKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCBtb2JpbGVzdWJzdHJhdGUKRmlsZW5hbWU6IGRlYnMvTk9NTyDop6PplIFQUk9fMC4wLjJfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDI1OTkyCk1ENXN1bTogNTE5OTM0YjZhYTU0Nzg4MWFiM2ZlMTE2MzRiOWUwZjUKU0hBMTogYmQyMTQ5ZGY4ZmEyNzUzODMxYzI0NDZmMTM2ZGRkNjI4YTRkNDU1YwpTSEEyNTY6IDVlZjk3ZGZlMTM5NmFmZjk0ZDk4ZDBmMzAxNzVlMjRiNmFkNzBjZGUyZjczYjM4MjA3ZTA1MzZjN2ZkZWYxYjAKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkv53nlZkgTk9NTyDlt7LkuIvovb3nmoTnm7jmnLrnmq7ogqTvvIzliIfmjaLotKblj7flkI7kuI3lho3pnIDopoHph43mlrDkuIvovb3vvIzlubbop6PplIEgUFJPIOWKn+iDveOAggpBdXRob3I6IHlxY3JhY2sKSWNvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vaWNvbi9ub21vLmpwZwpOYW1lOiBOT01PIOino+mUgVBSTw==",
+  "metadata_sha256": "46a855db25a88f8057692fdf398cf5cdbdfdcb915878f5ca4b6a5d24e58a090d",
+  "object_key": "debs/5ef97dfe1396aff94d98d0f30175e24b6ad70cde2f73b38207e0536c7fdef1b0.deb",
+  "schema": 1,
+  "sha256": "5ef97dfe1396aff94d98d0f30175e24b6ad70cde2f73b38207e0536c7fdef1b0",
+  "size": 25992,
+  "source": {
+    "filename_b64": "ZGVicy9OT01PIOino+mUgVBST18wLjAuMl9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "a8e5fe45437be1b6f3260bac4b79d53bf9d77270"
+  }
+}

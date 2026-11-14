@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.vehiclemotioncues--0.0.2--iphoneos-arm64e--3f3abc844ca155ff--29181709e0e44d25",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.vehiclemotioncues",
+    "version": "0.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS52ZWhpY2xlbW90aW9uY3VlcwpWZXJzaW9uOiAwLjAuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBoYWRlcwpJbnN0YWxsZWQtU2l6ZTogNjE2CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgZmlybXdhcmUgKDw8IDE4LjApLCBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuY2NzdXBwb3J0ICg+PSAxLjMuMTApCkZpbGVuYW1lOiBkZWJzL1ZlaGljbGUgTW90aW9uIEN1ZXNfMC4wLjJfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAzMjkyNgpNRDVzdW06IDVlMDI1YjRmZTkzNTk4ZmZmOTU2MjZlNzRjMzlhZDkwClNIQTE6IDZhODNlOGIyZDFmZTU4NjgzYmM0YWM5NzlmYjhlM2QyZTQ5OTdlZWYKU0hBMjU2OiAzZjNhYmM4NDRjYTE1NWZmYzM5ODFmZDlkMDY4OTQzYzQzNTI0Y2Y2NGUxZjM3MGU3MjM2NDQ1MWNlZTg4NTAyClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogUmV2ZXJzZS1kZXJpdmVkIFZlaGljbGUgTW90aW9uIEN1ZXMgZm9yIGlPUyAxNy4KQXV0aG9yOiBoYWRlcwpOYW1lOiBWZWhpY2xlIE1vdGlvbiBDdWVz",
+  "metadata_sha256": "24f7e7c14f32a6ce9a2f8bb0c2ec8881cfcc4adc371233e7979b726b7d683add",
+  "object_key": "debs/3f3abc844ca155ffc3981fd9d068943c43524cf64e1f370e72364451cee88502.deb",
+  "schema": 1,
+  "sha256": "3f3abc844ca155ffc3981fd9d068943c43524cf64e1f370e72364451cee88502",
+  "size": 32926,
+  "source": {
+    "filename_b64": "ZGVicy9WZWhpY2xlIE1vdGlvbiBDdWVzXzAuMC4yX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "c52d85ef64a597a313c8cb6aa9b01a894ffa73d9"
+  }
+}

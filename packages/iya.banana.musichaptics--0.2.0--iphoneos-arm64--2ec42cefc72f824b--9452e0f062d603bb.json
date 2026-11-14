@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.musichaptics--0.2.0--iphoneos-arm64--2ec42cefc72f824b--9452e0f062d603bb",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "iya.banana.musichaptics",
+    "version": "0.2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5tdXNpY2hhcHRpY3MKVmVyc2lvbjogMC4yLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBCYW5hbmEKSW5zdGFsbGVkLVNpemU6IDEwNTYKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyLCBjb20ub3BhMzM0LmNjc3VwcG9ydCwgaXlhLmJhbmFuYS5hdWRpb3NlcnZpY2UgKD49IDEuMC4yKSwgZmlybXdhcmUgKD49IDE1LjApCkZpbGVuYW1lOiBkZWJzL011c2ljSGFwdGljc18wLjIuMF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTE5NDUwCk1ENXN1bTogMzYyOGRlY2FjNTMwNjdjMTFiYzY4ZDcwN2ZhYzcwNWUKU0hBMTogOTQ3NzYxMjc1NWQ1ZjkxMDZhOWE4MzUwNGUzMTk4YTMxOWM2ODIwOApTSEEyNTY6IDJlYzQyY2VmYzcyZjgyNGJkZGQyZmY5MzUxOGNkNTQ3MTU0ZTAzNTFkMGY1NWIyYmVjYWU0MDA3MjEzY2I3ZTQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBOYXRpdmUgbXVzaWMgaGFwdGljcyBhbmQgZm91ciB1bml2ZXJzYWwgaGFwdGljIG1vZGVzIGZvciBpT1MgMTUgYW5kIGxhdGVyLgpBdXRob3I6IEJhbmFuYQpOYW1lOiBNdXNpY0hhcHRpY3M=",
+  "metadata_sha256": "092006e8fee2a0a521a3233aca9bcecc88ef329206c2cb9a64eb84577ee38e34",
+  "object_key": "debs/2ec42cefc72f824bddd2ff93518cd547154e0351d0f55b2becae4007213cb7e4.deb",
+  "schema": 1,
+  "sha256": "2ec42cefc72f824bddd2ff93518cd547154e0351d0f55b2becae4007213cb7e4",
+  "size": 119450,
+  "source": {
+    "filename_b64": "ZGVicy9NdXNpY0hhcHRpY3NfMC4yLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "a2c3733845df58bfd1e9f1081bf6b3f37019bd17"
+  }
+}

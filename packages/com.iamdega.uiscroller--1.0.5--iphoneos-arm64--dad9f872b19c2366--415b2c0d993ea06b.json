@@ -1,0 +1,18 @@
+{
+  "id": "com.iamdega.uiscroller--1.0.5--iphoneos-arm64--dad9f872b19c2366--415b2c0d993ea06b",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.iamdega.uiscroller",
+    "version": "1.0.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlhbWRlZ2EudWlzY3JvbGxlcgpWZXJzaW9uOiAxLjAuNQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IGlhbWRlZ2EKSW5zdGFsbGVkLVNpemU6IDE3MgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKQpGaWxlbmFtZTogZGVicy9VSVNjcm9sbGVyXzEuMC41X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA5NjA0Ck1ENXN1bTogODE4ZDhmMWNjNmY4MTM2MmIxZDRmYmUxMWFlNmViMTgKU0hBMTogMWYxMzVjZmIwZjgxMjAwNDA0N2Q4ZDcyNWUyZGZmMDZhYWNjYmI0ZApTSEEyNTY6IGRhZDlmODcyYjE5YzIzNjYzOGQ0OGViZDNiNmMzYzg5NDM5ZTY0NzgyODBlMDRmMGIwNTYwYzEzMGU4ZTliODEKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBSZXN0IHlvdXIgZmluZ2VycywgYXV0b21hdGUgc2Nyb2xsaW5nIGFueSBwYWdlcyEKQXV0aG9yOiBpYW1kZWdhCkljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vdWlzY3JvbGxlci5qcGcKTmFtZTogVUlTY3JvbGxlcg==",
+  "metadata_sha256": "57222614cb631e7e194b734caa801719d23c19a24d69aa8206a3d78def38a1ee",
+  "object_key": "debs/dad9f872b19c236638d48ebd3b6c3c89439e6478280e04f0b0560c130e8e9b81.deb",
+  "schema": 1,
+  "sha256": "dad9f872b19c236638d48ebd3b6c3c89439e6478280e04f0b0560c130e8e9b81",
+  "size": 9604,
+  "source": {
+    "filename_b64": "ZGVicy9VSVNjcm9sbGVyXzEuMC41X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "f8a00b2e0f33f5a80fe85838e4c266d32e9b8c88"
+  }
+}

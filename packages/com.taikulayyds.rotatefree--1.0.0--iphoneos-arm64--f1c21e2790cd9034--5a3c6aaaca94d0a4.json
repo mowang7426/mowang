@@ -1,0 +1,18 @@
+{
+  "id": "com.taikulayyds.rotatefree--1.0.0--iphoneos-arm64--f1c21e2790cd9034--5a3c6aaaca94d0a4",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.taikulayyds.rotatefree",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnRhaWt1bGF5eWRzLnJvdGF0ZWZyZWUKVmVyc2lvbjogMS4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBMaXR0bGUgMzQzMDYKSW5zdGFsbGVkLVNpemU6IDQxMgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE1LjApCkNvbmZsaWN0czogY29tLjM0MzA2LnVwc2lkZWRvd25lZApSZXBsYWNlczogY29tLjM0MzA2LnVwc2lkZWRvd25lZApGaWxlbmFtZTogZGVicy9jb20udGFpa3VsYXl5ZHMucm90YXRlZnJlZV8xLjAuMF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNTE0MDgKTUQ1c3VtOiA0ZGU5NGQyYmUxZmM0M2FmOWIxMGRjZWFiYmExMGE1NgpTSEExOiA4ZmE4ZmQxODk0NGUxZjdmYTk5ODNmMzJhZGE5ZDU5NjMyODY2NmJhClNIQTI1NjogZjFjMjFlMjc5MGNkOTAzNDM1NWVhZDYzOTIxOGUxMGMzZDcyNTE5ZDdiMDgxNGViM2QwYjBhMzlkZmZhNmYxMQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOWxj+W5leWGheWuuei3n+maj+aJi+acuueKtuaAgemaj+W/g+aXi+i9rO+8jOWPr+S7peS4iuS4i+W3puWPs+iHqueUseaXi+i9rOOAguiuvue9ruWGheWPr+WNleeLrOaMh+WummFwcOaIluiAhemUgeWxjy/kuLvlsY/luZXnirbmgIHjgIIKQXV0aG9yOiAzNDMwNiwgS2hhbmhEdXlUcmFuLCB0YWlrdWxheXlkcwpJY29uOiBodHRwczovL2dpdGh1Yi5jb20vdGFpa3VsYXl5ZHMvaWNvbi9yYXcvcmVmcy9oZWFkcy9taW5hL3JvdGF0ZWZyZWUucG5nCk5hbWU6IOaXi+i9rOmaj+W/gyDCtyBSb3RhdGVGcmVl",
+  "metadata_sha256": "bea2aef49710f98be72d4d7e0bbd2a5205e43f5c6f4292f182b2785884faf072",
+  "object_key": "debs/f1c21e2790cd9034355ead639218e10c3d72519d7b0814eb3d0b0a39dffa6f11.deb",
+  "schema": 1,
+  "sha256": "f1c21e2790cd9034355ead639218e10c3d72519d7b0814eb3d0b0a39dffa6f11",
+  "size": 51408,
+  "source": {
+    "filename_b64": "ZGVicy9jb20udGFpa3VsYXl5ZHMucm90YXRlZnJlZV8xLjAuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "d9988feb1717aa425af81e2a4a8df8fe82c9622a"
+  }
+}

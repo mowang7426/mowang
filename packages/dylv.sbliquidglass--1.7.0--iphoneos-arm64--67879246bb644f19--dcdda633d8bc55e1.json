@@ -1,0 +1,18 @@
+{
+  "id": "dylv.sbliquidglass--1.7.0--iphoneos-arm64--67879246bb644f19--dcdda633d8bc55e1",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "dylv.sbliquidglass",
+    "version": "1.7.0"
+  },
+  "metadata_b64": "UGFja2FnZTogZHlsdi5zYmxpcXVpZGdsYXNzClZlcnNpb246IDEuNy4wCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogTW9XYW5nCkluc3RhbGxlZC1TaXplOiA0MTMyCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBmaXJtd2FyZSAoPj0gMTQuMCksIGZpcm13YXJlICg8PCAyNi4wKSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9zYmxpcXVpZGdsYXNzdjAuMS1yb290bGVzcy5kZWIKU2l6ZTogMTM5ODIxMApNRDVzdW06IGNkODkxZmQ1N2U3NDczYmQxNWYwYWYyOGRmYTA5ODlhClNIQTE6IDY0N2VhMTcwNTMwZGE0MDk4ZGUwM2I3MzEzZGY4NzRkMjQwOGE4YjgKU0hBMjU2OiA2Nzg3OTI0NmJiNjQ0ZjE5NWJkYTg3OGI4Mjg5MDZmMjQzNDk3YzdjOTk4YTE3MWMzZTQ4ZjAzMGFjZmYzZWJlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQSBzdGFnZWQgTGlxdWlkIEdsYXNzIHN5c3RlbSBVSSB0d2VhayB3aXRoIGEgc2FmZSBzdXJmYWNlIGFyY2hpdGVjdHVyZS4KQXV0aG9yOiBNb1dhbmcKTmFtZTogU0JMaXF1aWRHbGFzcw==",
+  "metadata_sha256": "d75436029f8e29511edd17c13d9c8cba7c1f0a75d417fcc6c7a17043e3ee4bb8",
+  "object_key": "debs/67879246bb644f195bda878b828906f243497c7c998a171c3e48f030acff3ebe.deb",
+  "schema": 1,
+  "sha256": "67879246bb644f195bda878b828906f243497c7c998a171c3e48f030acff3ebe",
+  "size": 1398210,
+  "source": {
+    "filename_b64": "ZGVicy9zYmxpcXVpZGdsYXNzdjAuMS1yb290bGVzcy5kZWI=",
+    "git_blob": "219ec68aa840e1571199ae93c06a986aea4f527b"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.huayuarc.cputhermal--1.6.2-154+isolation.6--iphoneos-arm64e--9d125494ec3d9591--20aa5544725a9148",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.huayuarc.cputhermal",
+    "version": "1.6.2-154+isolation.6"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmh1YXl1YXJjLmNwdXRoZXJtYWwKVmVyc2lvbjogMS42LjItMTU0K2lzb2xhdGlvbi42CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEh1YXl1YXJjCkluc3RhbGxlZC1TaXplOiAxODQ0CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy9DUFUg6Kej6Zmk5rip5o6nLTEuNi4yLTE1NCtpc29sYXRpb24uNi1pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDEyMDg4MApNRDVzdW06IDRmNmY2OTk3M2ZhODRhNTk3ODMyYTk5MjFiMjdjOWNhClNIQTE6IDhiNDMyODY1MjBmNDRhODc4YTNkN2YzMmNlYzgyYzA5ZmUyM2Y2ZWEKU0hBMjU2OiA5ZDEyNTQ5NGVjM2Q5NTkxMDkzODM5ZWY1MTQyYWU4OTMyOTYyNjcwZjM2ODg3MjBlN2I4MGMxNDEyMmJlYzc5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog6YCC6YWNIGlPUyAxNeKAkzE3IOeahOa4qeaOp+etlueVpeOAgueos+WumumrmOaAp+iDveaooeW8j+mYu+atoueUqOaIt+aAgeeDree8k+ino+W5tuS/neaMgeWOn+eUnyBDUFUg6LCD5bqm77yb5L2O5Yqf6ICX5qih5byP5LuF5LiL5Y+RIENQVSDkuJPnlKjpooTnrpfkuI7popHnjofnrZbnlaXvvIzkuI3mlLnlj5jkuq7luqbjgILmmL7npLrkuq7luqbkv53miqTni6znq4vlt6XkvZzvvJvkv53nlZnlhYXnlLXpmZDliLbjgIHplIHlsY/jgIHnlLXmsaDpobXpnaLkv67lpI3lkozmjqfliLbkuK3lv4PjgILkuI3og73nu5Xov4flm7rku7bmiJbnoazku7bntKfmgKXkv53miqTjgIIKQXV0aG9yOiBIdWF5dWFyYwpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2NwdXRoZXJtYWwucG5nCk5hbWU6IENQVSDop6PpmaTmuKnmjqcKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL3NpbGVvZGVwaWN0aW9uL0NQVXRoZXJtYWwvanMuanNvbg==",
+  "metadata_sha256": "6df645cf282c72025eee73589a706c55c802a3e5b1f2b4345701d4ffe392729d",
+  "object_key": "debs/9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79.deb",
+  "schema": 1,
+  "sha256": "9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79",
+  "size": 120880,
+  "source": {
+    "filename_b64": "ZGVicy9DUFUg6Kej6Zmk5rip5o6nLTEuNi4yLTE1NCtpc29sYXRpb24uNi1pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "954375d45674690ff0dfae3a92114250aae54dd2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.hmmzzz.fontmanager--0.3.7--iphoneos-arm64e--c11e2df12a5bbde7--07aeb54141f25efd",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.hmmzzz.fontmanager",
+    "version": "0.3.7"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmhtbXp6ei5mb250bWFuYWdlcgpWZXJzaW9uOiAwLjMuNwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBIbW16enoKSW5zdGFsbGVkLVNpemU6IDI1MTIKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCB1aWtpdHRvb2xzCkNvbmZsaWN0czogY29tLm5hbi5iaW5kZnMsIGNuLnpxYmIuaGVsbG8ubW50CkZpbGVuYW1lOiBkZWJzL01hcmtGb250IOWtl+S9k+euoeeQhuWZqF8wLjMuN19pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDQ5NDMzMgpNRDVzdW06IGMwNzI2YWUzYTExMmE0ODhjNWJmYzc5NTEwNTIxNTFiClNIQTE6IDk0Yjc4Yzg5MmE0YTRiYTM4OGUzMGE4NjU2ZmY1ZDg3MzE2ZjAwMzEKU0hBMjU2OiBjMTFlMmRmMTJhNWJiZGU3MWI1ZTA4OTNmMjZhMjVlN2Q4MzhmYzVlMTkzZjFkOTFkYzMwZTNmNTgwNmRjOGM1ClNlY3Rpb246IFN5c3RlbQpIb21lcGFnZTogaHR0cHM6Ly9obW16enouZ2l0aHViLmlvL3JlcG8vCkRlc2NyaXB0aW9uOiBpT1MgMTYrIOWFqOWxgOWtl+S9k+euoeeQhuWZqO+8jOaUr+aMgSBjb252ZW50aW9uYWwgcm9vdGxlc3Mg5LiOIFJvb3RIaWRl44CCCiAqIOWPr+WcqCBBcHAg5YaF5a+85YWlIFpJUOOAgVRURuOAgVRUQyDlkowgT1RGIOWtl+S9k++8jOWIm+W7uuW5tuWIh+aNouWkmuWll+Wtl+S9k+aWueahiO+8jAogKiDlsIblrZfkvZPlronlhajlupTnlKjliLDmlbTkuKrns7vnu5/vvIzkuZ/lj6/ku6Xpmo/ml7bmgaLlpI3ns7vnu5/pu5jorqTlrZfkvZPjgIIKICogTWFya0ZvbnQg5L2/55So5Y+q6K+75a2X5L2T6ZWc5YOP77yM5LiN55u05o6l5L+u5pS557O757uf5a2X5L2T5paH5Lu277yM5bm25pSv5oyB6YeN5paw6LaK54ux5ZCOCiAqIOiHquWKqOaBouWkjeW3suWQr+eUqOeahOWtl+S9k+OAguS4pOenjeeOr+Wig+mcgOimgeWuieijheWQhOiHquWvueW6lOeahOi9r+S7tuWMhe+8jOivt+WLv+a3t+ijheOAggpBdXRob3I6IEhtbXp6egpEZXBpY3Rpb246IGh0dHBzOi8vaG1tenp6LmdpdGh1Yi5pby9yZXBvL2RlcGljdGlvbnMvbWFya2ZvbnQvCkljb246IGh0dHBzOi8vaG1tenp6LmdpdGh1Yi5pby9yZXBvL2RlcGljdGlvbnMvbWFya2ZvbnQvaWNvbi5wbmcKTmFtZTogTWFya0ZvbnQg5a2X5L2T566h55CG5ZmoClNpbGVvZGVwaWN0aW9uOiBodHRwczovL2htbXp6ei5naXRodWIuaW8vcmVwby9kZXBpY3Rpb25zL21hcmtmb250L3NpbGVvLmpzb24=",
+  "metadata_sha256": "ed2552763db7365ae78668484ff51757701f0cf18a8b5ffdf29053b511df4fbe",
+  "object_key": "debs/c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5.deb",
+  "schema": 1,
+  "sha256": "c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5",
+  "size": 494332,
+  "source": {
+    "filename_b64": "ZGVicy9NYXJrRm9udCDlrZfkvZPnrqHnkIblmahfMC4zLjdfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "5d40cad71ad48055ca0d4cf101a3cc74b9724c8c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.axs.ipslog--5.2.0-26--iphoneos-arm64e--5af74ed3771ae0fc--e29662b2af761e3b",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.axs.ipslog",
+    "version": "5.2.0-26"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmF4cy5pcHNsb2cKVmVyc2lvbjogNS4yLjAtMjYKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQXhzIDxxaWFvemhhbmkwMDBAMTYzLmNvbT4KSW5zdGFsbGVkLVNpemU6IDQ4MApEZXBlbmRzOiBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5heHMuaXBzbG9nXzUuMi4wLTI2X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNzk1ODYKTUQ1c3VtOiA2NjEwNGM4YjNjYWU3Nzk2NzYyZmMyYWJhYThlZjdiOQpTSEExOiA1OTcwODhkNzAzYWE4NzNiYjhiYTUwZjRiYTEwMzhlZjM3NzYxNjk2ClNIQTI1NjogNWFmNzRlZDM3NzFhZTBmYzY4YzU5NDgxZTc3YjcyODI2MWVjMzI2NDRjMzhlYTIwYzQxMTg1MjJkZTE2MjMyZQpTZWN0aW9uOiBBeHMtVHdlYWtzCkRlc2NyaXB0aW9uOiDorr7nva7lhoXkuIDplK7mn6XnnIvkuI7liIbmnpDorr7lpIfkuIrnmoQgLmlwcyDltKnmuoPml6Xlv5fvvIzlv6vpgJ/lrprkvY3ltKnmuoPljp/lm6DjgIIKICog5bSp5rqD5pel5b+X5p+l55yL5Zmo77ya5oyJ6L+b56iL6IGa5ZCI44CB5oyJ5pe26Ze05YCS5bqP44CB5YWz6ZSu5a2X5pCc57Si44CB5Y+v562b6YCJ5YiG57G744CB5Y+v5LiA6ZSu5riF56m65pel5b+XCiAqIOino+aekOW8guW4uOexu+WeiyAvIOW8guW4uOeggSAvIOinpuWPkee6v+eoiyAvIOW0qea6g+WghuagiCAvIOS6jOi/m+WItuaYoOWDjwogKiDmlK/mjIHmn6XnnIvlrozmlbTljp/mlofjgIHlpI3liLbku7vmhI/lrZfmrrXjgIHliIbkuqvlr7zlh7rjgIHliKDpmaTljZXmnaHkuI7muIXnqboKQXV0aG9yOiBBeHMgPHFpYW96aGFuaTAwMEAxNjMuY29tPgpJY29uOiBodHRwczovL2F4czY2LmdpdGh1Yi5pby9wcm8vaWNvbi9pcHMucG5nCk5hbWU6IElQU0xvZwpTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly9heHM2Ni5naXRodWIuaW8vcHJvL3NpbGVvZGVwaWN0aW9uL2lwc2xvZy9qcy5qc29u",
+  "metadata_sha256": "74d97f7098fba841f7c41b92810b870c354e6714a49269cd8a044281c7f9dd19",
+  "object_key": "debs/5af74ed3771ae0fc68c59481e77b728261ec32644c38ea20c4118522de16232e.deb",
+  "schema": 1,
+  "sha256": "5af74ed3771ae0fc68c59481e77b728261ec32644c38ea20c4118522de16232e",
+  "size": 79586,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYXhzLmlwc2xvZ181LjIuMC0yNl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "26f12d5eef991b947c5cb327a503cba28be4a6ff"
+  }
+}

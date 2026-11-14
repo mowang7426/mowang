@@ -1,0 +1,18 @@
+{
+  "id": "com.iosrxwy.vvebofix--1.0.1--iphoneos-arm64--143d66689b4227ed--2edc4c6c260fcf46",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.iosrxwy.vvebofix",
+    "version": "1.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmlvc3J4d3kudnZlYm9maXgKVmVyc2lvbjogMS4wLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBpb3NyeHd5Ckluc3RhbGxlZC1TaXplOiAyMjAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlCkZpbGVuYW1lOiBkZWJzL1ZWZWJvRml4XzEuMC4xX2lwaG9uZW9zLWFybTY0XzgzZmZmYzJlYjUyOTkxNmEuZGViClNpemU6IDQ5NjgwCk1ENXN1bTogMzgzNTM2OGE2MjRkZmI4M2FmYzc2NjgxZTk0YjY1OTYKU0hBMTogMjJmMmI2OGQ2MmM4NzYwZWFjN2RlYzZiMTQ3YjMzNDI3ZmY2OTMzYgpTSEEyNTY6IDE0M2Q2NjY4OWI0MjI3ZWQ0ODY3MzNiZjdjMDcwZDEyNzE5ZmQyYTVhZWZiYzIxMWVmMzZiNjliYWQ2OGNlMjkKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkv67lpI0gVlZlYm8g5Li76aG15pe26Ze057q/77yM5oGi5aSN5LiT5Lia54mI77yM5oqK5Y+N6aaI5YWl5Y+j5pS55Yiw5L2c6ICF6aKR6YGT44CC5a6e5Ya15Zu+5Y+v5Lul54K55byA5pKt5pS+77yM6ZW/5oyJ5Y+v5Lul5L+d5a2Y5ZKM5YiG5Lqr44CC5YiH5o2i6LSm5Y+35LiN5YaN5omT5byA6aKR6YGT44CC5LiJ5oyH5Y+M5Ye75omT5byA6K6+572u77yM6ZW/5oyJ5bqV5qCP57yW6L6R5oyJ6ZKu5omT5byA5oiW5YWz6Zet6K6+572u44CC5pe26Ze057q/44CB5a6e5Ya15Zu+44CB5Lya5ZGY5ZKMIDEyMEh6IOm7mOiupOW8gOWQrwpBdXRob3I6IGlvc3J4d3kKSWNvbjogaHR0cHM6Ly9odWF5dWFyYy5naXRodWIuaW8vaWNvbi92dmViby5qcGcKTmFtZTogVlZlYm9GaXg=",
+  "metadata_sha256": "9481dd3dff6e58fd71546212b8772778c8d76236afa1d780785824b513facc0e",
+  "object_key": "debs/143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29.deb",
+  "schema": 1,
+  "sha256": "143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29",
+  "size": 49680,
+  "source": {
+    "filename_b64": "ZGVicy9WVmVib0ZpeF8xLjAuMV9pcGhvbmVvcy1hcm02NF84M2ZmZmMyZWI1Mjk5MTZhLmRlYg==",
+    "git_blob": "fc1f8b27eab43ec7190e5ad34d3358565c975ace"
+  }
+}

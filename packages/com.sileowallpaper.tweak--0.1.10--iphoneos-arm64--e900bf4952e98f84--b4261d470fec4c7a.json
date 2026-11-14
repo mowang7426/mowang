@@ -1,0 +1,18 @@
+{
+  "id": "com.sileowallpaper.tweak--0.1.10--iphoneos-arm64--e900bf4952e98f84--b4261d470fec4c7a",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sileowallpaper.tweak",
+    "version": "0.1.10"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNpbGVvd2FsbHBhcGVyLnR3ZWFrClZlcnNpb246IDAuMS4xMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IE1vV2FuZwpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIGZpcm13YXJlICg+PSAxNi4wKQpGaWxlbmFtZTogZGVicy9jb20uc2lsZW93YWxscGFwZXIudHdlYWtfMC4xLjEwX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyNDIxMgpNRDVzdW06IDIwMGJlYjU1ZWYzYWNkYzljMjdmMzI1OGRjNzE2YTRhClNIQTE6IDBiZmJmYjc1Y2QyMzNiNWZjNDFlNzU0MDNlNDFiNzczZDRjNGNlZjkKU0hBMjU2OiBlOTAwYmY0OTUyZTk4Zjg0Y2IwYTlmNGRlOWMyY2I0MDdlN2U2YTU2ZjUyMTMzZTU0M2M0ZDEwYzc2MzI2NWFiClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Li6IFNpbGVvIOiuvue9ruiHquWumuS5ieiDjOaZr+Wjgee6uO+8jOaUr+aMgeebuOWGjOmAieWbvuOAgeaWh+Wtl+minOiJsuOAgeiDjOaZr+aflOWMluWSjOWIl+ihqOW6leiJsuiwg+iKguOAggpBdXRob3I6IE1vV2FuZwpOYW1lOiBzaWxlbyDlo4Hnurg=",
+  "metadata_sha256": "25f187b9158d7fc9dade3045454154d3ff568dc1d672d1bd3c56a6540c417c9a",
+  "object_key": "debs/e900bf4952e98f84cb0a9f4de9c2cb407e7e6a56f52133e543c4d10c763265ab.deb",
+  "schema": 1,
+  "sha256": "e900bf4952e98f84cb0a9f4de9c2cb407e7e6a56f52133e543c4d10c763265ab",
+  "size": 24212,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uc2lsZW93YWxscGFwZXIudHdlYWtfMC4xLjEwX2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "24d03ebf8c92e07aa30e113059746fb640c0a95c"
+  }
+}

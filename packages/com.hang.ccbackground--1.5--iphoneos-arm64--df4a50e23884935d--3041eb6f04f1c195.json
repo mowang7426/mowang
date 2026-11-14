@@ -1,0 +1,18 @@
+{
+  "id": "com.hang.ccbackground--1.5--iphoneos-arm64--df4a50e23884935d--3041eb6f04f1c195",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.hang.ccbackground",
+    "version": "1.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmhhbmcuY2NiYWNrZ3JvdW5kClZlcnNpb246IDEuNQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IOiIqgpJbnN0YWxsZWQtU2l6ZTogOTk2CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy/mjqfliLbkuK3lv4Pog4zmma/oh6rlrprkuYlfMS41X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiAyMDQ2MzIKTUQ1c3VtOiA4MzE2ZWEyODIyNDM1YTU1MThkOWIzMDNjYmEyN2QyNQpTSEExOiBlMTlhM2VjZjE2NTc5NjdmZTFjMmViZTI0YTU4MmQ4ZjQwYjhiMTk5ClNIQTI1NjogZGY0YTUwZTIzODg0OTM1ZGU5ZGMzY2Q3NDI3NWI4ZTQ2ODJjYmQxZWFmNDU1NTM2ZTllMGYxNjJmYjM1MWQ1ZQpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOaOp+WItuS4reW/g+iDjOaZrwpBdXRob3I6IOiIqgpEZXBpY3Rpb246IGh0dHBzOi8vcGljMS5pbWdkYi5jbi9pdGVtLzY5ZTVkYzlmMTk4ZGQ2ZjhkNmFjNmJkMi5wbmcKSWNvbjogaHR0cHM6Ly9waWMxLmltZ2RiLmNuL2l0ZW0vNjllNWRjOWYxOThkZDZmOGQ2YWM2YmQyLnBuZwpOYW1lOiDmjqfliLbkuK3lv4Pog4zmma/oh6rlrprkuYk=",
+  "metadata_sha256": "88091ee73ccc8b2ee4ebb0bf2d8f11c7b329062df12b0a732abbca80724fc522",
+  "object_key": "debs/df4a50e23884935de9dc3cd74275b8e4682cbd1eaf455536e9e0f162fb351d5e.deb",
+  "schema": 1,
+  "sha256": "df4a50e23884935de9dc3cd74275b8e4682cbd1eaf455536e9e0f162fb351d5e",
+  "size": 204632,
+  "source": {
+    "filename_b64": "ZGVicy/mjqfliLbkuK3lv4Pog4zmma/oh6rlrprkuYlfMS41X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "bdbff168cced507b0cc32c90ebb0636bf20c3833"
+  }
+}

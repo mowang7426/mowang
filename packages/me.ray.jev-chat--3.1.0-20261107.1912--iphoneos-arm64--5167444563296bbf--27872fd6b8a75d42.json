@@ -1,0 +1,18 @@
+{
+  "id": "me.ray.jev-chat--3.1.0-20261107.1912--iphoneos-arm64--5167444563296bbf--27872fd6b8a75d42",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "me.ray.jev-chat",
+    "version": "3.1.0-20261107.1912"
+  },
+  "metadata_b64": "UGFja2FnZTogbWUucmF5Lmpldi1jaGF0ClZlcnNpb246IDMuMS4wLTIwMjYxMTA3LjE5MTIKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiByYXkKSW5zdGFsbGVkLVNpemU6IDQ2NjAKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlICg+PSAwLjkuNTAwMCkKRmlsZW5hbWU6IGRlYnMvSmV2LUNoYXQtMy4xLjAtMjAyNjExMDcuMTkxMy1yb290bGVzcy5kZWIKU2l6ZTogMTE5MzY3OApNRDVzdW06IDM2ZTYwNjIyODg0NWI3NjVkOGIwZjBkMTQzNzdiNTYxClNIQTE6IDE4NTEzOGIyYzY0OWViMmVmYTY3M2ExNzcxNWNhOGY0NmM4MTE2OTgKU0hBMjU2OiA1MTY3NDQ0NTYzMjk2YmJmNmExYTJlYTgxNmI4MjJhOGQyNGQ4MmYwYzRhNjI4ZDkzZmJhNTcwMzkzNjUzMzdlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5b6u5L+h5oSP5Zu+6K+G5YirICsg5Lq65oCn5YyW5bu66K6u5Zue5aSN77yI5Yik5pat5bGCIFN5c3RlbU9uZSAvIOeUn+aIkOWxgiBPcGVuQUkg5YW85a6577yb5Zue5aSN5pa55byP5Y+v5aSa6YCJ77yJCkF1dGhvcjogcmF5Ck5hbWU6IEpldi1DaGF0",
+  "metadata_sha256": "1cc0ba79aa67d2a6c3cb5e6c5565d9c9c0283255d203d43310b0064fb2ac2e57",
+  "object_key": "debs/5167444563296bbf6a1a2ea816b822a8d24d82f0c4a628d93fba57039365337e.deb",
+  "schema": 1,
+  "sha256": "5167444563296bbf6a1a2ea816b822a8d24d82f0c4a628d93fba57039365337e",
+  "size": 1193678,
+  "source": {
+    "filename_b64": "ZGVicy9KZXYtQ2hhdC0zLjEuMC0yMDI2MTEwNy4xOTEzLXJvb3RsZXNzLmRlYg==",
+    "git_blob": "51957dfe874fdd7aeca0578ef7c614635f3928c5"
+  }
+}
