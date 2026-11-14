@@ -106,7 +106,7 @@ class Objects(unittest.TestCase):
         self.assertEqual(m.read_base(m.PRODUCTION_BASE),m.PUBLIC_READ_BASE)
         self.assertEqual(m.read_base(BASE),BASE)
     def test_public_audit_routes_use_canonical_origin(self):
-        for key in ('snapshots/'+'a'*40+'/Packages', 'receipts/'+'a'*40+'/123-1.json', 'Packages.zst'):
+        for key in ('snapshots/'+'a'*40+'/Packages', 'receipts/'+'a'*40+'/123-1.json', 'Packages.zst', '.nojekyll', 'robots.txt', 'style.css', 'app.js'):
             with patch.object(p.subprocess,'check_output',return_value=b'verified') as get:
                 self.assertEqual(p.public(m.PRODUCTION_BASE,key),b'verified')
                 self.assertEqual(get.call_args.args[0][-1],m.PRODUCTION_BASE+'/'+key)

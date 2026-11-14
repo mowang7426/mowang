@@ -47,11 +47,11 @@ def read(s3,bucket,key):
         raise
 
 def public(base,key):
-    # The short-domain Worker intentionally exposes only APT/client routes.
-    # Audit snapshots, receipts and zstd are public on the canonical R2 origin,
-    # but absent from its allowlist. Keep bulk DEB GETs on the short domain.
-    audit_route = key.startswith(('snapshots/', 'receipts/')) or key == 'Packages.zst'
-    read_base = base if audit_route else catalog_publication.read_base(base)
+    # Mirror the deployed Worker's client-route allowlist. Everything else
+    # (including .nojekyll and audit evidence) is verified on canonical R2.
+    # Never move bulk DEB verification away from the short-domain binding.
+    client_route = re.fullmatch(r'(?:Release(?:\.gpg)?|InRelease|Packages(?:\.(?:gz|xz|bz2))?|[A-Za-z0-9_-]+\.(?:png|jpg|jpeg|webp|ico|json|html)|(?:debs|assets|depictions)/[^?#]+)', key)
+    read_base = catalog_publication.read_base(base) if client_route else base
     return subprocess.check_output(['curl','--fail','--silent','--show-error','--max-redirs','0','--connect-timeout','30','--max-time','1800','--retry','5','--retry-max-time','600','--retry-all-errors',read_base.rstrip('/')+'/'+key])
 
 def validate(m,base):
