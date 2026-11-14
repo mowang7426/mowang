@@ -3,9 +3,9 @@ name: Catalog foundation read-only verification
 on:
   push:
     branches: [feat/catalog-inbox-phase1]
-    paths: ['packages/**', 'catalog-state/**', 'scripts/catalog*', 'scripts/bootstrap-catalog.py', 'scripts/test-catalog.py', '.github/workflows/catalog-foundation.yml']
+    paths: ['packages/**', 'catalog-state/**', 'scripts/catalog*', 'scripts/bootstrap-catalog.py', 'scripts/test-catalog*.py', '.github/workflows/catalog-foundation.yml']
   pull_request:
-    paths: ['packages/**', 'catalog-state/**', 'scripts/catalog*', 'scripts/bootstrap-catalog.py', 'scripts/test-catalog.py', '.github/workflows/catalog-foundation.yml']
+    paths: ['packages/**', 'catalog-state/**', 'scripts/catalog*', 'scripts/bootstrap-catalog.py', 'scripts/test-catalog*.py', '.github/workflows/catalog-foundation.yml']
   workflow_dispatch:
   workflow_call:
 
@@ -30,7 +30,9 @@ jobs:
             /*
             !/debs/
       - name: Offline catalog and transaction safety tests (no credentials)
-        run: python3 scripts/test-catalog.py
+        run: |
+          python3 scripts/test-catalog.py
+          python3 scripts/test-catalog-bootstrap.py
       - name: Validate all committed records and source ledger
         run: python3 scripts/catalog.py validate
       - name: Every R2 object full GET SHA256 plus original Git blob SHA1

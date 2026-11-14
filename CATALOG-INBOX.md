@@ -59,3 +59,13 @@ python3 scripts/catalog-docs.py
 仍需实际完成并验收：新上传自动入库提交事务、生产 catalog 构建发布接入、旧 build 无 Deb 兼容、真实 HEAD 全量证明、可信收据传递、隔离 R2 testprefix + GitHub 测试分支两包完整 E2E、生产候选索引逐字节对比、PR 全 CI 与 main 发布及独立小/大包下载验收。完成前本 PR 必须保持 Draft。
 
 现有只读 `cleanup-plan.json` **不是可执行授权，也不是成功发布收据**。首次清理只能在上述阻塞全部解除、生产发布成功后重新以最新 main 生成计划，由主代理向用户二次确认。删除 GitHub 中转文件不会缩小已有 Git 历史，本阶段不做 history rewrite。
+
+## 已完成的真实验收证据（不是生产发布）
+
+- Draft PR：https://github.com/mowang7426/mowang/pull/11 。不应标记 Ready 或合并。
+- 全量只读核验成功：https://github.com/mowang7426/mowang/actions/runs/43537235893 ，job 132269073506，Artifact 14090695846。检查的是 head `706948e836b909be3057d8040a3ea814a47f5eed` 对应 PR merge commit `e1a667f8865252f882007809a296a1ac80432220`。证明已写入 `catalog-state/bootstrap-proof.json` 和 `verification-workflow.json`。
+- 1439 条来源记录、1439 项精确 path+blob ledger；1407 个对象全部 GET 完整 SHA256 与原 Git blob SHA1 验证成功。原 metadata 除 Filename 外字节多重集与正式源完全一致；每条生成 JSON 与已提交记录逐文件比较通过。
+- 唯一对象字节 3448558620；保留全部来源引用的文件字节 3511157520。版本、架构与同 identity 记录不擅合并。
+- 本地原 71 项测试与新增 62 项（51 catalog/gate + 11 bootstrap）通过，总计 133。新增导入器测试证明错误 blob、缺失/多余来源、metadata 漂移、manifest key/Size/refs 错误均拒绝生成记录；未完成验证的 draft 模式不会伪造 full-GET 标志。
+- 首次只读计划：[完整清单](catalog-state/first-cleanup-plan.advisory.json)，1439 文件、3511157520 字节，main base `e58023381e587b2c7ad069120df9c3c8af8e3e7e`，debs tree `cc79b159bef2891feed2d8f317704219aee80e06`。每条带易读原文件名、原路径 base64、Git blob、记录名、SHA256 和 Size。`enabled=false`，没有执行授权。
+- 以上不代表完成自动入库/发布事务、S3 HEAD 元数据全量再验、两测试包隔离端到端或 main 新版本生产发布；这些依然是合并阻塞。即使只读 CI 全绿，也不能清理首次现有 Deb。
