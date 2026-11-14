@@ -195,8 +195,12 @@ def r2_upload():
                 return getattr(raw, name)(**kw)
             return call
     owner = 'mowang7426/mowang-r2-production' if prefix == 'repo/' else 'mowang7426/mowang-catalog-e2e'
+    public_spec = importlib.util.spec_from_file_location('catalog_publication', Path(__file__).with_name('catalog-publication.py'))
+    publication = importlib.util.module_from_spec(public_spec)
+    public_spec.loader.exec_module(publication)
+    read_base = publication.read_base(base)
     def upload(record, package):
-        return sync.sync_one(Scope(), os.environ['R2_BUCKET'], package, base, owner=owner)
+        return sync.sync_one(Scope(), os.environ['R2_BUCKET'], package, read_base, owner=owner)
     return upload
 
 

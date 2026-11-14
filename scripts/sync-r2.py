@@ -47,8 +47,9 @@ def sync_one(s3, bucket, path, public_base, owner=None, previous_owned=False):
         response['Body'].close()
     # Check the exact public URL that APT will consume, not only authenticated S3.
     with tempfile.TemporaryFile() as f:
-        subprocess.run(['curl', '--fail', '--silent', '--show-error', '--retry', '5',
-                        '--retry-all-errors', public_base.rstrip('/')+'/'+key], stdout=f, check=True)
+        subprocess.run(['curl', '--fail', '--silent', '--show-error', '--max-redirs', '0',
+                        '--connect-timeout', '30', '--max-time', '1800', '--retry', '5',
+                        '--retry-max-time', '600', '--retry-all-errors', public_base.rstrip('/')+'/'+key], stdout=f, check=True)
         f.seek(0)
         if digest(f) != (size, sha):
             raise ValueError('Public GET bytes mismatch: '+key)
