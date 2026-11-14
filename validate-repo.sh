@@ -8,6 +8,9 @@ bash ./check-debs.sh
 grep -q '^Architectures: ' Release
 grep -q '^SHA256:' Release
 
+if [[ -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+  python3 scripts/catalog-build.py validate --output Packages
+else
 python3 <<'PY'
 from pathlib import Path
 
@@ -21,6 +24,7 @@ for raw in filenames:
     if path.is_absolute() or '..' in path.parts or not path.is_file():
         raise SystemExit(f'❌ 缺失或非法路径：{path}')
 PY
+fi
 
 python3 - <<'PY'
 from pathlib import Path

@@ -3,6 +3,9 @@
 # 用法：./check-debs.sh   （有坏包时返回非 0 并列出文件名）
 set -uo pipefail
 cd "$(dirname "$0")"
+if [[ -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+  exec python3 scripts/catalog-build.py check
+fi
 broken=0
 for f in debs/*.deb; do
   [ -e "$f" ] || continue

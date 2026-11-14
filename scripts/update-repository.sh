@@ -27,8 +27,11 @@ shopt -s nullglob
 packages=(debs/*.deb)
 shopt -u nullglob
 
-# Build metadata from local debs, then replace each Filename with its immutable R2 URL.
-if ((${#packages[@]} > 0)); then
+# Catalog controls visibility; empty/stale inbox never rebuilds the source.
+if [[ -f scripts/catalog-build.py ]] && python3 scripts/catalog-build.py mode; then
+  python3 scripts/catalog-build.py render --output "$work_dir/Packages"
+# Legacy compatibility until migration (and original regression fixtures).
+elif ((${#packages[@]} > 0)); then
   if [[ -s Packages ]]; then
     cp Packages "$work_dir/Packages"
   else
