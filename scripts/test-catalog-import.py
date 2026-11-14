@@ -231,6 +231,54 @@ class ImportTests(unittest.TestCase):
         self.assertEqual((self.root/'Packages').read_bytes(), c.render(self.records))
         self.assertEqual((self.root/'_site/Packages').read_bytes(), c.render(self.records))
 
+    def workflow_gates(self, prospective_records):
+        """Run the real credential-free workflow chain, without parser mocks."""
+        env = dict(os.environ, R2_PUBLIC_BASE_URL='https://example.invalid/repo')
+        commands = [
+            ['python3', 'scripts/catalog-build.py', 'prospective', '--output', 'prospective.Packages'],
+            ['bash', 'check-debs.sh'],
+            ['bash', 'build.sh'],
+            ['bash', 'validate-repo.sh'],
+            ['bash', 'scripts/update-repository.sh'],
+            ['bash', 'scripts/test-r2-apt.sh'],
+        ]
+        for command in commands:
+            with self.subTest(command=command):
+                audit_env = dict(env, CATALOG_FULL_ARCHIVE_AUDIT='true') if command == ['bash', 'check-debs.sh'] else env
+                result = subprocess.run(command, cwd=self.root, env=audit_env, capture_output=True)
+                self.assertEqual(result.returncode, 0, (result.stdout+result.stderr).decode(errors='replace'))
+        self.assertEqual((self.root/'prospective.Packages').read_bytes(), c.render(prospective_records))
+        for path in ('Packages', '_site/Packages'):
+            self.assertEqual((self.root/path).read_bytes(), c.render(self.records))
+
+    def empty_inbox(self):
+        for path in (self.root/'debs').glob('*.deb'):
+            path.unlink()
+        (self.root/'debs/README.md').write_text('Verified uploads are disposable; catalog is durable.\n')
+        run(self.root, 'add', 'debs')
+        run(self.root, 'commit', '-m', 'verified transport cleanup')
+        self.assertEqual(c.tree_snapshot(self.root), {})
+
+    def test_empty_inbox_full_readonly_workflow_chain_and_real_apt(self):
+        self.copy_build()
+        self.empty_inbox()
+        self.workflow_gates(self.records)
+        self.assertEqual(len(c.load_catalog(self.root)[1]['processed']), 2)
+
+    def test_future_upload_after_cleanup_prospective_chain_and_real_apt(self):
+        self.copy_build()
+        self.empty_inbox()
+        (self.root/'debs/three.deb').write_bytes(self.package('three'))
+        run(self.root, 'add', 'debs/three.deb')
+        run(self.root, 'commit', '-m', 'future pending upload')
+        path, blob = next(iter(c.tree_snapshot(self.root).items()))
+        with tempfile.TemporaryDirectory() as directory:
+            record, _ = m.archived_record(self.root, path, blob, Path(directory))
+        self.workflow_gates(self.records + [record])
+        self.assertEqual(len(c.load_catalog(self.root)[0]), 2)
+        self.assertEqual(len(c.load_catalog(self.root)[1]['processed']), 2)
+        self.assertTrue((self.root/'debs/three.deb').is_file())
+
     def test_local_bad_new_upload_rejected(self):
         self.copy_build()
         (self.root/'debs/bad.deb').write_bytes(b'invalid new upload')
