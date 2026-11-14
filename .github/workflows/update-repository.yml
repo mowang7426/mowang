@@ -66,6 +66,7 @@ jobs:
           python3 scripts/test-catalog-import.py
           python3 scripts/test-catalog-integration.py
           python3 scripts/test-cleanup-inbox.py
+          python3 scripts/test-r2-physical-gc.py
       - name: Read-only pending archive validation and prospective catalog (no credentials)
         run: |
           if python3 scripts/catalog-build.py mode; then
