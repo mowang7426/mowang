@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Real isolated GitHub CAS -> R2 -> receipt integration. Never touches main/repo/."""
-import importlib.util, json, os, subprocess, sys, tempfile
+import importlib.util, json, os, re, subprocess, sys, tempfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import catalog as c
@@ -10,7 +10,7 @@ def module(name,file):
 imp=module('catalog_import','import-catalog.py')
 api=imp.GitHub('mowang7426/mowang',os.environ['GITHUB_TOKEN'])
 branch=os.environ['R2_TEST_BRANCH']
-assert branch.startswith('catalog-e2e/') and os.environ['R2_TEST_PREFIX']==branch+'/'
+assert re.fullmatch(r'catalog-e2e/[A-Za-z0-9_-]+',branch) and os.environ['R2_TEST_PREFIX']==branch+'/'
 assert os.environ['R2_TEST_OWNER']=='mowang7426/mowang-catalog-e2e'
 
 def reload(commit):
@@ -86,6 +86,15 @@ def seed():
     print(json.dumps({'branch':branch,'commit':commit,'prefix':os.environ['R2_TEST_PREFIX']}))
 
 if '--seed' in sys.argv:seed();raise SystemExit
+# Execute the same no-secret PR dataflow BEFORE importing the pending archive.
+# The candidate has two rows but its committed catalog/ledger stay at one.
+before=c.loads(Path('catalog-state/processed.json').read_bytes())
+with tempfile.TemporaryDirectory() as directory:
+    out=Path(directory)/'prospective.Packages'
+    subprocess.run([sys.executable,'scripts/catalog-build.py','prospective','--output',str(out)],check=True)
+    assert len(c.paragraphs(out.read_bytes()))==2
+assert len(before['processed'])==1 and c.loads(Path('catalog-state/processed.json').read_bytes())==before
+Path('e2e-prospective.json').write_bytes(c.encoded({'success':True,'candidate_records':2,'committed_records_before_import':1,'ledger_unchanged':True,'no_upload_or_CAS':True}))
 result=imp.transaction('.',branch,api,imp.r2_upload());assert result['imported']==1
 reload(result['commit']);Path('e2e-import.json').write_bytes(c.encoded(result))
 publish('initial',2)

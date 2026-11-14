@@ -16,8 +16,8 @@ def generate(root):
     records, ledger = c.load_catalog(root)
     identities = collections.Counter(tuple(r['identity'][k] for k in ['package', 'version', 'architecture']) for r in records)
     lines = ['# 永久包管理记录（自动生成查找表）', '',
-             '> 本 PR 为第一阶段草案，尚未切换生产：现在删除 JSON 不会使正式源下架。',
-             '> 完成生产迁移验收并合并后，设计行为才是删除对应 JSON 下架单条记录。', '',
+             '> main 的 catalog 发布模式启用后，删除对应 JSON 并提交即可下架单条记录；等待发布工作流成功。',
+             '> 不要删除 processed ledger；旧 inbox 不会复活。空 catalog 全下架暂不支持。收件箱自动删除和 R2 物理 GC 均禁用。', '',
              '用 GitHub 页面内搜索包名、版本、架构，再点击记录链接。JSON 只存元数据；二进制永久留在 R2。',
              '本表由 catalog 生成，不是事实源；不要手改或删除 catalog-state/processed.json。', '',
              f'共 {len(records)} 条记录、{len({r["sha256"] for r in records})} 个内容对象。',
