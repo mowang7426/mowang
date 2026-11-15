@@ -1,0 +1,18 @@
+{
+  "id": "com.example.noticelisttweak--1.0.1-test14--iphoneos-arm64e--d236a27a4381a08b--7de18dc09e24b8b0",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.example.noticelisttweak",
+    "version": "1.0.1~test14"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmV4YW1wbGUubm90aWNlbGlzdHR3ZWFrClZlcnNpb246IDEuMC4xfnRlc3QxNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBMb2NhbCBVc2VyCkluc3RhbGxlZC1TaXplOiA2NzMKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBwcmVmZXJlbmNlbG9hZGVyCkZpbGVuYW1lOiBkZWJzL2NvbS5leGFtcGxlLm5vdGljZWxpc3R0d2Vha18xLjAuMX50ZXN0MTRfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAyMjU1MzgKTUQ1c3VtOiBhMzMwYzE5YThmOTVjYWRlMjRjMTg1ODc5ZGNkZDljNApTSEExOiA3YjE4MGE0MjI2ZWFhYjgyMjljM2NiMjRkNmNmN2Q3Y2E2NzVlMjBlClNIQTI1NjogZDIzNmEyN2E0MzgxYTA4YmNkOTEwOTBhMGQzMTI5MDhkZWZmMjVkY2EwYzg5OTE3NTYxMDcxMDVlMDhhNzNkZgpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IFJvb3RIaWRlIG5vdGlmaWNhdGlvbi1saXN0LCBhcHAtaWNvbiBhbmQgYmFubmVyIGR1c3QgZWZmZWN0czsgZXhwZXJpbWVudGFsIGRldmljZSB0ZXN0LgpBdXRob3I6IExvY2FsIFVzZXIKTmFtZTog6YCa55+l5raI5pWj",
+  "metadata_sha256": "437fad3f897caf5f368beb35fff48929cfb04f71e2555b631135ecdb60dd5107",
+  "object_key": "debs/d236a27a4381a08bcd91090a0d312908deff25dca0c8991756107105e08a73df.deb",
+  "schema": 1,
+  "sha256": "d236a27a4381a08bcd91090a0d312908deff25dca0c8991756107105e08a73df",
+  "size": 225538,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uZXhhbXBsZS5ub3RpY2VsaXN0dHdlYWtfMS4wLjF+dGVzdDE0X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "29036f032601293885c158817f3e4fd88e1e6f74"
+  }
+}
