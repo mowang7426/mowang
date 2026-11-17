@@ -1431,6 +1431,15 @@
         "git_blob": "2fb5344506a9a69054ef84bd7529332cc6cb2a63"
       }
     },
+    "19ae81db88cd7e9c982e4088018cb3e5be6c31700ed603d5a2b3023f62702a37": {
+      "record": "com.bvn.carbridge13--2.0.18k--iphoneos-arm64e--efcd9776de337a7f--19ae81db88cd7e9c.json",
+      "sha256": "efcd9776de337a7f74d79ad401dfb330efb477b205dd2db0ffbdb5b47aa23d98",
+      "size": 403796,
+      "source": {
+        "filename_b64": "ZGVicy9DYXJCcmlkZ2Ug6L2m5py65LqS6IGUXzIuMC4xOGtfaXBob25lb3MtYXJtNjRlLmRlYg==",
+        "git_blob": "6945fb39ca1ec93dbf6191011e27a0fbaeb2b9a8"
+      }
+    },
     "19b861c3a23b4eba97252924dd2b8296c2fa1dd57bfbade89c3ee1e4e2361c01": {
       "record": "local.amap.twotabs--1.0--iphoneos-arm64--0da3921477b6671f--19b861c3a23b4eba.json",
       "sha256": "0da3921477b6671f49bddd59c9ff6431b92a3634a91f7c66307fe297ea380931",
@@ -3157,6 +3166,15 @@
       "source": {
         "filename_b64": "ZGVicy/kurrmsJHnmoTpq5jlvrdfMS4xX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
         "git_blob": "c485dbe06d7bbf7cea3aadc9c50e860a33ca3125"
+      }
+    },
+    "389396f42ff94cc1065a2fd0a1ec809cb4a28596a75a182f42fce3c6dd303863": {
+      "record": "com.brkr1.tweaks.betterccvpn--0.1--iphoneos-arm64e--b343992a7ed008e9--389396f42ff94cc1.json",
+      "sha256": "b343992a7ed008e9283fe2782156e4ae02ffc360e4a49a0f03243a55cd7ec28e",
+      "size": 101514,
+      "source": {
+        "filename_b64": "ZGVicy9jb20uYnJrcjEudHdlYWtzLmJldHRlcmNjdnBuXzAuMV9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "f8bc79327241529c8f8597ef462fef1f4e96c183"
       }
     },
     "38a01f68bd87f770ee5c2754e86f7599bfc4c71bcf1605780362bfdc2d17567f": {
@@ -5353,6 +5371,15 @@
       "source": {
         "filename_b64": "ZGVicy9jb20ubWluaXMucmFpbmJvd2tleWJvYXJkXzEuMi41Ml9pcGhvbmVvcy1hcm02NC5kZWI=",
         "git_blob": "a3adafc5a1bc3b21fc0a9cc9e20b8c7e9b26afa5"
+      }
+    },
+    "641785895bac32de650bf3a2364a4174706f3ca750d746db446c715f2e767d59": {
+      "record": "com.bvn.carbridge13--2.0.18k--iphoneos-arm64--99a6173ffcb4940c--641785895bac32de.json",
+      "sha256": "99a6173ffcb4940c08db5a7f1342a357d3fb7bb0e22071fc3eddd62bfc4166dd",
+      "size": 408428,
+      "source": {
+        "filename_b64": "ZGVicy9DYXJCcmlkZ2Ug6L2m5py65LqS6IGUXzIuMC4xOGtfaXBob25lb3MtYXJtNjQuZGVi",
+        "git_blob": "e4bfe4beeb1271aa901e740d1e25ba20e3f2142d"
       }
     },
     "647f8302a18332ccdbc796f4fd47ce1cc2bd6c37003de19567b57edb24225098": {

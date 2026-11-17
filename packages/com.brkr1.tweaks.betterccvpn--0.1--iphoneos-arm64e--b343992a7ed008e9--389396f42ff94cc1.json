@@ -1,0 +1,18 @@
+{
+  "id": "com.brkr1.tweaks.betterccvpn--0.1--iphoneos-arm64e--b343992a7ed008e9--389396f42ff94cc1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.brkr1.tweaks.betterccvpn",
+    "version": "0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJya3IxLnR3ZWFrcy5iZXR0ZXJjY3ZwbgpWZXJzaW9uOiAwLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogYnJrcjEKSW5zdGFsbGVkLVNpemU6IDIxNgpQcmUtRGVwZW5kczogcm9vdGxlc3MtY29tcGF0ICg+PSAwLjkpCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSwgY29tLm9wYTMzNC5jY3N1cHBvcnQsIGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9jb20uYnJrcjEudHdlYWtzLmJldHRlcmNjdnBuXzAuMV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDEwMTUxNApNRDVzdW06IDNhYmQ0NTU3NTU1MDVmMTdjMjBhOGQwMjhlNmNlNGU2ClNIQTE6IGQ1NWRlYWUzMDNmMTY4NmE0YWJjZWIxODM3ZGYxYTU3ZjhiNmE4NGMKU0hBMjU2OiBiMzQzOTkyYTdlZDAwOGU5MjgzZmUyNzgyMTU2ZTRhZTAyZmZjMzYwZTRhNDlhMGYwMzI0M2E1NWNkN2VjMjhlClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Yi25Lit5b+DVlBO5YiH5o2iLeaMieS9j+S7pemAieaLqemFjee9rueahFZQTgpOYW1lOiDmjqfliLbkuK3lv4MgdnBuIOWIh+aNog==",
+  "metadata_sha256": "1bda44dd53eb448d58c16ff5018a39923f08cd027fa873fbe949584d31545e85",
+  "object_key": "debs/b343992a7ed008e9283fe2782156e4ae02ffc360e4a49a0f03243a55cd7ec28e.deb",
+  "schema": 1,
+  "sha256": "b343992a7ed008e9283fe2782156e4ae02ffc360e4a49a0f03243a55cd7ec28e",
+  "size": 101514,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uYnJrcjEudHdlYWtzLmJldHRlcmNjdnBuXzAuMV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "f8bc79327241529c8f8597ef462fef1f4e96c183"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.bvn.carbridge13--2.0.18k--iphoneos-arm64--99a6173ffcb4940c--641785895bac32de",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.bvn.carbridge13",
+    "version": "2.0.18k"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJ2bi5jYXJicmlkZ2UxMwpWZXJzaW9uOiAyLjAuMThrCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogQlZOIFJlcG8gPGJpZW52YW5uaGF0OTdAZ21haWwuY29tPgpJbnN0YWxsZWQtU2l6ZTogNzE3NgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUgKD49IDAuOS41MDAwKSwgZmlybXdhcmUgKD49IDEzLjApLCBwcmVmZXJlbmNlbG9hZGVyLCBjb20ub3BhMzM0LmFsdGxpc3QgKD49IDEuMC4xMCkKQ29uZmxpY3RzOiBjb20ubGVmdHlmbDFwLmNhcnBsYXksIGNvbS5lYXNvbi5jYXJwbGF5LCBjb20uZWFzb24uY2FycGxheS5pb3MxMSwgY29tLmNvcnRleC5jYXJwbGF5ZW5hYmxlCkZpbGVuYW1lOiBkZWJzL0NhckJyaWRnZSDovabmnLrkupLogZRfMi4wLjE4a19pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNDA4NDI4Ck1ENXN1bTogY2NhNjU1ODdlZjAwNDY3YjM0NDIwYjgwYjE3ZDdlNjgKU0hBMTogNDU2YjgxZmE4MmFhZmJlMjVhMTliOWVkZjYwYjYwOTRlNmEzNDAyYgpTSEEyNTY6IDk5YTYxNzNmZmNiNDk0MGMwOGRiNWE3ZjEzNDJhMzU3ZDNmYjdiYjBlMjIwNzFmYzNlZGRkNjJiZmM0MTY2ZGQKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBPcGVuIGFueSBhcHAgaW4gQ2FyUGxheSEKQXV0aG9yOiBsZWZ0eWZsMXAgPGNhcmJyaWRnZUBoYXZvYy5hcHA+Ckljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vQ2FyQnJpZGdlQDN4LnBuZwpOYW1lOiBDYXJCcmlkZ2Ug6L2m5py65LqS6IGU",
+  "metadata_sha256": "a61c5f3f19b3e1ceda529af60f13b05bef78dd92e947497d2a014e107aec8400",
+  "object_key": "debs/99a6173ffcb4940c08db5a7f1342a357d3fb7bb0e22071fc3eddd62bfc4166dd.deb",
+  "schema": 1,
+  "sha256": "99a6173ffcb4940c08db5a7f1342a357d3fb7bb0e22071fc3eddd62bfc4166dd",
+  "size": 408428,
+  "source": {
+    "filename_b64": "ZGVicy9DYXJCcmlkZ2Ug6L2m5py65LqS6IGUXzIuMC4xOGtfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "e4bfe4beeb1271aa901e740d1e25ba20e3f2142d"
+  }
+}

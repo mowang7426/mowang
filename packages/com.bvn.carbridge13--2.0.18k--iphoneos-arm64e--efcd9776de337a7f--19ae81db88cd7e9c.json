@@ -1,0 +1,18 @@
+{
+  "id": "com.bvn.carbridge13--2.0.18k--iphoneos-arm64e--efcd9776de337a7f--19ae81db88cd7e9c",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.bvn.carbridge13",
+    "version": "2.0.18k"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmJ2bi5jYXJicmlkZ2UxMwpWZXJzaW9uOiAyLjAuMThrCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEJWTiBSZXBvIDxiaWVudmFubmhhdDk3QGdtYWlsLmNvbT4KSW5zdGFsbGVkLVNpemU6IDcxNzYKUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCg+PSAwLjkpCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBmaXJtd2FyZSAoPj0gMTMuMCksIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuYWx0bGlzdCAoPj0gMS4wLjEwKQpDb25mbGljdHM6IGNvbS5sZWZ0eWZsMXAuY2FycGxheSwgY29tLmVhc29uLmNhcnBsYXksIGNvbS5lYXNvbi5jYXJwbGF5LmlvczExLCBjb20uY29ydGV4LmNhcnBsYXllbmFibGUKRmlsZW5hbWU6IGRlYnMvQ2FyQnJpZGdlIOi9puacuuS6kuiBlF8yLjAuMThrX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNDAzNzk2Ck1ENXN1bTogYjIzNmJmZTNjNzRhZmE0MTRjMGIwYTc3OTQ1M2VmNWIKU0hBMTogZDEzMjQxOWM1OWY4ODdmMjdmYmY0M2ZkMDEyYmY1N2EwYTZmYzQwZgpTSEEyNTY6IGVmY2Q5Nzc2ZGUzMzdhN2Y3NGQ3OWFkNDAxZGZiMzMwZWZiNDc3YjIwNWRkMmRiMGZmYmRiNWI0N2FhMjNkOTgKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBPcGVuIGFueSBhcHAgaW4gQ2FyUGxheSEKQXV0aG9yOiBsZWZ0eWZsMXAgPGNhcmJyaWRnZUBoYXZvYy5hcHA+Ckljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vQ2FyQnJpZGdlQDN4LnBuZwpOYW1lOiBDYXJCcmlkZ2Ug6L2m5py65LqS6IGU",
+  "metadata_sha256": "962c3377e98746494773c3ee5c1bf265e463c119334d26df46a88bfa68c4484b",
+  "object_key": "debs/efcd9776de337a7f74d79ad401dfb330efb477b205dd2db0ffbdb5b47aa23d98.deb",
+  "schema": 1,
+  "sha256": "efcd9776de337a7f74d79ad401dfb330efb477b205dd2db0ffbdb5b47aa23d98",
+  "size": 403796,
+  "source": {
+    "filename_b64": "ZGVicy9DYXJCcmlkZ2Ug6L2m5py65LqS6IGUXzIuMC4xOGtfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "6945fb39ca1ec93dbf6191011e27a0fbaeb2b9a8"
+  }
+}
