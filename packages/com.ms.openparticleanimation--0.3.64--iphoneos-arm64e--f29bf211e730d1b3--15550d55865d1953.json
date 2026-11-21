@@ -1,0 +1,18 @@
+{
+  "id": "com.ms.openparticleanimation--0.3.64--iphoneos-arm64e--f29bf211e730d1b3--15550d55865d1953",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.ms.openparticleanimation",
+    "version": "0.3.64"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1zLm9wZW5wYXJ0aWNsZWFuaW1hdGlvbgpWZXJzaW9uOiAwLjMuNjQKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogbXMKRGVwZW5kczogcHJlZmVyZW5jZWxvYWRlciwgZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUsIGNvbS5jaGFybGllbGV1bmcudHJvbGxvcGVuamIKQ29uZmxpY3RzOiBjb20uYXhzLnRyb2xsbGlxdWlkbGF1bmNoClJlcGxhY2VzOiBjb20uYXhzLnRyb2xsbGlxdWlkbGF1bmNoCkZpbGVuYW1lOiBkZWJzL2NvbS5tcy5vcGVucGFydGljbGVhbmltYXRpb25fMC4zLjY0X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNTIyNzI4Ck1ENXN1bTogMmY5NDFhN2Y0ZWVkNjBhNWEwNDE2YTQzMWE4MDlhN2MKU0hBMTogZWI2YmY5ODBmZGIyNDNkNmRlYmVhZmQ5NGE4NmI1MDFlOTJlYjE0NQpTSEEyNTY6IGYyOWJmMjExZTczMGQxYjM3NjhkOWIyMGQ1NjcxYjZmOTczMWRhZDA2OTdhMGNjNWU4MTk3OGRiMjk5NGExZTIKU2VjdGlvbjogbXMtdHdlYWtzCkRlc2NyaXB0aW9uOiBJbmRlcGVuZGVudCBNZXRhbCBkdXN0IGRpc3BlcnNhbCBhbmQgc3BsaXQtd2luZG93IGFzc2VtYmx5IGZvciBUcm9sbE9wZW5KQgpBdXRob3I6IG1zCk5hbWU6IG9wZW7nspLlrZDliqjnlLs=",
+  "metadata_sha256": "3c09cfe966cd72317942a99a68da8d3bbdf8b97d1c963b973177b32d6b5d0874",
+  "object_key": "debs/f29bf211e730d1b3768d9b20d5671b6f9731dad0697a0cc5e81978db2994a1e2.deb",
+  "schema": 1,
+  "sha256": "f29bf211e730d1b3768d9b20d5671b6f9731dad0697a0cc5e81978db2994a1e2",
+  "size": 522728,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubXMub3BlbnBhcnRpY2xlYW5pbWF0aW9uXzAuMy42NF9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "1ac681725b0d3e5c32bb8390d68dad65c9888aa3"
+  }
+}
