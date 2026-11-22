@@ -1,0 +1,18 @@
+{
+  "id": "com.404.facelock--1.0.0--iphoneos-arm64e--842e8e88b11aa643--5ffb578ec33ec755",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.404.facelock",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLjQwNC5mYWNlbG9jawpWZXJzaW9uOiAxLjAuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiA0MDQKSW5zdGFsbGVkLVNpemU6IDIyMQpEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCksIG1vYmlsZXN1YnN0cmF0ZSwgcHJlZmVyZW5jZWxvYWRlcgpGaWxlbmFtZTogZGVicy/lupTnlKjpnaLlrrnplIFfMS4wLjBfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA0MTMzNgpNRDVzdW06IDUwYmM3ZGJlZTJiNWU1NDAzYWNiNWMyMjBmNTdkNjUwClNIQTE6IDkzYTg2NzhmZDdkNWY3YjA1ZjI5ZDdkYzgwNzJmMDU2ODc0Y2EzMjEKU0hBMjU2OiA4NDJlOGU4OGIxMWFhNjQzZmUyYTNlZmNhZGUyYTUxY2NhMDEzZWVjMzdjMjA2YTA5ZDQ4ZjkxZDljZmM0NDQ5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Li66YCJ5a6a55qEIEFwcCDliqDkuIrpnaLlrrkgSUQg6ZSB44CCCkF1dGhvcjogNDA0Ckljb246IGh0dHBzOi8vaHVheXVhcmMuZ2l0aHViLmlvL2ljb24vZmFjZWxvY2sucG5nCk5hbWU6IOW6lOeUqOmdouWuuemUgQ==",
+  "metadata_sha256": "1b0042d84b5c64b2bf2cf330be8f1e1ea88e1e3f8cf65bd1db7acb5e7db3d7cf",
+  "object_key": "debs/842e8e88b11aa643fe2a3efcade2a51cca013eec37c206a09d48f91d9cfc4449.deb",
+  "schema": 1,
+  "sha256": "842e8e88b11aa643fe2a3efcade2a51cca013eec37c206a09d48f91d9cfc4449",
+  "size": 41336,
+  "source": {
+    "filename_b64": "ZGVicy/lupTnlKjpnaLlrrnplIFfMS4wLjBfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "8503ba469726880e9338f2bc9a447946cc8c8ed5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "org.coolstar.sileo--2.5.1-16--iphoneos-arm64e--b944f1e35f9bf313--03eed9d9d790a080",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "org.coolstar.sileo",
+    "version": "2.5.1-16"
+  },
+  "metadata_b64": "UGFja2FnZTogb3JnLmNvb2xzdGFyLnNpbGVvClZlcnNpb246IDIuNS4xLTE2CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHd3ZzE1MSA8d3dnMTUxQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbT4KRGVwZW5kczogZmlybXdhcmUgKD49IDExLjApLCBmaXJtd2FyZSg+PTEyLjIpIHwgb3JnLnN3aWZ0LmxpYnN3aWZ0ICg+PTUuMCksIGNvcmV1dGlscyAoPj0gOC4zMC0xKSwgZHBrZyAoPj0gMS4xOS40LTEpLCBhcHQgKD49IDEuOC4yKSwgbGlienN0ZDEKRmlsZW5hbWU6IGRlYnMvU2lsZW9fMi41LjEtMTZfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiAzNDI5NzI0Ck1ENXN1bTogNDcyZTJiZWRhMzYxNzYwNmIzOWIxYTg3NDJhY2IwZjUKU0hBMTogZTIyMGQ1YzljZjUyMTViYjhlMTgzYjQ4ZDMxZDcwOThhYjk5NGQ4NQpTSEEyNTY6IGI5NDRmMWUzNWY5YmYzMTNkNDQxM2ZlMWE4NmViN2MzYmRkMWQzMTYwYmRhNTNiOGEzNjUzMzFlNjBhYzYyOWMKU2VjdGlvbjogUGFja2FnaW5nCkRlc2NyaXB0aW9uOiBBIG1vZGVybiBBUFQgcGFja2FnZSBtYW5hZ2VyIGZyb250ZW5kCkF1dGhvcjogd3dnMTUxIDx3d2cxNTFAdXNlcnMubm9yZXBseS5naXRodWIuY29tPgpJY29uOiBodHRwczovL2dldHNpbGVvLmFwcC9pbWcvaWNvbi5wbmcKTmFtZTogU2lsZW8KU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vZmVhdHVyZWRwYWdlLmdldHNpbGVvLmFwcC9kZXBpY3Rpb24uanNvbg==",
+  "metadata_sha256": "4cc789b586ea01ea8cac506e8ec661d88008c7892eb339c354109f25b0be047c",
+  "object_key": "debs/b944f1e35f9bf313d4413fe1a86eb7c3bdd1d3160bda53b8a365331e60ac629c.deb",
+  "schema": 1,
+  "sha256": "b944f1e35f9bf313d4413fe1a86eb7c3bdd1d3160bda53b8a365331e60ac629c",
+  "size": 3429724,
+  "source": {
+    "filename_b64": "ZGVicy9TaWxlb18yLjUuMS0xNl9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "bd2c0d89a14c1791c0ff7398754cd64e984180ff"
+  }
+}
