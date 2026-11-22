@@ -2349,6 +2349,15 @@
         "git_blob": "ef07cd7a0b7e519be6d4b2b337f000a3ae6cc024"
       }
     },
+    "2888c8ea3fe39e4c72e9102abb36ddf22eb1fc8e164f6f71509e7ebae0b9206b": {
+      "record": "com.ms.openparticleanimation--0.3.67--iphoneos-arm64e--3a97d29c53b77cf0--2888c8ea3fe39e4c.json",
+      "sha256": "3a97d29c53b77cf063438ba3b413b349b07e303c50152f7c89bf792ed2210142",
+      "size": 194052,
+      "source": {
+        "filename_b64": "ZGVicy9jb20ubXMub3BlbnBhcnRpY2xlYW5pbWF0aW9uXzAuMy42N19pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "72408f8dd52a5255c4dd9d560b886072e3c785fb"
+      }
+    },
     "28c14581d4ae0c897c6baa52ac386e602244f41447d3af5bddaf2ce361ad8bab": {
       "record": "im.mjh.xianyuadblock.roothide--3.2.2--iphoneos-arm64e--91b6c48ffd0754c3--28c14581d4ae0c89.json",
       "sha256": "91b6c48ffd0754c30528c3f2e709866884a375972d3d6cae28119d93f7e0367e",
@@ -4228,6 +4237,15 @@
       "source": {
         "filename_b64": "ZGVicy9jb20uaW9zZHVtcC5zaGVsbHhfMTAuMi4wX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
         "git_blob": "054b03044ba0c084c875d208c7f81e7d7496dc06"
+      }
+    },
+    "49877cdbc68c0790f45ada5a44f9fed8cae8026059b25d27007e3057d3de350e": {
+      "record": "com.ms.openparticleanimation--0.3.67--iphoneos-arm64--3ddee7bc9a3cdc51--49877cdbc68c0790.json",
+      "sha256": "3ddee7bc9a3cdc51f931ca58dc3adbc9f072beed2c722a50093373b856a42f47",
+      "size": 287632,
+      "source": {
+        "filename_b64": "ZGVicy9jb20ubXMub3BlbnBhcnRpY2xlYW5pbWF0aW9uXzAuMy42N19pcGhvbmVvcy1hcm02NC5kZWI=",
+        "git_blob": "7e9492a9e906e858e3179f853eacb52f3e118c16"
       }
     },
     "49b0bb8c6ff0605d9aa4f227aa1279f6e6d86f8009688bf14e2fa73eb9329d63": {
