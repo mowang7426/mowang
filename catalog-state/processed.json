@@ -3942,6 +3942,15 @@
         "git_blob": "2d752ad9924a70878056aaf591ea07392c420733"
       }
     },
+    "43bb105ae2ff1802c8752aa3e44ff9282499526f1bb6318ec93de39f18a8a325": {
+      "record": "com.sharehotspotvpn.tweak--1.1.7--iphoneos-arm64e--90bcecafd8d1c051--43bb105ae2ff1802.json",
+      "sha256": "90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517",
+      "size": 68960,
+      "source": {
+        "filename_b64": "ZGVicy9jb20uc2hhcmVob3RzcG90dnBuLnR3ZWFrXzEuMS43X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+        "git_blob": "d99e2a358090fe08a8eb3145003550f43e3753b9"
+      }
+    },
     "44d0a04ebe8d93ba3720d524c2cd29481a09928a5972d992c2d30d64d10b8d11": {
       "record": "com.huami.dyyy--2.3-0--iphoneos-arm64--f52b382106ea2024--44d0a04ebe8d93ba.json",
       "sha256": "f52b382106ea20249c2be49f1706b9e6d0f72b2b01070f698308c168f6bcf9e4",
@@ -6748,6 +6757,15 @@
       "source": {
         "filename_b64": "ZGVicy/mm77niZst5YiG5bGP8J+Qrl8wLjguOTdfaXBob25lb3MtYXJtNjRlLmRlYg==",
         "git_blob": "100d38669631dc3337800550c14706ca27289aad"
+      }
+    },
+    "7b6dd14b4042a724edfbf03b622c37a32d2723ba96179c6a6c6befa11fe3c181": {
+      "record": "com.sharehotspotvpn.tweak--1.1.7--iphoneos-arm64--5ae3a5277f69bdbb--7b6dd14b4042a724.json",
+      "sha256": "5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80",
+      "size": 83056,
+      "source": {
+        "filename_b64": "ZGVicy9jb20uc2hhcmVob3RzcG90dnBuLnR3ZWFrXzEuMS43X2lwaG9uZW9zLWFybTY0LmRlYg==",
+        "git_blob": "5c90d9f0c8ed72e18b304ec4f71f1d5d065a4c88"
       }
     },
     "7b7c0a6f2a611ca7ef59fa7c751a421e61a256fe46d58ce12de81293ac84b52f": {

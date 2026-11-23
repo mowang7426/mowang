@@ -1,0 +1,18 @@
+{
+  "id": "com.sharehotspotvpn.tweak--1.1.7--iphoneos-arm64--5ae3a5277f69bdbb--7b6dd14b4042a724",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sharehotspotvpn.tweak",
+    "version": "1.1.7"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNoYXJlaG90c3BvdHZwbi50d2VhawpWZXJzaW9uOiAxLjEuNwpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IHpodWlmZW5nCkluc3RhbGxlZC1TaXplOiA3NTIKRGVwZW5kczogcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5jY3N1cHBvcnQsIGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9jb20uc2hhcmVob3RzcG90dnBuLnR3ZWFrXzEuMS43X2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA4MzA1NgpNRDVzdW06IGY5OWM2YWM0ZGIwYjZkMmI5MjU4OTdjNDk1MWVkYWFiClNIQTE6IGQ1N2NiMjk0NzgzMTU5YmExZjkxZWY1YTRlYzlhNGM3NTVmNTAwYzQKU0hBMjU2OiA1YWUzYTUyNzdmNjliZGJiYmI3YjI4MWQzM2E5NWJhZmRlZDVjYjVkMzFmYjRkNjMzMzY1NTI4ZDZiZGMyZjgwClNlY3Rpb246IE5ldHdvcmtpbmcKRGVzY3JpcHRpb246IOS4gOmUrumAmui/h+S4quS6uueDreeCueWFseS6q+acrOacuiBTaGFkb3dyb2NrZXQvVlBO77yM6L+e5YWl6K6+5aSH6Zu26YWN572u77yM5pSv5oyB5o6n5Yi25Lit5b+D5b+r5o235byA5YWz44CBRE5TL1VEUCDovazlj5HkuI7pmLIgSVB2NiDms4TpnLLvvIzkuovku7bpqbHliqjotoXnnIHnlLXvvIzlhbzlrrkgaU9TIDE14oCTMTcgUm9vdGxlc3MvUm9vdEhpZGXjgIIKQXV0aG9yOiB6aHVpZmVuZwpEZXBpY3Rpb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi5odG1sCkljb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi9pY29uLnBuZwpOYW1lOiBWUE7ng63ngrnlhbHkuqsKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi5qc29u",
+  "metadata_sha256": "2474d7ef76e0e93d24b378f176ada9a89272d1359fb0a6226eef0fde5487fafd",
+  "object_key": "debs/5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80.deb",
+  "schema": 1,
+  "sha256": "5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80",
+  "size": 83056,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uc2hhcmVob3RzcG90dnBuLnR3ZWFrXzEuMS43X2lwaG9uZW9zLWFybTY0LmRlYg==",
+    "git_blob": "5c90d9f0c8ed72e18b304ec4f71f1d5d065a4c88"
+  }
+}
