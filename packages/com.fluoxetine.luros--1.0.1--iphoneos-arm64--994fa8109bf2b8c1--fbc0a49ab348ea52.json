@@ -1,0 +1,18 @@
+{
+  "id": "com.fluoxetine.luros--1.0.1--iphoneos-arm64--994fa8109bf2b8c1--fbc0a49ab348ea52",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.fluoxetine.luros",
+    "version": "1.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmZsdW94ZXRpbmUubHVyb3MKVmVyc2lvbjogMS4wLjEKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiBGbHVveGV0aW5lIDwxMTAzOTQ1MzQyQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbT4KSW5zdGFsbGVkLVNpemU6IDE2NTc4MApEZXBlbmRzOiBmaXJtd2FyZSAoPj0gMTYuMCksIGxhdW5jaGN0bApGaWxlbmFtZTogZGVicy9jb20uZmx1b3hldGluZS5sdXJvc18xLjAuMV9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMzA1OTA4NzIKTUQ1c3VtOiAwNDdjODg0ODlhZDcxNDBiYzFiYWJkZjNlYTBkOGI2YgpTSEExOiA3MDYzY2UxMzY3NzJiYTU4MDcxNjYwNTM5MzE5NDNiZWY5MDM5MTI5ClNIQTI1NjogOTk0ZmE4MTA5YmYyYjhjMTQyNDRlZDQwNTU5NmYyMTIzMTkzN2MzMzI1OGI4OTYxMWIwNGVmNGMyNjk5MDQyMwpTZWN0aW9uOiBVdGlsaXRpZXMKUHJpb3JpdHk6IG9wdGlvbmFsCkRlc2NyaXB0aW9uOiBBbiBvbi1kZXZpY2UgSURFIHdoZXJlIGFuIGFnZW50IHdyaXRlcywgYnVpbGRzIGFuZCBpbnN0YWxscyB0d2Vha3MsIGZvciByb290bGVzcyBqYWlsYnJlYWtzCiBMdXJvcyBpcyBhbiBvbi1kZXZpY2UgSURFIGZvciBqYWlsYnJva2VuIGlPUzogYW4gZWRpdG9yLCBhIHRlcm1pbmFsIGFuZCBhbiBhZ2VudCB0aGF0IGVkaXRzLCBidWlsZHMsIHBhY2thZ2VzLCBpbnN0YWxscyBhbmQgZGVidWdzIHR3ZWFrcyBvbiB0aGUgZGV2aWNlIGl0c2VsZi4KQXV0aG9yOiBGbHVveGV0aW5lIDwxMTAzOTQ1MzQyQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbT4KRGVwaWN0aW9uOiBodHRwczovLzExMDM5NDUzNDIuZ2l0aHViLmlvL0x1cm9zLwpJY29uOiBodHRwczovLzExMDM5NDUzNDIuZ2l0aHViLmlvL0x1cm9zL2ljb24ucG5nCk5hbWU6IEx1cm9zClNpbGVvZGVwaWN0aW9uOiBodHRwczovLzExMDM5NDUzNDIuZ2l0aHViLmlvL0x1cm9zL2RlcGljdGlvbi5qc29u",
+  "metadata_sha256": "6ea5cd3aa31f30b8906ebf390118a9c503c9fa3d6ed0c2dded3882b69564d65b",
+  "object_key": "debs/994fa8109bf2b8c14244ed405596f21231937c33258b89611b04ef4c26990423.deb",
+  "schema": 1,
+  "sha256": "994fa8109bf2b8c14244ed405596f21231937c33258b89611b04ef4c26990423",
+  "size": 30590872,
+  "source": {
+    "filename_b64": "ZGVicy9jb20uZmx1b3hldGluZS5sdXJvc18xLjAuMV9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "cd9776efdc5a95587804235155b1f64800f562b8"
+  }
+}

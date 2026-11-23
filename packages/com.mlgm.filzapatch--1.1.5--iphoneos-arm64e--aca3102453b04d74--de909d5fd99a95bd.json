@@ -1,0 +1,18 @@
+{
+  "id": "com.mlgm.filzapatch--1.1.5--iphoneos-arm64e--aca3102453b04d74--de909d5fd99a95bd",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mlgm.filzapatch",
+    "version": "1.1.5"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1sZ20uZmlsemFwYXRjaApWZXJzaW9uOiAxLjEuNQpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBtbGdtCkluc3RhbGxlZC1TaXplOiAxNDMKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBtb2JpbGVzdWJzdHJhdGUsIHVpa2l0dG9vbHMsIGNvbS50aWdpc29mdHdhcmUuZmlsemE2NGJpdCAoPj4gNS4wLjEtNSkKQ29uZmxpY3RzOiByb290aGlkZS5wYXRjaGVzLmZpbHphCkZpbGVuYW1lOiBkZWJzL0ZpbHphIFBhdGNoXzEuMS41X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogODIyMApNRDVzdW06IGUyZDhhYTRjYWUxOTc4Y2I5MzUxNGQ1YTRkODkyYjEwClNIQTE6IGExM2U1Yzc5MDM4MGY3ODM0ZTgzMDc5YmMyNzkxZTlhNTY5MWM5MWEKU0hBMjU2OiBhY2EzMTAyNDUzYjA0ZDc0ODM2Nzk5NTgxYjcwYmIyZThkNmVhNTEwODkzYmNiM2Y3YzYzZGQ5OTU0NmMxMTE2ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5Li6IFJvb3RIaWRlIOeJiCBGaWx6YSDlop7liqDluLjnlKjpmo/mnLrot6/lvoTmlLbol4/vvIzlsIbljp/nlJ8gQXBwbGljYXRpb25zIOWSjCBEb2N1bWVudHMg5oyH5ZCR6LaK54ux5qC577yM5bm25rOo5YaMIGZpbHphOi8vIOi3s+i9rOOAggpJY29uOiBodHRwczovL21sZ202Ni5naXRodWIuaW8vaWNvbi9GaWx6YVBhdGNoLnBuZwpOYW1lOiBGaWx6YSBQYXRjaA==",
+  "metadata_sha256": "23519e37a3915d539763ea5314496dd94b410ea12643c9997a000e386a887ec5",
+  "object_key": "debs/aca3102453b04d74836799581b70bb2e8d6ea510893bcb3f7c63dd99546c1116.deb",
+  "schema": 1,
+  "sha256": "aca3102453b04d74836799581b70bb2e8d6ea510893bcb3f7c63dd99546c1116",
+  "size": 8220,
+  "source": {
+    "filename_b64": "ZGVicy9GaWx6YSBQYXRjaF8xLjEuNV9pcGhvbmVvcy1hcm02NGUuZGVi",
+    "git_blob": "0e691b227be89617dcacc549ec4b73375debd831"
+  }
+}

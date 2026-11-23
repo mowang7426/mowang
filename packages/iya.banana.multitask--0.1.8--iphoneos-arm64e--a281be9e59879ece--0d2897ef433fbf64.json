@@ -1,0 +1,18 @@
+{
+  "id": "iya.banana.multitask--0.1.8--iphoneos-arm64e--a281be9e59879ece--0d2897ef433fbf64",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "iya.banana.multitask",
+    "version": "0.1.8"
+  },
+  "metadata_b64": "UGFja2FnZTogaXlhLmJhbmFuYS5tdWx0aXRhc2sKVmVyc2lvbjogMC4xLjgKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogQmFuYW5hCkluc3RhbGxlZC1TaXplOiAyNzg4CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgZmlybXdhcmUgKDw8IDI3LjApLCBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuY2NzdXBwb3J0CkZpbGVuYW1lOiBkZWJzL+S4gOiKveWIhuWxjyAoSXlhIFNwbGl0KV8wLjEuOF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDQ5NjQzMgpNRDVzdW06IDI3YjdhM2U4MGI2MTRjYTA1ZGM1OGI5NWE3YzRjZGQyClNIQTE6IGUyNWUzMDZiZDk4ZjYwNDkwMTY5OTY4NzM4ZGY4NjZlNTE1MDU0NjUKU0hBMjU2OiBhMjgxYmU5ZTU5ODc5ZWNlYjRmZjUxMmNhNTIwOTZjNmU5MTMwN2JiNGNiNGViN2YyYzUyMWJjYjU4OGE1Yzg4ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjogQWRqdXN0YWJsZSBzcGxpdC1zY3JlZW4sIGZsb2F0aW5nIHdpbmRvd3MgYW5kIFN0YWdlIG11bHRpdGFza2luZyBmb3IgaU9TIDE1IC0gMjYuCkF1dGhvcjogQmFuYW5hCk5hbWU6IOS4gOiKveWIhuWxjyAoSXlhIFNwbGl0KQ==",
+  "metadata_sha256": "064ec7b25f015c3b21b30017b2a4c33005f986de1e43e781021a6729ef00d1a6",
+  "object_key": "debs/a281be9e59879eceb4ff512ca52096c6e91307bb4cb4eb7f2c521bcb588a5c88.deb",
+  "schema": 1,
+  "sha256": "a281be9e59879eceb4ff512ca52096c6e91307bb4cb4eb7f2c521bcb588a5c88",
+  "size": 496432,
+  "source": {
+    "filename_b64": "ZGVicy/kuIDoir3liIblsY8gKEl5YSBTcGxpdClfMC4xLjhfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "b945ac246d3ce3ada2c8feb5977f79b197cc1169"
+  }
+}
