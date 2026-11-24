@@ -6561,6 +6561,15 @@
         "git_blob": "4df6de76acf5b46ec8c66811082f2ba4c9ddafd6"
       }
     },
+    "77330aac3266eb0d2fa185b2a4961c46389fc91f595cceba10f1039d4f4c1d34": {
+      "record": "com.mjh.wctabbarglass--1.0.0--iphoneos-arm64--71daae6bc8ac3d8c--77330aac3266eb0d.json",
+      "sha256": "71daae6bc8ac3d8cda84b60e1170548a9226722425a860c79b7acda9393cbbfb",
+      "size": 683128,
+      "source": {
+        "filename_b64": "ZGVicy/lvq7kv6HlupXmoI/njrvnkoNfMS4wLjBfaXBob25lb3MtYXJtNjQuZGVi",
+        "git_blob": "94eacf7b8b4c8d0581d1604819cdbf1ae65557e1"
+      }
+    },
     "777b3262cdca98217b3b703ab4a00899baaac57e59ffb5dc8294164ec4383347": {
       "record": "com.mumu.wcgg--0.2.0--iphoneos-arm64--904c45c7aaafae0a--777b3262cdca9821.json",
       "sha256": "904c45c7aaafae0a1acc9b7ba1813f3c1442fae54ed05a76c1cf5248078a210b",
@@ -9862,6 +9871,15 @@
       "source": {
         "filename_b64": "ZGVicy9MdW5vcmFfMS4xLjMtMV9pcGhvbmVvcy1hcm02NGUuZGVi",
         "git_blob": "f78c2c734af5b1e29b2efe1b36b932c3bb2ad2fe"
+      }
+    },
+    "b57afcea50d6d6dfd2c48d2985878c4c380cae906e99e327fff668bc91001860": {
+      "record": "com.mjh.wctabbarglass.roothide--1.0.0--iphoneos-arm64e--d6b0572ccfbc488f--b57afcea50d6d6df.json",
+      "sha256": "d6b0572ccfbc488f22cbf3c70a023f7b69c3f54bcd2b576da04ce7aa0e064e07",
+      "size": 664746,
+      "source": {
+        "filename_b64": "ZGVicy/lvq7kv6HlupXmoI/njrvnkoMgKFJvb3RoaWRlKV8xLjAuMF9pcGhvbmVvcy1hcm02NGUuZGVi",
+        "git_blob": "6e68a2a68fabcc03695d6a03eb8cb7f60a01ccfb"
       }
     },
     "b5b2c60a02f01da1d2511d725d2f0fe5e6c8da88e3cecf876557052abc35bb11": {
