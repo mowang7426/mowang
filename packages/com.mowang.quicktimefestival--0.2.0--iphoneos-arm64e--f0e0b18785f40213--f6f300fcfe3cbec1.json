@@ -1,0 +1,18 @@
+{
+  "id": "com.mowang.quicktimefestival--0.2.0--iphoneos-arm64e--f0e0b18785f40213--f6f300fcfe3cbec1",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.mowang.quicktimefestival",
+    "version": "0.2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1vd2FuZy5xdWlja3RpbWVmZXN0aXZhbApWZXJzaW9uOiAwLjIuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBtb3dhbmcKRGVwZW5kczogZmlybXdhcmUgKD49IDE2LjApLCBtb2JpbGVzdWJzdHJhdGUgfCBlbGxla2l0LCBwcmVmZXJlbmNlbG9hZGVyCkNvbmZsaWN0czogY29tLnpodWlmZW5nLmRhdGVpbmZvCkZpbGVuYW1lOiBkZWJzL2NvbS5tb3dhbmcucXVpY2t0aW1lZmVzdGl2YWxfMC4yLjBfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA2ODA5MgpNRDVzdW06IGUzMDhkNzc5YTRkNDM5YjJjNDAzZTg4ODU5Y2ZlOTllClNIQTE6IDg1ZDY1YmM5NWViZWIzNTY5MmM5MTUwMjdhNmM0Y2Y0MzRjNzg3ZGIKU0hBMjU2OiBmMGUwYjE4Nzg1ZjQwMjEzNDJjZTM1ZWMxNzg3NTVkZTUzNjQxOWZiZjlhNDFmYTJmNWVjMjdjYzZlNDMzMmE4ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog54K55Ye754q25oCB5qCP5pe26Ze05p+l55yL5YWs5Y6G5LiO5Yac5Y6G44CB56eS6ZKf44CB572R6YCf44CB5b2T5YmN5Y+K5pyq5p2l5LiJ5aSp5aSp5rCU44CBODDpobnoioLml6XkuI7oioLmsJTlgJLorqHml7bjgILni6znq4vph43lhpnniYjvvIzlgJLorqHml7bkuI3ku6PooajosIPkvJHmlL7lgYfjgIIKQXV0aG9yOiBtb3dhbmcKTmFtZTog5b+r5o235pe26Ze0IMK3IOiKguaXpeeJiA==",
+  "metadata_sha256": "7c040a9f4c1967e9e9567886a04b102ae56d8d61c0d6b721d194677bc5d845d7",
+  "object_key": "debs/f0e0b18785f4021342ce35ec178755de536419fbf9a41fa2f5ec27cc6e4332a8.deb",
+  "schema": 1,
+  "sha256": "f0e0b18785f4021342ce35ec178755de536419fbf9a41fa2f5ec27cc6e4332a8",
+  "size": 68092,
+  "source": {
+    "filename_b64": "ZGVicy9jb20ubW93YW5nLnF1aWNrdGltZWZlc3RpdmFsXzAuMi4wX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "49fc13e6ccee4f112d0311f7fbcc45cdb45d7f38"
+  }
+}

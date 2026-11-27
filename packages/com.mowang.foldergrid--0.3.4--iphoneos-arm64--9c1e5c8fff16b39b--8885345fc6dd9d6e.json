@@ -1,0 +1,18 @@
+{
+  "id": "com.mowang.foldergrid--0.3.4--iphoneos-arm64--9c1e5c8fff16b39b--8885345fc6dd9d6e",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.mowang.foldergrid",
+    "version": "0.3.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLm1vd2FuZy5mb2xkZXJncmlkClZlcnNpb246IDAuMy40CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogTW9XYW5nCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNy4wKSwgZmlybXdhcmUgKDw8IDE4LjApLCBtb2JpbGVzdWJzdHJhdGUsIHByZWZlcmVuY2Vsb2FkZXIKRmlsZW5hbWU6IGRlYnMvZm9sZGVyZ3JpZC5kZWIKU2l6ZTogNDU2OTYKTUQ1c3VtOiA3ZGJhMTAzODY2ZjE2MjFkN2E2YTAwYWQwOTIxZTM3YQpTSEExOiA1MGUzYTEzMzgwZGRiZWJkZGM3OTNlMDU1MmY3NjBkZmY1ZmQ4M2JhClNIQTI1NjogOWMxZTVjOGZmZjE2YjM5YjgzMGYzYmUzZGYzZTIxOWFjMmJjMzNiMDZkZGVlZDZlOTZhMmUxOGZhMWZkNWQ1OApTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IENvbmZpZ3VyYWJsZSBuYXRpdmUgZm9sZGVyIGdyaWRzIGZvciBpT1MgMTcuIEV4cGVyaW1lbnRhbCBwcmV2aWV3LgpBdXRob3I6IE1vV2FuZwpOYW1lOiBGb2xkZXIgR3JpZA==",
+  "metadata_sha256": "4c4ead08284271251b48864bce4647316d56ab86232d3807ae49ec7ec7fea15f",
+  "object_key": "debs/9c1e5c8fff16b39b830f3be3df3e219ac2bc33b06ddeed6e96a2e18fa1fd5d58.deb",
+  "schema": 1,
+  "sha256": "9c1e5c8fff16b39b830f3be3df3e219ac2bc33b06ddeed6e96a2e18fa1fd5d58",
+  "size": 45696,
+  "source": {
+    "filename_b64": "ZGVicy9mb2xkZXJncmlkLmRlYg==",
+    "git_blob": "6fcabc12ea3908c94a12697fe6a9b0a2f4e9977b"
+  }
+}
