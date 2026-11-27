@@ -1,0 +1,18 @@
+{
+  "id": "com.sharehotspotvpn.tweak--1.2.4--iphoneos-arm64--d3c70e0070dd5c4f--d40be3d3329cc69d",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sharehotspotvpn.tweak",
+    "version": "1.2.4"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNoYXJlaG90c3BvdHZwbi50d2VhawpWZXJzaW9uOiAxLjIuNApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IHpodWlmZW5nCkluc3RhbGxlZC1TaXplOiA5NDgKRGVwZW5kczogcHJlZmVyZW5jZWxvYWRlciwgY29tLm9wYTMzNC5jY3N1cHBvcnQsIGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy9WUE7ng63ngrnlhbHkuqtfMS4yLjRfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDk0MzgwCk1ENXN1bTogODI2ZjUyN2JkYzJlMTM4MDllNWRlMTM2NTI3MDg1NDkKU0hBMTogOTU1ZjcyMTk3MzU1ZTVlMzEyZWJkMjZmMjEwNmQxNGUzY2NjMzQ5NQpTSEEyNTY6IGQzYzcwZTAwNzBkZDVjNGZjNmI0NWEyZDMyZTRkMzg1ZDRkNzJlMjE1ODFkMGI0MDYxOGZmODk2YzZkZWZhNzUKU2VjdGlvbjogTmV0d29ya2luZwpEZXNjcmlwdGlvbjog5LiA6ZSu6YCa6L+H5Liq5Lq654Ot54K55YWx5Lqr5pys5py6IFdpLUZp44CB56e75Yqo5pWw5o2u5oiWIFNoYWRvd3JvY2tldC9WUE7vvIjmlK/mjIEgV2ktRmkrVlBOIOWPoOWKoOS4jueKtuaAgeagj+S/neeVmSBXaS1GaSDlm77moIfvvInvvIzov57lhaXorr7lpIfpm7bphY3nva7vvIzmjqfliLbkuK3lv4PmlK/mjIHovbvngrnlvIDlhbPkuI7plb/mjIkgNSDmqKHlvI/oj5zljZXliIfmjaLvvIzkuovku7bpqbHliqjotoXnnIHnlLXvvIzlhbzlrrkgaU9TIDE14oCTMTcgUm9vdGxlc3MvUm9vdEhpZGXjgIIKQXV0aG9yOiB6aHVpZmVuZwpEZXBpY3Rpb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi5odG1sCkljb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi9pY29uLnBuZwpOYW1lOiBWUE7ng63ngrnlhbHkuqsKU2lsZW9kZXBpY3Rpb246IGh0dHBzOi8vdGVtcGxlMDAyLmdpdGh1Yi5pby96aHVpZmVuZy9kZXBpY3Rpb25zL3NoYXJlaG90c3BvdHZwbi5qc29u",
+  "metadata_sha256": "82fc9b8c4fa7a504517c8a37570759578013cdbd43c049de2c07181bffecd052",
+  "object_key": "debs/d3c70e0070dd5c4fc6b45a2d32e4d385d4d72e21581d0b40618ff896c6defa75.deb",
+  "schema": 1,
+  "sha256": "d3c70e0070dd5c4fc6b45a2d32e4d385d4d72e21581d0b40618ff896c6defa75",
+  "size": 94380,
+  "source": {
+    "filename_b64": "ZGVicy9WUE7ng63ngrnlhbHkuqtfMS4yLjRfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "1ded36f44d374e61c0a5ca6b2dfc8e614f0c0011"
+  }
+}

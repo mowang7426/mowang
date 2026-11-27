@@ -1,0 +1,18 @@
+{
+  "id": "com.zhuifeng.nobgalbumaccess--1.0.2--iphoneos-arm64--97fa5ce56e7d7f3a--4ab1562e0da31481",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.zhuifeng.nobgalbumaccess",
+    "version": "1.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnpodWlmZW5nLm5vYmdhbGJ1bWFjY2VzcwpWZXJzaW9uOiAxLjAuMgpBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IHpodWlmZW5nCkluc3RhbGxlZC1TaXplOiA0NDAKRGVwZW5kczogZmlybXdhcmUgKD49IDE1LjApLCBmaXJtd2FyZSAoPDwgMTguMCksIG1vYmlsZXN1YnN0cmF0ZSB8IGVsbGVraXQsIHByZWZlcmVuY2Vsb2FkZXIsIGNvbS5vcGEzMzQuYWx0bGlzdApGaWxlbmFtZTogZGVicy/npoHmraLlkI7lj7Dor7vlj5bnm7jlhoxfMS4wLjJfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDQ5Njc2Ck1ENXN1bTogNTQ2NTk2MWNiZjNkOWIwZTE4MDE4ZWVhMDYwNmM3MjIKU0hBMTogZjZhZTBiZGE2MTA4NjBiZjM3ZGJhOGM2MTY2NzAyNTRjNjVlODU5ZQpTSEEyNTY6IDk3ZmE1Y2U1NmU3ZDdmM2FlNTViYmM3ZDM4MDE2YTA0YjFhMDVhOWU5NTk5NTQ0N2NmYjExNGQ0YTNmZjlkMmYKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDnpoHmraLmjIflrpogQXBwIOWcqOWQjuWPsOivu+WPluebuOWGjApBdXRob3I6IHpodWlmZW5nCkRlcGljdGlvbjogaHR0cHM6Ly90ZW1wbGUwMDIuZ2l0aHViLmlvL3podWlmZW5nL2RlcGljdGlvbnMvbm9iZ2FsYnVtLmh0bWwKSWNvbjogaHR0cHM6Ly90ZW1wbGUwMDIuZ2l0aHViLmlvL3podWlmZW5nL2RlcGljdGlvbnMvaWNvbi1uYmEucG5nCk5hbWU6IOemgeatouWQjuWPsOivu+WPluebuOWGjApTaWxlb2RlcGljdGlvbjogaHR0cHM6Ly90ZW1wbGUwMDIuZ2l0aHViLmlvL3podWlmZW5nL2RlcGljdGlvbnMvbm9iZ2FsYnVtLmpzb24=",
+  "metadata_sha256": "85d5a0c4ebe9b935a4db9b99f0103989b051469498c22cfe7f508e6268a2e407",
+  "object_key": "debs/97fa5ce56e7d7f3ae55bbc7d38016a04b1a05a9e95995447cfb114d4a3ff9d2f.deb",
+  "schema": 1,
+  "sha256": "97fa5ce56e7d7f3ae55bbc7d38016a04b1a05a9e95995447cfb114d4a3ff9d2f",
+  "size": 49676,
+  "source": {
+    "filename_b64": "ZGVicy/npoHmraLlkI7lj7Dor7vlj5bnm7jlhoxfMS4wLjJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "64cfb0bb94b710ce17733dd292656802f82ae1d0"
+  }
+}

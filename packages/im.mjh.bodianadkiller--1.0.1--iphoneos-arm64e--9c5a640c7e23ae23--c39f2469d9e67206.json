@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.bodianadkiller--1.0.1--iphoneos-arm64e--9c5a640c7e23ae23--c39f2469d9e67206",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "im.mjh.bodianadkiller",
+    "version": "1.0.1"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLmJvZGlhbmFka2lsbGVyClZlcnNpb246IDEuMC4xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEp1bmhvbmcKSW5zdGFsbGVkLVNpemU6IDE2OApGaWxlbmFtZTogZGVicy/ms6Lngrnpn7PkuZDljrvlub/lkYpfMS4wLjFfaXBob25lb3MtYXJtNjRlLmRlYgpTaXplOiA1NjM2Ck1ENXN1bTogM2ZhZTQxYjRlNjJhNzdjODRjZDY1NjQ2ZWY4ZTM0MDAKU0hBMTogMmZkYTA4M2NhNTRiZDZmNDRlM2NkNGJiYTQ4ODA1YmZhMzU4M2EyOQpTSEEyNTY6IDljNWE2NDBjN2UyM2FlMjNjODFiNTg2OTFlN2M5ZTJiNDI5YzNkZTliOGQ2ODU3NGM1NjkxZDlmYzkzNjU0NjEKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDms6Lngrnpn7PkuZDlvIDlsY/lub/lkYrlkozpppbpobXmqKrluYXlub/lkYrmi6bmiKrjgIIKQXV0aG9yOiBKdW5ob25nCk5hbWU6IOazoueCuemfs+S5kOWOu+W5v+WRig==",
+  "metadata_sha256": "f15f16f90d978c9be3c70ac0e6fb0ecbd3fbeaa49a72e9c310e117a3484b488a",
+  "object_key": "debs/9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461.deb",
+  "schema": 1,
+  "sha256": "9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461",
+  "size": 5636,
+  "source": {
+    "filename_b64": "ZGVicy/ms6Lngrnpn7PkuZDljrvlub/lkYpfMS4wLjFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "907314592fa7ac291c0f3c56a312bc3671a925a7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.sunny-guo.replace5gplus--2.0--iphoneos-arm64--fcbb6b794f948b05--b719a785584e1339",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sunny-guo.replace5gplus",
+    "version": "2.0"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnN1bm55LWd1by5yZXBsYWNlNWdwbHVzClZlcnNpb246IDIuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IFN1bm55LUd1bwpJbnN0YWxsZWQtU2l6ZTogMTY4CkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZQpGaWxlbmFtZTogZGVicy9SZXBsYWNlNUdBXzIuMF9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogNDIyOApNRDVzdW06IDBmNmI4ZTkwM2E4MThiZWNmMzU3ODJmMzAwZThjOTRhClNIQTE6IDljZmZlMDJlNmUzYWIxYzY2NGY1MzE3MGZmZDk2ZmRiOGU4NjNiZDgKU0hBMjU2OiBmY2JiNmI3OTRmOTQ4YjA1NmNiNzQxMzg2ZjRiM2NhZWU4ZGIxYTUyZDI5MTYxZTdlYTNiNjA2NjdhNDU2Y2NkClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog5oqK54q25oCB5qCPNUcr5pu/5o2i5oiQNUfhtIDvvIwyLjDniYjmlrDlop7pgILphY1DYXJQbGF5CkF1dGhvcjogU3VubnktR3VvCk5hbWU6IFJlcGxhY2U1R0E=",
+  "metadata_sha256": "95f89291ce066f7a0187c86cc2dcbb124684f89b44a46aab273cbe3091a376e1",
+  "object_key": "debs/fcbb6b794f948b056cb741386f4b3caee8db1a52d29161e7ea3b60667a456ccd.deb",
+  "schema": 1,
+  "sha256": "fcbb6b794f948b056cb741386f4b3caee8db1a52d29161e7ea3b60667a456ccd",
+  "size": 4228,
+  "source": {
+    "filename_b64": "ZGVicy9SZXBsYWNlNUdBXzIuMF9pcGhvbmVvcy1hcm02NC5kZWI=",
+    "git_blob": "0f3fa8a2c06f73d12d709dbef5e567b70f951849"
+  }
+}

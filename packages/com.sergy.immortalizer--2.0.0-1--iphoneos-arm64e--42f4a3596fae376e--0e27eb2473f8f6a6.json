@@ -1,0 +1,18 @@
+{
+  "id": "com.sergy.immortalizer--2.0.0-1--iphoneos-arm64e--42f4a3596fae376e--0e27eb2473f8f6a6",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.sergy.immortalizer",
+    "version": "2.0.0-1"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNlcmd5LmltbW9ydGFsaXplcgpWZXJzaW9uOiAyLjAuMC0xCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IHNlcmd5Ckluc3RhbGxlZC1TaXplOiA2NTIKUHJlLURlcGVuZHM6IHJvb3RsZXNzLWNvbXBhdCg+PSAwLjkpCkRlcGVuZHM6IG1vYmlsZXN1YnN0cmF0ZSAoPj0gMC45LjUwMDApLCBwcmVmZXJlbmNlbG9hZGVyLCBjb20ub3BhMzM0LmFsdGxpc3QsIGNvbS5vcGEzMzQuY2NzdXBwb3J0CkZpbGVuYW1lOiBkZWJzL0ltbW9ydGFsaXplciDnnJ/lkI7lj7BfMi4wLjAtMV9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDQxMzQ0Ck1ENXN1bTogOWRmNmIwMjE1MjVlNjNjMDJjMjI1MzM1N2ZkM2M5OTUKU0hBMTogZTVmOWNiZjk5NTRlYzY1OWI3Y2U4MTMzYTdhZDA1YTQxMjk1ZTU4MgpTSEEyNTY6IDQyZjRhMzU5NmZhZTM3NmUxNWNlNDk1NDgxODliY2MxNmFhY2JhYWFkMDQxMzU0ZTdjNGExZDNkYjBjOTYyYmMKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiBGb3JlZ3JvdW5kIHlvdXIgYXBwcyBldmVuIGlmIHRoZXkgYXJlIGluIHRoZSBiYWNrZ3JvdW5kIQpBdXRob3I6IHNlcmd5Ckljb246IGh0dHBzOi8vbWVkaWEuaGF2b2MuYXBwLzY3MmFiNmYzYTgwYmNmNWUyZTBhYmU4Yz93PTE5MjAmcT03NQpOYW1lOiBJbW1vcnRhbGl6ZXIg55yf5ZCO5Y+w",
+  "metadata_sha256": "359a81cd4d12d1d1dfd90f69cc10f537e656061910455e56f71c42c83586ff07",
+  "object_key": "debs/42f4a3596fae376e15ce49548189bcc16aacbaaad041354e7c4a1d3db0c962bc.deb",
+  "schema": 1,
+  "sha256": "42f4a3596fae376e15ce49548189bcc16aacbaaad041354e7c4a1d3db0c962bc",
+  "size": 41344,
+  "source": {
+    "filename_b64": "ZGVicy9JbW1vcnRhbGl6ZXIg55yf5ZCO5Y+wXzIuMC4wLTFfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "8eaa6c911b87aebc5eb28d65229e99c320aecf5d"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.sjj.douyin-update-block--1.0.2--iphoneos-arm64--ef158f3f0f07225a--f2b50405ddca0530",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.sjj.douyin-update-block",
+    "version": "1.0.2"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLnNqai5kb3V5aW4tdXBkYXRlLWJsb2NrClZlcnNpb246IDEuMC4yCkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjQKTWFpbnRhaW5lcjogU0pKCkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNC4wKSwgbW9iaWxlc3Vic3RyYXRlIHwgZWxsZWtpdCB8IGNvbS5leC5zdWJzdGl0dXRlCkZpbGVuYW1lOiBkZWJzL+Wxj+iUveaKlumfs+ajgOa1i+abtOaWsF8xLjAuMl9pcGhvbmVvcy1hcm02NC5kZWIKU2l6ZTogMTE5NzYKTUQ1c3VtOiBiYWIxZWQwM2JlOGEzZGRjMDU3ODg0ODRlODAxOGY5OQpTSEExOiBiNzZiMmJmYzY4M2EwZGJiNGU3OTFhNzM0ZTk5OTM5MTZhMzc1ZjFlClNIQTI1NjogZWYxNThmM2YwZjA3MjI1YWQyODk2MTJjOWQ1YmMzZjc5NjY5MWNjMGIxMTE1MDU2ZGI3OTk3ZjU1ZTYxODZkMwpTZWN0aW9uOiBUd2Vha3MKRGVzY3JpcHRpb246IOWxj+iUveaKlumfs+W6lOeUqOWGheabtOaWsOaPkOekuu+8jOaUr+aMgeaKlumfs+WkmuW8gO+8jOWcqOaKlumfs+iuvue9ruS4reeuoeeQhuOAggpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2RvdXlpbi5qcGcKTmFtZTog5bGP6JS95oqW6Z+z5qOA5rWL5pu05paw",
+  "metadata_sha256": "d0e42dacd5a28b37a94c91e128f269d4b931c069d8581d4a01b0c55984eb2942",
+  "object_key": "debs/ef158f3f0f07225ad289612c9d5bc3f796691cc0b1115056db7997f55e6186d3.deb",
+  "schema": 1,
+  "sha256": "ef158f3f0f07225ad289612c9d5bc3f796691cc0b1115056db7997f55e6186d3",
+  "size": 11976,
+  "source": {
+    "filename_b64": "ZGVicy/lsY/olL3mipbpn7Pmo4DmtYvmm7TmlrBfMS4wLjJfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "ddc286c076cf578d3b15f4a683479e1123ae646f"
+  }
+}

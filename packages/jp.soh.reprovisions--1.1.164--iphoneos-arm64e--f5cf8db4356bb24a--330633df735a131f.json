@@ -1,0 +1,18 @@
+{
+  "id": "jp.soh.reprovisions--1.1.164--iphoneos-arm64e--f5cf8db4356bb24a--330633df735a131f",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "jp.soh.reprovisions",
+    "version": "1.1.164"
+  },
+  "metadata_b64": "UGFja2FnZToganAuc29oLnJlcHJvdmlzaW9ucwpWZXJzaW9uOiAxLjEuMTY0CkFyY2hpdGVjdHVyZTogaXBob25lb3MtYXJtNjRlCk1haW50YWluZXI6IEFtb3JDb29sIDxhZG1pbkByZXByb3Zpc2lvbi5kZXY+CkRlcGVuZHM6IGZpcm13YXJlICg+PSAxNS4wKSwgemlwLCB1bnppcApDb25mbGljdHM6IGpwLnNvaC5yZXByb3Zpc2lvbgpGaWxlbmFtZTogZGVicy9SZVNpZ24g6Iu55p6cIElEIOe7reetvl8xLjEuMTY0X2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogNDIwMDE4NApNRDVzdW06IDFmODYwMTI4ZjIxMDBiOTk3NGE3OTY1NWU1MGY4MjgxClNIQTE6IDlkYTBjMjkxYjk4NjI2MzkzZjY2NzE4YjFkMWVjYjM1ZDI0MjJkY2QKU0hBMjU2OiBmNWNmOGRiNDM1NmJiMjRhNjEwN2ViNjM5YmEwM2NjZDIwYWMxODNiNDQwOTE4ODNjYzVhNzcyZjQ4MmQ3N2QzClNlY3Rpb246IFV0aWxpdGllcwpQcmlvcml0eTogb3B0aW9uYWwKRGVzY3JpcHRpb246IOS9v+eUqCDoi7nmnpwgSUQg57ut562+IElQQQogKiDku4XmlK/mjIEgaU9TIDE3IFJlbGF4aW4g6LaK54uxCiAqIOino+WGs+mdnuW3qOmtlOiuvuWkh+etvuWQjSBSZWxheGluIElQQSDpl67popgKICogUmUtc2lnbmluZyB0b29sIGZvciBpT1MgamFpbGJyZWFrCkF1dGhvcjogQ29vbGFwa0BBbmFseXRpY3MKSWNvbjogaHR0cHM6Ly9Ucm9sbFN0b3JlWC5HaXRodWIuaW8vc2lsZW9kZXBpY3Rpb24vUmVTaWduL2ljb24ucG5nCk5hbWU6IFJlU2lnbiDoi7nmnpwgSUQg57ut562+ClNpbGVvZGVwaWN0aW9uOiBodHRwczovL1Ryb2xsU3RvcmVYLkdpdGh1Yi5pby9zaWxlb2RlcGljdGlvbi9SZVNpZ24vanMuanNvbg==",
+  "metadata_sha256": "b23cdeff06f668c5840187af5f78679afebb897483e3b2ea4159aa1cf246fd98",
+  "object_key": "debs/f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3.deb",
+  "schema": 1,
+  "sha256": "f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3",
+  "size": 4200184,
+  "source": {
+    "filename_b64": "ZGVicy9SZVNpZ24g6Iu55p6cIElEIOe7reetvl8xLjEuMTY0X2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "b591e5d9c16ac9081bf696bbdf260bacdb9a8d01"
+  }
+}
