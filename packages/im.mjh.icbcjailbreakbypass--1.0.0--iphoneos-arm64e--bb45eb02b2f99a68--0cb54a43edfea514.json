@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.icbcjailbreakbypass--1.0.0--iphoneos-arm64e--bb45eb02b2f99a68--0cb54a43edfea514",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "im.mjh.icbcjailbreakbypass",
+    "version": "1.0.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLmljYmNqYWlsYnJlYWtieXBhc3MKVmVyc2lvbjogMS4wLjAKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjogSnVuaG9uZwpJbnN0YWxsZWQtU2l6ZTogMjAwCkZpbGVuYW1lOiBkZWJzL+W3peWVhumTtuihjOi2iueLseajgOa1i+Wxj+iUvV8xLjAuMF9pcGhvbmVvcy1hcm02NGUuZGViClNpemU6IDI4Mzg4Ck1ENXN1bTogMDQxMDg4MGRkM2EzZWQ0OGNmNzEyN2RiN2Q3NzE3YWIKU0hBMTogNjM5NWI0NDgyZDY0NzBhNDBkYTNiNjVkZjM5NmZiNTA1YWVkM2M0OQpTSEEyNTY6IGJiNDVlYjAyYjJmOTlhNjg1MzM2ZDQzYjA5MzA2ZGU4MGM2ODQ0ZWMxYjQyOTAwNWQxZmE2N2IxYjhlMTFkZTMKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDkuK3lm73lt6XllYbpk7booYwgQXBwIOWxj+iUvei2iueLseajgOa1i++8jOmYu+atouOAjOWuieWFqOaPkOekuuOAjeW8ueeql+WPiumAgOWHuui/m+eoi+OAggpBdXRob3I6IEp1bmhvbmcKTmFtZTog5bel5ZWG6ZO26KGM6LaK54ux5qOA5rWL5bGP6JS9",
+  "metadata_sha256": "bdb2071a20091576bab47d666c802eecd73af67c63dd3482a81c5fd2ec606d91",
+  "object_key": "debs/bb45eb02b2f99a685336d43b09306de80c6844ec1b429005d1fa67b1b8e11de3.deb",
+  "schema": 1,
+  "sha256": "bb45eb02b2f99a685336d43b09306de80c6844ec1b429005d1fa67b1b8e11de3",
+  "size": 28388,
+  "source": {
+    "filename_b64": "ZGVicy/lt6XllYbpk7booYzotorni7Hmo4DmtYvlsY/olL1fMS4wLjBfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "ab3d1bfcdab111cb6f737f82a0b69e39dd451c4c"
+  }
+}

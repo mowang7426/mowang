@@ -1,0 +1,18 @@
+{
+  "id": "com.doubao.weatherclock--2.2.3--iphoneos-arm64--e70de909f3582c34--2e39218d73ce4de2",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "com.doubao.weatherclock",
+    "version": "2.2.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRvdWJhby53ZWF0aGVyY2xvY2sKVmVyc2lvbjogMi4yLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NApNYWludGFpbmVyOiDlraPkvK/ohb4KSW5zdGFsbGVkLVNpemU6IDcxMgpEZXBlbmRzOiBtb2JpbGVzdWJzdHJhdGUsIGZpcm13YXJlICg+PSAxNS4wKQpGaWxlbmFtZTogZGVicy/ml7bpl7TljaHniYdfMi4yLjNfaXBob25lb3MtYXJtNjQuZGViClNpemU6IDk2ODI4Ck1ENXN1bTogMDQ5NDJlZDkwZjMyMDVlY2I4ZDlmNTY5M2I2ZTEyMzYKU0hBMTogOGM2MWRmOTNkZTMzZmVmNzUxMzZlYTg5NWFkMWY5OGJiNDRkZjFjNApTSEEyNTY6IGU3MGRlOTA5ZjM1ODJjMzQzYzdiZDNjN2YzMTVkZTdlM2NkMzk5ODk0NTFjYjAyYWU2NTM1NDJhODM1MTQ3NjEKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDngrnlh7vnirbmgIHmoI/ml7bpl7TlvLnlh7rml7bpl7TljaHniYfvvIzlsZXnpLrnp5Lnuqfml7bpkp/jgIHlrp7ml7bnvZHpgJ/jgIHlvIDmnLrml7bplb/jgIHlhYXnlLXlip/njofkuI7nlLXmsaDmuKnluqbjgIIKICDlj6/pgInlvIDlkK/lpKnmsJTpooTmiqXvvJrlvZPliY3lpKnmsJTjgIHkvZPmhJ/muKnluqbjgIHmnKrmnaXkuInlpKnpooTmiqXkuI7nqb/ooaPmj5DphpLvvIzmjInorr7nva7loavlhpnnmoTlpKnmsJTln47luILmn6Xor6LjgIIKICDmlK/mjIHoh6rlrprkuYnljaHniYfog4zmma/oibLkuI7lrZfkvZPpopzoibLvvJvlkITkv6Hmga/pobnlj6/lnKjorr7nva7kuK3ni6znq4vlvIDlhbPvvIzlj6/loavlhpnkuKrmgKflkI3np7DjgIIKICDmj5Dkvpsgcm9vdGxlc3Mo5peg5qC5KSDkuI4gcm9vdGhpZGUo6ZqQ5qC5KSDkuKTnp43lronoo4XljIXvvIzmlK/mjIEgaU9TIDE1LjAtMTcuMy4x44CCCkF1dGhvcjog5a2j5Lyv6IW+Ckljb246IGh0dHBzOi8vc2luaTkyMS5naXRodWIuaW8vcmVwby9zaWxlb2RlcGljdGlvbi9pY29uL3dlYXRoZXJjbG9jay5wbmcKTmFtZTog5pe26Ze05Y2h54mH",
+  "metadata_sha256": "ac02135eb904fe6c28104e5ab054f80984f328b78ed8e1f9578076cb9c213931",
+  "object_key": "debs/e70de909f3582c343c7bd3c7f315de7e3cd39989451cb02ae653542a83514761.deb",
+  "schema": 1,
+  "sha256": "e70de909f3582c343c7bd3c7f315de7e3cd39989451cb02ae653542a83514761",
+  "size": 96828,
+  "source": {
+    "filename_b64": "ZGVicy/ml7bpl7TljaHniYdfMi4yLjNfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "c296ff29ba53d36610025f9687c8dfc7a093d9f0"
+  }
+}

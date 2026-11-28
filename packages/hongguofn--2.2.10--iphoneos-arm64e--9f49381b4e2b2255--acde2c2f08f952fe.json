@@ -1,0 +1,18 @@
+{
+  "id": "hongguofn--2.2.10--iphoneos-arm64e--9f49381b4e2b2255--acde2c2f08f952fe",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "hongguofn",
+    "version": "2.2.10"
+  },
+  "metadata_b64": "UGFja2FnZTogaG9uZ2d1b2ZuClZlcnNpb246IDIuMi4xMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0ZQpNYWludGFpbmVyOiBKdW5ob25nCkluc3RhbGxlZC1TaXplOiAxNTc5MgpGaWxlbmFtZTogZGVicy/nuqLmnpzlh4DljJZfMi4yLjEwX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogODA0Nzg2OApNRDVzdW06IDhiN2I0NWNhOWIxOWEzNzAxZGMyODAzZTIwMzhhYTdiClNIQTE6IGU5YzA1NjBlNjkyZmYyZGM3ZjIxMDdiZjZjNjRiNDA0M2VhODc4MDgKU0hBMjU2OiA5ZjQ5MzgxYjRlMmIyMjU1ZjFmZjMxZGM5Y2IyMmZlNzIxMDZhYzZmMzRhMTFiZmMxNDg4Y2ZjMTYyYjVmMTY5ClNlY3Rpb246IFR3ZWFrcwpEZXNjcmlwdGlvbjog6YCC55So5LqO57qi5p6c55+t5Ymn5LiO57qi5p6c5ryr5Ymn77yM5pSv5oyB5ray5oCB546755KD5bqV5qCP44CB55WM6Z2i5YeA5YyW44CB5bm/5ZGK5o6n5Yi244CB5pKt5pS+5aKe5by65LiO6KeG6aKR5L+d5a2Y44CCCkF1dGhvcjogSnVuaG9uZwpJY29uOiBodHRwczovL2h1YXl1YXJjLmdpdGh1Yi5pby9pY29uL2hvbmdndW8ucG5nCk5hbWU6IOe6ouaenOWHgOWMlg==",
+  "metadata_sha256": "276765a7a5673d363790a4781e24fab2a0c50efa5c9ffeb2fa48e0f75e5f9394",
+  "object_key": "debs/9f49381b4e2b2255f1ff31dc9cb22fe72106ac6f34a11bfc1488cfc162b5f169.deb",
+  "schema": 1,
+  "sha256": "9f49381b4e2b2255f1ff31dc9cb22fe72106ac6f34a11bfc1488cfc162b5f169",
+  "size": 8047868,
+  "source": {
+    "filename_b64": "ZGVicy/nuqLmnpzlh4DljJZfMi4yLjEwX2lwaG9uZW9zLWFybTY0ZS5kZWI=",
+    "git_blob": "94e855e8c44f673696c99650474cb910c34cb441"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "com.doubao.weatherclock--2.2.3--iphoneos-arm64e--37713c73ead0cee6--33cdd25ec492303b",
+  "identity": {
+    "architecture": "iphoneos-arm64e",
+    "package": "com.doubao.weatherclock",
+    "version": "2.2.3"
+  },
+  "metadata_b64": "UGFja2FnZTogY29tLmRvdWJhby53ZWF0aGVyY2xvY2sKVmVyc2lvbjogMi4yLjMKQXJjaGl0ZWN0dXJlOiBpcGhvbmVvcy1hcm02NGUKTWFpbnRhaW5lcjog5a2j5Lyv6IW+Ckluc3RhbGxlZC1TaXplOiA3MTIKRGVwZW5kczogbW9iaWxlc3Vic3RyYXRlLCBmaXJtd2FyZSAoPj0gMTUuMCkKRmlsZW5hbWU6IGRlYnMv5pe26Ze05Y2h54mHXzIuMi4zX2lwaG9uZW9zLWFybTY0ZS5kZWIKU2l6ZTogOTY3NDQKTUQ1c3VtOiA3Zjk1NTRhZDEwOWFiM2RkMzA2ZTgyYzY1YzdiNTc1NwpTSEExOiA3M2NiM2NiZDBlZWNkODRkOWRiMThjZDgyMjk3NzEyYzJlYTcwY2FiClNIQTI1NjogMzc3MTNjNzNlYWQwY2VlNjk1NGU3MDVmZWYyNjMzZTMwYjQxYWMxNzQxZTQxMzZlZTk2YTdjYTQwOWRmOThmMApTZWN0aW9uOiDotorni7Hmj5Lku7YKRGVzY3JpcHRpb246IOeCueWHu+eKtuaAgeagj+aXtumXtOW8ueWHuuaXtumXtOWNoeeJh++8jOWxleekuuenkue6p+aXtumSn+OAgeWunuaXtue9kemAn+OAgeW8gOacuuaXtumVv+OAgeWFheeUteWKn+eOh+S4jueUteaxoOa4qeW6puOAggogIOWPr+mAieW8gOWQr+WkqeawlOmihOaKpe+8muW9k+WJjeWkqeawlOOAgeS9k+aEn+a4qeW6puOAgeacquadpeS4ieWkqemihOaKpeS4juepv+iho+aPkOmGku+8jOaMieiuvue9ruWhq+WGmeeahOWkqeawlOWfjuW4guafpeivouOAggogIOaUr+aMgeiHquWumuS5ieWNoeeJh+iDjOaZr+iJsuS4juWtl+S9k+minOiJsu+8m+WQhOS/oeaBr+mhueWPr+WcqOiuvue9ruS4reeLrOeri+W8gOWFs++8jOWPr+Whq+WGmeS4quaAp+WQjeensOOAggogIOaPkOS+myByb290bGVzcyjml6DmoLkpIOS4jiByb290aGlkZSjpmpDmoLkpIOS4pOenjeWuieijheWMhe+8jOaUr+aMgSBpT1MgMTUuMC0xNy4zLjHjgIIKQXV0aG9yOiDlraPkvK/ohb4KSWNvbjogaHR0cHM6Ly9zaW5pOTIxLmdpdGh1Yi5pby9yZXBvL3NpbGVvZGVwaWN0aW9uL2ljb24vd2VhdGhlcmNsb2NrLnBuZwpOYW1lOiDml7bpl7TljaHniYc=",
+  "metadata_sha256": "c97cd75f2b5fd51125ccd636c95a72d8cbea125bbb170e05d730d0dd2240ebba",
+  "object_key": "debs/37713c73ead0cee6954e705fef2633e30b41ac1741e4136ee96a7ca409df98f0.deb",
+  "schema": 1,
+  "sha256": "37713c73ead0cee6954e705fef2633e30b41ac1741e4136ee96a7ca409df98f0",
+  "size": 96744,
+  "source": {
+    "filename_b64": "ZGVicy/ml7bpl7TljaHniYdfMi4yLjNfaXBob25lb3MtYXJtNjRlLmRlYg==",
+    "git_blob": "fbef9bf8df0a41bfd601ef97f28740a9f7741184"
+  }
+}

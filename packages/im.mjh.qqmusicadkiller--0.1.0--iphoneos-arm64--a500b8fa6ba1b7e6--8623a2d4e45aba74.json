@@ -1,0 +1,18 @@
+{
+  "id": "im.mjh.qqmusicadkiller--0.1.0--iphoneos-arm64--a500b8fa6ba1b7e6--8623a2d4e45aba74",
+  "identity": {
+    "architecture": "iphoneos-arm64",
+    "package": "im.mjh.qqmusicadkiller",
+    "version": "0.1.0"
+  },
+  "metadata_b64": "UGFja2FnZTogaW0ubWpoLnFxbXVzaWNhZGtpbGxlcgpWZXJzaW9uOiAwLjEuMApBcmNoaXRlY3R1cmU6IGlwaG9uZW9zLWFybTY0Ck1haW50YWluZXI6IEp1bmhvbmcKRmlsZW5hbWU6IGRlYnMvUVEg6Z+z5LmQ5Y675byA5bGP5bm/5ZGKXzAuMS4wX2lwaG9uZW9zLWFybTY0LmRlYgpTaXplOiA0Nzg0Ck1ENXN1bTogZTU3ODRjZDQ0YzlhZGVlNDczMzkwOWY2OTE1MDYxMDIKU0hBMTogNmUzNGNlOWNlZDVhZGNmYzI0YjM1ZTkxMTNjMTFmNmZiZjFhMGEyNgpTSEEyNTY6IGE1MDBiOGZhNmJhMWI3ZTY5YTNhYzMxNzFkOTM4MWQ1NDNiM2IzOTgyNjYzMGE3M2U3MjY5ZTRjZGIzYjk1ZWYKU2VjdGlvbjogVHdlYWtzCkRlc2NyaXB0aW9uOiDlsY/olL3lvIDlsY/lub/lkYrkuI7mkq3mlL7pobXlsIHpnaLlub/lkYrjgIIKQXV0aG9yOiBKdW5ob25nCkljb246IGh0dHBzOi8vc2luaTkyMS5naXRodWIuaW8vcmVwby9zaWxlb2RlcGljdGlvbi9pY29uL3FxbXVzaWMucG5nCk5hbWU6IFFRIOmfs+S5kOWOu+W8gOWxj+W5v+WRig==",
+  "metadata_sha256": "d299783f71d0b4393d78cae8821cd368fd75b9746f803613ccffcd4aeb432c9b",
+  "object_key": "debs/a500b8fa6ba1b7e69a3ac3171d9381d543b3b39826630a73e7269e4cdb3b95ef.deb",
+  "schema": 1,
+  "sha256": "a500b8fa6ba1b7e69a3ac3171d9381d543b3b39826630a73e7269e4cdb3b95ef",
+  "size": 4784,
+  "source": {
+    "filename_b64": "ZGVicy9RUSDpn7PkuZDljrvlvIDlsY/lub/lkYpfMC4xLjBfaXBob25lb3MtYXJtNjQuZGVi",
+    "git_blob": "03dd5dc8a41bcce453b586c95e696ee7699b57c8"
+  }
+}
